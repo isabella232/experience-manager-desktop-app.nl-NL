@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
 solution-title: Meer informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/nl/support/experience-manager/6-4.html
+solution-hub-url: https://helpx.adobe.com/nl/support/experience-manager/6-5.html
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Aan de slag
 getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
 tutorials-title: Zelfstudies
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-mini-toc-levels: 2
+tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html
+mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.en
-index: n
+index: y
 translation-type: tm+mt
-source-git-commit: f42f9437de9d9b96d1fcf1c3e1730fd74548eec1
+source-git-commit: e5e7f60d97bfb24bb4c668cd074430218a657db4
 
 ---
 
@@ -23,9 +23,9 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | metadata | wat het doet |
 |--- |--- |
 | titel oplossing | Gebruikt in artikelkoptekst als koppeling |
-| oplossing-hub-url | Opent helpx-hubpagina |
+| oplossing-hub-url | Opent de pagina van de steunhub |
 | oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
-| aan de slag-url | Aan de slag met Help-pagina koppelen |
+| aan de slag-url | Koppeling naar de pagina Aan de slag |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
 | mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
 | git-repo | Hiermee geeft u de locatie op van het hoofdrepo voor intern gebruik |
