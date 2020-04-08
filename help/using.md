@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: e706fe5fe148deff519cadc72b724572f11ddf3c
 
 ---
 
@@ -116,8 +116,8 @@ Als er mappen zijn geselecteerd en gedownload, downloadt de toepassing alleen el
 U kunt de externe middelen openen voor weergave in de oorspronkelijke toepassing. De middelen worden gedownload aan een lokale omslag en gelanceerd in de inheemse toepassing verbonden aan het dossierformaat. U kunt de oorspronkelijke toepassing wijzigen en specifieke bestandstypen (extensies) openen in de Mac of Windows.
 
 Klik **[!UICONTROL Open]** in het menu Middelen. Het element wordt lokaal gedownload en in de oorspronkelijke toepassing geopend. Controleer de voortgang van het downloaden en de overdrachtssnelheid van grote middelen op de statusbalk.
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 
+<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
