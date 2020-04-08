@@ -5,13 +5,13 @@ translation-type: tm+mt
 ---
 # Richtlijnen voor het bijdragen aan de documentatie van Adobe Experience Manager
 
-## Documentatiefilosofie van AEM
+## Documentatiefilosofie
 
 We weten dat gebruikers van Adobe Experience Manager werken in omgevingen met een hoge mate van concurrentie en digitale ervaringen willen creëren die deze gebruikers onderscheiden van hun concurrenten. Daarom is het van essentieel belang dat wanneer Adobe geavanceerde nieuwe hulpmiddelen in AEM levert, deze hulpmiddelen met nauwkeurige en duidelijke documentatie worden aangevuld om de klant toe te staan om hun investering van AEM onmiddellijk te gebruiken en ROI te maximaliseren.
 
 Het doel van de AEM-documentatie is de documentatie zo snel mogelijk in handen van AEM-gebruikers te brengen. Daarom geven wij prioriteit aan nauwkeurige, bruikbare documentatie en streven wij ernaar deze voortdurend bij te werken en te verbeteren.
 
-## Bijdragen aan AEM-documentatie
+## Documentatiebijdragen
 
 Om de AEM-documentatie voortdurend te verbeteren, is de hele gemeenschap van AEM-gebruikers welkom om aan de documentatie bij te dragen. Of het door trekkingsverzoeken of kwesties, de verbeteringen van de documentatie kunnen correcties, verduidelijkingen, uitbreidingen, en extra voorbeelden zijn.
 
@@ -35,7 +35,7 @@ Uitzonderingen op deze regel zijn van toepassing op de opmerkingen bij de releas
 
 Alle ideeën die u eventueel nodig hebt om de AEM-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter alleen bedoeld voor *bijdragen* . Ze zijn niet bedoeld om u te helpen uw vragen te beantwoorden over het gebruik van AEM, het implementeren van uw AEM-project of het oplossen van technische problemen.
 
-Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten via het normale supportproces via het [Experience Manager Support Portal](https://daycare.day.com/home.html) worden gemeld of in de [Experience Manager-community](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Manager/ct-p/adobe-experience-manager-community)worden besproken.
+Vragen over het gebruik van AEM of technische fouten die u mogelijk hebt, moeten via het normale supportproces worden gemeld via de [Experience Cloud Enterprise Support-portal](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) of worden besproken in de [Experience Manager-community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
 ***Bijdragen aan AEM-documentatie zijn geen vervanging voor de klantenservice*** van Adobe en dergelijke bijdragen die antwoorden op supportgerelateerde vragen zoeken, worden afgewezen.
 
