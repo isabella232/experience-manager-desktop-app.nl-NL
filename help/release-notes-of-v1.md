@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 75e7cbaaa23b441b5e3a6e55381cd5f548231537
+source-git-commit: f69ccbf7acaa277a7f4d07fabba2094459e4ea23
 
 ---
 
@@ -20,10 +20,10 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en compatibil
 
 | Producten | Adobe Experience Manager (AEM)-bureaubladtoepassing |
 |---------------|--------------------------------------------------------------------|
-| Versie | 1.10 (1.10.0.3 op Mac en Windows) |
+| Versie | 1.10 (1.10.0.6 op Mac en 1.10.0.3 op Windows) |
 | Type | Minder release |
-| Date | 31 augustus 2018 |
-| URL&#39;s downloaden | [Mac OS X 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.3.dmg); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
+| Date | 1.10.0.6 (Mac): 15 april 2020; 1.10.0.3 (Win): 31 augustus 2018 |
+| URL&#39;s downloaden | [Mac OS X 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibiliteit | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
 
 >[!NOTE]
@@ -46,6 +46,10 @@ Zie de [gedetailleerde verenigbaarheidsmatrijs](#compatibilitymatrix) aan het ei
 ## Nieuw in AEM-bureaubladtoepassing 1.10 {#what-s-new-in-aem-desktop-app}
 
 De AEM-bureaubladtoepassing 1.10 richt zich op het verbeteren van de gebruikerservaring bij grote uploads, informatie over de achtergrondbewerkingen en geoptimaliseerde ervaring bij het openen van elementen met gekoppelde bestanden (zoals InDesign).
+
+>[!NOTE]
+>
+>Gebruik ten minste versie 1.10.0.6 van de app als u MacOS 10.15.4 of hoger gebruikt. Deze patchrelease voldoet aan de notariatievereisten [van](https://developer.apple.com/news/?id=04102019a)Apple.
 
 **Lokaal bewerken/uitchecken**: Automatisch uploaden van wijzigingen die zijn opgeslagen naar elementen kan worden uitgeschakeld in het statusvenster. Op die manier kan de gebruiker aan bestanden blijven werken en wijzigingen opslaan en vervolgens, wanneer deze gereed zijn, besluiten alle wijzigingen te uploaden.
 
@@ -293,7 +297,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 
 **Gebruik CA-ondertekende SSL-certificaten.** Houd er rekening mee dat de AEM-bureaubladtoepassing zelfondertekende SSL-certificaten niet ondersteunt wanneer verbinding wordt gemaakt met AEM via een beveiligde HTTPS-verbinding. Voor dergelijke verbindingen is op de server een certificaat met CA-handtekening vereist. (CQ-87941)
 
-## Bekende problemen {#known-issues}
+## Known issues {#known-issues}
 
 * Algemeen:
    * Server-URL&#39;s moeten naar de server verwijzen zonder een pad (bijvoorbeeld `http://server`, `https://server`, `http://server:port`, of `https://server:port`). Contextpaden en andere submappen dan /content/dam worden niet ondersteund (CQ-89343, CQ-87272)
@@ -320,7 +324,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 
 ## Nuttige bronnen {#helpful-resources}
 
-* [AEM-documentatie](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM-documentatie](https://helpx.adobe.com/nl/support/experience-manager/6-4.html)
 * [AEM-bureaubladtoepassing v1.x gebruiken](use-app-v1.md)
 * [Aanbevolen werkwijzen voor AEM-bureaubladtoepassing v1.x](best-practices-for-v1.md)
 
