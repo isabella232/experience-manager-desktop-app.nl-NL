@@ -10,20 +10,20 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
 
 ---
 
 
 # Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing {#release-notes-v2}
 
-| Producten | Adobe Experience Manager (AEM)-bureaubladtoepassing |
-|---------------|--------------------------------------------------------------------|
-| Toepassingsversie (revisie) | 2.0 (2.0.1.1) |
-| Ondersteunde AEM-versies | AEM 6.5, AEM 6.4, AEM 6.3 (met compatibiliteitspakket) |
+| Producten | Adobe Experience Manager-bureaubladtoepassing |
+|----|----|
+| Toepassingsversie (revisie) | 2.0 (2.0.2.0) |
+| Ondersteunde AEM-versies | AEM als cloudservice; AEM 6.5; AEM 6.4; AEM 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
-| Releasedatum | 12 december 2019 (Mac en Windows) |
-| URL&#39;s downloaden | [MacOS 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.1.1.dmg); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.1.1.exe); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.1.1.exe) |
+| Releasedatum | 15 apr. 2020 (Mac en Windows) |
+| URL&#39;s downloaden | [macOS 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
@@ -32,10 +32,11 @@ De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende b
 * Mac OS X 10.10 of hoger, met de meest recente opgeloste problemen.
 * Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
-De app werkt met de volgende versies van Experience Manager, ongeacht of deze op locatie zijn geïmplementeerd of op Adobe Managed Services (AMS):
+De app werkt met de volgende versies van Experience Manager, ongeacht of deze als cloudservice zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
-* [Experience Manager 6.5.0](https://helpx.adobe.com/experience-manager/6-5/release-notes.html) of hoger
-* [Experience Manager 6.4.4](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) of hoger
+* [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+* [Experience Manager 6.5.0+](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) of hoger
+* [Experience Manager 6.4.4+](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of hoger
 * Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
@@ -60,13 +61,25 @@ Deze functie wordt ondersteund door de Adobe Creative Cloud 2018- en Adobe Creat
 * Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een algemeen desktoppad (geplaatst vanuit het lokale netwerkaandeel dat met de [!UICONTROL Reveal] optie wordt weergegeven).
 * Paden worden door de native toepassing in de XMP-record van het bestand opgeslagen.
 * Experience Manager heeft de XMP-record geëxtraheerd met de paden naar de metagegevensrecord van het element.
-* De paden kunnen worden aangepast aan elementen in Experience Manager, dat wil zeggen dat de geplaatste bestanden ook in Experience Manager staan onder een bijbehorend pad).
+* De paden kunnen worden gekoppeld aan elementen in Experience Manager. De geplaatste bestanden worden dus ook in Experience Manager geplaatst onder een overeenkomstig pad.
 
 ## Nieuwe en verbeterde functies {#whats-new-added}
 
 Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2)voor meer informatie.
 
-Correcties en updates voor problemen die zijn aangebracht in versie 2.0.1 zijn:
+**Updates in app v2.0.2**
+
+De opgeloste problemen en updates zijn:
+
+* Verhoog de uploadversnelling in om de uploadprestaties te verbeteren [!UICONTROL Preferences]. Wanneer deze instelling is ingeschakeld, gebruikt de toepassing meer lokale CPU-threads en is de bronintensieve toepassing groter.
+* Correctie van het probleem met het uploaden van middelen wanneer bestandsnamen of paden bepaalde GB18030-tekens bevatten. <!-- CQ-4283494 -->
+* De optie Sorteren op relevantie is beschikbaar na het schakelen naar een ander type in de zoekresultaten. <!-- CQ-4286874 -->
+* Desktop app geeft nu submappen weer zonder dat deze expliciet hoeven te worden vernieuwd. <!-- CQ-4285711 -->
+* (Windows) Probleem met onbruikbare toepassingsinterface op sommige Windows-computers is opgelost. Gebruikers kunnen niet op de interface van de app klikken omdat deze vervormd lijkt te zijn doordat het klikgebied van interface-elementen zijdelings wordt &#39;verplaatst&#39;. <!-- CQ-4280785 -->
+
+**Updates in app v2.0.1**
+
+De opgeloste problemen en updates zijn:
 
 * Optie toestaan om `%Temp%` directory zo te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
 * Gebruikers kunnen zich aanmelden bij AEM-auteur via Okta SAML-verificatie. <!-- CQ-4278134 -->
@@ -95,7 +108,7 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 ![Stroom van middelen van AEM-server naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
 
-## Bekende problemen {#known-issues-v2}
+## Known issues {#known-issues-v2}
 
 **Problemen met de gebruikersinterface:**
 
@@ -117,8 +130,8 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 >[!MORELIKETHIS]
 >
->* [AEM 6.5-documentatie](https://helpx.adobe.com/support/experience-manager/6-5.html)
->* [AEM Assets 6.5-documentatie](https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html)
+>* [AEM als documentatie van de Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+>* [AEM als documentatie over Cloud Service Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager-bureaubladtoepassing gebruiken](using.md)
 >* [Desktop-app installeren en upgraden](install-upgrade.md)
 >* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
