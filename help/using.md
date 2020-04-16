@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: e706fe5fe148deff519cadc72b724572f11ddf3c
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
@@ -184,6 +184,8 @@ Klik op **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. In de lijst k
 
 ![Lijst van overgedragen elementen in een bepaalde](assets/assets_transfered_da2.png "sessionList van overgedragen elementen in een bepaalde sessie")
 
+U kunt de uploadsnelheid (versnelling) bepalen in **[!UICONTROL Preferences]** >- **[!UICONTROL Upload acceleration]** instelling. Meer gelijktijdige uitvoering levert doorgaans snellere uploads op, maar kan ook bronintensief zijn en meer verwerkingskracht van de lokale machine verbruiken. Als u een traag systeem ervaart, uploadt u opnieuw met een lagere waarde voor gelijktijdige uitvoering.
+
 >[!NOTE]
 >
 >De overdrachtlijst is niet blijvend en is niet beschikbaar als u de app afsluit en opnieuw opent.
@@ -236,7 +238,7 @@ Zie Elementen [uploaden naar AEM](#upload-and-add-new-assets-to-aem)voor een ove
 
 Start zo nodig uw workflow via de AEM Assets-webinterface. De bureaubladtoepassing integreert met de AEM om op verzoek over te nemen met behulp van desktophandelingen.
 
-Een bijzonder geval van het beginnen van werkschema van de Webinterface is middelenontdekking. De gebruikersinterface van de Omnissearch bar in Assets biedt een rijke en geavanceerde zoekervaring. Wellicht wilt u eerst een gewenst middel op het web zoeken en vervolgens de workflow in de app starten, met [!UICONTROL Desktop Actions]behulp van. Enkele voorbeelden hiervan zijn het filteren van zoekresultaten met gebruik van facetten, het zoeken naar een specifiek middel waarvoor een licentie is verleend in Adobe Stock of een aanpassing die door uw organisatie is geïmplementeerd en waarmee u een betere detectie via de webinterface kunt uitvoeren.
+Een bijzonder geval van het beginnen van werkschema van de Webinterface is middelenontdekking. De gebruikersinterface van de Omnissearch bar in Assets biedt een rijke en geavanceerde zoekervaring. U wilt mogelijk eerst een gewenst middel zoeken op het web en vervolgens de workflow in de app starten, met [!UICONTROL Desktop Actions]behulp van. Enkele voorbeelden hiervan zijn het filteren van zoekresultaten met gebruik van facetten, het zoeken naar een specifiek middel waarvoor een licentie is verleend in Adobe Stock of een aanpassing die door uw organisatie is geïmplementeerd en waarmee u een betere detectie via de webinterface kunt uitvoeren.
 
 De functionaliteit van de bureaubladtoepassing wordt gebruikt wanneer u de volgende handelingen uitvoert in de webinterface Middelen:
 
