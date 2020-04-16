@@ -9,30 +9,33 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
 
 # Adobe Experience Manager-bureaubladtoepassing installeren {#install-app-v2}
 
-Met de Adobe Experience Manager-bureaubladtoepassing zijn de middelen in Experience Manager gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Elementen kunnen eenvoudig worden weergegeven in de Finder van Mac of in Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in Experience Manager wanneer u de bestanden uploadt en er een nieuwe versie wordt gemaakt in de opslagplaats.
+Met de Adobe Experience Manager-bureaubladtoepassing zijn de middelen in Experience Manager eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle systeemeigen bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden opgeslagen in Experience Manager wanneer u de bestanden uploadt en er een nieuwe versie wordt gemaakt in de opslagplaats.
 
-Dankzij een dergelijke integratie kunnen verschillende functies in de organisatie de middelen centraal beheren in Adobe Experience Manager Assets en deze openen in Creative Cloud en andere toepassingen, terwijl u zich eenvoudig aan de verschillende standaarden kunt houden, waaronder branding.
+Een dergelijke integratie maakt verschillende rollen in de organisatie mogelijk om
+
+* Beheer de middelen centraal in de Middelen van de Manager van de Ervaring.
+* Open de middelen in alle systeemeigen bureaubladtoepassingen, waaronder toepassingen van derden en in Adobe Creative Cloud. De gebruikers kunnen zich daarbij gemakkelijk aan de verschillende normen houden, waaronder branding.
 
 U kunt als volgt de Experience Manager-bureaubladtoepassing gebruiken:
 
-* Zorg ervoor dat de versie van uw Experience Manager-server wordt ondersteund door de Desktop-app Experience Manager. Zie de [compatibiliteitsmatrix](release-notes-of-v1.md#compatibilitymatrix).
-* Download en installeer de toepassing.
-* Test de verbinding met behulp van een paar elementen. Zie [Toegang tot middelen en open elementen op uw bureaublad](use-app-v1.md#openondesktop).
+* Zorg ervoor dat uw versie van Experience Manager wordt ondersteund door de desktop-app Experience Manager. Zie de [systeemvereisten](release-notes.md#system-requirements-and-prerequisites-v2) hieronder.
+* Download en installeer de toepassing. Zie Desktop-app [hieronder](#install-v2) installeren.
+* Test de verbinding met behulp van een paar elementen. Zie [hoe u naar elementen](using.md#browse-search-preview-assets)kunt bladeren en deze kunt zoeken.
 
-## Voorwaarden voor systeemvereisten en downloadkoppelingen {#tech-specs-v2}
+## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
 Raadpleeg de opmerkingen bij de release [Experience Manager voor meer informatie](release-notes.md).
 
 ## Upgrade van app v1.x naar app v2 {#upgrade-from-previous-version}
 
-Als u een bestaande gebruiker van de app bent, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Volg ook de onderstaande richtlijnen om van v1.x naar de nieuwste versie over te schakelen.
+Als u een bestaande gebruiker van de app bent, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Volg ook deze richtlijnen om te schakelen van v1.x naar de nieuwste versie.
 
 >[!NOTE]
 >
@@ -49,11 +52,11 @@ Als u een upgrade wilt uitvoeren van v1.x naar de nieuwste versie van de app, vo
 
 Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe Experience Manager-bureaubladtoepassing v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
 
-1. Houd de URL en de referenties van uw AEM-implementatie handig.
-1. Sla deze stap over als u AEM 6.4.4 en hoger of AEM 6.5.0 of hoger gebruikt. Zorg ervoor dat uw AEM-installatie voldoet aan de compatibiliteitsvereisten die in de opmerkingen bij de release worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de AEM Package Manager als AEM-beheerder. Om een pakket te installeren, zie [hoe te met Pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)werken.
+1. Houd de URL en de referenties van de implementatie van uw Experience Manager handig.
+1. Sla deze stap over als u Experience Manager gebruikt als Cloud Service, Experience Manager 6.4.4 of hoger of Experience Manager 6.5.0 of hoger. Zorg ervoor dat de opstelling van uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)werken.
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` bestanden. Voer het installatieprogramma van de AEM-bureaubladtoepassing opnieuw uit.
-1. Start de computer opnieuw naar wens. Start de bureaubladtoepassing om deze te configureren.
+1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
 1. Als u de app wilt verbinden met een AEM-opslagplaats, klikt u op het pictogram van de app in de lade om de app te starten. Geef het adres van de AEM-instantie op. Klik op de referenties **[!UICONTROL Connect]** en geef deze op.
 
    ![Verbindingsscherm van bureaubladtoepassing met invoerserver-](assets/connect_da2.png "adresVerbindingsscherm met invoerserveradres")
@@ -66,7 +69,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    ![Bij het aanmelden geeft de app de DAM-](assets/firstview_da2.png "inhoud weer. Bij het aanmelden geeft de app de DAM-inhoud weer")
 
-1. (AEM 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met AEM 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Zie [Azure-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) of [S3-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, upgrade S3- of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [Azure-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) of [S3-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
 
    Als u een klant van Adobe Managed Services (AMS) bent, neemt u contact op met de klantenservice van Adobe.
 
@@ -82,6 +85,7 @@ Als u de voorkeuren wilt wijzigen, klikt u op het pictogram ![](assets/do-not-lo
 * **[!UICONTROL Current cache size]**: Opslaggrootte van de lokaal gedownloade elementen. De informatie wordt alleen weergegeven nadat middelen zijn gedownload met de app.
 * **[!UICONTROL Automatically download linked assets]**: De middelen die in de ondersteunde native Creative Cloud-toepassingen worden geplaatst, worden automatisch opgehaald wanneer u het oorspronkelijke bestand downloadt.
 * **[!UICONTROL Maximum number of downloads]**: Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren en als u de waarde verlaagt, kunt u de benodigde elementen of mappen mogelijk niet in één keer downloaden.
+* **[!UICONTROL Upload Acceleration]**: Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met 10 gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Voor een hogere limiet voor gelijktijdige aanschaf is een hoger verbruik van bronnen van de processor van de lokale computer vereist.
 
 Meld u af bij de AEM-server om de niet-beschikbare voorkeuren bij te werken. Nadat u de voorkeuren hebt bijgewerkt, klikt u op Voorkeuren ![](assets/do-not-localize/save_preferences_da2.png) opslaan om de wijzigingen op te slaan.
 
