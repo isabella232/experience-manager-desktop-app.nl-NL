@@ -1,6 +1,6 @@
 ---
 title: Aanbevolen werkwijzen voor en probleemoplossing voor de Adobe Experience Manager-bureaubladtoepassing
-description: Follow best practices and troubleshoot to resolve the occasional issues related to installation, upgrade, configuration, and so on.
+description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,44 +9,44 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac4be2cb69a112f393ec76d5d95987634d0c9c46
+source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
 
 ---
 
 
-# Troubleshoot Adobe Experience Manager desktop app {#troubleshoot-v2}
+# Problemen met de bureaubladtoepassing van Adobe Experience Manager oplossen {#troubleshoot-v2}
 
 De bureaubladtoepassing Adobe Experience Manager (AEM) maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een externe Experience Manager. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden voor het beheren van conflicten met de gebruikersinterface van AEM Assets.
 
 Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de beperkingen uit te zoeken.
 
-## Aanbevolen procedures {#best-practices-to-prevent-troubles}
+## Best practices {#best-practices-to-prevent-troubles}
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
-* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u enkele minuten controleren hoe de app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface en het bureaublad, de toewijzing van opslagruimte, het in cache plaatsen van elementen, lokaal opslaan en uploaden op de achtergrond. See [how it works](release-notes.md#how-app-works).
+* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u enkele minuten controleren hoe de app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface en het bureaublad, de toewijzing van opslagruimte, het in cache plaatsen van elementen, lokaal opslaan en uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
 
-* **Avoid unsupported characters in folder names**: Do not use white spaces and invalid characters when creating or uploading folders. Zie een lijst met tekens in [Mappen maken in Experience Manager-elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Bepaalde Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
+* **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen witruimten en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in [Mappen maken in Experience Manager-elementen](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html#Creatingfolders). Bepaalde Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
 
-* **Best practices to avoid conflicts**: To avoid potential conflicts when collaborating on multiple assets, see [avoid editing conflicts](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Tips en trucs om conflicten** te voorkomen: Zie [Bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomen om potentiële conflicten te voorkomen wanneer u samenwerkt met meerdere elementen.
 
-* **Use folder upload for large, hierarchical folders**: Instead of using the Assets web interface or other methods, use Experience Manager desktop app to upload large folders. The app uploads the assets in background with logging and monitoring. See [bulk upload assets](using.md#bulk-upload-assets).
+* **Mapupload gebruiken voor grote, hiërarchische mappen**: Gebruik in plaats van de webinterface Middelen of andere methoden de bureaubladtoepassing Experience Manager om grote mappen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [bulkuploadmiddelen](using.md#bulk-upload-assets).
 
-* **Use the latest version**: Use the latest app version and always check for compatibility before installing either a new app version or before upgrading to a newer Adobe Experience Manager version. See [release notes](release-notes.md).
+* **Gebruik de nieuwste versie**: Gebruik de nieuwste app-versie en controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade uitvoert naar een nieuwere versie van Adobe Experience Manager. Zie [opmerkingen bij](release-notes.md)de release.
 
-* **Use the same drive letter**: Use the same drive letter across an organization to map to the Adobe Experience Manager DAM. To see assets placed by other users, the paths must be the same. Using the same drive letter ensures a constant path to DAM assets. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
+* **Dezelfde stationsletter** gebruiken: Gebruik dezelfde stationsletter in een organisatie om deze toe te wijzen aan Adobe Experience Manager DAM. Als u elementen wilt zien die door andere gebruikers zijn geplaatst, moeten de paden gelijk zijn. Als u dezelfde stationsletter gebruikt, hebt u een constant pad naar DAM-middelen. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
 
 * **Denk aan het netwerk**: Netwerkprestaties zijn van essentieel belang voor de prestaties van de Desktop-app van Experience Manager. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
 
-* **Unsupported use cases for desktop app**: Do not use the app for Assets&#39; migration (it needs planning and other tools); for heavy-duty DAM operations (like moving large folders, large uploads, finding files using advanced metadata searches); and as a sync client (design principles and usage patterns are different from in-sync clients like Microsoft OneDrive or Adobe Creative Cloud desktop sync).
+* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
 
-* **Timeout**: Currently, desktop app does not have a configurable timeout value that disconnects the connection between Experience Manager server and desktop app after a fixed time interval. When uploading large assets, if the connection gets timeout after a while, the app retries to upload the asset a few times by increasing the upload timeout. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
+* **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen de Experience Manager-server en de desktop-app verbreekt na een vast tijdsinterval. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
-## How to troubleshoot {#troubleshooting-prep}
+## Hoe te om problemen op te lossen {#troubleshooting-prep}
 
-Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Also, it prepares you to better convey the issues to Adobe Customer Care if you choose to seek support.
+Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenservice van Adobe als u ondersteuning zoekt.
 
-### Enable debug mode {#enable-debug-mode}
+### Foutopsporingsmodus inschakelen {#enable-debug-mode}
 
 Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen. Als u de toepassing wilt uitvoeren in de foutopsporingsmodus, gebruikt u de volgende opdrachtregelopties in een terminal of bij de opdrachtprompt.
 
@@ -56,15 +56,15 @@ Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer
 
 ### Locatie van logbestanden {#check-log-files-v2}
 
-You can find the log files for AEM desktop app at the following locations. Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand op de bovenstaande locatie om de mislukte uploads te identificeren. `backend.log`
+U vindt de logbestanden voor de AEM-bureaubladtoepassing op de volgende locaties. Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
 
-* On Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+* Pad in Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
-* Op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+* Pad op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
 >[!NOTE]
 >
->When working with Adobe Customer Care on a support request/ticket, you may be asked to share the log files to help the support team understand the issue. Archiveer de volledige `Logs` map en deel deze met de klantenservice.
+>Wanneer u met de klantenservice van Adobe werkt aan een supportaanvraag/-ticket, wordt u mogelijk gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
 
 ### Cache wissen {#clear-cache-v2}
 
