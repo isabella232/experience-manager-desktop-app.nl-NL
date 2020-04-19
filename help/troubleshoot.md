@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 9ae1580475569538838c58f642a7df43f2526d16
 
 ---
 
@@ -38,7 +38,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Denk aan het netwerk**: Netwerkprestaties zijn van essentieel belang voor de prestaties van de Desktop-app van Experience Manager. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
 
-* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
+* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app niet voor de migratie van middelen (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
 
 * **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen de Experience Manager-server en de desktop-app verbreekt na een vast tijdsinterval. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
@@ -48,11 +48,25 @@ Houd rekening met de volgende informatie als u problemen met bureaubladtoepassin
 
 ### Foutopsporingsmodus inschakelen {#enable-debug-mode}
 
-Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen. Als u de toepassing wilt uitvoeren in de foutopsporingsmodus, gebruikt u de volgende opdrachtregelopties in een terminal of bij de opdrachtprompt.
+Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen. Als u de toepassing in de foutopsporingsmodus op de Mac wilt gebruiken, gebruikt u de volgende opdrachtregelopties in een terminal of bij de opdrachtprompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
-* In Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+Voer de volgende stappen uit om de foutopsporingsmodus in Windows in te schakelen:
 
-* Op Mac: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`
+1. Zoek het `Adobe Experience Manager Desktop.exe.config` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Sla het bestand op en sluit het.
+
+1. Ga naar `<level value="INFO"/>` het einde van het bestand. Wijzig de waarde in `DEBUG`, dat wil zeggen `<level value="DEBUG"/>`.
+
+1. Zoek het `logging.json` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
+
+1. Zoek in `logging.json` het bestand alle instanties van de `level` parameter. Wijzig de waarden van `info` naar `debug`. Sla het bestand op en sluit het.
+
+1. Wis de mappen in de cache die zich bevinden op de locatie die is ingesteld in de voorkeuren voor de app.
+
+1. Start de bureaubladtoepassing opnieuw.
+
+<!-- The Windows command doesn't work for now.
+* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
+-->
 
 ### Locatie van logbestanden {#check-log-files-v2}
 
