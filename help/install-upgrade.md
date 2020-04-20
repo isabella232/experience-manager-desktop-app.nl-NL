@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49532b1c5eec497df5b29084675c08f25a15819a
+source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
 
 ---
 
@@ -33,26 +33,28 @@ U kunt als volgt de Experience Manager-bureaubladtoepassing gebruiken:
 
 Raadpleeg de opmerkingen bij de release [Experience Manager voor meer informatie](release-notes.md).
 
-## Upgrade van app v1.x naar app v2 {#upgrade-from-previous-version}
+## Upgrade uitvoeren vanaf een vorige versie {#upgrade-from-previous-version}
 
-Als u een bestaande gebruiker van de app bent, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Volg ook deze richtlijnen om te schakelen van v1.x naar de nieuwste versie.
+Als u een gebruiker bent van v1.x van de bureaubladtoepassing, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Bekijk [wat er nieuw is in de bureaubladtoepassing](introduction.md#whats-new-v2) en [hoe de app werkt](release-notes.md#how-app-works)
 
 >[!NOTE]
 >
->Desktop-app v1.x en v2 kunnen niet samen op een computer bestaan. Verwijder de andere versie voordat u een versie installeert.
+>Twee versies van de bureaubladtoepassing kunnen niet naast elkaar bestaan op een computer. Verwijder de andere versie voordat u een versie installeert.
 
-Als u een upgrade wilt uitvoeren van v1.x naar de nieuwste versie van de app, volgt u de volgende instructies:
+Voer de volgende instructies uit om een upgrade uit te voeren van een vorige versie van de app:
 
-1. Synchroniseer al uw middelen voordat u de upgrade uitvoert. Upload alle wijzigingen met app v1.x. Hiermee voorkomt u dat wijzigingen verloren gaan wanneer u app v1.x verwijdert.
-1. Verwijder app v1.x. Wis de cache wanneer u v1.x verwijdert.
+1. Voordat u een upgrade uitvoert, moet u al uw middelen synchroniseren en uw wijzigingen uploaden naar Experience Manager. Zo voorkomt u dat bewerkingen verloren gaan wanneer u de app verwijdert.
+1. Verwijder de vorige versie van de app. Selecteer bij het verwijderen de optie om de cache te wissen.
 1. Start de computer opnieuw op.
-1. Download en installeer de nieuwste app. Volg de onderstaande instructies.
+1. [Download](release-notes.md) en [installeer](#install-v2) de nieuwste app. Volg de onderstaande instructies.
 
 ## Installeren {#install-v2}
 
 Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe Experience Manager-bureaubladtoepassing v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
 
+1. Download het meest recente installatieprogramma van de pagina met [opmerkingen](release-notes.md) bij de release.
 1. Houd de URL en de referenties van de implementatie van uw Experience Manager handig.
+1. Zie Desktop-app [](#upgrade-from-previous-version)upgraden als u een upgrade uitvoert vanaf een andere versie van de app.
 1. Sla deze stap over als u Experience Manager gebruikt als Cloud Service, Experience Manager 6.4.4 of hoger of Experience Manager 6.5.0 of hoger. Zorg ervoor dat de opstelling van uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)werken.
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` bestanden. Voer het installatieprogramma van de AEM-bureaubladtoepassing opnieuw uit.
