@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 52f70e5b95318d8b3b3930be1233cc51aa997914
 
 ---
 
@@ -105,7 +105,7 @@ Een goede ervaring voor gebruikers die de AEM-bureaubladtoepassing gebruiken, is
 
 Raadpleeg het document [AEM Assets Network Considerations (AEM Assets Network Overwegingen) voor](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) meer informatie over de beste werkwijzen met betrekking tot de netwerkconfiguratie van AEM Assets. Enkele belangrijke aspecten die de gebruikers helpen om de AEM-bureaubladervaring te optimaliseren, zijn onder andere:
 
-* **Gebruik correct geconfigureerde Dispatcher:** AEM Dispatcher gebruiken voor extra beveiliging en zorgen dat deze is geconfigureerd voor [AEM-bureaubladtoepassingsverbinding met AEM achter een verzender](using.md)
+* **Gebruik correct geconfigureerde Dispatcher:** AEM Dispatcher gebruiken voor extra beveiliging en zorgen dat deze is geconfigureerd voor [AEM-bureaubladtoepassingsverbinding met AEM achter een verzender](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
 * **Bandbreedte opslaan:** U kunt de voorvertoning van pictogrammen in Finder op Mac uitschakelen wanneer u in de gekoppelde opslagplaats bladert met Finder. Finder vraagt elk bestand om een voorvertoning te genereren en zorgt ervoor dat de bureaubladtoepassing het element lokaal downloadt en in cache plaatst. Houd er rekening mee dat als u bandbreedte bespaart, dit ook de gebruikerservaring voor gebruikers op het bureaublad vermindert, dus dat moet gebeuren als u werkt met opslagruimten met grote middelen en/of beperkte bandbreedte.
 
