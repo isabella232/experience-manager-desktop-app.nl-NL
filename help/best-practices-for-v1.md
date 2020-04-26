@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad5337c8e1697d0a37d3020d25802dc1d732f320
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -56,7 +56,7 @@ De belangrijkste mogelijkheden van de AEM-bureaubladtoepassing zijn:
 
 * Behandel AEM-bureaubladtoepassing niet als een client voor desktopsynchronisatie voor AEM-middelen. Het belangrijkste voordeel van de AEM-bureaubladtoepassing hier is dat deze &#39;virtuele&#39; toegang biedt tot de gehele opslagruimte en dat toepassingen voor desktopsynchronisatie doorgaans slechts elementen van één gebruiker synchroniseren. De AEM-bureaubladtoepassing biedt enige mate van caching en uploaden naar de achtergrond. toch werkt het programma heel anders dan gewone &quot;Sync&quot;-toepassingen, zoals Adobe Creative Cloud-bureaubladtoepassing of Microsoft OneDrive.
 * Gebruik geen netwerkstations van AEM-bureaubladapps om elementen regelmatig op te slaan. Alle opslagbewerkingen worden naar AEM Assets verzonden. Daarom is het onpraktisch om intensieve bewerkingen rechtstreeks uit te voeren in de gekoppelde AEM Assets-opslagplaats. Door een element rechtstreeks in de gekoppelde opslagplaats te bewerken, loopt de tijdlijn van het element vast met irrelevante versies en worden extra overheadkosten aan de server opgelegd.
-* Gebruik de AEM-bureaubladtoepassing niet voor de migratie van grote hoeveelheden gegevens van de ene AEM-instantie naar de andere. Raadpleeg de [migratiehandleiding](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-migration-guide.html) om de migratie van middelen te plannen en uit te voeren. Desktop-app daarentegen [ondersteunt het uploaden](use-app-v1.md#bulkupload) van grote hoeveelheden middelen voor het eerst in AEM.
+* Gebruik de AEM-bureaubladtoepassing niet voor de migratie van grote hoeveelheden gegevens van de ene AEM-instantie naar de andere. Raadpleeg de [migratiehandleiding](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) om de migratie van middelen te plannen en uit te voeren. Desktop-app daarentegen [ondersteunt het uploaden](use-app-v1.md#bulkupload) van grote hoeveelheden middelen voor het eerst in AEM.
 
 ## Aanbevelingen voor geselecteerde gebruiksgevallen {#recommendations-for-selected-use-cases}
 
@@ -64,7 +64,7 @@ De belangrijkste mogelijkheden van de AEM-bureaubladtoepassing zijn:
 
 De AEM-bureaubladtoepassing biedt virtuele toegang tot de hele DAM-opslagplaats - en het kan lastig zijn voor creatieve gebruikers op desktopcomputers om de juiste middelen op hun bureaublad te vinden en te openen. Gebruik deze beste praktijken om dat voor hen te vereenvoudigen.
 
-* De samenwerkingseigenschappen van het gebruik in de UI van Middelen AEM om directere toegang tot de juiste activa voor de creatieve gebruiker te verlenen. U kunt onder andere mappen of verzamelingen delen, slimme verzamelingen (opgeslagen zoekopdrachten) opgeven of meldingen met aanwijzers naar de juiste elementen verzenden. Creative gebruikers kunnen vervolgens bureaubladacties in de webinterface gebruiken om snel toegang tot deze middelen op hun bureaublad te krijgen.
+* Gebruik samenwerkingsfuncties in de gebruikersinterface van AEM Assets om de creatieve gebruiker directere toegang tot de juiste middelen te bieden. U kunt onder andere mappen of verzamelingen delen, slimme verzamelingen (opgeslagen zoekopdrachten) opgeven of meldingen met aanwijzers naar de juiste elementen verzenden. Creative gebruikers kunnen vervolgens bureaubladacties in de webinterface gebruiken om snel toegang tot deze middelen op hun bureaublad te krijgen.
 * Overweeg de juiste machtigingen voor middelen (toegangsbeheer) om de weergave in de DAM-opslagplaats voor creatieve gebruikers te vereenvoudigen, zodat ze in feite alleen toegang hebben tot de middelen die ze nodig hebben of waarin ze geïnteresseerd zijn:
 
    * Bepaalde gebieden die niet relevant zijn voor de creatieve gebruikers kunnen worden geweigerd voor hun gebruikersgroep(en), om ze uit hun weergave te verwijderen, ook op het bureaublad
@@ -103,9 +103,9 @@ Een goede ervaring voor gebruikers die de AEM-bureaubladtoepassing gebruiken, is
 
 ### Netwerkoverwegingen {#network-considerations}
 
-Raadpleeg het document [AEM Assets Network Considerations (AEM Assets Network Overwegingen) voor](https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-network-considerations.html) meer informatie over de beste werkwijzen met betrekking tot de netwerkconfiguratie van AEM Assets. Enkele belangrijke aspecten die de gebruikers helpen om de AEM-bureaubladervaring te optimaliseren, zijn onder andere:
+Raadpleeg het document [AEM Assets Network Considerations (AEM Assets Network Overwegingen) voor](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) meer informatie over de beste werkwijzen met betrekking tot de netwerkconfiguratie van AEM Assets. Enkele belangrijke aspecten die de gebruikers helpen om de AEM-bureaubladervaring te optimaliseren, zijn onder andere:
 
-* **Gebruik correct geconfigureerde Dispatcher:** AEM Dispatcher gebruiken voor extra beveiliging en zorgen dat deze is geconfigureerd voor [AEM-bureaubladtoepassingsverbinding met AEM achter een verzender](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#ConnectingtoAEMBehindaDispatcher)
+* **Gebruik correct geconfigureerde Dispatcher:** AEM Dispatcher gebruiken voor extra beveiliging en zorgen dat deze is geconfigureerd voor [AEM-bureaubladtoepassingsverbinding met AEM achter een verzender](using.md)
 
 * **Bandbreedte opslaan:** U kunt de voorvertoning van pictogrammen in Finder op Mac uitschakelen wanneer u in de gekoppelde opslagplaats bladert met Finder. Finder vraagt elk bestand om een voorvertoning te genereren en zorgt ervoor dat de bureaubladtoepassing het element lokaal downloadt en in cache plaatst. Houd er rekening mee dat als u bandbreedte bespaart, dit ook de gebruikerservaring voor gebruikers op het bureaublad vermindert, dus dat moet gebeuren als u werkt met opslagruimten met grote middelen en/of beperkte bandbreedte.
 
@@ -115,8 +115,8 @@ Raadpleeg het document [AEM Assets Network Considerations (AEM Assets Network Ov
 
 ### Serverprestaties optimaliseren {#optimizing-server-performance}
 
-Voor meer informatie over de manier waarop de AEM Assets-server geoptimaliseerd moet zijn voor prestaties, raadpleegt u de [AEM Assets Performance Tuning Guide](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/performance-tuning-guidelines.html). Enkele belangrijke aspecten van de serverprestaties voor AEM-bureaubladtoepassingen zijn het optimaliseren van workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
+Voor meer informatie over de manier waarop de AEM Assets-server geoptimaliseerd moet zijn voor prestaties, raadpleegt u de [AEM Assets Performance Tuning Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html). Enkele belangrijke aspecten van de serverprestaties voor AEM-bureaubladtoepassingen zijn het optimaliseren van workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
 
-* **Verbeterde functionaliteit voor het uploaden van middelen:** Configureer het workflowmodel voor updates van [AEM-middelen zodat deze van voorbijgaande aard](https://helpx.adobe.com/experience-manager/6-4/assets/using/performance-tuning-guidelines.html#Workflows)zijn.
+* **Verbeterde functionaliteit voor het uploaden van middelen:** Configureer het workflowmodel voor updates van [AEM-middelen zodat deze van voorbijgaande aard](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows)zijn.
 
 * **CPU voor uploads beperken:** Zorg ervoor dat de maximale parameter voor parallelle workflowtaken correct is ingesteld, zodat uploads niet alle CPU uitputten.
