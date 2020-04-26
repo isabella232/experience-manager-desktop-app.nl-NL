@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -333,7 +333,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 De AEM-bureaubladtoepassing werkt met verschillende versies van AEM. Zie de compatibiliteitsmatrix voor de ondersteunde versies.
 
 | Versie | Herziening | Releasedatum | Compatibiliteit |
-|---------|------------------------|--------------|-------------------------------------------------------------|
+|---|---|---|---|
 | 1.10 | 1.10.0.3 (Mac en Windows) | 31 aug. 2018 | AEM 6.5; AEM 6.4 SP1; AEM 6.3 SP2; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
 | 1.9 | 1.9.1.1 (Mac en Windows) | 21 jun. 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
 | 1.8 | 1.8.1.0 (Mac en Windows) | 28 mrt. 2018 | AEM 6.4; AEM 6.3 SP1; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
