@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
 
 ---
 
@@ -118,11 +118,10 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
    >
    >De toepassing maakt automatisch een submap *&lt;Encoded AEM Endpoint>* ; dit gedrag kan niet worden geconfigureerd.
 
-## Aanvullende bronnen {#additional-resources}
-
+>[!MORELIKETHIS]
 * [Inleiding tot AEM-bureaubladtoepassing](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [AEM-bureaubladtoepassing gebruiken](use-app-v1.md)
-
 * [Inchecken/uitchecken begrijpen met AEM-bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Desktop-app gebruiken met AEM-middelen](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Problemen met de AEM-bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
+
