@@ -9,12 +9,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1ea381cc88b5382288b2479d26e976dc7289b88
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
 
-# Opmerkingen bij de release AEM-bureaubladtoepassing v1.x{#aem-desktop-app-release-notes}
+# Opmerkingen bij de release AEM-bureaubladtoepassing v1.x {#aem-desktop-app-release-notes}
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en compatibiliteitsinformatie over AEM.
 
@@ -120,7 +120,7 @@ Bulkuploads: Het uploaden van grote maphiërarchieën via Maken > Map uploaden i
 **Het vooraf ophalen van gekoppelde elementen**Om de gebruikerservaring te verbeteren bij het werken met InDesign-documenten die gekoppelde elementen bevatten die in AEM zijn opgeslagen, probeert de bureaubladtoepassing deze gekoppelde bestanden vooraf op te halen naar de lokale cache voordat deze worden gedownload en het InDesign-document wordt geopend. Op die manier heeft de gebruiker de gekoppelde bestanden lokaal beschikbaar en hoeft hij niet langer te wachten wanneer hij of zij deze in InDesign (in het deelvenster Koppelingen) opent.
 Het vooraf ophalen werkt alleen als AEM de koppelingen aan de serverzijde herkent. Voor een element met herkende koppelingen wordt een lijst met verwijzingen weergegeven in de weergave Eigenschappen van het InDesign-element.
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.8.x{#enhancements-available-since-aem-desktop-app-18x}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
 
 De release van AEM-desktop app 1.8.1 met een snelle follow-up biedt verbeteringen wanneer u meerdere bestanden tegelijk opent van de AEM-gebruikersinterface naar de versie 1.8 (CQ-4237747, CQ-4238780). De verbeteringen in AEM-bureaubladtoepassing 1.8 zijn:
 
@@ -138,7 +138,7 @@ De release van AEM-desktop app 1.8.1 met een snelle follow-up biedt verbeteringe
    * Dialoogvenster Meer informatie over element: soms was de actiebalk niet zichtbaar (CQ-4208540)
    * (Win) Het bestand kan nu worden gesynchroniseerd nadat een eerdere versie is hersteld via de gebruikersinterface van AEM Assets (CQ-4216411)
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.7{#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabiliteit:
    * Verbeterde stabiliteit wanneer de AEM-bureaubladtoepassing verbinding maakt met een overbelaste AEM-server (CQ-4224803)
@@ -158,7 +158,7 @@ De release van AEM-desktop app 1.8.1 met een snelle follow-up biedt verbeteringe
 >
 >Problemen die zijn aangetroffen in bètabelasting van AEM-bureaubladtoepassing 1.7 (die niet aanwezig waren in de release 1.6, worden niet vermeld in de opmerkingen bij de release).
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.6{#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Documentatie: Nieuwe [aanbevolen procedures voor documentatie bij de v1.x-app](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html) .
 * Verbeterd aanmeldingsproces voor AEM:
@@ -182,7 +182,7 @@ De release van AEM-desktop app 1.8.1 met een snelle follow-up biedt verbeteringe
    * Hoog CPU-gebruik (CQ-4218070).
    * Sleep bestanden die een fout veroorzaken bij het uploaden naar AEM (CQ-4217006).
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.5{#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Versie 1.5.1.5 voor Mac OS X:** De release 1.5.1.5 biedt de volgende voordelen:
 
@@ -223,7 +223,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
    * Verschillende verbeteringen in de stabiliteit (CQ-4207539, CQ-4200378)
    * Betere verwerking van URL voor AEM-middelen in Voorkeuren (CQ-97388)
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.4{#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Het eenvoudig uploaden van hiërarchische mappen via de nieuwe handeling Maken > Map uploaden in Touch UI
    * Handeling start een bewerking voor het uploaden van mappen die wordt uitgevoerd door de bureaubladtoepassing
@@ -235,7 +235,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 * Verbeterde compatibiliteit met de nieuwste versies van het besturingssysteem
 * Door de klant gemelde correcties
 
-### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.3{#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Verbeteringen beschikbaar sinds AEM-bureaubladtoepassing 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Meer efficiëntie. De gebruikers besteden minder tijd wachtend op netwerkverrichtingen om te voltooien.
 * Verbeterde integratie met de Finder, die meer stabiliteit en toegang tot functies, zoals miniaturen, biedt.
