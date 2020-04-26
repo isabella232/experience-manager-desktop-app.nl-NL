@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0301538b5cc00a187709b484bed8f0ca7b799f03
+source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
 
 ---
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 1. Download het meest recente installatieprogramma van de pagina met [opmerkingen](release-notes.md) bij de release.
 1. Houd de URL en de referenties van de implementatie van uw Experience Manager handig.
 1. Zie Desktop-app [](#upgrade-from-previous-version)upgraden als u een upgrade uitvoert vanaf een andere versie van de app.
-1. Sla deze stap over als u Experience Manager gebruikt als Cloud Service, Experience Manager 6.4.4 of hoger of Experience Manager 6.5.0 of hoger. Zorg ervoor dat de opstelling van uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html)werken.
+1. Sla deze stap over als u Experience Manager gebruikt als Cloud Service, Experience Manager 6.4.4 of hoger of Experience Manager 6.5.0 of hoger. Zorg ervoor dat de opstelling van uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)werken.
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` bestanden. Voer het installatieprogramma van de AEM-bureaubladtoepassing opnieuw uit.
 1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
@@ -71,7 +71,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    ![Bij het aanmelden geeft de app de DAM-](assets/firstview_da2.png "inhoud weer. Bij het aanmelden geeft de app de DAM-inhoud weer")
 
-1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, upgrade S3- of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [Azure-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AzureDataStore) of [S3-connector](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, upgrade S3- of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [Azure-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) of [S3-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
    Als u een klant van Adobe Managed Services (AMS) bent, neemt u contact op met de klantenservice van Adobe.
 
