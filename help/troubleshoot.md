@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -24,7 +24,7 @@ Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
-* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u enkele minuten controleren hoe de app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface en het bureaublad, de toewijzing van opslagruimte, het in cache plaatsen van elementen, lokaal opslaan en uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
+* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u even weten hoe de app werkt. Weet hoe u een koppeling tot stand brengt tussen de webinterface van Experience Manager en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van bedrijfsmiddelen, het lokaal opslaan en uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
 
 * **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen witruimten en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in [Mappen maken in Experience Manager-elementen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Bepaalde Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
 
@@ -134,8 +134,8 @@ De bibliotheken die AEM-bureaubladtoepassingen gebruiken voor HTTP-communicatie,
 
 In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit scherm weergegeven of wordt een fout onder aan de interface weergegeven zonder opties in de interface. Probeer het volgende in de volgorde:
 
-1. Klik met de rechtermuisknop op de toepassingsinterface en klik op **[!UICONTROL Refresh]**.
-1. Sluit de toepassing af en start deze opnieuw.
+* Klik met de rechtermuisknop op de toepassingsinterface en klik op **[!UICONTROL Refresh]**.
+* Sluit de toepassing af en open deze opnieuw.
 
 In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 
