@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb71cfdfef674be25d059f104a37a9199681358c
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -38,14 +38,6 @@ Zie AEM-bureaubladtoepassing [installeren en verbinden met AEM-server](use-app-v
 >
 >Er kan slechts één exemplaar van de AEM-bureaubladtoepassing worden geïnstalleerd en tegelijkertijd actief zijn.
 
-## Proxyondersteuning {#proxy-support}
-
-De AEM-bureaubladtoepassing gebruikt de vooraf gedefinieerde proxy van het systeem om via HTTPS verbinding te maken met internet. De toepassing kan alleen verbinding maken met een netwerkproxy waarvoor geen extra verificatie is vereist.
-
-Als u de instellingen van de proxyserver voor Windows configureert of wijzigt (Internet-opties > LAN-instellingen), start u de AEM-bureaubladtoepassing opnieuw zodat de wijzigingen van kracht worden.
-
-Als voor uw proxy verificatie is vereist, kan het IT-team de URL van de AEM-middelen in de instellingen van de proxyserver weergeven, zodat het toepassingsverkeer kan worden doorgegeven.
-
 ## Bestandsverwerking {#file-handling}
 
 Wanneer u een bestand wijzigt van een netwerklocatie die is gekoppeld door de bureaubladtoepassing, worden de bestanden in twee fasen op die locatie opgeslagen. In de eerste fase wordt een bestand lokaal opgeslagen. Een gebruiker kan het bestand opslaan en aan het bestand blijven werken, zonder te wachten tot de overdracht is voltooid.
@@ -69,9 +61,21 @@ Voor de kopieer- en verplaatsingsmethoden in de API voor middelen moeten de volg
 * X-diepte
 * X-Overschrijven
 
-AEM Desktop verbindt met AEM gebruikend een URL die de standaardhaven omvat. Daarom zou het plaatsen in de `virtualhosts` dispatcherconfiguratie het standaardhavenaantal moeten omvatten. Voor meer informatie over `virtualhosts` configuratie, zie het [identificeren van Virtuele Gastheren](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts).
+AEM-bureaublad maakt verbinding met AEM via een URL die de standaardpoort bevat. Daarom zou het plaatsen in de `virtualhosts` dispatcherconfiguratie het standaardhavenaantal moeten omvatten. Voor meer informatie over `virtualhosts` configuratie, zie virtuele gastheren [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)identificeren.
 
 Voor extra informatie bij het vormen van de verzender om door deze extra kopballen over te gaan, zie het [Specificeren van de Kopballen](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)van HTTP.
+
+### Proxyondersteuning {#proxy-support}
+
+De AEM-bureaubladtoepassing gebruikt de vooraf gedefinieerde proxy van het systeem om via HTTPS verbinding te maken met internet. De toepassing kan alleen verbinding maken met een netwerkproxy waarvoor geen extra verificatie is vereist.
+
+Als u de instellingen van de proxyserver voor Windows configureert of wijzigt (Internet-opties > LAN-instellingen), start u de AEM-bureaubladtoepassing opnieuw zodat de wijzigingen van kracht worden.
+
+>[!NOTE]
+>
+>Proxyconfiguratie wordt alleen toegepast wanneer u de bureaubladtoepassing start. Sluit de app en start de app opnieuw om de wijzigingen door te voeren.
+
+Als voor uw proxy verificatie is vereist, kan het IT-team de URL van de AEM-middelen in de instellingen van de proxyserver weergeven, zodat het toepassingsverkeer kan worden doorgegeven.
 
 ## Het dialoogvenster Elementinfo aanpassen {#customize-the-asset-info-dialog}
 
