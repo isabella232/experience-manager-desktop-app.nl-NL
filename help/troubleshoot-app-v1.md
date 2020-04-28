@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab63bfd7eea356be924e1ed62eef387796913e6c
+source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
 
 ---
 
@@ -76,6 +76,10 @@ De AEM-bureaubladtoepassing biedt interne mogelijkheden voor caching en het uplo
 In tegenstelling tot Creative Cloud Desktop of andere oplossingen voor bestandssynchronisatie, zoals Microsoft One Drive, is de AEM-bureaubladtoepassing geen volledige Desktop Sync client. De reden hiervoor is dat het toegang biedt tot de gehele AEM Assets-opslagplaats, die zeer groot kan zijn (honderden gigabytes of terabytes) voor een volledige synchronisatie.
 
 Caching verstrekt de capaciteit om de netwerk/opslagoverheadkosten tot slechts een ondergroep van activa te beperken die voor de gebruiker relevant zijn.
+
+>[!CAUTION]
+>
+>Adobe raadt u aan miniatuurgeneratie uit te schakelen om sneller te kunnen bladeren. Als u pictogramvoorvertoningen inschakelt, plaatst de app de digitale elementen in de cache wanneer u door de gekoppelde map navigeert. De app downloadt ook elementen die de gebruiker niet kan schelen, waardoor het laden aan de server wordt toegevoegd, de bandbreedte van de gebruiker wordt verbruikt en meer schijfruimte van de gebruiker wordt gebruikt.
 
 Zo voert de AEM-bureaubladtoepassing caching uit:
 
