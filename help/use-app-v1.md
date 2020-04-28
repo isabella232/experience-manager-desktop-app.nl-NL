@@ -1,15 +1,9 @@
 ---
-title: AEM-bureaubladtoepassing versie 1.x gebruiken
+title: Gebruik AEM-bureaubladtoepassing versie 1.x.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
-uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 ---
 
@@ -22,19 +16,18 @@ Dankzij een dergelijke integratie kunnen verschillende functies in de organisati
 
 De belangrijkste taken die u uitvoert met de AEM-bureaubladtoepassing v1 zijn:
 
-* [Verbinding maken met een AEM-server](#installandconnect)
+1. [Verbinding maken met een AEM-server](#installandconnect)
+1. [Elementen rechtstreeks openen op bureaublad](#openondesktop)
+1. [Elementen van het bureaublad bewerken en uitchecken](#workonassets)
+1. [Elementen en mappen bulksgewijs uploaden](#bulkupload)
 
-* [Elementen rechtstreeks openen op bureaublad](#openondesktop)
-* [Elementen van het bureaublad bewerken en uitchecken](#workonassets)
-
-* [Elementen en mappen bulksgewijs uploaden](#bulkupload)
-
-Raadpleeg de [aanbevolen procedures voor het gebruik van apps](best-practices-for-v1.md)voor de verschillende aanbevolen en niet-aanbevolen taken. Als u problemen ondervindt met de toepassing, kunt u zien hoe u [problemen met AEM Desktop](troubleshoot-app-v1.md)kunt oplossen.
+Raadpleeg de [aanbevolen procedures voor het gebruik van apps](best-practices-for-v1.md)voor de verschillende aanbevolen en niet-aanbevolen taken. Als u problemen ondervindt met de app, kunt u zien hoe u AEM-bureaublad [](troubleshoot-app-v1.md)problemen kunt oplossen.
 
 >[!NOTE]
+>
 >De AEM-bureaubladtoepassing werd geïntroduceerd in de release van AEM 6.1 en heet AEM Assets Companion App.
 
-## Aanraakpunten met de AEM Desktop-app in de creatieve workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## Aanraakpunten voor AEM-bureaubladtoepassingen in de creatieve workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 De app AEM Desktop integreert, samen met AEM Assets, in uw creatieve workflow en biedt de volgende aanraakpunten.
 
@@ -98,22 +91,39 @@ De toepassing ondersteunt proxyconfiguratie op Mac en Windows. De configuratie w
 
 ### Desktopacties inschakelen in AEM-webinterface {#desktopactions}
 
-Vanuit de interface Middelen in een browser kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden Desktophandelingen genoemd en worden niet standaard ingeschakeld. Voer de volgende stappen uit om deze in te schakelen.
+Vanuit de gebruikersinterface Middelen kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden desktophandelingen genoemd en worden niet standaard ingeschakeld. Voer de volgende stappen uit om deze in te schakelen.
 
-1. Klik of tik in de middelenconsole op het pictogram **Gebruiker** op de werkbalk.
-1. Klik of tik op het pictogram **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoogvenster weer te geven.
-1. Selecteer in het dialoogvenster Gebruikersvoorkeuren **[!UICONTROL Show Desktop Actions For Assets]**. Klik of tik op **[!UICONTROL Accept]**.
+1. Klik/tik op het gebruikerspictogram in de rechterbovenhoek van de werkbalk van de interface Middelen.
+1. Klik **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoogvenster weer te geven.
+
+   ![AEM-interface met gebruikersvoorkeuren](assets/aem_ui_user_preferences.png)
+
+1. Selecteer in het dialoogvenster Gebruikersvoorkeuren **[!UICONTROL Show Desktop Actions For Assets]**. Klik op **[!UICONTROL Accept]**.
 
    ![Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen](assets/chlimage_1-3.png)
 
-   Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen
+   *Afbeelding: Schakel Bureaubladhandelingen weergeven voor elementen in om de bureaubladacties in te schakelen.*
 
 ## Elementen openen en openen op uw bureaublad {#openondesktop}
+
+Wanneer u op **Openen** klikt om een element op de lokale computer te openen, wordt het element naar de interne cache gedownload. De app start de native bureaubladtoepassing die is gekoppeld aan het bestandstype van het gedownloade element.
+
+Selecteer op de Mac de optie **Openen** in het contextmenu om een element te openen via de AEM-bureaubladtoepassing. In Windows selecteert u Openen op web in het contextmenu om het element te openen. Klik/tik op het pictogram ![](assets/aemassets_icon_openondesktop.png) Openen op bureaublad in het venster Asset Status (Asset Status) om het element te openen.
+
+Selecteer voor Adobe InDesign-bestanden (INDD-bestanden) **[!UICONTROL Open]** in het contextmenu. Wanneer u op deze optie klikt, downloadt de app de gekoppelde middelen naar uw lokale bestandssysteem en wordt het INDD-bestand in Adobe InDesign geopend. Deze methode zorgt ervoor dat de benodigde elementen lokaal beschikbaar zijn wanneer u het INDD-bestand bewerkt.
+
+![Contextmenu-opties voor toegang tot en het openen van middelen met de AEM Desktop-app](assets/aem_desktopapp_mac_context_menu.png)
+
+*Afbeelding: Opties in contextmenu voor het openen en openen van middelen met de AEM-bureaubladtoepassing.*
 
 >[!NOTE]
 >In Windows voorkomt u met de [standaardinstelling](https://support.microsoft.com/en-us/kb/2668751) voor Windows 7 dat AEM-bureaubladtoepassingen elementen verwerken die groter zijn dan 50 MB.
 
-### De locatie van toegewezen elementen vanuit de AEM-webinterface onthullen {#reveal-the-location-of-mapped-assets-from-aem-web-interface}
+>[!NOTE]
+>
+>Adobe raadt u aan naar Opties voor Finder-weergave op Mac te gaan en de opties **Iteminformatie** tonen, Voorvertoning **van item** weergeven en Voorvertoningskolom **** tonen uit te schakelen voor de gekoppelde AEM-middelenmap. Het verbetert de prestaties.
+
+### Aanvullende opties in de AEM-interface {#additional-options-in-aem-assets}
 
 Nadat u de AEM Assets-opslagplaats aan uw lokale schijf hebt toegewezen, kunt u extra pictogrammen inschakelen en de functie Map uploaden weergeven voor de toegewezen elementen en mappen.
 
@@ -121,31 +131,17 @@ Nadat u de AEM Assets-opslagplaats aan uw lokale schijf hebt toegewezen, kunt u 
 
    ![Open in de gebruikersinterface Elementen het menu Snel handelen om acties op het bureaublad weer te geven](assets/chlimage_1-4.png)
 
-   Open in de gebruikersinterface Elementen het menu Snel handelen om acties op het bureaublad weer te geven
+   *Afbeelding: Open in de interface Elementen het menu Handelingen Snel om acties op het bureaublad weer te geven.*
 
-   Deze acties zijn ook beschikbaar als u op het pictogram **Bureaubladhandelingen** op de werkbalk klikt of tikt nadat u het element of de werkbalk op de elementpagina hebt geselecteerd.
+   Deze acties zijn ook beschikbaar als u op het pictogram **Bureaubladhandelingen** op de werkbalk klikt nadat u het element of de werkbalk op de elementpagina hebt geselecteerd.
 
 1. Als u het element wilt openen in de bureaubladtoepassing die is gekoppeld aan de specifieke bestandsextensie, klikt of tikt u op de actie **Openen op bureaublad** , snel op het pictogram ![](assets/aemassets_icon_openondesktop.png)Openen op bureaublad.
 
    U kunt ook **Openen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
 
-1. Klik of tik op het pictogram **Snelle actie** onthullen ![](assets/aemassets_reveal_icon.png) om het specifieke element op uw lokale bestandssysteem te zoeken.
+Als u het specifieke element op uw lokale bestandssysteem wilt zoeken, klikt u op **Snel optreden** onthullen ![](assets/aemassets_reveal_icon.png). U kunt ook **Tonen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
 
-   U kunt ook **Tonen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
-
-### AEM-elementen openen vanuit de Finder of de Explorer {#open-aem-assets-from-the-finder-or-the-explorer}
-
-Selecteer op de Mac de optie Openen in het contextmenu om een element te openen via AEM Desktop.
-
-Selecteer voor Adobe InDesign-bestanden (INDD-bestanden) **[!UICONTROL Open]** in het contextmenu. Wanneer u op deze optie klikt, downloadt de app de gekoppelde middelen naar uw lokale bestandssysteem en wordt het INDD-bestand in Adobe InDesign geopend. Deze methode zorgt ervoor dat de benodigde elementen lokaal beschikbaar zijn wanneer u het INDD-bestand bewerkt.
-
-In Windows selecteert u Openen op web in het contextmenu om het element te openen. Klik/tik op het pictogram ![](assets/aemassets_icon_openondesktop.png) Openen op bureaublad in het venster Asset Status (Asset Status) om het element te openen.
-
-![Contextmenu-opties voor toegang tot en het openen van middelen met de AEM Desktop-app](assets/aem_desktopapp_mac_context_menu.png)
-
-Contextmenu-opties voor toegang tot en het openen van middelen met de AEM Desktop-app
-
-### De status van elementen begrijpen {#understand-the-asset-statuses}
+## De status van elementen begrijpen {#understand-the-asset-statuses}
 
 | ![Standaardpictogram Windows-app](assets/win_default.png) | De toepassing is verbonden met de server en alle elementen zijn gesynchroniseerd. |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -181,7 +177,7 @@ Er zijn twee manieren om elementen uit de AEM-webinterface te controleren. Voor 
 1. Selecteer de menuoptie Openen. De geselecteerde elementen worden geopend in de voorvertoningsmodus.
 1. Selecteer de optie Bewerken om de elementen te bewerken. De elementen worden geopend in de bewerkingsmodus.
 
-### Elementen uitchecken op de Mac {#check-out-assets-on-mac}
+### Elementen uitchecken vanuit Finder in Mac OS {#check-out-assets-on-mac}
 
 Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruikers de bestanden waaraan u werkt, kunnen wijzigen.
 
@@ -219,19 +215,17 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 1. Controleer het element in Verkenner. Het vergrendelingspictogram op het ![middelenvergrendelingspictogram](assets/aemassets_icon_lockcheckout.png) geeft aan dat u het element hebt uitgecheckt.
 
    >[!NOTE]
-   >Het slotpictogram kan na een paar minuten vertraging verschijnen. De AEM Desktop-app slaat de middelen in de cache op zodat het even kan duren voordat de vergrendelde status wordt bijgewerkt.
+   >Het slotpictogram kan na wat vertraging verschijnen. De AEM-bureaubladtoepassing slaat de elementen in cache op zodat het even kan duren voordat de vergrendelde status wordt bijgewerkt.
 
 1. Als u het element wilt inchecken zodat het beschikbaar is voor andere gebruikers, klikt of tikt u op het incheckpictogram in het dialoogvenster **Elementinfo** .
 
 ### Middelen inchecken met Finder of Explorer en webinterface gebruiken {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
-Wanneer u klaar bent met het bewerken van de elementen, slaat u de elementen op in uw bureaubladtoepassing. Selecteer Meer informatie over elementen in het contextmenu en klik of tik op Inchecken.
+Wanneer u klaar bent met het bewerken van de elementen, slaat u de elementen op in uw bureaubladtoepassing. Selecteer **Meer informatie over** elementen in het contextmenu en klik op Inchecken.
 
-De elementen worden geüpload naar de AEM-server. U kunt desgewenst de status van de upload controleren door Asset Status weergeven te selecteren in het taakbalkpictogram.
+De elementen worden geüpload naar de AEM-server. U kunt desgewenst de status van de upload controleren door Asset Status **** weergeven te selecteren in het systeemvakpictogram. U kunt een element ook inchecken via de AEM-webinterface. Klik op de uitgecheckte elementen of selecteer deze. Klik in de werkbalk op het pictogram voor het ![inchecken van het pictogram](assets/aemassets_icon_checkin.png).
 
-![Statusvenster voor bestandsoverdracht en uploaden van AEM Desktop](assets/aem_desktopapp_upload_status.png)
-
-U kunt een element ook inchecken via de AEM-webinterface. Klik of tik op de uitgecheckte elementen of selecteer deze. Klik/tik op het pictogram voor het ![inchecken van het pictogram](assets/aemassets_icon_checkin.png)op de werkbalk.
+Middelen worden automatisch naar AEM geüpload nadat eventuele wijzigingen lokaal zijn opgeslagen. Met het inchecken kunt u het element ter beschikking stellen van andere AEM-gebruikers voor bewerking.
 
 ### Elementen en mappen uploaden in bulk naar AEM-server {#bulkupload}
 
@@ -250,13 +244,13 @@ Met AEM Desktop kunt u een volledige map met elementen uit uw lokale bestandsmap
 
 1. Nadat de map is geüpload, sluit u het dialoogvenster en gaat u naar de interface Middelen. De geüploade map wordt weergegeven in de webinterface.
 
-Houd er rekening mee dat het *niet wordt aanbevolen* om een groter aantal bestanden/geneste mappen van uw lokale schijf in Finder of Explorer te kopiëren en te plakken of te slepen naar het gedeelde netwerkgebied dat wordt toegewezen door de AEM-bureaubladtoepassing. Deze map is veel minder betrouwbaar dan de hierboven beschreven functie Map uploaden.
+Adobe raadt u niet aan om een groter aantal bestanden of geneste mappen vanuit het lokale bestandssysteem naar het gedeelde netwerkgebied te kopiëren en te plakken. De toepassing kan het uploadproces niet beheren vanwege technische beperkingen en de prestaties zijn slecht.
 
-Als u liever op het bureaublad werkt, selecteert u bestanden/mappen die u naar AEM wilt uploaden in Finder of Explorer, kopieert u deze naar het systeemklembord, navigeert u naar de doelmap in het gebied voor delen van het netwerk en selecteert u in het contextmenu van de AEM-bureaubladtoepassing de optie Middelen plakken. Op deze manier begint de AEM-bureaubladtoepassing met het uploaden van de geplakte middelen, vergelijkbaar met de hierboven beschreven Upload-map.
+U kunt ook bestanden/mappen selecteren die u naar AEM wilt uploaden in Finder of Explorer, deze kopiëren naar het systeemklembord, naar de doelmap navigeren in het gebied voor delen van het netwerk en in het contextmenu van de AEM-bureaubladtoepassing de optie Elementen **** plakken selecteren. Op deze manier begint de AEM-bureaubladtoepassing met het uploaden van de geplakte elementen, vergelijkbaar met de optie Map **** uploaden die beschikbaar is in de AEM-webinterface.
 
 >[!MORELIKETHIS]
 >
 >* [Inleiding tot AEM-bureaubladtoepassing](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 >* [Inchecken/uitchecken begrijpen met AEM-bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
->* [Problemen met AEM Desktop-toepassing oplossen](troubleshoot-app-v1.md)
+>* [Problemen met AEM-bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
 
