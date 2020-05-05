@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: aca68b0c2eb363e33c8a6edec2370758124a4b9e
+source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
 
 ---
 
@@ -75,7 +75,7 @@ De opgeloste problemen en updates zijn:
 * Correctie van het probleem met het uploaden van middelen wanneer bestandsnamen of paden bepaalde GB18030-tekens bevatten. <!-- CQ-4283494 -->
 * De optie Sorteren op relevantie is beschikbaar na het schakelen naar een ander type in de zoekresultaten. <!-- CQ-4286874 -->
 * Desktop app geeft nu submappen weer zonder dat deze expliciet hoeven te worden vernieuwd. <!-- CQ-4285711 -->
-* (Windows) Probleem met onbruikbare toepassingsinterface op sommige Windows-computers is opgelost. Gebruikers kunnen niet op de interface van de app klikken omdat deze vervormd lijkt te zijn doordat het klikgebied van interface-elementen zijdelings wordt &#39;verplaatst&#39;. <!-- CQ-4280785 -->
+* (Windows) Probleem met onbruikbare toepassingsinterface op sommige Windows-computers is opgelost. Gebruikers kunnen niet op de toepassingsinterface klikken omdat deze vervormd lijkt te zijn met het klikgebied van interface-elementen &#39;verschoven&#39; zijwaarts. <!-- CQ-4280785 -->
 
 **Updates in app v2.0.1**
 
