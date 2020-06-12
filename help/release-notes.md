@@ -10,9 +10,9 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 De bureaubladtoepassing van de Adobe Experience Manager is compatibel met de volgende besturingssystemen:
 
-* Mac OS X 10.10 of hoger, met de meest recente opgeloste problemen.
+* Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
 * Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
 De app werkt met de volgende versies van Experience Manager, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
