@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing
-description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor de desktop-app Adobe Experience Manager.
+title: Opmerkingen bij de release van Adobe Experience Manager-bureaublad
+description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor Adobe Experience Manager desktop app.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -10,45 +10,48 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 63cb82b6bdafeb87d296a895d68cb3912045839a
+source-git-commit: 2e634c13ef1bcb0cd1868100f5a2d7cb20c189be
+workflow-type: tm+mt
+source-wordcount: '1318'
+ht-degree: 3%
 
 ---
 
 
-# Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing {#release-notes-v2}
+# Opmerkingen bij de release van Adobe Experience Manager-bureaublad {#release-notes-v2}
 
 | Producten | Adobe Experience Manager-bureaubladtoepassing |
 |----|----|
 | Toepassingsversie (revisie) | 2.0 (2.0.2.0) |
-| Ondersteunde AEM-versies | AEM als cloudservice; AEM 6.5; AEM 6.4; AEM 6.3 (met compatibiliteitspakket) |
+| Ondersteunde AEM-versies | AEM als Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
 | Releasedatum | 15 apr. 2020 (Mac en Windows) |
 | URL&#39;s downloaden | [macOS 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
-De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende besturingssystemen:
+De bureaubladtoepassing van de Adobe Experience Manager is compatibel met de volgende besturingssystemen:
 
 * Mac OS X 10.10 of hoger, met de meest recente opgeloste problemen.
 * Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
-De app werkt met de volgende versies van Experience Manager, ongeacht of deze als cloudservice zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
+De app werkt met de volgende versies van Experience Manager, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
-* [Experience Manager 6.5.0+](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) of hoger
-* [Experience Manager 6.4.4+](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of hoger
+* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) of hoger
+* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of hoger
 * Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
->Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt u aan een upgrade uit te voeren naar een nieuwere en ondersteunde versie van Adobe Experience Manager.
+>Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt u aan een upgrade uit te voeren naar een nieuwere en ondersteunde versie van de Adobe Experience Manager.
 >Experience Manager 6.3.3.1 of hoger werkt met de bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)is geïnstalleerd. Geen dergelijk pakket is beschikbaar voor de Manager van de Ervaring 6.3 aangezien geen [de dienstpakken worden gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke serverversie van Adobe Experience Manager/aanvullende servercomponenten (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de beheerder van Adobe Experience Manager voor hulp.
+Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke versie van de Adobe Experience Manager-server/aanvullende serveronderdelen (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de beheerder van de Adobe Experience Manager voor hulp.
 
 ### Ondersteuning voor verschillende elementen en bestandstypen {#support-for-file-types}
 
-De toepassing ondersteunt elementen die zijn opgeslagen in Adobe Experience Manager en die binaire bestanden vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
+De toepassing ondersteunt elementen die zijn opgeslagen in Adobe Experience Manager en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
 
 Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de gegevensopslagruimte van Experience Manager wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
 
@@ -82,7 +85,7 @@ De opgeloste problemen en updates zijn:
 De opgeloste problemen en updates zijn:
 
 * Optie toestaan om `%Temp%` directory zo te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
-* Gebruikers kunnen zich aanmelden bij AEM-auteur via Okta SAML-verificatie. <!-- CQ-4278134 -->
+* Gebruikers kunnen zich aanmelden bij AEM Author via Okta SAML-verificatie. <!-- CQ-4278134 -->
 
 ## Installatie-instructies {#installation-instructions-v2}
 
@@ -99,7 +102,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
    * Als u lokale wijzigingen in elementen wilt uploaden naar AEM, moet u deze afzonderlijk selecteren [!UICONTROL Upload Changes]of via meerdere selecties.
    * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en in AEM.
    * De toepassing biedt geen netwerkshare waarmee de AEM-opslagruimte wordt toegewezen als een virtuele mapstructuur.
-* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de AEM Assets-opslagplaats. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
+* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de gegevensopslagruimte van AEM Assets. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
 * Als de app de verwachte resultaten niet weergeeft, klikt u op het pictogram Vernieuwen in de bovenste balk.
 * Het lokale netwerkaandeel, dat wordt getoond wanneer u [!UICONTROL Reveal File] actie gebruikt, toont slechts dossiers (en omslagen) die plaatselijk beschikbaar zijn. [!UICONTROL Reveal File] en [!UICONTROL Reveal Folder] downloadt vooraf middelen helpen de juiste activa krijgen die in het lokale netwerkaandeel tonen.
 * Het lokale netwerkaandeel van SMB (Mac) /WebDAV (Win) wordt gebruikt wanneer een Adobe Creative Cloud-app de elementbestanden leest die zijn gekoppeld aan of geplaatst in een native bestand van de Creative Cloud-app.
@@ -124,13 +127,13 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 * Wanneer u wijzigingen uploadt naar een element met opmerkingen, worden de opmerkingen opgeslagen met het element in AEM, maar zijn ze niet zichtbaar als opmerkingen over versies. Dit probleem is opgelost in AEM 6.4.5 en AEM 6.5.1. Adobe raadt u ten zeerste aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
 * De overdracht van middelen kan niet door de gebruiker worden geannuleerd. Als u een onbedoelde grote overdracht hebt geactiveerd, sluit u de toepassing af en start u de toepassing opnieuw. <!-- CQ-4278940 -->
 
-**Platformproblemen:**
+**Problemen met Platform:**
 
 * Soms kan in Windows de status van een element direct veranderen in [!UICONTROL Edited Locally] nadat het is geopend, ook al hebt u het wellicht niet bewerkt. Klik [!UICONTROL Refresh] om bij te werken.
 
 >[!MORELIKETHIS]
 >
->* [AEM als documentatie van de Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+>* [AEM als documentatie over Cloud Servicen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 >* [AEM als documentatie over Cloud Service Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager-bureaubladtoepassing gebruiken](using.md)
 >* [Desktop-app installeren en upgraden](install-upgrade.md)
