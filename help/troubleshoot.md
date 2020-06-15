@@ -1,5 +1,5 @@
 ---
-title: Aanbevolen werkwijzen voor en probleemoplossing voor de Adobe Experience Manager-bureaubladtoepassing
+title: Aanbevolen werkwijzen voor en probleemoplossing voor Adobe Experience Manager desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
@@ -9,14 +9,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a18aa9c3dad8802c3de929ba4ebb1a1583b47165
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 0%
 
 ---
 
 
-# Problemen met de bureaubladtoepassing van Adobe Experience Manager oplossen {#troubleshoot-v2}
+# Problemen met bureaubladtoepassing van Adobe Experience Manager oplossen {#troubleshoot-v2}
 
-De bureaubladtoepassing Adobe Experience Manager (AEM) maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een externe Experience Manager. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden voor het beheren van conflicten met de gebruikersinterface van AEM Assets.
+De AEM-bureaubladtoepassing (Adobe Experience Manager) maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een externe Experience Manager-implementatie. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden om conflicten met de gebruikersinterface van AEM Assets te beheren.
 
 Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de beperkingen uit te zoeken.
 
@@ -24,23 +27,23 @@ Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
-* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u even weten hoe de app werkt. Weet hoe u een koppeling tot stand brengt tussen de webinterface van Experience Manager en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van bedrijfsmiddelen, het lokaal opslaan en uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
+* **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u even weten hoe de app werkt. U weet hoe u een koppeling tot stand brengt tussen de Experience Manager-webinterface en desktop, de toewijzing van opslagruimten, het in cache plaatsen van elementen, lokaal opslaan en uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
 
-* **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen witruimten en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in [Mappen maken in Experience Manager-elementen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Bepaalde Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
+* **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens bij [Mappen maken in Experience Manager Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders). Sommige gevallen waarin Adobe Experience Managers worden gebruikt, kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
 
 * **Tips en trucs om conflicten** te voorkomen: Zie [Bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomen om potentiële conflicten te voorkomen wanneer u samenwerkt met meerdere elementen.
 
-* **Mapupload gebruiken voor grote, hiërarchische mappen**: Gebruik in plaats van de webinterface Middelen of andere methoden de bureaubladtoepassing Experience Manager om grote mappen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [bulkuploadmiddelen](using.md#bulk-upload-assets).
+* **Mapupload gebruiken voor grote, hiërarchische mappen**: Gebruik in plaats van de webinterface Middelen of andere methoden de Experience Manager-bureaubladtoepassing om grote mappen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [bulkuploadmiddelen](using.md#bulk-upload-assets).
 
-* **Gebruik de nieuwste versie**: Gebruik de nieuwste app-versie en controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade uitvoert naar een nieuwere versie van Adobe Experience Manager. Zie [opmerkingen bij](release-notes.md)de release.
+* **Gebruik de nieuwste versie**: Gebruik de nieuwste app-versie en controleer altijd of de toepassing compatibel is voordat u een nieuwe app-versie installeert of voordat u een upgrade uitvoert naar een nieuwere Adobe Experience Manager-versie. Zie [opmerkingen bij](release-notes.md)de release.
 
-* **Dezelfde stationsletter** gebruiken: Gebruik dezelfde stationsletter in een organisatie om deze toe te wijzen aan Adobe Experience Manager DAM. Als u elementen wilt zien die door andere gebruikers zijn geplaatst, moeten de paden gelijk zijn. Als u dezelfde stationsletter gebruikt, hebt u een constant pad naar DAM-middelen. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
+* **Dezelfde stationsletter** gebruiken: Gebruik de zelfde aandrijvingsbrief over een organisatie om aan de Adobe Experience Manager DAM in kaart te brengen. Als u elementen wilt zien die door andere gebruikers zijn geplaatst, moeten de paden gelijk zijn. Als u dezelfde stationsletter gebruikt, hebt u een constant pad naar DAM-middelen. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
 
-* **Denk aan het netwerk**: Netwerkprestaties zijn van essentieel belang voor de prestaties van de Desktop-app van Experience Manager. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
+* **Denk aan het netwerk**: Netwerkprestaties zijn essentieel voor de prestaties van de Experience Manager-bureaubladtoepassing. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
 
 * **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
 
-* **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen de Experience Manager-server en de desktop-app verbreekt na een vast tijdsinterval. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
+* **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen Experience Manager-server en desktop-app na een vast tijdsinterval verbreekt. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
 ## Hoe te om problemen op te lossen {#troubleshooting-prep}
 
