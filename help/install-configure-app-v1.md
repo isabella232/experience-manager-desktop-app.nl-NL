@@ -1,6 +1,6 @@
 ---
 title: AEM-bureaubladtoepassing versie 1.x installeren en configureren
-description: Installeer en configureer AEM desktop app versie 1.x voor gebruik met AEM Assets-servers en wijs de middelen toe voor montage als een station op uw bureaublad.
+description: Installeer en configureer AEM desktop app versie 1.x om te werken met AEM Assets-servers en wijs de middelen toe die als een station op uw bureaublad moeten worden gemonteerd.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,7 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
+source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+workflow-type: tm+mt
+source-wordcount: '992'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 68cc5ee80aa12c08b48098ad666ca694b843405a
 
 Met de AEM-bureaubladtoepassing zijn de middelen in AEM gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Middelen kunnen eenvoudig worden weergegeven in Mac Finder of Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in AEM wanneer u uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
 
-Dankzij een dergelijke integratie kunnen verschillende functies in de organisatie de middelen centraal beheren in AEM Assets en deze openen in Creative Cloud en andere toepassingen, terwijl het eenvoudig wordt om aan de verschillende standaarden, waaronder branding, te voldoen.
+Dankzij een dergelijke integratie kunnen verschillende functies in de organisatie de middelen centraal beheren in AEM Assets en deze openen in Creative Cloud en andere toepassingen, terwijl u zich eenvoudig aan de verschillende normen kunt houden, waaronder branding.
 
 Om AEM-bureaubladtoepassing te gebruiken,
 
@@ -44,7 +47,7 @@ Wanneer u een bestand wijzigt van een netwerklocatie die is gekoppeld door de bu
 
 In de tweede fase wordt het bijgewerkte bestand na een vooraf gedefinieerde vertraging (bijvoorbeeld dertig jaar) geüpload naar de AEM-server. Deze bewerking vindt plaats op de achtergrond. Met de optie Asset Status weergeven kunt u de status van de uploadbewerking weergeven.
 
-1. Een element uploaden naar AEM-elementen.
+1. Een element uploaden naar AEM Assets.
 1. Klik/tik op het pictogram van de AEM-bureaubladtoepassing op de werkbalk.
 1. Selecteer in het menu de optie Asset Status weergeven.
 1. Controleer in het dialoogvenster de status van de uploadbewerking.
@@ -75,7 +78,7 @@ Als u de instellingen van de proxyserver voor Windows configureert of wijzigt (I
 >
 >Proxyconfiguratie wordt alleen toegepast wanneer u de bureaubladtoepassing start. Sluit de app en start de app opnieuw om de wijzigingen door te voeren.
 
-Als voor uw proxy verificatie is vereist, kan het IT-team de URL van de AEM-middelen in de instellingen van de proxyserver weergeven, zodat het toepassingsverkeer kan worden doorgegeven.
+Als voor uw proxy verificatie is vereist, kan het IT-team toestaan dat de URL van Experience Manager Assets in de instellingen van de proxyserver het toepassingsverkeer doorgeeft.
 
 ## Het dialoogvenster Elementinfo aanpassen {#customize-the-asset-info-dialog}
 
@@ -94,7 +97,7 @@ In Mac OS X bevindt zich een vergelijkbare map `~/Library/Group Containers/group
 
 ### Optie voor in-app beheren van cache {#in-app-option-to-manage-cache}
 
-U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de server van Activa AEM worden in het voorgeheugen ondergebracht voor een vlottere ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Als u de gewenste opties wilt instellen, klikt u op het pictogram van de toepassing en klikt u op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
+U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de server van AEM Assets worden in het voorgeheugen onder gebracht voor een vlottere ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Als u de gewenste opties wilt instellen, klikt u op het pictogram van de toepassing en klikt u op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -112,7 +115,7 @@ De standaardlocatie van de cache voor de AEM-bureaubladtoepassing is:
 Als u de toepassing wilt laten verwijzen naar een andere map of een ander station, bewerkt u het configuratiebestand van de toepassing.
 
 1. Navigeer naar de installatiemap van de app. De standaardlocatie in Windows is `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop`.
-1. Bewerk het bestand Desktop.exe.config van Adobe Experience Manager met een teksteditor.
+1. Bewerk het bestand Adobe Experience Manager Desktop.exe.config met een teksteditor.
 
    Beheerdersrechten zijn vereist om wijzigingen in dit bestand op te slaan.
 
@@ -126,6 +129,6 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
 * [Inleiding tot AEM-bureaubladtoepassing](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
 * [AEM-bureaubladtoepassing gebruiken](use-app-v1.md)
 * [Inchecken/uitchecken begrijpen met AEM-bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [Desktop-app gebruiken met AEM-middelen](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
+* [Desktop-app gebruiken met AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 * [Problemen met de AEM-bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
 
