@@ -11,10 +11,10 @@ mini-toc-levels: 1
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.nl-NL
 index: y
 translation-type: tm+mt
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+source-git-commit: e9a59807d48ea2d8619d3b03255c4291fca85138
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 5%
+source-wordcount: '155'
+ht-degree: 8%
 
 ---
 
@@ -25,17 +25,17 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 
 | metadata | wat het doet |
 |--- |--- |
-| titel oplossing | Gebruikt in artikelkoptekst als koppeling |
-| oplossing-hub-url | Opent de pagina van de steunhub |
-| oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
-| aan de slag-url | Koppeling naar de pagina Aan de slag |
-| zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
-| mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
-| git-repo | Hiermee wordt de locatie van het primaire repo voor intern gebruik opgegeven |
+| titel oplossing | Wordt gebruikt in de artikelkop als koppeling. |
+| oplossing-hub-url | Hiermee opent u de overzichtspagina van de hub Learn and Support. |
+| oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd. |
+| aan de slag-url | Koppeling naar de pagina Aan de slag. |
+| zelfstudies-url | Koppeling maken naar de videozelfstudies. |
+| mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. De standaardwaarde is 2. |
+| git-repo | Hiermee geeft u de locatie op van het hoofdrapport voor intern gebruik. |
 
 In bestand TOC.md
 
 | metadata | wat het doet |
 |--- |--- |
-| user-guide-title | Gebruikt in artikelkoptekst als koppeling |
-| gebruikershandleiding-url | Opent helpx-hubpagina |
+| user-guide-title | Wordt gebruikt in de artikelkop als koppeling. |
+| gebruikershandleiding-url | Hiermee opent u de overzichtspagina van de hub Learn and Support. |
