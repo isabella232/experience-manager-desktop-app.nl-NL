@@ -10,9 +10,9 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a7a803edce0b6300b4a4142dcdc2f61d8347acea
+source-git-commit: eda366b969edb3c266ae8a5900ea7c0409846db0
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1326'
 ht-degree: 3%
 
 ---
@@ -35,17 +35,17 @@ De bureaubladtoepassing van de Adobe Experience Manager is compatibel met de vol
 * Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
 * Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
-De app werkt met de volgende versies van Experience Manager, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
+De app werkt met de volgende Experience Manager-versies, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
 * [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
 * [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) of hoger
 * [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of hoger
-* Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
+* Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)
 
 >[!NOTE]
 >
 >Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt u aan een upgrade uit te voeren naar een nieuwere en ondersteunde versie van de Adobe Experience Manager.
->Experience Manager 6.3.3.1 of hoger werkt met de bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)is geïnstalleerd. Geen dergelijk pakket is beschikbaar voor de Manager van de Ervaring 6.3 aangezien geen [de dienstpakken worden gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>Experience Manager 6.3.3.1 of hoger werkt na installatie van het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)met de bureaubladtoepassing. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke versie van de Adobe Experience Manager-server/aanvullende serveronderdelen (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de beheerder van de Adobe Experience Manager voor hulp.
 
@@ -53,18 +53,18 @@ Voor de versie van de app die u op uw lokale computer wilt installeren, is een s
 
 De toepassing ondersteunt elementen die zijn opgeslagen in Adobe Experience Manager en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
 
-Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de gegevensopslagruimte van Experience Manager wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
+Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de Experience Manager-opslagplaats wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
 
 * Adobe InDesign-bestanden (INDD-indeling)
 * Adobe Illustrator-bestanden (AI-indeling)
 * Adobe Photoshop-bestanden (PS-indeling)
 
-Deze functie wordt ondersteund door de Adobe Creative Cloud 2018- en Adobe Creative Cloud 2019-versies van de bovenstaande toepassing. De app gebruikt een heuristische, best-match benadering om de lokale Desktopwegen van verbonden activa aan URLs op de server van de Manager van de Ervaring in kaart te brengen. Het steunt op een paar veronderstellingen:
+Deze functie wordt ondersteund door de Adobe Creative Cloud 2018- en Adobe Creative Cloud 2019-versies van de bovenstaande toepassing. De app gebruikt een heuristische, best-match benadering om de lokale bureaubladpaden van gekoppelde elementen toe te wijzen aan URL&#39;s op de Experience Manager-server. Het steunt op een paar veronderstellingen:
 
 * Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een algemeen desktoppad (geplaatst vanuit het lokale netwerkaandeel dat met de [!UICONTROL Reveal] optie wordt weergegeven).
 * Paden worden door de native toepassing in de XMP-record van het bestand opgeslagen.
 * Experience Manager heeft de XMP-record geëxtraheerd met de paden naar de metagegevensrecord van het element.
-* De paden kunnen worden gekoppeld aan elementen in Experience Manager. De geplaatste bestanden worden dus ook in Experience Manager geplaatst onder een overeenkomstig pad.
+* De paden kunnen worden afgestemd op elementen in Experience Manager, dat wil zeggen dat de geplaatste bestanden zich ook in Experience Manager bevinden onder een overeenkomend pad.
 
 ## Nieuwe en verbeterde functies {#whats-new-added}
 
@@ -89,9 +89,9 @@ De opgeloste problemen en updates zijn:
 
 ## Installatie-instructies {#installation-instructions-v2}
 
-Zie Experience Manager-bureaubladtoepassing [](install-upgrade.md)installeren en configureren.
+Zie Experience Manager-bureaubladtoepassing [](install-upgrade.md)installeren en configureren voor informatie over het installeren en configureren van de app.
 
-Als u een upgrade uitvoert van een eerdere Experience Manager-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden vermeld bij een [upgrade van de vorige versie](install-upgrade.md#upgrade-from-previous-version).
+Als u een upgrade uitvoert van een eerdere Experience Manager-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden weergegeven bij een [upgrade van de vorige versie](install-upgrade.md#upgrade-from-previous-version).
 
 ## Belangrijke informatie over hoe de app werkt {#how-app-works}
 
