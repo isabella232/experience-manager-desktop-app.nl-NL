@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
+source-git-commit: 9954d0b290c4e1071a6068be4f858b29d26dc712
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Denk aan het netwerk**: Netwerkprestaties zijn essentieel voor de prestaties van de Experience Manager-bureaubladtoepassing. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
 
-* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
+* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app niet voor de migratie van middelen (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud-bureaubladsynchronisatie).
 
 * **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen Experience Manager-server en desktop-app na een vast tijdsinterval verbreekt. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om de foutopsporingsmodus in Windows in te schakele
 
 1. Zoek het `logging.json` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Zoek in `logging.json` het bestand alle exemplaren van `"level": "info"`. Wijzig de waarden van `info` naar `debug`. Sla het bestand op en sluit het.
+1. Zoek in `logging.json` het bestand alle exemplaren van `"level": "info"`. Wijzig de waarden van `info` naar `debug`, dat wil zeggen `"level": "debug"`. Sla het bestand op en sluit het.
 
 1. Wis de mappen in de cache die zich bevinden op de locatie die is ingesteld in de [voorkeuren](/help/install-upgrade.md#set-preferences)van de toepassing.
 
