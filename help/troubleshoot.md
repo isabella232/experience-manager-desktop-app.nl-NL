@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0049a67503e476ac03f039942c3849509a085c5b
+source-git-commit: 4e2926adfe46265c78f85b63696c98859f895134
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -55,15 +55,15 @@ Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer
 
 Voer de volgende stappen uit om de foutopsporingsmodus in Windows in te schakelen:
 
-1. Zoek het `Adobe Experience Manager Desktop.exe.config` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`. Sla het bestand op en sluit het.
+1. Zoek het `Adobe Experience Manager Desktop.exe.config` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
 
-1. Ga naar `<level value="INFO"/>` het einde van het bestand. Wijzig de waarde in `DEBUG`, dat wil zeggen `<level value="DEBUG"/>`.
+1. Ga naar `<level value="INFO"/>` het einde van het bestand. Wijzig de waarde van `INFO` in `DEBUG`, namelijk `<level value="DEBUG"/>`. Sla het bestand op en sluit het.
 
 1. Zoek het `logging.json` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
 
-1. Zoek in `logging.json` het bestand alle instanties van de `level` parameter. Wijzig de waarden van `info` naar `debug`. Sla het bestand op en sluit het.
+1. Zoek in `logging.json` het bestand alle exemplaren van `"level": "info"`. Wijzig de waarden van `info` naar `debug`. Sla het bestand op en sluit het.
 
-1. Wis de mappen in de cache die zich bevinden op de locatie die is ingesteld in de voorkeuren voor de app.
+1. Wis de mappen in de cache die zich bevinden op de locatie die is ingesteld in de [voorkeuren](/help/install-upgrade.md#set-preferences)van de toepassing.
 
 1. Start de bureaubladtoepassing opnieuw.
 
