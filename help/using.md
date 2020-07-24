@@ -1,28 +1,31 @@
 ---
 title: Adobe Experience Manager-bureaubladtoepassing gebruiken
-description: Leer hoe u de Adobe Experience Manager-bureaubladtoepassing installeert en gebruikt, zodat u direct vanaf uw Win- of Mac-bureaublad met Adobe Experience Manager DAM-middelen kunt werken. Kennis van de beste praktijken en het oplossen van problemeninformatie.
+description: Leer hoe u Adobe Experience Manager desktop app installeert en gebruikt, om direct vanaf uw Win- of Mac-desktop aan Adobe Experience Manager DAM-middelen te werken. Kennis van de beste praktijken en het oplossen van problemeninformatie.
 uuid: 55057617-89de-43cd-8419-1252a42ab2fb
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b92e47456f9e16c24eac43d1c5fef9a582f143b5
+source-git-commit: 27cc0ba26622016ce82b758fb0607652176f6992
+workflow-type: tm+mt
+source-wordcount: '3995'
+ht-degree: 0%
 
 ---
 
 
 # Adobe Experience Manager-bureaubladtoepassing gebruiken {#use-aem-desktop-app-v2}
 
-Met de Adobe Experience Manager (AEM)-bureaubladtoepassing hebt u eenvoudig toegang tot de Adobe Experience Manager DAM-middelen op uw lokale bureaublad en kunt u deze middelen gebruiken in alle bureaubladtoepassingen. U kunt de middelen in Desktoptoepassingen openen en de activa plaatselijk uitgeven - upload de veranderingen terug naar de Manager van de Ervaring met versiecontrole, om de updates met andere gebruikers te delen. U kunt ook nieuwe bestanden en maphiërarchieën uploaden naar Experience Manager, mappen maken en elementen of mappen verwijderen uit Experience Manager DAM.
+Gebruik de AEM-bureaubladtoepassing (Adobe Experience Manager) om eenvoudig toegang te krijgen tot de Adobe Experience Manager DAM-middelen op uw lokale bureaublad en deze middelen te gebruiken in alle bureaubladtoepassingen. U kunt de middelen in Desktoptoepassingen openen en de activa plaatselijk uitgeven - upload de veranderingen terug naar Experience Manager met versiecontrole, om de updates met andere gebruikers te delen. U kunt ook nieuwe bestanden en maphiërarchieën uploaden naar Experience Manager, mappen maken en elementen of mappen verwijderen uit Experience Manager DAM.
 
-Dankzij de integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in de middelen van Experience Manager en hebben ze toegang tot de middelen op het lokale bureaublad in de systeemeigen toepassingen op Windows of Mac OS.
+Dankzij deze integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in Experience Manager Assets en toegang krijgen tot de middelen op het lokale bureaublad in de native toepassingen op Windows of Mac OS.
 
-Wanneer u de toepassing opent nadat u zich hebt afgemeld of voor het eerst, geeft u de URL van de server van Experience Manager op. Klik op Verbinding maken. Geef uw referenties op om de toepassing te verbinden met de server.
+Wanneer u de toepassing opent na het afmelden of voor het eerst, geef dan de URL van uw Experience Manager-server op. Klik op Verbinding maken. Geef uw referenties op om de toepassing te verbinden met de server.
 
 De belangrijkste taken die u uitvoert met de Experience Manager-bureaubladtoepassing zijn:
 
-![Workflows en taken die u kunt uitvoeren met Experience Manager-bureaublad](assets/aem_desktop_app_usecases_v2.png "appWorkflows en taken die u kunt uitvoeren met de Adobe Experience Manager-bureaubladtoepassing")Download [dit](assets/aem_desktop_app_usecases_print.pdf) PDF-bestand dat klaar is voor afdrukken.
+![Workflows en taken die u kunt uitvoeren met [!DNL Experience Manager] desktop](assets/aem_desktop_app_usecases_v2.png "appWorkflows en taken die u kunt uitvoeren met de bureaubladtoepassing")Adobe Experience ManagerDit [PDF-bestand voor afdrukken kunt u](assets/aem_desktop_app_usecases_print.pdf) downloaden.
 
 ## Hoe desktop app werkt {#how-app-works2}
 
@@ -30,11 +33,11 @@ Voordat u de toepassing gaat gebruiken, moet u weten [hoe de app werkt](release-
 
 * **[!UICONTROL Desktop Actions]**: Vanuit de webinterface Middelen kunt u vanuit een browser de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw native desktoptoepassing. Deze acties zijn beschikbaar via de webinterface en gebruiken de functionaliteit van de bureaubladtoepassing. Zie [hoe u Desktophandelingen](using.md#desktopactions-v2)kunt inschakelen.
 
-* Bestandsstatus is **[!UICONTROL Cloud Only]**: Dergelijke middelen worden niet op de lokale computer gedownload en zijn alleen beschikbaar op de server van Experience Manager.
+* Bestandsstatus is **[!UICONTROL Cloud Only]**: Dergelijke middelen worden niet op de lokale computer gedownload en zijn alleen beschikbaar op de Experience Manager-server.
 
 * Bestandsstatus is **[!UICONTROL Available locally]**: De middelen worden gedownload en beschikbaar op de lokale computer zoals is. De elementen worden niet gewijzigd.
 
-* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen worden nog steeds geüpload naar de Experience Manager-server. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie Elementen [](using.md#edit-assets-upload-updated-assets)bewerken.
+* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen worden nog steeds naar de Experience Manager-server geüpload. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie Elementen [](using.md#edit-assets-upload-updated-assets)bewerken.
 
 * Bestandsstatus is **[!UICONTROL Editing conflict]**: Als u en andere gebruikers tegelijkertijd een element wijzigen, geeft de app aan dat er een bewerkingsconflict is opgetreden. De app biedt ook opties om uw wijzigingen te behouden of te negeren. Zie [hoe u bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomt.
 
@@ -155,7 +158,7 @@ Gebruik deze optie **[!UICONTROL Toggle Check-out]** om het element te vergrende
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt niet dat anderen dit bewerken.
 
-Nadat u de wijzigingen hebt aangebracht, geeft de app de **[!UICONTROL Edited Locally]** status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in AEM uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** de opties voor een element. Er wordt een versie van het element gemaakt in AEM. Met behulp van de webinterface van AEM Assets kunt u de elementgeschiedenis in de [tijdlijnweergave](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html)zien.
+Nadat u de wijzigingen hebt aangebracht, geeft de app de **[!UICONTROL Edited Locally]** status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in AEM uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** de opties voor een element. Er wordt een versie van het element gemaakt in AEM. Met behulp van de webinterface van AEM Assets kunt u de geschiedenis van elementen zien in de [tijdlijnweergave](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html).
 
 ![De optie Wijzigingen uploaden in de](assets/upload_changes_single1_da2.png "optie voor het uploaden van wijzigingen in de app")
 
@@ -173,7 +176,7 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 ## Nieuwe elementen uploaden en toevoegen aan AEM {#upload-and-add-new-assets-to-aem}
 
-Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot aan de AEM-opslagplaats wil toevoegen. Als u nieuwe inhoud aan AEM wilt toevoegen, klikt u op het pictogram ![](assets/do-not-localize/upload_to_cloud_da2.png) Uploaden naar cloud in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in mappen [maken in AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
+Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot aan de AEM-opslagplaats wil toevoegen. Als u nieuwe inhoud aan AEM wilt toevoegen, klikt u op het pictogram ![](assets/do-not-localize/upload_to_cloud_da2.png) Uploaden naar cloud in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens bij [Mappen maken in AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -234,9 +237,9 @@ Als na het uploaden de verwachte wijzigingen niet in de app worden weergegeven, 
 
 Zie Elementen [uploaden naar AEM](#upload-and-add-new-assets-to-aem)voor een overzicht van de elementen die in een bepaalde sessie zijn overgedragen.
 
-## Geavanceerde workflow: starten vanuit de AEM Assets-webinterface {#adv-workflow-start-from-aem-ui}
+## Geavanceerde workflow: beginnen vanaf de webinterface van AEM Assets {#adv-workflow-start-from-aem-ui}
 
-Start zo nodig uw workflow via de AEM Assets-webinterface. De bureaubladtoepassing integreert met de AEM om op verzoek over te nemen met behulp van desktophandelingen.
+Start zo nodig uw workflow via de webinterface van AEM Assets. De bureaubladtoepassing integreert met de AEM om op verzoek over te nemen met behulp van desktophandelingen.
 
 Een bijzonder geval van het beginnen van werkschema van de Webinterface is middelenontdekking. De gebruikersinterface van de Omnissearch bar in Assets biedt een rijke en geavanceerde zoekervaring. Wellicht wilt u eerst een gewenst middel op het web zoeken en vervolgens de workflow in de app starten, met [!UICONTROL Desktop Actions]behulp van. Enkele voorbeelden hiervan zijn het filteren van zoekresultaten met gebruik van facetten, het zoeken naar een specifiek middel waarvoor een licentie is verleend in Adobe Stock of een aanpassing die door uw organisatie is geïmplementeerd en waarmee u een betere detectie via de webinterface kunt uitvoeren.
 
