@@ -3,7 +3,7 @@ title: Gebruik AEM bureaubladtoepassing versie 1.x.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: f1bd50a439059ac66e0368eeefc6af67ff160d9b
+source-git-commit: 67e117648de8298f78992afea5ae0962fd2c698b
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 0%
@@ -113,7 +113,7 @@ Vanuit de gebruikersinterface Middelen kunt u de middelenlocaties of uitchecken 
 
 Wanneer u op **Openen** klikt om een element op de lokale computer te openen, wordt het element naar de interne cache gedownload. De app start de native bureaubladtoepassing die is gekoppeld aan het bestandstype van het gedownloade element.
 
-Selecteer in Mac de optie **Openen** in het contextmenu om een element te openen via AEM bureaubladtoepassing. In Windows selecteert u Openen op web in het contextmenu om het element te openen. Klik/tik op het pictogram ![](assets/aemassets_icon_openondesktop.png) Openen op bureaublad in het venster Asset Status (Asset Status) om het element te openen.
+Selecteer in Mac de optie **Openen** in het contextmenu om een element te openen via AEM bureaubladtoepassing. In Windows selecteert u Openen op web in het contextmenu om het element te openen. Klik/tik op het pictogram ![](assets/do-not-localize/aemassets_icon_openondesktop.png) Openen op bureaublad in het venster Asset Status (Asset Status) om het element te openen.
 
 Selecteer voor Adobe InDesign-bestanden (INDD) een optie in het **[!UICONTROL Open]** contextmenu. Wanneer u op deze optie klikt, downloadt de app de gekoppelde elementen naar uw lokale bestandssysteem en wordt het INDD-bestand in Adobe InDesign geopend. Deze methode zorgt ervoor dat de benodigde elementen lokaal beschikbaar zijn wanneer u het INDD-bestand bewerkt.
 
@@ -141,19 +141,19 @@ Nadat u de opslagplaats van AEM Assets aan uw lokale aandrijving toewijst, kunt 
 
    Deze acties zijn ook beschikbaar als u op het pictogram **Bureaubladhandelingen** op de werkbalk klikt nadat u het element of de werkbalk op de elementpagina hebt geselecteerd.
 
-1. Als u het element wilt openen in de bureaubladtoepassing die is gekoppeld aan de specifieke bestandsextensie, klikt of tikt u op de actie **Openen op bureaublad** , snel op het pictogram ![](assets/aemassets_icon_openondesktop.png)Openen op bureaublad.
+1. Als u het element wilt openen in de bureaubladtoepassing die is gekoppeld aan de specifieke bestandsextensie, klikt of tikt u op de actie **Openen op bureaublad** , snel op het pictogram ![](assets/do-not-localize/aemassets_icon_openondesktop.png)Openen op bureaublad.
 
    U kunt ook **Openen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
 
-Als u het specifieke element op uw lokale bestandssysteem wilt zoeken, klikt u op **Snel optreden** onthullen ![](assets/aemassets_reveal_icon.png). U kunt ook **Tonen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
+Als u het specifieke element op uw lokale bestandssysteem wilt zoeken, klikt u op **Snel optreden** onthullen ![](assets/do-not-localize/aemassets_reveal_icon.png). U kunt ook **Tonen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
 
 ## De status van elementen begrijpen {#understand-the-asset-statuses}
 
-| ![Standaardpictogram Windows-app](assets/win_default.png) | De toepassing is verbonden met de server en alle elementen zijn gesynchroniseerd. |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Pictogram Windows uitgeschakeld](assets/win_disabled.png) | De toepassing wordt gestart, maar heeft geen verbinding met de server. Sommige elementen zijn mogelijk in afwachting van synchronisatie. |
-| ![Windows-pictogram voor bestandssync](assets/win_sync.png) | Elementen worden gesynchroniseerd. Bestanden worden geüpload of gedownload. U kunt de exacte status zien en de overdrachten pauzeren vanuit het venster Asset Status. |
-| ![Windows-pictogram Opnieuw verbinden](assets/win_refresh.png) | App probeert opnieuw verbinding te maken. Mogelijk zorgen de netwerkproblemen ervoor dat de verbinding wordt verbroken. |
+| ![Standaardpictogram Windows-app](assets/do-not-localize/win_default.png) | De toepassing is verbonden met de server en alle elementen zijn gesynchroniseerd. |
+--- |--- |
+| ![Pictogram Windows uitgeschakeld](assets/do-not-localize/win_disabled.png) | De toepassing wordt gestart, maar heeft geen verbinding met de server. Sommige elementen zijn mogelijk in afwachting van synchronisatie. |
+| ![Windows-pictogram voor bestandssync](assets/do-not-localize/win_sync.png) | Elementen worden gesynchroniseerd. Bestanden worden geüpload of gedownload. U kunt de exacte status zien en de overdrachten pauzeren vanuit het venster Asset Status. |
+| ![Windows-pictogram Opnieuw verbinden](assets/do-not-localize/win_refresh.png) | App probeert opnieuw verbinding te maken. Mogelijk zorgen de netwerkproblemen ervoor dat de verbinding wordt verbroken. |
 
 ## Werken met uw elementen {#workonassets}
 
@@ -169,7 +169,7 @@ Er zijn twee manieren om elementen uit de AEM webinterface te controleren. Voor 
 
    Deze bureaubladacties zijn ook beschikbaar wanneer u op het pictogram Bureaubladhandelingen op de werkbalk klikt of tikt nadat u het element of de werkbalk op de elementpagina hebt geselecteerd.
 
-1. Als u het element wilt openen, klikt of tikt u op het pictogram ![](assets/aemassets_icon_openondesktop.png)Openen op bureaublad.
+1. Als u het element wilt openen, klikt of tikt u op het pictogram ![](assets/do-not-localize/aemassets_icon_openondesktop.png)Openen op bureaublad.
 
    U kunt ook Openen kiezen in het menu Bureaubladhandelingen op de werkbalk.
 
@@ -177,7 +177,7 @@ Er zijn twee manieren om elementen uit de AEM webinterface te controleren. Voor 
    >
    >Wanneer u een bestand bewerkt dat net is geopend en niet is uitgecheckt, weten andere gebruikers niet dat een element door u wordt bijgewerkt.
 
-1. Als u middelen wilt openen om te bewerken in een Adobe Creative Cloud-toepassing, klikt of tikt u op het pictogram ![Bureaublad bewerken in de modus Snel](assets/aemassets_icon_editdesktop.png)bewerken. Hierdoor wordt het element ook uitgecheckt voor bewerking. Nadat u klaar bent met bewerken, checkt u het element in om de wijzigingen in AEM Assets bij te werken.
+1. Als u middelen wilt openen om te bewerken in een Adobe Creative Cloud-toepassing, klikt of tikt u op het pictogram ![Bureaublad bewerken in de modus Snel](assets/do-not-localize/aemassets_icon_editdesktop.png)bewerken. Hierdoor wordt het element ook uitgecheckt voor bewerking. Nadat u klaar bent met bewerken, checkt u het element in om de wijzigingen in AEM Assets bij te werken.
 
    U kunt ook Bewerken kiezen in het menu Bureaubladhandelingen op de werkbalk.
 
@@ -219,7 +219,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
    ![Schakelen tussen selectievakjes](assets/chlimage_1-8.png)
 
-1. Controleer het element in Verkenner. Het vergrendelingspictogram op het ![middelenvergrendelingspictogram](assets/aemassets_icon_lockcheckout.png) geeft aan dat u het element hebt uitgecheckt.
+1. Controleer het element in Verkenner. Het vergrendelingspictogram op het ![middelenvergrendelingspictogram](assets/do-not-localize/aemassets_icon_lockcheckout.png) geeft aan dat u het element hebt uitgecheckt.
 
    >[!NOTE]
    >
@@ -231,7 +231,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
 Wanneer u klaar bent met het bewerken van de elementen, slaat u de elementen op in uw bureaubladtoepassing. Selecteer **Meer informatie over** elementen in het contextmenu en klik op Inchecken.
 
-De elementen worden geüpload naar AEM server. U kunt desgewenst de status van de upload controleren door Asset Status **** weergeven te selecteren in het systeemvakpictogram. U kunt ook een middel inchecken via de AEM webinterface. Klik op de uitgecheckte elementen of selecteer deze. Klik in de werkbalk op het pictogram voor het ![inchecken van het pictogram](assets/aemassets_icon_checkin.png).
+De elementen worden geüpload naar AEM server. U kunt desgewenst de status van de upload controleren door Asset Status **** weergeven te selecteren in het systeemvakpictogram. U kunt ook een middel inchecken via de AEM webinterface. Klik op de uitgecheckte elementen of selecteer deze. Klik in de werkbalk op het pictogram voor het ![inchecken van het pictogram](assets/do-not-localize/aemassets_icon_checkin.png).
 
 Middelen worden automatisch naar AEM geüpload nadat eventuele wijzigingen lokaal zijn opgeslagen. Met het inchecken kunt u het element ter beschikking stellen van andere AEM gebruikers voor bewerking.
 
