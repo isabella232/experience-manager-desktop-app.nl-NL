@@ -1,6 +1,6 @@
 ---
-title: Desktop-app voor Adobe Experience Manager installeren en configureren
-description: Installeer en configureer de bureaubladtoepassing van de Adobe Experience Manager zodat deze kan werken met de servers van de Adobe Experience Manager Assets en download de middelen naar uw lokale bestandssysteem.
+title: Adobe Experience Manager-bureaubladtoepassing installeren en configureren
+description: Installeer en configureer de Adobe Experience Manager-bureaubladtoepassing zodat deze kan werken met Adobe Experience Manager Assets-servers en download de middelen naar uw lokale bestandssysteem.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -9,17 +9,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 
-# Bureaubladtoepassing van Adobe Experience Manager installeren {#install-app-v2}
+# Adobe Experience Manager-bureaubladtoepassing installeren {#install-app-v2}
 
-Met de Adobe Experience Manager desktop app zijn de middelen in de Experience Manager eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle native bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden teruggezet naar de Experience Manager wanneer u de bestanden uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
+Met de Adobe Experience Manager-bureaubladtoepassing zijn de middelen in de Experience Manager eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle native bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden teruggezet naar de Experience Manager wanneer u de bestanden uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
 
 Een dergelijke integratie maakt verschillende rollen in de organisatie mogelijk om
 
@@ -33,7 +33,7 @@ Om Experience Manager desktop app te gebruiken,
 
 * Download en installeer de toepassing. Zie Desktop-app [hieronder](#install-v2) installeren.
 
-* Test de verbinding met behulp van een paar elementen. Zie [hoe u naar elementen](using.md#browse-search-preview-assets)kunt bladeren en deze kunt zoeken.
+* Test de verbinding met behulp van een paar elementen. Zie [bladeren naar elementen](using.md#browse-search-preview-assets)en deze zoeken.
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
@@ -59,7 +59,7 @@ Voer de volgende instructies uit om een upgrade uit te voeren van een vorige ver
 
 ## Installeren {#install-v2}
 
-Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder een bestaande Adobe Experience Manager desktop app v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
+Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe Experience Manager-bureaubladtoepassing v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
 
 1. Download het meest recente installatieprogramma van de pagina met [opmerkingen](release-notes.md) bij de release.
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    *Afbeelding: Verbindingsscherm naar invoerserveradres*
 
-   >[!Cautie]
+   >[!CAUTION]
    >
    >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de AEM server. Anders kan de toepassing geen verbinding maken met de AEM server.
 
@@ -93,7 +93,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Zie [Azure-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) of [S3-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
 
-   Als u een Adobe Managed Services-klant (AMS) bent, neemt u contact op met de klantenservice van Adobe.
+   Neem contact op met de klantenservice van Adobe als u een klant van Adobe Managed Services (AMS) bent.
 
 ## Voorkeuren instellen {#set-preferences}
 
@@ -119,7 +119,7 @@ Als u de voorkeuren wilt wijzigen, klikt u op het pictogram ![](assets/do-not-lo
 
 Meld u af bij de AEM server om de niet-beschikbare voorkeuren bij te werken. Nadat u de voorkeuren hebt bijgewerkt, klikt u op Voorkeuren ![](assets/do-not-localize/save_preferences_da2.png) opslaan om de wijzigingen op te slaan.
 
-![Voorkeuren en instellingen voor bureaubladtoepassingen](assets/preferences_da2.png)
+![Voorkeuren en instellingen voor de bureaubladtoepassing](assets/preferences_da2.png)
 
 *Afbeelding: Voorkeuren voor bureaublad-apps*
 
