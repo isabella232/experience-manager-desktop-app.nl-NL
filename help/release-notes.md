@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release van Adobe Experience Manager-bureaublad
-description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor Adobe Experience Manager desktop app.
+title: Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing
+description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor de Adobe Experience Manager-bureaubladtoepassing op.
 uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.3/ASSETS
@@ -10,31 +10,35 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 3%
+source-wordcount: '1364'
+ht-degree: 2%
 
 ---
 
 
-# Opmerkingen bij de release van Adobe Experience Manager-bureaublad {#release-notes-v2}
+# Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing {#release-notes-v2}
 
 | Producten | Adobe Experience Manager-bureaubladtoepassing |
 |--- |--- |
-| Toepassingsversie (revisie) | 2.0 (2.0.2.0) |
+| Toepassingsversie (revisie) | 2.0 (2.0.3.0) |
 | Ondersteunde AEM | AEM als Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
-| Releasedatum | 15 apr. 2020 (Mac en Windows) |
-| URL&#39;s downloaden | [macOS 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.2.0.dmg); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.2.0.exe); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.2.0.exe) |
+| Releasedatum | 27 aug. 2020 (Mac en Windows) |
+| URL&#39;s downloaden | [macOS 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32-bits](https://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
-De bureaubladtoepassing van de Adobe Experience Manager is compatibel met de volgende besturingssystemen:
+De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende besturingssystemen:
 
-* Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
+Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
 
-* Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
+Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
+
+>[!NOTE]
+>
+>Windows 7 wordt niet meer ondersteund door de leverancier (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 De app werkt met de volgende versies van Experience Managers, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
@@ -48,14 +52,14 @@ De app werkt met de volgende versies van Experience Managers, ongeacht of deze a
 
 >[!NOTE]
 >
->Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt aan een upgrade uit te voeren naar een nieuwere en ondersteunde versie van de Adobe Experience Manager.
+>Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt aan een upgrade uit te voeren naar een nieuwere en ondersteunde Adobe Experience Manager-versie.
 >Experience Manager 6.3.3.1 of hoger werkt na installatie van het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)met de bureaubladtoepassing. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke versie van de Adobe Experience Manager-server/aanvullende serveronderdelen (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de beheerder van de Adobe Experience Manager voor hulp.
+Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke Adobe Experience Manager-serverversie/aanvullende serveronderdelen (servicepakketten, hotfixes of functiepakketten) vereist. Neem contact op met uw Adobe Experience Manager-beheerder voor hulp.
 
 ### Ondersteuning voor verschillende elementen en bestandstypen {#support-for-file-types}
 
-De toepassing ondersteunt elementen die zijn opgeslagen in Adobe Experience Manager en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
+De toepassing ondersteunt in Adobe Experience Manager opgeslagen elementen die binaire bestanden vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
 
 Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de opslagplaats van de Experience Manager wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
 
@@ -77,11 +81,17 @@ De functie wordt ondersteund in Adobe Creative Cloud 2018- en Adobe Creative Clo
 
 Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2)voor meer informatie.
 
+**Updates in app v2.0.3**
+
+De bug die in de huidige versie is opgelost, is:
+
+* Oplossing voor het aanmeldingsprobleem waarmee Windows-gebruikers die met de app toegang probeerden te krijgen tot de DAM-opslagplaats op een 6.5.5.0-exemplaar. [!DNL Adobe Experience Manager]
+
 **Updates in app v2.0.2**
 
 De opgeloste problemen en updates zijn:
 
-* Verhoog de uploadversnelling in om de uploadprestaties te verbeteren [!UICONTROL Preferences]. Wanneer deze instelling is ingeschakeld, gebruikt de toepassing meer lokale CPU-threads en is de bronintensieve toepassing groter.
+* Verhoog de uploadversnelling in om de uploadprestaties te verbeteren [!UICONTROL Preferences]. Als deze instelling is ingeschakeld, gebruikt de app meer lokale CPU-threads en is de toepassing bronnenintensiever.
 
 * Correctie van het probleem met het uploaden van middelen wanneer bestandsnamen of paden bepaalde GB18030-tekens bevatten. <!-- CQ-4283494 -->
 
@@ -97,7 +107,7 @@ De opgeloste problemen en updates zijn:
 
 * Optie toestaan om `%Temp%` directory zo te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
 
-* Gebruikers kunnen zich aanmelden bij AEM Author via Okta SAML-verificatie. <!-- CQ-4278134 -->
+* Gebruikers kunnen zich aanmelden bij AEM-auteur via Okta SAML-verificatie. <!-- CQ-4278134 -->
 
 ## Installatie-instructies {#installation-instructions-v2}
 
@@ -119,7 +129,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
 
    * De toepassing biedt geen netwerkshare waarmee de AEM opslagplaats wordt toegewezen als een virtuele mapstructuur.
 
-* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de gegevensopslagruimte van AEM Assets. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
+* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de AEM Assets-opslagplaats. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
 
 * Als de app de verwachte resultaten niet weergeeft, klikt u op het pictogram Vernieuwen in de bovenste balk.
 
