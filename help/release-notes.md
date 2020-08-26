@@ -10,7 +10,7 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 519fe85e5642eb88dd45515948e898185e262003
+source-git-commit: 6763474c278ab8d8f52a0a466657e66a08b0748b
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 2%
@@ -32,9 +32,9 @@ ht-degree: 2%
 
 De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende besturingssystemen:
 
-Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
+* Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
 
-Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
+* Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
 >[!NOTE]
 >
