@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 9de9d086be4c0eccda7a60bd3dcbe68735394fad
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3869'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compatibiliteitsgegevens beschikbaar.
 
-| Producten | Adobe Experience Manager (AEM) desktop app |
+| Producten | Adobe Experience Manager (AEM)-bureaubladtoepassing |
 |--- |--- |
 | Versie | 1.10 (1.10.0.6 op Mac en 1.10.0.3 op Windows) |
 | Type | Minder release |
@@ -35,10 +35,15 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites}
 
-AEM Desktop is compatibel met de volgende besturingssystemen:
+[!DNL Adobe Experience Manager] bureaubladtoepassing is compatibel met de volgende besturingssystemen:
 
 * Mac OS X 10.10 of hoger, met de meest recente opgeloste problemen.
-* Vensters 7 en Vensters 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
+
+* Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
+
+>[!NOTE]
+>
+>Windows 7 wordt niet meer ondersteund door de leverancier (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe raadt u ten zeerste aan de nieuwste versie van AEM bureaubladtoepassing te gebruiken om de nieuwste functionaliteit, de meest recente opgeloste problemen en de beste prestaties te bieden.
 
@@ -88,7 +93,7 @@ Deze release breidt de vorige versies van de Experience Manager-bureaubladtoepas
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Adobe Experience Manager (AEM) desktop app 1.9.1 was een patchrelease waarmee een aantal belangrijke problemen van klanten met betrekking tot het uitchecken van bedrijfsmiddelen en het kopiëren van bestanden van netwerkshare naar een lokale directory werden opgelost.
+Adobe Experience Manager (AEM) desktop app 1.9.1 was een patchrelease waarmee een aantal belangrijke problemen van klanten met betrekking tot het uitchecken van bedrijfsmiddelen en het kopiëren van bestanden van gedeelde netwerken naar een lokale directory werden opgelost.
 
 * Activa die door een gebruiker zijn uitgecheckt, mogen niet voor andere gebruikers beschikbaar zijn (CQ-4246009)
 
@@ -130,7 +135,7 @@ AEM bureaubladtoepassing 1.9 was gericht op het verbeteren van de gebruikerserva
 
 * Als een gebruiker ervoor kiest om veelvoudige dossiers van de UI van de Middelen van de Experience Manager te openen of uit te geven, zullen zij samen worden gegroepeerd. Bijvoorbeeld mijnelement.jpeg en 4 andere bestanden.
 
-* Wanneer u InDesign-documenten downloadt, inclusief gekoppelde elementen die zijn opgeslagen in AEM Assets, downloadt de bureaubladtoepassing eerst alle gekoppelde elementen voordat u het [!UICONTROL Adobe InDesign] document opent en geeft deze het downloaden van gekoppelde elementen aan. Bijvoorbeeld 5 van 24.
+* Wanneer u InDesign-documenten downloadt, inclusief gekoppelde elementen die zijn opgeslagen in AEM Assets, downloadt de bureaubladtoepassing eerst alle gekoppelde elementen voordat het [!UICONTROL Adobe InDesign] document wordt geopend en wordt de download van gekoppelde elementen aangegeven. Bijvoorbeeld 5 van 24.
 
 [!UICONTROL Bulk Uploads]
 
@@ -181,7 +186,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
    * Dialoogvenster Meer informatie over element: soms was de actiebalk niet zichtbaar (CQ-4208540).
 
-   * (Win) Het dossier kan nu worden gesynchroniseerd na het terugkeren naar een vorige versie van AEM Assets UI (CQ-4216411).
+   * (Win) Het bestand kan nu worden gesynchroniseerd nadat u een eerdere versie hebt hersteld vanuit de gebruikersinterface van AEM Assets (CQ-4216411).
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
@@ -295,7 +300,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 
 * Betere stabiliteit en veerkracht tegen voorzien van een netwerkkwesties.
 
-   * stabielere toewijzing van AEM Assets (CQ-103276, CQ-4204669, CQ-4203957).
+   * stabielere toewijzing van AEM Assets-mappen (CQ-103276, CQ-4204669, CQ-4203957).
 
    * Betere verwerking van bestanden in cache (CQ-4204336, CQ-4206263).
 
@@ -318,13 +323,13 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 
    * Verschillende verbeteringen in de stabiliteit (CQ-4207539, CQ-4200378).
 
-   * Betere verwerking van AEM Assets-URL in Voorkeuren (CQ-97388).
+   * Betere verwerking van AEM Assets URL in Voorkeuren (CQ-97388).
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Het eenvoudig uploaden van hiërarchische mappen via de nieuwe handeling Map maken > Uploaden in Touch UI.
    * Handeling start een bewerking voor het uploaden van mappen die wordt uitgevoerd door de bureaubladtoepassing
-   * Bureaubladtoepassing doorloopt de opgegeven maphiërarchie op het bureaublad op de achtergrond en uploadt de bestanden naar AEM Assets
+   * Desktop-app doorloopt de opgegeven maphiërarchie op de achtergrond op het bureaublad en uploadt de bestanden naar AEM Assets
    * De gebruiker kan de vooruitgang in het nieuwe Upload venster van de Status van de Rij met vooruitgangsbar voor aan de gang zijnde verrichtingen controleren
    * De status van de wachtrij uploaden biedt ook betere informatie over probleemoplossing (bijvoorbeeld geen verbinding met de server)
 * Nieuwe handeling Bewerken in Touch-gebruikersinterface waarin bewerkingen voor uitchecken en openen in één handeling worden gecombineerd
@@ -350,7 +355,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 
 Sinds Mac OS 10.12 (Sierra) heeft Apple de machtigingen voor de map /Volumes die wordt gebruikt voor het koppelen van netwerkstations en apparaten gewijzigd in meer beperkingen. Voor het maken van een nieuw koppelingspunt zijn administratieve rechten vereist. Dit probleem is opgelost in Mac OS 10.12.5.
 
-Aangezien AEM bureaubladtoepassing moet worden uitgevoerd voor gebruikers die geen beheerrechten hebben op de lokale computer, is het koppelingspunt voor de gegevensopslagruimte van AEM Assets in 1.4 en 1.5 gewijzigd in een DAM-submap in de lokale map van de gebruiker op MacOS (CQ-104183).
+Aangezien AEM bureaubladtoepassing moet worden uitgevoerd voor gebruikers die geen beheerrechten hebben op de lokale computer, is het koppelingspunt voor AEM Assets-opslagruimte in 1.4 en 1.5 gewijzigd in een DAM-submap in de lokale map van de gebruiker op MacOS (CQ-104183).
 
 Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 1.5.1 ongedaan gemaakt. Zo kunt u ook InDesign-documenten delen die AEM elementen tussen MacOS-gebruikers hebben geplaatst.
 
@@ -378,13 +383,13 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 
 ## Belangrijke kennisgevingen {#important-notices}
 
-**Map uploaden.** Het wordt aanbevolen de nieuwe mogelijkheid voor het uploaden van mappen te gebruiken om grotere, hiërarchische mappen naar AEM te uploaden in plaats van een kopie/sleep en neerzet in een gekoppelde AEM opslagplaats te gebruiken vanuit Finder-/Verkenner-niveau. Als u de functie voor het uploaden van mappen gebruikt, communiceert de bureaubladtoepassing rechtstreeks met AEM en heeft deze dus veel meer controle over het gehele proces.
+**Map uploaden.** Het wordt aanbevolen de nieuwe mogelijkheid voor het uploaden van mappen te gebruiken om grotere, hiërarchische mappen naar AEM te uploaden in plaats van een kopie/sleep en neerzet in een gekoppelde AEM opslagplaats te gebruiken vanuit Finder-/Verkenner-niveau. Als u de functie voor het uploaden van mappen gebruikt, communiceert de bureaubladtoepassing rechtstreeks met AEM en heeft deze dus veel betere controle over het gehele proces.
 
-**AEM sessie beschikbaar houden.** AEM bureaubladtoepassing is afhankelijk van een sessie die voor de AEM Assets-server is geopend. Voor gebruikers die elke dag met Desktop app werken, wordt geadviseerd om AEM Assets aan het eind van hun dag te ontkoppelen om logout af te dwingen, en dan &quot;AEM Assets&quot;in de ochtend op te zetten om ervoor te zorgen zij worden het programma geopend en het netwerkaandeel operationeel is.
+**AEM sessie beschikbaar houden.** AEM bureaubladtoepassing is afhankelijk van een sessie die op de AEM Assets-server is geopend om de juiste werking te garanderen. Voor gebruikers die elke dag met desktop app werken, wordt aanbevolen om AEM Assets aan het einde van hun dag uit te schakelen om de aanmelding af te dwingen en &#39;AEM Assets &#39;s morgens koppelen om ervoor te zorgen dat ze zijn aangemeld en dat het netwerkaandeel operationeel is.
 
 **Schakel Pictogramvoorvertoning uit in Finder.** Als u met Finder wilt bladeren door grote mappen, met name door slechte netwerkconnectiviteit, moet u ervoor zorgen dat zowel &quot;Pictogram&quot; als &quot;Voorvertoning pictogram&quot; is uitgeschakeld. Anders, zal de Vinder beginnen elk middel in een omslag te downloaden om een kleine voorproef te produceren, die tot slechte prestaties en hoog bandbreedtegebruik (CQ-4219779) kan leiden
 
-* Ga in Finder naar de map AEM Assets shared network
+* Ga in Finder naar de gedeelde netwerkmap van AEM Assets
 * Klik met de rechtermuisknop op het DAM-koppelingspunt
 * Weergaveopties tonen selecteren
 * Selectie van Voorvertoning pictogram tonen opheffen
