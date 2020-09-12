@@ -2,7 +2,8 @@
 cloud: experience-cloud
 product: Adobe Experience Manager desktop app
 audience: end-user
-user-guide-title: Help bij bureaublad-app
+user-guide-title: Handleiding voor bureaubladtoepassing AEM
+breadcrumb-title: Desktop App Guide
 user-guide-description: Learn to use the AEM desktop app to connect repositories and desktop applications to provide faster access to resources and streamlined workflows.
 solution-title: AEM Assets
 solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-65/assets/home.html
@@ -10,15 +11,15 @@ getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-d
 tutorials-title: AEM Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 7b2f16b35b89707e94c24f9d420080c9f13ea945
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 9%
 
 ---
 
 
-# Gebruikershandleiding voor Adobe-bureaubladtoepassing {#using}
+# Handleiding voor Adobe-bureaubladtoepassing {#using}
 
 + [Overzicht](introduction.md)
 + [Releaseopmerkingen](release-notes.md)
