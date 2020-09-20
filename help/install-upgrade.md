@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6f33efdd5702cc2f411d0deed8f54e7335c09ed
+source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om Experience Manager desktop app te gebruiken,
 
 * Download en installeer de toepassing. Zie Desktop-app [hieronder](#install-v2) installeren.
 
-* Test de verbinding met behulp van een paar elementen. Zie [bladeren naar elementen](using.md#browse-search-preview-assets)en deze zoeken.
+* Test de verbinding met behulp van een paar elementen. Zie [hoe u naar elementen](using.md#browse-search-preview-assets)kunt bladeren en deze kunt zoeken.
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
@@ -75,7 +75,9 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
 
-1. Als u de app wilt verbinden met een AEM opslagplaats, klikt u op het pictogram van de app in de lade om de app te starten. Geef het adres van het AEM op. Klik op de referenties **[!UICONTROL Connect]** en geef deze op.
+1. Als u de app wilt verbinden met een AEM opslagplaats, klikt u op het pictogram van de app in de lade en start u de app. Geef het adres van de AEM server op in de notatie `https://[aem-server-url]:[port]/`.
+
+   Klik op de referenties **[!UICONTROL Connect]** en geef deze op.
 
    ![Verbindingsscherm van bureaubladtoepassing met invoerserveradres](assets/connect_da2.png)
 
