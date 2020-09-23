@@ -3,13 +3,13 @@ title: Aanbevolen werkwijzen voor desktop app versie 1.x AEM
 description: Belangrijke mogelijkheden en aanbevolen gebruik van Adobe Experience Manager desktop app versie 1.x.
 uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e10be1fd9dd1ff5293e96b46565825e6be1fc4f
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-De Adobe Experience Manager-bureaubladtoepassing (AEM) koppelt de DAM-oplossing (Digital Asset Management) aan uw bureaublad, zodat u de bestanden die beschikbaar zijn in de AEM webinterface rechtstreeks op uw bureaublad kunt openen. Als u middelen van Desktop bewaart, wordt het geupload aan AEM bij de aangewezen plaats.
+De Adobe Experience Manager-bureaubladtoepassing (AEM) koppelt uw DAM-oplossing (Digital Asset Management) aan uw bureaublad, zodat u de bestanden die beschikbaar zijn in de AEM webinterface rechtstreeks op het bureaublad kunt openen. Als u middelen van Desktop bewaart, wordt het geupload aan AEM bij de aangewezen plaats.
 
 AEM desktop app voorkomt dat u onjuiste lokale kopieën bijwerkt of een verkeerd middel in AEM bijwerkt. de gebruiksvriendelijke workflow van de bureaubladtoepassing wordt ingeschakeld met de technologie voor netwerkdeling die desktopbesturingssystemen bieden.
 
@@ -53,7 +53,7 @@ De belangrijkste mogelijkheden van AEM bureaubladtoepassing zijn:
 
 * **Voeg gekoppelde elementen in andere documenten** toe. In toepassingen, zoals Creative Cloud ([!DNL Adobe Photoshop], [!DNL Adobe InDesign]en [!DNL Adobe Illustrator]), kunt u een extern dossier als verbinding plaatsen. U kunt bijvoorbeeld een afbeelding in een InDesign-document plaatsen. In dit geval kunt u met de netwerkshare-ount elementen van AEM selecteren en zoeken naar plaatsing. Het plaatsen van gekoppelde bestanden werkt ook in sommige apps die geen Adobe zijn, zoals MS Office.
 
-* **Referentieresolutie in AEM**. Als zowel de geplaatste bestanden als de hoofdbestanden met de koppeling worden opgeslagen in AEM, kan dit automatisch informatie geven over de elementverwijzingen naar de server.
+* **Referentieresolutie in AEM**. Als zowel de geplaatste bestanden als de hoofdbestanden met de koppeling zijn opgeslagen in AEM, kan dit automatisch informatie geven over de elementen die naar de server worden verwezen.
 
 * **Toegang tot het middel vanaf het bureaublad**. In het gekoppelde netwerkaandeel biedt een contextueel menu een [!UICONTROL More Info] dialoogvenster (grotere voorvertoning, belangrijke metagegevens) en de mogelijkheid om elementen te openen in de AEM-interface.
 
