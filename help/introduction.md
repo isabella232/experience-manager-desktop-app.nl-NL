@@ -1,12 +1,12 @@
 ---
-title: Inleiding tot desktop-app voor Adobe Experience Manager
-description: Leer hoe u de Adobe Experience Manager desktop-app gebruikt om de workflows voor middelenbeheer te optimaliseren voor creatieve gebruikers wanneer u de Adobe Experience Manager-elementen rechtstreeks vanaf hun bureaublad gebruikt.
+title: Inleiding tot Adobe Experience Manager-bureaubladtoepassing
+description: Leer hoe u de Adobe Experience Manager-bureaubladtoepassing kunt gebruiken om de workflows voor middelenbeheer te optimaliseren voor creatieve gebruikers wanneer u Adobe Experience Manager Assets rechtstreeks vanaf hun bureaublad gebruikt.
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # Overzicht van de Adobe Experience Manager-bureaubladtoepassing {#overview-v2}
 
-Adobe biedt verbonden workflows over zijn oplossingen aan om productiviteit op het volgende niveau voor uw branche gebruikers en creatieve beroeps toe te staan. De desktop-app van de Adobe Experience Manager maakt verbinding met opslagruimten en bureaubladtoepassingen, waaronder Adobe en toepassingen van derden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Dit besparen van tijd en het verminderen van inspanning verbetert efficiency van gebruikers, die met activa van Adobe Experience Manager in hun Desktopwerkschema werken.
+Adobe biedt verbonden workflows over zijn oplossingen aan om productiviteit op het volgende niveau voor uw branche gebruikers en creatieve beroeps toe te staan. De Adobe Experience Manager-bureaubladtoepassing maakt verbinding met opslagruimten en bureaubladtoepassingen, waaronder Adobe en toepassingen van derden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Dit besparen van tijd en het verminderen van inspanningen verbetert de efficiency van gebruikers, die met activa van Adobe Experience Manager in hun Desktopwerkschema&#39;s werken.
 
-Met behulp van de app zijn de middelen in Adobe Experience Manager Assets gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. U kunt de elementen openen en bewerken in desktoptoepassingen van uw keuze. De lokale bewerkingen worden alleen in Adobe Experience Manager beschikbaar gesteld als een nieuwe versie van het element wanneer u ervoor kiest de wijzigingen te uploaden. Op deze manier kunt u het in uitvoering bewerken van bedrijfsmiddelen op een efficiënte manier op desktopcomputers verwerken. De app ondersteunt het uploaden van middelen en geneste mappen naar de Experience Manager, waardoor nieuwe inhoud eenvoudig aan de opslagplaats kan worden toegevoegd.
+Met de app zijn de middelen in Adobe Experience Manager Assets gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. U kunt de elementen openen en bewerken in desktoptoepassingen van uw keuze. De lokale bewerkingen worden alleen in Adobe Experience Manager beschikbaar gesteld als een nieuwe versie van het element wanneer u ervoor kiest de wijzigingen te uploaden. Hierdoor kunt u het bewerken van bedrijfsactieve elementen op een efficiënte manier op desktopcomputers afhandelen. De app ondersteunt het uploaden van middelen en geneste mappen naar de Experience Manager, waardoor nieuwe inhoud eenvoudig aan de opslagplaats kan worden toegevoegd.
 
-Een dergelijke integratie maakt het mogelijk dat verschillende functies in de organisatie de elementen centraal beheren in Experience Manager Assets. Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. Creatieve gebruikers, die ook beschikken over een speciaal hulpprogramma voor [Adobe Asset Link](https://www.adobe.com/marketing/experience-manager-assets/adobe-asset-link.html) voor het werken met middelen in Adobe Photoshop, Illustrator en InDesign, hebben ook toegang tot de middelen op het bureaublad in de Creative Cloud en andere native toepassingen.
+Een dergelijke integratie maakt het mogelijk dat verschillende functies in de organisatie de elementen centraal beheren in Experience Manager Assets. Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. Creatieve gebruikers, die ook beschikken over een speciaal hulpprogramma voor [Adobe Asset Link](https://www.adobe.com/marketing/experience-manager-assets/adobe-asset-link.html) voor het werken met middelen in Adobe Photoshop, Illustrator en InDesign, hebben ook toegang tot middelen op het bureaublad in de Creative Cloud en andere native toepassingen.
 
 >[!NOTE]
 >
->Adobe Experience Manager desktop app werd geïntroduceerd in Adobe Experience Manager 6.1 release en werd voorheen Adobe Experience Manager Assets Companion App genoemd. Zie de inhoudsopgave in de linkerzijbalk voor hulp bij app versie 1.x. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie 2.
+>Adobe Experience Manager desktop app werd geïntroduceerd in Adobe Experience Manager 6.1 release en voorheen Adobe Experience Manager Assets Companion App. Zie de inhoudsopgave in de linkerzijbalk voor hulp bij app versie 1.x. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie 2.
 
 De documentatie van de bureaubladtoepassing bevat informatie over de volgende rollen en gebruiksgevallen.
 
