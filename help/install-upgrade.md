@@ -3,13 +3,13 @@ title: Adobe Experience Manager-bureaubladtoepassing installeren en configureren
 description: Installeer en configureer de Adobe Experience Manager-bureaubladtoepassing zodat deze kan werken met Adobe Experience Manager Assets-servers en download de middelen naar uw lokale bestandssysteem.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29bbcc21f01dd0c1338fdbf3e979ef363a93533c
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Om Experience Manager desktop app te gebruiken,
 
 * Download en installeer de toepassing. Zie Desktop-app [hieronder](#install-v2) installeren.
 
-* Test de verbinding met behulp van een paar elementen. Zie [hoe u naar elementen](using.md#browse-search-preview-assets)kunt bladeren en deze kunt zoeken.
+* Test de verbinding met behulp van een paar elementen. Zie [bladeren naar elementen](using.md#browse-search-preview-assets)en deze zoeken.
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
