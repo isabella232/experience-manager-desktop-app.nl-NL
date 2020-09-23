@@ -3,13 +3,13 @@ title: Problemen met AEM bureaubladtoepassing versie 1.x oplossen
 description: Los AEM Desktopapp versie 1.x problemen op om de af en toe kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
 uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Los AEM Desktop app problemen op om af en toe de kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
 
-De desktop-app Adobe Experience Manager (AEM) bevat hulpprogramma&#39;s die u helpen de opslagplaats voor AEM Assets toe te wijzen als een netwerkshare op desktop (SMB share op Mac OS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. In het geval van een bureaubladtoepassing wordt de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie aangewezen als externe bestandsbron. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
+De Adobe Experience Manager-bureaubladtoepassing (AEM) bevat hulpprogramma&#39;s waarmee u de AEM Assets-opslagplaats kunt toewijzen als een gedeelde netwerksite op uw bureaublad (SMB-share op Mac OS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. In het geval van een bureaubladtoepassing wordt de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie aangewezen als externe bestandsbron. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
 
 ![bureaubladtoepassingsdiagram](assets/aem-desktopapp-architecture.png)
 
@@ -32,14 +32,14 @@ Met deze architectuur, onderschept de Desktop toepassing dossiersysteemvraag (op
 desktop-app bevat de volgende componenten:
 
 * **De bureaubladtoepassing**: De toepassing monteert of ontkoppelt DAM als ver dossiersysteem, en vertaalt dossiersysteemvraag tussen het plaatselijk opgezette netwerkaandeel en de verre AEM instantie waarmet het verbindt.
-* **Besturingssysteem WebDAV/SMB-client**: Verwerkt de communicatie tussen Windows Verkenner/Finder en de desktop-app. Als een bestand wordt opgehaald, gemaakt, gewijzigd, verwijderd, verplaatst of gekopieerd, communiceert de WebDAV/SMB-client van het besturingssysteem deze bewerking naar de desktop-app. Nadat de communicatie is ontvangen, zet de bureaubladtoepassing deze om in native AEM externe API-aanroepen. Als een gebruiker bijvoorbeeld een bestand maakt in de gekoppelde map, initieert de WebDAV/SMB-client een aanvraag, die de desktop-app omzet in een HTTP-aanvraag die het bestand maakt in DAM. De WebDAV/SMB-client is een ingebouwde component van het besturingssysteem. Het is op geen enkele manier verbonden met desktop app, AEM of Adobe.
-* **Adobe Experience Manager-instantie**: Biedt toegang tot elementen die zijn opgeslagen in de AEM Assets DAM-opslagplaats. Bovendien voert het acties uit die door Desktop app namens de lokale Desktoptoepassingen worden gevraagd interactie met het opgezette netwerkaandeel. Het doel AEM instantie zou AEM versie 6.1 of hoger moeten in werking stellen. AEM instanties die vorige AEM versies uitvoeren, hebben mogelijk extra functiepakketten en hotfixes nodig die zijn geïnstalleerd om volledig functioneel te worden.
+* **Besturingssysteem WebDAV/SMB-client**: Verwerkt de communicatie tussen Windows Verkenner/Finder en de desktop-app. Als een bestand wordt opgehaald, gemaakt, gewijzigd, verwijderd, verplaatst of gekopieerd, communiceert de WebDAV/SMB-client van het besturingssysteem deze bewerking naar de desktop-app. Nadat de communicatie is ontvangen, zet de bureaubladtoepassing deze om in native AEM externe API-aanroepen. Als een gebruiker bijvoorbeeld een bestand maakt in de gekoppelde map, initieert de WebDAV/SMB-client een aanvraag, die de bureaubladtoepassing omzet in een HTTP-aanvraag die het bestand maakt in DAM. De WebDAV/SMB-client is een ingebouwde component van het besturingssysteem. Het is op geen enkele manier verbonden met desktop app, AEM of Adobe.
+* **Adobe Experience Manager-exemplaar**: Biedt toegang tot middelen die zijn opgeslagen in de AEM Assets DAM-opslagplaats. Bovendien voert het acties uit die door Desktop app namens de lokale Desktoptoepassingen worden gevraagd interactie met het opgezette netwerkaandeel. Het doel AEM instantie zou AEM versie 6.1 of hoger moeten in werking stellen. AEM instanties die vorige AEM versies uitvoeren, hebben mogelijk extra functiepakketten en hotfixes nodig die zijn geïnstalleerd om volledig functioneel te worden.
 
 ## Beoogde gebruiksgevallen voor AEM bureaubladtoepassing {#intended-use-cases-for-aem-desktop-app}
 
 AEM desktop app gebruikt de netwerkshare technologie om een externe AEM opslagplaats toe te wijzen aan een lokale desktop. Het is echter niet bedoeld als vervanging voor een netwerkshare-holding-assets, waarbij gebruikers digitale middelenbeheerbewerkingen rechtstreeks vanaf hun lokale bureaublad uitvoeren. Dit zijn onder andere het verplaatsen of kopiëren van meerdere bestanden of het rechtstreeks slepen van grote mapstructuren naar het AEM Assets-netwerkaandeel in Finder/Explorer.
 
-AEM desktop-app biedt een handige manier om toegang te krijgen tot (openen) en DAM-middelen te bewerken (opslaan) tussen de AEM Assets Touch-gebruikersinterface en het lokale bureaublad. Elementen op de AEM Assets-server worden gekoppeld aan workflows op het bureaublad.
+AEM bureaubladtoepassing biedt een handige manier om toegang te krijgen tot DAM-middelen (openen) en deze te bewerken (opslaan) tussen de AEM Assets Touch-gebruikersinterface en het lokale bureaublad. Elementen op de AEM Assets-server worden gekoppeld aan workflows op uw bureaublad.
 
 In het volgende voorbeeld ziet u hoe AEM Desktop moet worden gebruikt:
 
@@ -76,7 +76,7 @@ De desktop-app van de Experience Manager heeft geen configureerbare time-outwaar
 
 AEM bureaubladtoepassing biedt interne caching- en achtergrondlaadmogelijkheden om de gebruikerservaring te verbeteren. Wanneer u een groot bestand opslaat, wordt het eerst lokaal opgeslagen zodat u kunt doorgaan met werken. Na enige tijd (momenteel 30 seconden) wordt het bestand op de achtergrond naar de AEM server verzonden.
 
-In tegenstelling tot Creative Cloud Desktop- of andere oplossingen voor bestandssynchronisatie, zoals Microsoft One Drive, is de desktop-app geen volledige Desktop Sync client. De reden hiervoor is dat het toegang tot de volledige opslagplaats van AEM Assets verleent, die zeer groot (honderden gigabytes of terabytes) voor een volledige synchronisatie kan zijn.
+In tegenstelling tot Creative Cloud Desktop- of andere oplossingen voor bestandssynchronisatie, zoals Microsoft One Drive, is de desktop-app geen volledige Desktop Sync client. De reden hiervoor is dat het toegang biedt tot de gehele AEM Assets-opslagplaats, die zeer groot kan zijn (honderden gigabytes of terabytes) voor een volledige synchronisatie.
 
 Caching verstrekt de capaciteit om de netwerk/opslagoverheadkosten tot slechts een ondergroep van activa te beperken die voor de gebruiker relevant zijn.
 
