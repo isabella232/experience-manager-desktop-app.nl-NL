@@ -3,13 +3,13 @@ title: Installeer en configureer AEM bureaubladtoepassing versie 1.x
 description: Installeer en configureer AEM bureaubladtoepassing versie 1.x om met AEM Assets-servers te werken en wijs de middelen toe die als een station op uw bureaublad moeten worden gemonteerd.
 uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.3/ASSETS
+products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS,SG_EXPERIENCEMANAGER/6.3/ASSETS
 discoiquuid: f6365302-1690-4719-9b8c-035719422740
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3eb9ab89ff6338fb29cfad1a031944119908d0a2
+source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Met de AEM desktop-app zijn de middelen in AEM gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Elementen kunnen eenvoudig worden weergegeven in Mac Finder of Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in AEM wanneer u uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
 
-Een dergelijke integratie maakt het mogelijk dat verschillende functies in de organisatie de bedrijfsmiddelen centraal in de AEM Assets beheren en ze in de Creative Cloud en andere toepassingen benaderen, terwijl het eenvoudig wordt gemaakt om de verschillende normen, waaronder branding, na te leven.
+Een dergelijke integratie maakt het mogelijk dat verschillende rollen in de organisatie de bedrijfsmiddelen centraal in AEM Assets beheren en ze in de Creative Cloud en andere toepassingen benaderen, terwijl het eenvoudig wordt om de verschillende normen, waaronder branding, na te leven.
 
 Ga als volgt te werk om AEM bureaubladtoepassing te gebruiken:
 
@@ -49,7 +49,7 @@ Wanneer u een bestand wijzigt van een netwerklocatie die is gekoppeld door de bu
 
 In de tweede fase uploadt de bureaubladtoepassing het bijgewerkte bestand na een vooraf gedefinieerde vertraging naar AEM server (bijvoorbeeld dertig). Deze bewerking vindt plaats op de achtergrond. Met de optie Asset Status weergeven kunt u de status van de uploadbewerking weergeven.
 
-1. Een element uploaden naar AEM Assets.
+1. Middelen uploaden naar AEM Assets.
 
 1. Klik of tik op het pictogram van de AEM-bureaubladtoepassing op de werkbalk.
 
@@ -103,7 +103,7 @@ In Mac OS X bevindt zich een vergelijkbare map `~/Library/Group Containers/group
 
 ### Optie voor in-app beheren van cache {#in-app-option-to-manage-cache}
 
-U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de server van AEM Assets worden in het voorgeheugen onder gebracht voor een vlottere ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Als u de gewenste opties wilt instellen, klikt u op het pictogram van de toepassing en klikt u op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
+U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de AEM Assets-server worden lokaal in het cachegeheugen opgeslagen voor een vloeiender ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Als u de gewenste opties wilt instellen, klikt u op het pictogram van de toepassing en klikt u op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**. ****
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinde
 
 ### Locatie van cache in Windows wijzigen {#change-location-of-cache-on-windows}
 
-De standaardlocatie van de cache voor de AEM-bureaubladtoepassing is als volgt:
+De standaardlocatie van de cache voor de AEM desktop-app is als volgt:
 
 * In Windows `%LocalAppData%\Adobe\AssetsCompanion\Cache\EncodedAEMEndpoint`.
 
