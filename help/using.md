@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
 workflow-type: tm+mt
-source-wordcount: '3997'
+source-wordcount: '3999'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Gebruik de Adobe Experience Manager-bureaubladtoepassing (AEM) om eenvoudig toeg
 
 Dankzij deze integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in Experience Manager Assets en toegang krijgen tot de elementen op het lokale bureaublad in de native toepassingen op Windows of Mac OS.
 
-Wanneer u de toepassing opent na het afmelden of voor het eerst, geef de URL van de server van de Experience Manager op in de indeling `https://[aem-server-url]:[port]/`. Klik op Verbinding maken. Geef referenties op om de toepassing te verbinden met de server.
+Wanneer u de toepassing opent na het afmelden of voor het eerst, geef de URL van de server van de Experience Manager op in de indeling `https://[aem-server-url]:[port]/`. Selecteer vervolgens de [!UICONTROL Connect] optie. Geef referenties op om de toepassing te verbinden met de server.
 
 De belangrijkste taken die u uitvoert met de Experience Manager-bureaubladtoepassing zijn:
 
