@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ De standaardlocatie van de cache voor de AEM desktop-app is als volgt:
 
 * In Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/EncodedAEMEndpoint`.
 
-`EncodedAEMEndpoint` is de geconfigureerde AEM-URL van AEM bureaubladtoepassing. De waarde is een gecodeerde versie van het doel-URL van de AEM server. Als de toepassing zich bijvoorbeeld richt op `http://localhost:4502`de toepassing, is de mapnaam `http%3A%2F%2Flocalhost%3A4502`. Het Windows-pad naar de cachemap in dit voorbeeld is %LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502.
+`EncodedAEMEndpoint` is de geconfigureerde AEM-URL van AEM bureaubladtoepassing. De waarde is een gecodeerde versie van het doel-URL van de AEM server. Als de toepassing zich bijvoorbeeld richt op `http://localhost:4502`de toepassing, is de mapnaam `http%3A%2F%2Flocalhost%3A4502`. Het pad van Windows naar de cachemap in dit voorbeeld is `%LocalAppData%\Adobe\AssetsCompanion\Cache\http%3A%2F%2Flocalhost%3A4502`.
 
 Als u de toepassing wilt laten verwijzen naar een andere map of een ander station, bewerkt u het configuratiebestand van de toepassing.
 
@@ -127,7 +127,7 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
 
    Beheerdersrechten zijn vereist om wijzigingen in dit bestand op te slaan.
 
-1. Zoek naar het koord &quot;ProxyCacheRoot&quot;. U ziet dat de waarde is ingesteld op de cachelocatie &quot;%LocalAppData%\Adobe\AssetsCompanion\Cache&quot;. Wijzig deze waarde in een geldig pad.
+1. Zoek naar het koord &quot;ProxyCacheRoot&quot;. U ziet dat de waarde ervan is ingesteld op de cachelocatie `%LocalAppData%\Adobe\AssetsCompanion\Cache`. Wijzig deze waarde in een geldig pad.
 
    >[!NOTE]
    >
