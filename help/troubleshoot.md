@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---
@@ -51,37 +51,41 @@ Houd rekening met de volgende informatie als u problemen met bureaubladtoepassin
 
 ### Foutopsporingsmodus inschakelen {#enable-debug-mode}
 
-Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen. Als u de toepassing in de foutopsporingsmodus op de Mac wilt gebruiken, gebruikt u de volgende opdrachtregelopties in een terminal of bij de opdrachtprompt: `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
-
-Voer de volgende stappen uit om de foutopsporingsmodus in Windows in te schakelen:
-
-1. Zoek het `Adobe Experience Manager Desktop.exe.config` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop`.
-
-1. Ga naar `<level value="INFO"/>` het einde van het bestand. Wijzig de waarde van `INFO` in `DEBUG`, namelijk `<level value="DEBUG"/>`. Sla het bestand op en sluit het.
-
-1. Zoek het `logging.json` bestand in de installatiemap van de bureaubladtoepassing. By default, the folder is `C:\Program Files\Adobe\Adobe Experience Manager Desktop\javascript\`.
-
-1. Zoek in `logging.json` het bestand alle exemplaren van `"level": "info"`. Wijzig de waarden van `info` naar `debug`, dat wil zeggen `"level": "debug"`. Sla het bestand op en sluit het.
-
-1. Wis de mappen in de cache die zich bevinden op de locatie die is ingesteld in de [voorkeuren](/help/install-upgrade.md#set-preferences)van de toepassing.
-
-1. Start de bureaubladtoepassing opnieuw.
-
-<!-- The Windows command doesn't work for now.
-* On Windows: `SET AEM_DESKTOP_LOG_LEVEL=DEBUG & "C:\Program Files\Adobe\Adobe Experience Manager Desktop\Adobe Experience Manager Desktop.exe"`
--->
-
-### Locatie van logbestanden {#check-log-files-v2}
-
-U vindt de logbestanden voor AEM bureaubladtoepassing op de volgende locaties. Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
-
-* Pad in Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-* Pad op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen.
 
 >[!NOTE]
 >
->Wanneer u met de klantenservice van Adobe werkt aan een supportaanvraag/-ticket, wordt u mogelijk gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
+>Geldige logboekniveaus zijn DEBUG, INFO, WARN, of FOUT. De breedste logboeken zijn het hoogst in DEBUG en het laagste in FOUT.
+
+Zo gebruikt u de toepassing in de foutopsporingsmodus op de Mac:
+
+1. Open een eindvenster of een bevelherinnering.
+
+1. Start de [!DNL Experience Manager] bureaubladtoepassing met de volgende opdracht:
+
+   `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
+
+De foutopsporingsmodus in Windows inschakelen:
+
+1. Open een opdrachtvenster.
+
+1. Start de [!DNL Experience Manager] bureaubladtoepassing met de volgende opdracht:
+
+`AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
+
+### Locatie van logbestanden {#check-log-files-v2}
+
+[!DNL Experience Manager] de logbestanden van de bureaubladtoepassing worden op de volgende locaties opgeslagen, afhankelijk van het besturingssysteem:
+
+In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
+
+>[!NOTE]
+>
+>Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
 
 ### Cache wissen {#clear-cache-v2}
 
@@ -129,7 +133,60 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 Als u bureaubladtoepassingen gebruikt met AEM 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met de fout bij het uploaden van bestanden met betrekking tot [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)is opgelost. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
-## Probleem met SSL-configuratie {#ssl-config-v2}
+## [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
+
+### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
+
+Als de [!DNL Experience Manager] bureaubladtoepassing geen verbinding maakt met uw [!DNL Adobe Experience Manager] instantie SSO-enabled (SAML), leest u deze sectie voor het oplossen van problemen. SSO-processen zijn gevarieerd, soms complex, en het ontwerp van de toepassing doet zijn best om deze typen verbindingen aan te passen. Nochtans, vereisen sommige montages extra het oplossen van problemen.
+
+Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk gevraagde pad of is de uiteindelijke omleiding naar een host die anders is dan wat in de [!DNL Adobe Experience Manager] bureaubladtoepassing is geconfigureerd. Om na te gaan of dit niet het geval is:
+
+1. Open een webbrowser.
+
+1. Voer de URL `<AEM host>/content/dam.json` in op de adresbalk.
+
+   Vervangen `<AEM host>` door bijvoorbeeld de [!DNL Adobe Experience Manager] doelinstantie `http://localhost:4502/content/dam.json`.
+
+1. Meld u aan bij de [!DNL Adobe Experience Manager] instantie.
+
+1. Wanneer login volledig is, bekijk het huidige adres van browser in de adresbar. Deze moet exact overeenkomen met de URL die oorspronkelijk is ingevoerd.
+
+1. Controleer ook of alles voordat het bestand `/content/dam.json` overeenkomt met de [!DNL Adobe Experience Manager] doelwaarde die in de instellingen van de [!DNL Adobe Experience Manager] bureaubladtoepassing is geconfigureerd.
+
+**Het SAML-aanmeldingsproces werkt correct volgens de bovenstaande stappen, maar gebruikers kunnen zich nog steeds niet aanmelden**
+
+Het venster binnen de [!DNL Adobe Experience Manager] bureaubladtoepassing waarin het aanmeldingsproces wordt weergegeven, is gewoon een webbrowser die de webgebruikersinterface van de [!DNL Adobe Experience Manager] doelinstantie weergeeft:
+
+* De versie van MAC gebruikt een [WebView](https://developer.apple.com/documentation/webkit/webview).
+
+* In de Windows-versie wordt op chroom gebaseerde [CefSharp](https://cefsharp.github.io/)gebruikt.
+
+Zorg ervoor dat het SAML-proces deze browsers ondersteunt.
+
+Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de browser probeert te laden. Deze informatie bekijken:
+
+1. Volg de aanwijzingen voor het starten van de toepassing in de [foutopsporingsmodus](#enable-debug-mode).
+
+1. Reproduceer de login poging.
+
+1. Ga naar de [logmap](#check-log-files-v2) van de toepassing
+
+1. Voor Windows:
+
+   1. Open &quot;aemcompanionlog.txt&quot;.
+
+   1. Zoek naar berichten die met &quot;Login browser adres veranderen in&quot;beginnen. Deze vermeldingen bevatten ook de URL die de toepassing heeft geladen.
+
+   Voor Mac:
+
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, waarbij de **n** wordt vervangen door de nummers in de nieuwste bestandsnaam.
+
+   1. Zoek naar berichten die met &quot;geladen kader&quot;beginnen. Deze vermeldingen bevatten ook de URL die de toepassing heeft geladen.
+
+
+Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind van SAML problemen oplossen om te bepalen wat verkeerd is.
+
+### Probleem met SSL-configuratie {#ssl-config-v2}
 
 De bibliotheken die AEM bureaubladtoepassing gebruikt voor HTTP-communicatie maken gebruik van strikte SSL-afgedwongen omzetting. Soms kan een verbinding met een browser slagen, maar wordt AEM bureaubladtoepassing niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Een tussenpersoon installeren in Apache](https://access.redhat.com/solutions/43575).
 
