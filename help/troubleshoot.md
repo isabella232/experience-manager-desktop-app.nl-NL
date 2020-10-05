@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381e586077c7db63dd57a468b1c6abc60c63e34e
+source-git-commit: b4add64df21991495d5cc01e6250bbc9fc444ff0
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Nochtans, kan de plaats afhankelijk van het gevormde AEM eindpunt van AEM Deskto
 
 Klik op het menu ![](assets/do-not-localize/more_options_da2.png) App om het menu van de app te openen en klik op **[!UICONTROL Help]** > **[!UICONTROL About]**.
 
-## Kan geplaatste elementen niet zien {#placed-assets-missing}
+### Kan geplaatste elementen niet zien {#placed-assets-missing}
 
 Controleer het volgende als u niet kunt zien welke elementen u of andere creatieve professionals in de ondersteuningsbestanden hebben geplaatst (bijvoorbeeld INDD-bestanden):
 
@@ -114,7 +114,7 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 * Stationsconsistentie. Als u of een andere medewerker de elementen heeft geplaatst terwijl de AEM DAM is toegewezen aan een andere stationsletter, worden de geplaatste elementen niet weergegeven.
 * Machtigingen. Neem contact op met de AEM om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
 
-## Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
+### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
 
 Soms kunnen er problemen optreden wanneer u een upgrade uitvoert van AEM bureaubladtoepassing op MacOS. Dit wordt veroorzaakt door de oude systeemmap van AEM bureaubladtoepassing, waardoor nieuwe versies van AEM bureaubladtoepassing niet correct kunnen worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
@@ -129,13 +129,28 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Kan bestanden niet uploaden {#upload-fails}
+### Kan bestanden niet uploaden {#upload-fails}
 
 Als u bureaubladtoepassingen gebruikt met AEM 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met de fout bij het uploaden van bestanden met betrekking tot [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)is opgelost. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
-## [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
+### [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
 
-### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
+Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende manieren meer informatie krijgen over wat de [!DNL Experience Manager] bureaubladtoepassing doet.
+
+**Controleer het aanvraaglogboek**
+
+[!DNL Experience Manager] desktop app registreert alle verzoeken die het, samen met de antwoordcode van elk verzoek, in een specifiek logboekdossier verzendt.
+
+1. Open `request.log` in de het logboekfolder van de toepassing om deze verzoeken te zien.
+
+1. Elke lijn in het logboek vertegenwoordigt of een verzoek of een reactie. Aanvragen hebben een `>` teken gevolgd door de gewenste URL. Reacties hebben een `<` teken gevolgd door de antwoordcode en de URL die is aangevraagd. De verzoeken en de Reactie kunnen worden aangepast gebruikend GUID van elke lijn.
+
+**Verzoeken controleren die door de ingesloten browser van de toepassing zijn geladen**
+
+Een meerderheid van de verzoeken van de toepassing wordt gevonden in het verzoeklogboek. Als er echter geen nuttige informatie beschikbaar is, kan het nuttig zijn om te kijken naar de aanvragen die door de ingesloten browser van de toepassing worden verzonden.
+Zie de sectie [van](#da-connection-issue-with-saml-aem) SAML voor instructies op hoe te om die verzoeken te bekijken.
+
+#### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
 Als de [!DNL Experience Manager] bureaubladtoepassing geen verbinding maakt met uw [!DNL Adobe Experience Manager] instantie SSO-enabled (SAML), leest u deze sectie voor het oplossen van problemen. SSO-processen zijn gevarieerd, soms complex, en het ontwerp van de toepassing doet zijn best om deze typen verbindingen aan te passen. Nochtans, vereisen sommige montages extra het oplossen van problemen.
 
@@ -186,11 +201,45 @@ Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de b
 
 Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind van SAML problemen oplossen om te bepalen wat verkeerd is.
 
-### Probleem met SSL-configuratie {#ssl-config-v2}
+#### Probleem met SSL-configuratie {#ssl-config-v2}
 
 De bibliotheken die AEM bureaubladtoepassing gebruikt voor HTTP-communicatie maken gebruik van strikte SSL-afgedwongen omzetting. Soms kan een verbinding met een browser slagen, maar wordt AEM bureaubladtoepassing niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Een tussenpersoon installeren in Apache](https://access.redhat.com/solutions/43575).
 
-## App reageert niet {#unresponsive}
+
+De bibliotheken die Desktop voor de mededeling van HTTP gebruiken gebruiken strikte SSL handhaving. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die via een browser slagen, mislukken bij [!DNL Adobe Experience Manager] bureaubladtoepassingen. Dit is een goede zaak, omdat hierdoor de juiste configuratie van SSL wordt aangemoedigd en de beveiliging wordt verhoogd, maar dit kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
+
+In dit geval kunt u het beste een hulpprogramma gebruiken om het SSL-certificaat van een server te analyseren en problemen te identificeren zodat deze kunnen worden gecorrigeerd. Er zijn websites die het servercertificaat controleren bij het opgeven van de URL.
+
+Als tijdelijke maatregel, is het mogelijk om strikte SSL handhaving in [!DNL Adobe Experience Manager] Desktopapp onbruikbaar te maken. Dit is geen geadviseerde oplossing op lange termijn, aangezien het veiligheid vermindert door de worteloorzaak van verkeerd gevormde SSL te verbergen. Strikte handhaving uitschakelen:
+
+1. Gebruik de editor van uw keuze om het JavaScript-configuratiebestand van de toepassing te bewerken. Deze bevindt zich (standaard) op de volgende locaties (afhankelijk van het besturingssysteem):
+
+   Op Mac: `/Applications/Adobe Experience Manager Desktop.app/Contents/Resources/javascript/lib-smb/config.json`
+
+   In Windows: `C:\Program Files (x86)\Adobe\Adobe Experience Manager Desktop\javascript\config.json`
+
+1. Zoek de volgende sectie in het bestand:
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+   ...
+   ```
+
+1. Wijzig de sectie door `"strictSSL": false` als volgt toe te voegen:
+
+   ```shell
+   ...
+   "assetRepository": {
+       "options": {
+           "strictSSL": false,
+   ...
+   ```
+
+1. Sla het bestand op en start de [!DNL Adobe Experience Manager] bureaubladtoepassing opnieuw.
+
+### App reageert niet {#unresponsive}
 
 In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit scherm weergegeven of wordt een fout onder aan de interface weergegeven zonder opties in de interface. Probeer het volgende in de volgorde:
 
