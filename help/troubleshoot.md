@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4add64df21991495d5cc01e6250bbc9fc444ff0
+source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2230'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,48 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenservice van Adobe als u ervoor kiest om ondersteuning te zoeken.
 
+### Locatie van logbestanden {#check-log-files-v2}
+
+[!DNL Experience Manager] de logbestanden van de bureaubladtoepassing worden op de volgende locaties opgeslagen, afhankelijk van het besturingssysteem:
+
+In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
+
+Op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
+
+Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
+
+>[!NOTE]
+>
+>Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
+
+### Detailniveau in logbestanden wijzigen {#level-of-details-in-log}
+
+U wijzigt als volgt het detailniveau in logbestanden:
+
+1. Zorg ervoor dat de toepassing niet wordt uitgevoerd.
+
+1. Op Windows-systeem:
+
+   1. Open een opdrachtvenster.
+
+   1. Start de [!DNL Adobe Experience Manager] bureaubladtoepassing met de opdracht:
+
+   ```shell
+   set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
+   ```
+
+   Op Mac-systeem:
+
+   1. Open een terminalvenster.
+
+   1. Start de [!DNL Adobe Experience Manager] bureaubladtoepassing met de opdracht:
+
+   ```shell
+   AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
+   ```
+
+De geldige logboekniveaus zijn DEBUG, INFO, WARN, of FOUT. De breedste logboeken zijn het hoogst in DEBUG en het laagste in FOUT.
+
 ### Foutopsporingsmodus inschakelen {#enable-debug-mode}
 
 Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen.
@@ -73,46 +115,61 @@ De foutopsporingsmodus in Windows inschakelen:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### Locatie van logbestanden {#check-log-files-v2}
-
-[!DNL Experience Manager] de logbestanden van de bureaubladtoepassing worden op de volgende locaties opgeslagen, afhankelijk van het besturingssysteem:
-
-In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
-
-Op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
-
-Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
-
->[!NOTE]
->
->Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
-
 ### Cache wissen {#clear-cache-v2}
 
-Het wissen AEM de cache van de bureaublad-app is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [Voorkeuren](install-upgrade.md#set-preferences)instellen. De standaardlocatie van de cachemap is:
+Voer de volgende stappen uit:
 
-* In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+1. Start de toepassing en sluit een AEM aan.
 
-* Op Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+1. Open de voorkeuren van de toepassing door op de ellipsen in de rechterbovenhoek te klikken en te selecteren [!UICONTROL Preferences].
 
-Nochtans, kan de plaats afhankelijk van het gevormde AEM eindpunt van AEM Desktop veranderen. De waarde is een gecodeerde versie van de beoogde URL. Als de toepassing zich bijvoorbeeld richt op `http://localhost:4502`de toepassing, is de mapnaam `http%3A%2F%2Flocalhost%3A4502%2F`. Als u de cache wilt wissen, verwijdert u de desbetreffende map. Een andere reden om cache te wissen is het vrijmaken van schijfruimte wanneer er weinig schijfruimte beschikbaar is.
+1. Zoek het item dat het [!UICONTROL Current Cache Size]weergeeft. Klik op het prullenbakpictogram naast dit element.
+
+Ga door met de onderstaande stappen om de cache handmatig te wissen.
 
 >[!CAUTION]
 >
->Als u AEM bureaubladcache wist, gaan wijzigingen in lokale elementen die niet op AEM server worden gesynchroniseerd, onherroepelijk verloren.
+>Dit is een potentieel destructieve bewerking. Als er lokale bestandswijzigingen zijn waarnaar niet wordt geüpload [!DNL Adobe Experience Manager], gaan deze wijzigingen verloren.
 
-### De versie van de AEM bureaubladtoepassing kennen {#know-app-version-v2}
+De cache wordt gewist door de cachemap van de toepassing te verwijderen. Deze map staat in de voorkeuren van de toepassing.
 
-Klik op het menu ![](assets/do-not-localize/more_options_da2.png) App om het menu van de app te openen en klik op **[!UICONTROL Help]** > **[!UICONTROL About]**.
+1. Start de toepassing.
+
+1. Open de voorkeuren van de toepassing door de ovalen in de rechterbovenhoek te selecteren en te selecteren [!UICONTROL Preferences].
+
+1. Noteer de [!UICONTROL Cache Directory] waarde.
+
+   In deze folder zijn er subdirectories die na de Gecodeerde [!DNL Adobe Experience Manager] Eindpunten worden genoemd. De namen zijn een gecodeerde versie van de beoogde [!DNL Adobe Experience Manager] URL. Als de toepassing zich bijvoorbeeld richt op `localhost:4502` de toepassing, wordt de mapnaam `localhost_4502`.
+
+Om het geheime voorgeheugen te ontruimen, schrap de gewenste Gecodeerde folder van het [!DNL Adobe Experience Manager] Eindpunt. Als u ook de volledige map verwijdert die u in de voorkeuren hebt opgegeven, wordt de cache gewist voor alle instanties die door de toepassing zijn gebruikt.
+
+Het wissen van de cache van de bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. [!DNL Adobe Experience Manager] Wis de cache uit de toepassingsvoorkeuren. Zie [Voorkeuren](install-upgrade.md#set-preferences)instellen. De standaardlocatie van de cachemap is:
+
+### De versie van de [!DNL Adobe Experience Manager] bureaubladtoepassing kennen {#know-app-version-v2}
+
+Het versienummer weergeven:
+
+1. Start de toepassing.
+
+1. Klik op de ellipsen in de rechterbovenhoek, houd de cursor boven [!UICONTROL Help]en klik [!UICONTROL About].
+
+   Het versienummer wordt weergegeven op dit scherm.
 
 ### Kan geplaatste elementen niet zien {#placed-assets-missing}
 
 Controleer het volgende als u niet kunt zien welke elementen u of andere creatieve professionals in de ondersteuningsbestanden hebben geplaatst (bijvoorbeeld INDD-bestanden):
 
 * Verbinding maken met de server. De Flash-netwerkconnectiviteit kan het downloaden van bedrijfsmiddelen blokkeren.
+
 * Bestandsgrootte. Het downloaden en weergeven van grote elementen duurt langer.
+
 * Stationsconsistentie. Als u of een andere medewerker de elementen heeft geplaatst terwijl de AEM DAM is toegewezen aan een andere stationsletter, worden de geplaatste elementen niet weergegeven.
+
 * Machtigingen. Neem contact op met de AEM om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
+
+### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing worden niet [!DNL Adobe Experience Manager] meteen weerspiegeld {#changes-on-da-not-visible-on-aem}
+
+[!DNL Adobe Experience Manager] de bureaubladtoepassing laat het aan de gebruiker over om te beslissen wanneer alle bewerkingen van een bestand zijn voltooid. Afhankelijk van de grootte en de complexiteit van een bestand duurt het veel tijd om de nieuwe versie van een bestand terug te sturen naar [!DNL Adobe Experience Manager]. Het ontwerp van de toepassing vereist dat het aantal keren dat een bestand heen en weer wordt overgebracht, wordt geminimaliseerd, in plaats van te raden wanneer de bestandsbewerkingen zijn voltooid en automatisch worden geüpload. De gebruiker wordt geadviseerd de overdracht van het bestand terug naar te starten [!DNL Adobe Experience Manager] door de wijzigingen van een bestand te uploaden.
 
 ### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
 
@@ -247,6 +304,22 @@ In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit sche
 * Sluit de toepassing af en open deze opnieuw.
 
 In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
+
+### Extra hulp nodig met [!DNL Experience Manager] bureaubladtoepassing {#additional-help}
+
+Maak een Jira-ticket met de volgende informatie:
+
+* Gebruik `DAM - Companion App` als [!UICONTROL Component].
+
+* Gedetailleerde stappen om het probleem weer te geven in [!UICONTROL Description].
+
+* Logbestanden op FOUTOPSPORING-niveau die zijn vastgelegd tijdens het reproduceren van het probleem.
+
+* Doelversie AEM.
+
+* Versie van besturingssysteem.
+
+* [!DNL Adobe Experience Manager] bureaubladtoepassing. Zie de [bureaubladversie](#know-app-version-v2)voor meer informatie over uw app.
 
 >[!MORELIKETHIS]
 >
