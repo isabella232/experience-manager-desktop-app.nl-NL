@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7a334df5eaa2b8a8d0412bff1ed2a47d39ca1a2
+source-git-commit: 540821ad10f14ad855c66a2b93d356ba118515c7
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 0%
@@ -143,7 +143,7 @@ De cache wordt gewist door de cachemap van de toepassing te verwijderen. Deze ma
 
 Om het geheime voorgeheugen te ontruimen, schrap de gewenste Gecodeerde folder van het [!DNL Adobe Experience Manager] Eindpunt. Als u ook de volledige map verwijdert die u in de voorkeuren hebt opgegeven, wordt de cache gewist voor alle instanties die door de toepassing zijn gebruikt.
 
-Het wissen van de cache van de bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. [!DNL Adobe Experience Manager] Wis de cache uit de toepassingsvoorkeuren. Zie [Voorkeuren](install-upgrade.md#set-preferences)instellen. De standaardlocatie van de cachemap is:
+Het wissen van het cachegeheugen van de [!DNL Adobe Experience Manager] bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [Voorkeuren](install-upgrade.md#set-preferences)instellen. De standaardlocatie van de cachemap is:
 
 ### De versie van de [!DNL Adobe Experience Manager] bureaubladtoepassing kennen {#know-app-version-v2}
 
