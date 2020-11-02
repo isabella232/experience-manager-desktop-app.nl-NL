@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ef87dc011297fda181a9a7643a261e8a42e35a8b
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,7 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
    >De toepassing maakt automatisch een submap *&lt;Encoded AEM Endpoint>* . Dit gedrag kan niet worden geconfigureerd.
 
 >[!MORELIKETHIS]
-* [Inleiding tot AEM bureaubladtoepassing](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
-* [AEM bureaubladtoepassing gebruiken](use-app-v1.md)
-* [Inchecken/uitchecken begrijpen met AEM bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [Desktop-app gebruiken met AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
-* [Problemen met AEM bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
+* [Introductie tot AEM bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Gebruik AEM bureaubladtoepassing](use-app-v1.md).
+* [Problemen met AEM bureaubladtoepassing](troubleshoot-app-v1.md)oplossen.
 
