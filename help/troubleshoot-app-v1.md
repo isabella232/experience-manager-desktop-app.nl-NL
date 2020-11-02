@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -144,7 +144,7 @@ U kunt de prestaties aan de AEM kant verbeteren door tijdelijke workflows voor d
 
 Een andere methode om AEM prestaties te verbeteren is de waarde van de maximumparallelle banen voor de Granite Transient baan van de Rij van het Werkschema te vormen. De aanbevolen waarde is ongeveer de helft van het aantal CPU&#39;s dat beschikbaar is op de server. Voer de volgende stappen uit om de waarde aan te passen:
 
-1. Navigeer naar */system/console/configMgr* in de AEM instantie die moet worden geconfigureerd (bijvoorbeeld <http://&lt;Server&gt;:&lt;Port&gt;/system/console/configMgr>).
+1. Navigeer naar */system/console/configMgr* in de AEM instantie die moet worden geconfigureerd (bijvoorbeeld `http://[aem_server]:[port]/system/console/configMgr`).
 1. Zoek naar **QueueConfiguration**, en klik om elke baan te openen tot u van de **Granite Transient Workflow Queue** baan de plaats bepaalt. Klik op Bewerken naast het item.
 1. Wijzig de waarde voor **Maximale parallelle taken** en klik op **Opslaan**.
 
