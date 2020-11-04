@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Adobe raadt aan dat de uploadsnelheid van een individuele gebruiker dicht bij 10
 
 Als u AEM in Windows uitvoert, kunt u Windows configureren om de prestaties van de WebDAV-client te verbeteren. Ga voor meer informatie naar [https://support.microsoft.com/en-us/kb/2445570](https://support.microsoft.com/en-us/kb/2445570).
 
-In Windows 7 kunt u de prestaties van WebDAV verbeteren door IE-instellingen te wijzigen. Ga voor meer informatie naar [http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/](http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/).
+In Windows 7 kunt u de prestaties van WebDAV verbeteren door IE-instellingen te wijzigen. Zie voor meer informatie hoe u de trage WebDAV-prestaties in Windows 7 [kunt](https://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/)corrigeren.
 
 ## Gelijktijdige bewerkingen {#concurrent-operations}
 
