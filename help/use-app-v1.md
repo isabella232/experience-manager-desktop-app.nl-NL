@@ -3,9 +3,9 @@ title: Gebruik AEM bureaubladtoepassing versie 1.x.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2474'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,5 @@ U kunt ook bestanden/mappen selecteren waarnaar u wilt uploaden in AEM in Finder
 
 >[!MORELIKETHIS]
 >
->* [Inleiding tot AEM bureaubladtoepassing](https://helpx.adobe.com/customer-care-office-hours/aem/desktop-app.html)
->* [Inchecken/uitchecken begrijpen met AEM bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/checkin-checkout-technical-video-understand.html)
 >* [Problemen met AEM bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
 
