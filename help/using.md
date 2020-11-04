@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: f5f65fa8ddceae62f2e046f2d20e853aef572f2c
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Vanuit de gebruikersinterface Middelen in een browser kunt u de middelenlocaties
 1. Klik of tik op het pictogram **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoogvenster weer te geven.
 1. Selecteer in het dialoogvenster Gebruikersvoorkeuren **[!UICONTROL Show Desktop Actions For Assets]**. Klik of tik op **[!UICONTROL Accept]**.
 
-   ![Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen](assets/chlimage_1-3.png)
+   ![Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
 
    Inschakelen [!UICONTROL Show Desktop Actions For Assets] van desktophandelingen
 
