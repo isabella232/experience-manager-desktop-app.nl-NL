@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Desktop app monteert de AEM Assets-opslagplaats als netwerkshare op desktop. Daa
 
 AEM desktop gebruikt WebDAV (Windows) of SMB (Mac) netwerkshares om netwerkshares te koppelen. Het gekoppelde netwerkaandeel is alleen lokaal. AEM bureaubladtoepassing onderschept de aanroepen (openen, lezen, schrijven) en biedt extra lokale caching. Het vertaalt verre vraag aan de server van AEM Assets aan geoptimaliseerde AEM HTTP- verzoeken. In het volgende diagram wordt de architectuur van de AEM desktop-app weergegeven.
 
-![AEM bureaubladtoepassingsarchitectuur](assets/chlimage_1.png)
+![AEM bureaubladtoepassingsarchitectuur](assets/arch_v1.png)
 
 *Afbeelding: bureaubladtoepassingsarchitectuur*
 
