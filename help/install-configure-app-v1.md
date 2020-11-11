@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0820ad90cc89e2d2571c9f6c43c1e60734b7ade0
+source-git-commit: 9c11f0b8ace17e7f596bcfe26e69f4ca649e0126
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,9 @@ Voor de kopieer- en verplaatsingsmethoden in de API voor middelen moeten de volg
 * X-diepte
 * X-Overschrijven
 
-AEM desktop maakt verbinding met AEM via een URL die de standaardpoort bevat. Daarom zou het plaatsen in de `virtualhosts` dispatcherconfiguratie het standaardhavenaantal moeten omvatten. Voor meer informatie over `virtualhosts` configuratie, zie virtuele gastheren [](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)identificeren.
+AEM desktop maakt verbinding met AEM via een URL die de standaardpoort bevat. Daarom zou het plaatsen in de `virtualhosts` dispatcherconfiguratie het standaardhavenaantal moeten omvatten. Voor meer informatie over `virtualhosts` configuratie, zie virtuele gastheren [](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts)identificeren.
 
-Voor extra informatie bij het vormen van de verzender om door deze extra kopballen over te gaan, zie het [Specificeren van de Kopballen](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)van HTTP.
+Voor extra informatie bij het vormen van de verzender om door deze extra kopballen over te gaan, zie het [Specificeren van de Kopballen](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)van HTTP.
 
 ### Proxyondersteuning {#proxy-support}
 
@@ -134,7 +134,7 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
    >De toepassing maakt automatisch een submap *&lt;Encoded AEM Endpoint>* . Dit gedrag kan niet worden geconfigureerd.
 
 >[!MORELIKETHIS]
-* [Introductie tot AEM bureaubladtoepassing](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
+* [Introductie tot AEM bureaubladtoepassing](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app.html).
 * [Gebruik AEM bureaubladtoepassing](use-app-v1.md).
 * [Problemen met AEM bureaubladtoepassing](troubleshoot-app-v1.md)oplossen.
 
