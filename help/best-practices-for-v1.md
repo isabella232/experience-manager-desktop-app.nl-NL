@@ -1,17 +1,10 @@
 ---
 title: Aanbevolen werkwijzen voor desktop app versie 1.x AEM
 description: Belangrijke mogelijkheden en aanbevolen gebruik van Adobe Experience Manager desktop app versie 1.x.
-uuid: ba8fbc74-e1ad-4085-a031-ffd317628ba6
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 57d5cd78-abce-4ede-a50e-7c161ddb43ae
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -29,7 +22,7 @@ Desktop app monteert de AEM Assets-opslagplaats als netwerkshare op desktop. Daa
 
 >[!NOTE]
 >
->Voordat u dit document leest, kunt u de algemene best practices [voor](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html) AEM- en Creative Cloud-integratie doornemen voor een overzicht op een hoger niveau van het onderwerp.
+>Voordat u dit document leest, kunt u de algemene best practices [voor](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/aem-cc-integration-best-practices.html) AEM- en Creative Cloud-integratie doornemen voor een overzicht op een hoger niveau van het onderwerp.
 
 ## AEM bureaubladtoepassingsarchitectuur {#aem-desktop-app-architecture}
 
@@ -71,7 +64,7 @@ De belangrijkste mogelijkheden van AEM bureaubladtoepassing zijn:
 
 * Gebruik AEM netwerkstations voor bureaubladtoepassingen niet om elementen vaak op te slaan. Alle opslagbewerkingen worden naar AEM Assets verzonden. Daarom is het onpraktisch om intensieve bewerkingen rechtstreeks uit te voeren in de gekoppelde AEM Assets-opslagplaats. Door een element rechtstreeks in de gekoppelde opslagplaats te bewerken, loopt de tijdlijn van het element vast met irrelevante versies en worden extra overheadkosten aan de server opgelegd.
 
-* Gebruik AEM bureaubladtoepassing niet voor het migreren van grote hoeveelheden gegevens van de ene AEM naar de andere. Zie de [migratiehandleiding](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html) voor het plannen en uitvoeren van migratie van middelen. Desktop-app daarentegen [ondersteunt het uploaden](use-app-v1.md#bulkupload) van grote hoeveelheden middelen voor het eerst in [!DNL Adobe Experience Manager].
+* Gebruik AEM bureaubladtoepassing niet voor het migreren van grote hoeveelheden gegevens van de ene AEM naar de andere. Zie de [migratiehandleiding](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html) voor het plannen en uitvoeren van migratie van middelen. Desktop-app daarentegen [ondersteunt het uploaden](use-app-v1.md#bulkupload) van grote hoeveelheden middelen voor het eerst in [!DNL Adobe Experience Manager].
 
 ## Recommendations voor geselecteerde gebruiksgevallen {#recommendations-for-selected-use-cases}
 
@@ -127,7 +120,7 @@ Een goede ervaring voor gebruikers die de AEM desktop-app gebruiken, is in hoge 
 
 ### Netwerkoverwegingen {#network-considerations}
 
-Raadpleeg het document [AEM Assets Network Considerations](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/assets-migration-guide.html) voor meer informatie over de beste werkwijzen met betrekking tot de AEM Assets-netwerkconfiguratie. Enkele belangrijke aspecten die u helpen AEM bureaubladervaring voor de gebruikers te optimaliseren, zijn:
+Raadpleeg het document [AEM Assets Network Considerations](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-migration-guide.html) voor meer informatie over de beste werkwijzen met betrekking tot de AEM Assets-netwerkconfiguratie. Enkele belangrijke aspecten die u helpen AEM bureaubladervaring voor de gebruikers te optimaliseren, zijn:
 
 * **Gebruik correct geconfigureerde Dispatcher**. Gebruik AEM Dispatcher voor extra beveiliging en zorg ervoor dat deze is geconfigureerd voor [AEM verbinding met een bureaubladtoepassing om achter een verzender te AEM](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
@@ -139,8 +132,8 @@ Raadpleeg het document [AEM Assets Network Considerations](https://docs.adobe.co
 
 ### Serverprestaties optimaliseren {#optimizing-server-performance}
 
-Raadpleeg de [AEM Assets Performance Tuning Guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html)om te begrijpen hoe de AEM Assets-server geoptimaliseerd moet worden voor prestaties. Sommige belangrijke aspecten van de serverprestaties voor AEM bureaubladtoepassing betreffen het optimaliseren van de workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
+Raadpleeg de [AEM Assets Performance Tuning Guide](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html)om te begrijpen hoe de AEM Assets-server geoptimaliseerd moet worden voor prestaties. Sommige belangrijke aspecten van de serverprestaties voor AEM bureaubladtoepassing betreffen het optimaliseren van de workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
 
-* **Verbeterde functionaliteit voor het uploaden** van middelen. Configureer het workflowmodel voor [AEM Asset Update tijdelijk](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/performance-tuning-guidelines.html#Workflows).
+* **Verbeterde functionaliteit voor het uploaden** van middelen. Configureer het workflowmodel voor [AEM Asset Update tijdelijk](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/performance-tuning-guidelines.html).
 
 * **Beperk de server-CPU voor uploads**. Zorg ervoor dat de maximale parameter voor parallelle workflowtaken correct is ingesteld, zodat uploads niet alle CPU uitputten.
