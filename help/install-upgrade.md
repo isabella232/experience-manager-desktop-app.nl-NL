@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a8a49865d2707f5d60fbd6d5e99b597c333d3d5
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Zie Desktop-app [](#upgrade-from-previous-version)upgraden als u een upgrade uitvoert vanaf een andere versie van de app.
 
-1. Sla deze stap over als u Experience Manager als Cloud Service, Experience Manager 6.4.4 of later, of Experience Manager 6.5.0 of later gebruikt. Zorg ervoor dat uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van de Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)werken.
+1. Sla deze stap over als u Experience Manager als Cloud Service, Experience Manager 6.4.4 of later, of Experience Manager 6.5.0 of later gebruikt. Zorg ervoor dat uw Experience Manager voldoet aan de compatibiliteitsvereisten die in de [releaseopmerkingen](release-notes.md)worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met de Experience Manager Package Manager als beheerder van de Experience Manager. Om een pakket te installeren, zie [hoe te met Pakketten](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)werken.
 
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 
@@ -93,7 +93,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    *Afbeelding: De toepassing geeft de DAM-inhoud weer na de aanmelding*
 
-1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Zie [Azure-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AzureDataStore) of [S3-connector](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/data-store-config.html#AmazonS3DataStore).
+1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
    Neem contact op met de klantenservice van Adobe als u een klant van Adobe Managed Services (AMS) bent.
 
