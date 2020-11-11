@@ -10,10 +10,10 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 0%
 
 ---
 
@@ -42,11 +42,11 @@ De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende b
 
 De app werkt met de volgende versies van Experience Managers, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
-* [Experience Manager as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html).
+* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 
-* [Experience Manager 6.5.0](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/release-notes.html) of hoger.
+* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) of hoger.
 
-* [Experience Manager 6.4.4](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/release-notes.html) of hoger.
+* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) of hoger.
 
 * Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
@@ -169,8 +169,8 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 >[!MORELIKETHIS]
 >
->* [AEM als documentatie voor Cloud Servicen](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
->* [AEM als documentatie bij Cloud Service Assets](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/home.html)
+>* [AEM als documentatie voor Cloud Servicen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [AEM als documentatie bij Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager desktop app gebruiken](using.md)
 >* [Desktop-app installeren en upgraden](install-upgrade.md)
 >* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
