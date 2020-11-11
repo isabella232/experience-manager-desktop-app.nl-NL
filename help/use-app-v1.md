@@ -3,9 +3,9 @@ title: Gebruik AEM bureaubladtoepassing versie 1.x.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
 contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Als u het specifieke element op uw lokale bestandssysteem wilt zoeken, klikt u o
 
 Met AEM Assets kunt u elementen uitchecken om te bewerken en ze weer inchecken nadat u alle wijzigingen hebt aangebracht. Nadat u een element hebt uitgecheckt, kunt u het element alleen bewerken, annoteren, publiceren, verplaatsen of verwijderen. Als u een element uitcheckt, vergrendelt u het element en voorkomt u dat andere gebruikers deze bewerkingen uitvoeren. Om activa te kunnen uitchecken/inchecken, hebt u schrijftoegang op hen nodig.
 
-Er zijn twee manieren om elementen uit de AEM webinterface te controleren. Voor gedetailleerde informatie over de eerste methode raadpleegt u de [inchecken en uitchecken van bestanden in de interface](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/check-out-and-submit-assets.html)Middelen. Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer AEM Desktop-app is geïnstalleerd.
+Er zijn twee manieren om elementen uit de AEM webinterface te controleren. Voor gedetailleerde informatie over de eerste methode raadpleegt u de [inchecken en uitchecken van bestanden in de interface](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/check-out-and-submit-assets.html)Middelen. Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer AEM Desktop-app is geïnstalleerd.
 
 1. Open de AEM Assets-interface en houd de aanwijzer boven een map of element om de desktophandelingen als snelle handelingen weer te geven in de kaartweergave.
 
