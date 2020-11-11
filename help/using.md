@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_E
 discoiquuid: 39d7bcad-d7b0-4978-a790-4cb68b8a7d6a
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: e6e184d36cb7d78177384d919c74d048e46a1c95
+source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '3993'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Gebruik deze optie **[!UICONTROL Toggle Check-out]** om het element te vergrende
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt dat anderen dit niet bewerken.
 
-Nadat u de wijzigingen hebt aangebracht, geeft de app de **[!UICONTROL Edited Locally]** status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in AEM uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** de opties voor een element. Er wordt een versie van het element in AEM gemaakt. Met de webinterface van AEM Assets kunt u de geschiedenis van elementen zien in de [tijdlijnweergave](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/activity-stream.html).
+Nadat u de wijzigingen hebt aangebracht, geeft de app de **[!UICONTROL Edited Locally]** status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in AEM uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** de opties voor een element. Er wordt een versie van het element in AEM gemaakt. Met de webinterface van AEM Assets kunt u de geschiedenis van elementen zien in de [tijdlijnweergave](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
 ![De optie Wijzigingen uploaden in de](assets/upload_changes_single1_da2.png "optie voor het uploaden van wijzigingen in de app")
 
@@ -176,7 +176,7 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 ## Nieuwe elementen uploaden en toevoegen aan AEM {#upload-and-add-new-assets-to-aem}
 
-Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot aan de AEM opslagplaats wil toevoegen. Als u nieuwe inhoud wilt toevoegen aan AEM, klikt u op het pictogram ![](assets/do-not-localize/upload_to_cloud_da2.png) Uploaden naar cloud in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in mappen [maken in AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#Creatingfolders).
+Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot aan de AEM opslagplaats wil toevoegen. Als u nieuwe inhoud wilt toevoegen aan AEM, klikt u op het pictogram ![](assets/do-not-localize/upload_to_cloud_da2.png) Uploaden naar cloud in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in mappen [maken in AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
@@ -231,7 +231,7 @@ Als na het uploaden de verwachte wijzigingen niet in de app worden weergegeven, 
 
 >[!NOTE]
 >
->Gebruik geen uploadfunctionaliteit om elementen over twee AEM te migreren. Zie in plaats daarvan de [migratiegids](https://docs.adobe.com/content/help/en/experience-manager-65/assets/administer/assets-migration-guide.html).
+>Gebruik geen uploadfunctionaliteit om elementen over twee AEM te migreren. Zie in plaats daarvan de [migratiegids](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
 
 ### Lijst van overgedragen elementen {#list-of-transferred-assets}
 
