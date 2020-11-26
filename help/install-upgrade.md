@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om Experience Manager desktop app te gebruiken,
 
 * Download en installeer de toepassing. Zie Desktop-app [hieronder](#install-v2) installeren.
 
-* Test de verbinding met behulp van een paar elementen. Zie [bladeren naar elementen](using.md#browse-search-preview-assets)en deze zoeken.
+* Test de verbinding met behulp van een paar elementen. Zie [hoe u naar elementen](using.md#browse-search-preview-assets)kunt bladeren en deze kunt zoeken.
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
@@ -71,23 +71,23 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 
-1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` bestanden. Voer het installatieprogramma van de AEM-bureaubladtoepassing opnieuw uit.
+1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` bestanden. Voer het installatieprogramma van de [!DNL Experience Manager] bureaubladtoepassing opnieuw uit.
 
 1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
 
-1. Als u de app wilt verbinden met een AEM opslagplaats, klikt u op het pictogram van de app in de lade en start u de app. Geef het adres van de AEM server op in de notatie `https://[aem-server-url]:[port]/`.
+1. Als u de app wilt verbinden met een [!DNL Experience Manager] repository, klikt u op het app-pictogram in de lade en start u de app. Geef het adres van de [!DNL Experience Manager] server op in de notatie `https://[aem_server]:[port]/`.
 
    Klik op de referenties **[!UICONTROL Connect]** en geef deze op.
 
    ![Verbindingsscherm van bureaubladtoepassing met invoerserveradres](assets/connect_da2.png)
 
-   *Afbeelding: Verbindingsscherm naar invoerserveradres*
+   *Afbeelding: Verbindingsscherm met invoerserveradres.*
 
    >[!CAUTION]
    >
-   >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de AEM server. Anders kan de toepassing geen verbinding maken met de AEM server.
+   >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de [!DNL Experience Manager] server. Anders kan de toepassing geen verbinding maken met de [!DNL Experience Manager] server.
 
-1. Als de verbinding is gelukt, kunt u de lijst met mappen en middelen weergeven die beschikbaar zijn in de hoofdmap van de AEM DAM. U kunt vanuit de app door de mappen bladeren.
+1. Als de verbinding is gelukt, kunt u de lijst met mappen en middelen weergeven die beschikbaar zijn in de hoofdmap van de [!DNL Experience Manager] DAM. U kunt vanuit de app door de mappen bladeren.
 
    ![Bij aanmelding wordt de DAM-inhoud weergegeven in de toepassing](assets/firstview_da2.png)
 
@@ -107,7 +107,7 @@ Als u de voorkeuren wilt wijzigen, klikt u op het pictogram ![](assets/do-not-lo
 
 * **[!UICONTROL Cache Directory]**: Locatie van de lokale cache van de app (deze bevat de lokaal gedownloade elementen).
 
-* **[!UICONTROL Network Drive Letter]**: De stationsletter die wordt gebruikt om toe te wijzen aan de AEM DAM. Wijzig dit niet als u het niet zeker weet. De app kan aan elke stationsletter in Windows worden toegewezen. Als twee gebruikers elementen van verschillende stationsletters plaatsen, kunnen ze de elementen die door elkaar zijn geplaatst niet zien. Het pad van de elementen wordt gewijzigd. De elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd. In de app worden alle beschikbare stationsletters vermeld en wordt standaard de laatst beschikbare letter gebruikt die normaal gesproken `Z`is.
+* **[!UICONTROL Network Drive Letter]**: De stationsletter die wordt gebruikt om toe te wijzen aan [!DNL Experience Manager] DAM. Wijzig dit niet als u het niet zeker weet. De app kan aan elke stationsletter in Windows worden toegewezen. Als twee gebruikers elementen van verschillende stationsletters plaatsen, kunnen ze de elementen die door elkaar zijn geplaatst niet zien. Het pad van de elementen wordt gewijzigd. De elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd. In de app worden alle beschikbare stationsletters vermeld en wordt standaard de laatst beschikbare letter gebruikt die normaal gesproken `Z`is.
 
 * **[!UICONTROL Maximum Cache Size]**: Toegestane cache op de vaste schijf in GB die wordt gebruikt voor het opslaan van lokaal gedownloade elementen.
 
@@ -119,17 +119,17 @@ Als u de voorkeuren wilt wijzigen, klikt u op het pictogram ![](assets/do-not-lo
 
 * **[!UICONTROL Upload Acceleration]**: Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met 10 gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Voor een hogere limiet voor gelijktijdige aanschaf is een hoger verbruik van bronnen van de processor van de lokale computer vereist.
 
-Meld u af bij de AEM server om de niet-beschikbare voorkeuren bij te werken. Nadat u de voorkeuren hebt bijgewerkt, klikt u op Voorkeuren ![](assets/do-not-localize/save_preferences_da2.png) opslaan om de wijzigingen op te slaan.
+Meld u af bij de [!DNL Experience Manager] server om de niet-beschikbare voorkeuren bij te werken. Nadat u de voorkeuren hebt bijgewerkt, klikt u op Voorkeuren ![](assets/do-not-localize/save_preferences_da2.png) opslaan om de wijzigingen op te slaan.
 
 ![Voorkeuren en instellingen voor de bureaubladtoepassing](assets/preferences_da2.png)
 
-*Afbeelding: Voorkeuren voor bureaublad-apps*
+*Afbeelding: App-voorkeuren voor bureaublad.*
 
 ## De toepassing verwijderen {#uninstall-the-app}
 
 Voer de volgende stappen uit om de installatie van de toepassing in Windows ongedaan te maken:
 
-1. Upload al uw wijzigingen naar AEM om te voorkomen dat er bewerkingen verloren gaan. Zie Elementen [bewerken en bijgewerkte elementen uploaden naar AEM](using.md#edit-assets-upload-updated-assets). Log uit en [!UICONTROL Exit] de app.
+1. Upload al uw wijzigingen om te voorkomen dat u bewerkingen verliest. [!DNL Experience Manager] Zie Elementen [bewerken en bijgewerkte elementen uploaden naar [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log uit en [!UICONTROL Exit] de app.
 
 1. Verwijder de app als u andere besturingssysteemtoepassingen verwijdert. Verwijder de software uit de programma&#39;s Toevoegen en Verwijderen in Windows.
 
@@ -141,7 +141,7 @@ Voer de volgende stappen uit om de installatie van de toepassing in Windows onge
 
 Voer de volgende stappen uit om de installatie van de toepassing op de Mac te verwijderen:
 
-1. Upload al uw wijzigingen naar AEM om te voorkomen dat er bewerkingen verloren gaan. Zie Elementen [bewerken en bijgewerkte elementen uploaden naar AEM](using.md#edit-assets-upload-updated-assets). Log uit en [!UICONTROL Exit] de app.
+1. Upload al uw wijzigingen om te voorkomen dat u bewerkingen verliest. [!DNL Experience Manager] Zie Elementen [bewerken en bijgewerkte elementen uploaden naar [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log uit en [!UICONTROL Exit] de app.
 
 1. Verwijder het `Adobe Experience Manager Desktop.app` uit `/Applications`.
 
