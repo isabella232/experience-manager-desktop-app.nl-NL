@@ -10,9 +10,9 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 | Producten | Adobe Experience Manager-bureaubladtoepassing |
 |--- |--- |
 | Toepassingsversie (revisie) | 2.0 (2.0.3.2) |
-| Ondersteunde AEM | AEM als Cloud Service; AEM 6.5; AEM 6.4; AEM 6.3 (met compatibiliteitspakket) |
+| Ondersteunde versies van Experience Managers | Experience Manager als Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
 | Releasedatum | 27 aug. 2020 (Mac en Windows) |
 | URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
@@ -107,7 +107,7 @@ De opgeloste problemen en updates zijn:
 
 * Optie toestaan om `%Temp%` directory zo te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
 
-* Gebruikers kunnen zich aanmelden bij AEM-auteur via Okta SAML-verificatie. <!-- CQ-4278134 -->
+* Gebruikers toestaan zich aan te melden bij Experience Manager Author via Okta SAML-verificatie. <!-- CQ-4278134 -->
 
 ## Installatie-instructies {#installation-instructions-v2}
 
@@ -119,17 +119,17 @@ Als u een upgrade uitvoert vanaf een eerdere Experience Manager-bureaubladtoepas
 
 Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijpen.
 
-* De toepassing biedt volledige controle over bewerkingen waarvoor de volledige overdracht van binaire elementen van en naar AEM vereist is (bestanden openen, bewerken, uploaden en uploaden).
+* De toepassing biedt volledige controle over bewerkingen waarvoor volledige overdracht van binaire elementen van en naar Experience Manager vereist is (bestanden openen, bewerken, uploaden en uploaden).
 
    * Als u met middelen op Desktop wilt werken, moet u uitdrukkelijk openen, uitgeven, of Download aan uw Desktop, of individueel, in een omslag, of via multi-selectie.
 
-   * Als u lokale wijzigingen in elementen wilt uploaden naar AEM, moet u deze afzonderlijk selecteren [!UICONTROL Upload Changes]of via meerdere selecties.
+   * Als u lokale wijzigingen in elementen wilt uploaden naar Experience Manager, moet u deze afzonderlijk selecteren [!UICONTROL Upload Changes]of via meerdere selecties.
 
-   * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en de AEM.
+   * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en de Experience Manager.
 
-   * De toepassing biedt geen netwerkshare waarmee de AEM opslagplaats wordt toegewezen als een virtuele mapstructuur.
+   * De toepassing biedt geen netwerkshare waarmee de gegevensopslagruimte van de Experience Manager wordt toegewezen als een virtuele mapstructuur.
 
-* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de AEM Assets-opslagplaats. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
+* De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de gegevensopslagplaats. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
 
 * Als de app de verwachte resultaten niet weergeeft, klikt u op het pictogram Vernieuwen in de bovenste balk.
 
@@ -139,7 +139,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
 
 In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud naar het lokale bestandssysteem en andersom, zoals deze wordt geïnitieerd door gebruikersacties.
 
-![Stroom van middelen van AEM server naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
+![Stroom van middelen van de server van de Experience Manager naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
 
 ## Known issues {#known-issues-v2}
 
@@ -153,13 +153,13 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 * Nadat het filter is toegepast en verwijderd om alle lokaal bewerkte elementen te zoeken, leidt de app gebruikers niet naar hun zoekresultaten of mapweergave waarmee de gebruikers zijn gestart. De toepassing geeft de hoofdmap van de DAM-opslagplaats weer.
 
-* Als u verbinding maakt met een URL waarop AEM server niet wordt uitgevoerd, reageert het verbindingsscherm soms niet. Sluit de toepassing af en start deze opnieuw.
+* Wanneer u verbinding maakt met een URL waarop geen Experience Manager-server wordt uitgevoerd, reageert het verbindingsscherm soms niet. Sluit de toepassing af en start deze opnieuw.
 
 **Problemen met CRUD (maken, lezen, bijwerken en verwijderen):**
 
 * Toepassing probeert bestanden te uploaden, zelfs met ongeldige tekens. Hierdoor kan uploadfout op de server optreden. <!-- CQ-4273652 -->
 
-* Wanneer u wijzigingen in een element met opmerkingen uploadt, worden de opmerkingen met het element in AEM opgeslagen, maar zijn ze niet zichtbaar als opmerkingen bij de versieweergave. Dit probleem is opgelost in AEM 6.4.5 en AEM 6.5.1. Adobe raadt u ten zeerste aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
+* Wanneer u wijzigingen in een element met opmerkingen uploadt, worden de opmerkingen met het element in de Experience Manager opgeslagen, maar zijn ze niet zichtbaar als versieopmerkingen. Dit probleem is opgelost in Experience Manager 6.4.5 en Experience Manager 6.5.1. Adobe raadt u ten zeerste aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
 
 * De overdracht van middelen kan niet door de gebruiker worden geannuleerd. Als u een onbedoelde grote overdracht hebt geactiveerd, sluit u de toepassing af en start u de toepassing opnieuw. <!-- CQ-4278940 -->
 
@@ -169,8 +169,8 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 >[!MORELIKETHIS]
 >
->* [AEM als documentatie voor Cloud Servicen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
->* [AEM als documentatie bij Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
+>* [Experience Manager als Cloud Service documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [Experience Manager als documentatie over Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
 >* [Experience Manager desktop app gebruiken](using.md)
 >* [Desktop-app installeren en upgraden](install-upgrade.md)
 >* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
