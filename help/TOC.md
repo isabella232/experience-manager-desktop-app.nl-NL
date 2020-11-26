@@ -2,18 +2,18 @@
 cloud: experience-cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Handleiding voor bureaubladtoepassing AEM
+user-guide-title: Handleiding voor bureaubladtoepassing voor Experience Managers
 breadcrumb-title: App-hulplijn voor bureaublad
-user-guide-description: Leer hoe u de AEM bureaubladtoepassing gebruikt om opslagruimten en bureaubladtoepassingen te verbinden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows.
+user-guide-description: Leer hoe u de bureaubladtoepassing van de Experience Manager gebruikt om opslagruimten en bureaubladtoepassingen te verbinden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows.
 solution-title: AEM Assets
 solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-65/assets/home.html
 getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html
 tutorials-title: AEM Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-tutorials.html
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 7%
 
 ---
