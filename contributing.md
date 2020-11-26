@@ -1,8 +1,8 @@
 ---
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -14,11 +14,11 @@ In dit bestand wordt beschreven hoe u een bijdrage kunt leveren en worden de ric
 
 ## Adobe Open-Source-gedragscode
 
-Dit project heeft de [Adobe Open Source Code of Conduct](code-of-conduct.md)aangenomen. Door bij te dragen aan AEM documentatie gaat u akkoord met het naleven van deze gedragscode. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Dit project heeft de [Adobe Open Source Code of Conduct](code-of-conduct.md)aangenomen. Door bij te dragen aan [!DNL Adobe Experience Manager] documentatie gaat u akkoord met het naleven van deze gedragscode. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Richtsnoeren voor de bijdrage
 
-Wij zijn blij met alle bijdragen aan de verbetering van AEM documentatie, maar wij vragen wel dat de bijdragen waar mogelijk aan bepaalde richtsnoeren en normen voldoen. Zie de [Richtlijnen voor Bijdragen aan AEM documentatie](guidelines.md) voor meer informatie.
+Wij zijn weliswaar blij met bijdragen aan de verbetering van de [!DNL Experience Manager] documentatie, maar wij vragen wel dat de bijdragen zo veel mogelijk aan bepaalde richtsnoeren en normen voldoen. Zie de [Richtlijnen voor Bijdragen [!DNL Experience Manager] aan documentatie](guidelines.md) voor meer informatie.
 
 ## Contribute
 
@@ -37,11 +37,11 @@ Welke methode u kiest hangt van af hoe comfortabel u de documentatie in GitHub z
 
 Heeft u een suggestie, een observatie over de huidige documenten of vraagt u zich af hoe iets wordt beschreven? Maak vervolgens een probleem. De kwesties zijn ook uitstekend als u iets hebt om bij te dragen, maar voel niet comfortabel het uitgeven van de docs of het maken van een trekpleidooi zelf.
 
-De kwesties staan u toe om uw idee voor verbetering aan de documenten gemakkelijk te beschrijven en een lid van het Team van AEM Docs kan het herzien. Klik op de koppeling **Log een uitgave** boven aan het rechternavigatievenster op een willekeurige pagina om een probleem te maken.
+De kwesties staan u toe om uw idee voor verbetering aan de documenten gemakkelijk te beschrijven en een lid van het Team van [!DNL Experience Manager] Docs kan het herzien. Klik op de koppeling **Log een uitgave** boven aan het rechternavigatievenster op een willekeurige pagina om een probleem te maken.
 
 ### Een volledige aanvraag maken {#create-a-pull-request}
 
-Als u een probleem ziet en precies weet hoe u dit kunt verhelpen, kunt u een pull-verzoek maken. De verzoeken van de Trek staan u toe om uw eigen uit te geven aan de documentatie, die dan voor opneming door een lid van het Team van AEM Docs wordt herzien. Klik op de koppeling Deze pagina **** bewerken boven aan het navigatievenster rechts op een pagina om de voorgestelde wijzigingen aan te brengen en de pull-aanvraag te maken.
+Als u een probleem ziet en precies weet hoe u dit kunt verhelpen, kunt u een pull-verzoek maken. De verzoeken van de Trek staan u toe om uw eigen uit te geven aan de documentatie, die dan voor opneming door een lid van het Team van [!DNL Experience Manager] Docs wordt herzien. Klik op de koppeling Deze pagina **** bewerken boven aan het navigatievenster rechts op een pagina om de voorgestelde wijzigingen aan te brengen en de pull-aanvraag te maken.
 
 Alle pull-aanvragen moeten vergezeld gaan van een ondertekende [contributieovereenkomst of CLA.](https://opensource.adobe.com/cla.html)  Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. U hoeft slechts één keer een Adobe CLA in te dienen, dus als u eerder een CLA hebt verzonden, kunt u het beste gaan!
 
