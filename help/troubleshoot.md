@@ -9,9 +9,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Problemen met Adobe Experience Manager-bureaubladtoepassing oplossen {#troubleshoot-v2}
 
-Adobe Experience Manager (AEM) desktop app maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een externe Experience Manager. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden om conflicten met de gebruikersinterface van AEM Assets te beheren.
+De Adobe Experience Manager-bureaubladtoepassing maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een externe Experience Manager. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden om conflicten met de gebruikersinterface van Middelen te beheren.
 
 Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de beperkingen uit te zoeken.
 
@@ -119,7 +119,7 @@ De foutopsporingsmodus in Windows inschakelen:
 
 Voer de volgende stappen uit:
 
-1. Start de toepassing en sluit een AEM aan.
+1. Start de toepassing en sluit een Experience Manager-instantie aan.
 
 1. Open de voorkeuren van de toepassing door op de ellipsen in de rechterbovenhoek te klikken en te selecteren [!UICONTROL Preferences].
 
@@ -163,9 +163,9 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 
 * Bestandsgrootte. Het downloaden en weergeven van grote elementen duurt langer.
 
-* Stationsconsistentie. Als u of een andere medewerker de elementen heeft geplaatst terwijl de AEM DAM is toegewezen aan een andere stationsletter, worden de geplaatste elementen niet weergegeven.
+* Stationsconsistentie. Als u of een andere medewerker de elementen heeft geplaatst terwijl de Experience Manager DAM is toegewezen aan een andere stationsletter, worden de geplaatste elementen niet weergegeven.
 
-* Machtigingen. Neem contact op met de AEM om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
+* Machtigingen. Neem contact op met de beheerder van de Experience Manager om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
 
 ### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing worden niet [!DNL Adobe Experience Manager] meteen weerspiegeld {#changes-on-da-not-visible-on-aem}
 
@@ -173,7 +173,7 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 
 ### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
 
-Soms kunnen er problemen optreden wanneer u een upgrade uitvoert van AEM bureaubladtoepassing op MacOS. Dit wordt veroorzaakt door de oude systeemmap van AEM bureaubladtoepassing, waardoor nieuwe versies van AEM bureaubladtoepassing niet correct kunnen worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
+Er kunnen zich af en toe problemen voordoen bij het upgraden van de bureaubladtoepassing van de Experience Manager op MacOS. Dit wordt veroorzaakt door een oude systeemmap voor bureaublad-apps van Experience Managers, waardoor nieuwe versies van de bureaubladtoepassing van Experience Managers niet correct kunnen worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
 Sleep de `Adobe Experience Manager Desktop` toepassing van de map MacOS Applications naar de prullenmand voordat u de volgende stappen uitvoert. Open vervolgens de terminal, voer de volgende opdracht uit en geef uw wachtwoord op wanneer u daarom wordt gevraagd.
 
@@ -188,7 +188,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ### Kan bestanden niet uploaden {#upload-fails}
 
-Als u bureaubladtoepassingen gebruikt met AEM 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met de fout bij het uploaden van bestanden met betrekking tot [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)is opgelost. Zie [installatie-instructies](install-upgrade.md#install-v2).
+Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met de fout bij het uploaden van bestanden met betrekking tot [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)is opgelost. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
 ### [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
 
@@ -213,13 +213,9 @@ Als de [!DNL Experience Manager] bureaubladtoepassing geen verbinding maakt met 
 
 Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk gevraagde pad of is de uiteindelijke omleiding naar een host die anders is dan wat in de [!DNL Adobe Experience Manager] bureaubladtoepassing is geconfigureerd. Om na te gaan of dit niet het geval is:
 
-1. Open een webbrowser.
+1. Open een webbrowser. Toegang tot `https://[aem_server]:[port]/content/dam.json` URL.
 
-1. Voer de URL `<AEM host>/content/dam.json` in op de adresbalk.
-
-   Vervangen `<AEM host>` door bijvoorbeeld de [!DNL Adobe Experience Manager] doelinstantie `http://localhost:4502/content/dam.json`.
-
-1. Meld u aan bij de [!DNL Adobe Experience Manager] instantie.
+1. Meld u aan bij de [!DNL Adobe Experience Manager] implementatie.
 
 1. Wanneer login volledig is, bekijk het huidige adres van browser in de adresbar. Deze moet exact overeenkomen met de URL die oorspronkelijk is ingevoerd.
 
@@ -260,10 +256,9 @@ Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind v
 
 #### Probleem met SSL-configuratie {#ssl-config-v2}
 
-De bibliotheken die AEM bureaubladtoepassing gebruikt voor HTTP-communicatie maken gebruik van strikte SSL-afgedwongen omzetting. Soms kan een verbinding met een browser slagen, maar wordt AEM bureaubladtoepassing niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Een tussenpersoon installeren in Apache](https://access.redhat.com/solutions/43575).
+De bibliotheken die de Desktop-app van de Experience Manager gebruikt voor HTTP-communicatie gebruiken strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar wordt de bureaubladtoepassing van de Experience Manager niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Een tussenpersoon installeren in Apache](https://access.redhat.com/solutions/43575).
 
-
-De bibliotheken die Desktop voor de mededeling van HTTP gebruiken gebruiken strikte SSL handhaving. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die via een browser slagen, mislukken bij [!DNL Adobe Experience Manager] bureaubladtoepassingen. Dit is een goede zaak, omdat hierdoor de juiste configuratie van SSL wordt aangemoedigd en de beveiliging wordt verhoogd, maar dit kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
+De bibliotheken die de Desktop van de Experience Manager voor de mededeling van HTTP gebruikt strikte SSL handhaving. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die via een browser slagen, mislukken bij [!DNL Adobe Experience Manager] bureaubladtoepassingen. Dit is een goede zaak, omdat hierdoor de juiste configuratie van SSL wordt aangemoedigd en de beveiliging wordt verhoogd, maar dit kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
 
 In dit geval kunt u het beste een hulpprogramma gebruiken om het SSL-certificaat van een server te analyseren en problemen te identificeren zodat deze kunnen worden gecorrigeerd. Er zijn websites die het servercertificaat controleren bij het opgeven van de URL.
 
@@ -305,21 +300,23 @@ In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit sche
 
 In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 
-### Extra hulp nodig met [!DNL Experience Manager] bureaubladtoepassing {#additional-help}
+<!--
+### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
 
-Maak een Jira-ticket met de volgende informatie:
+Create Jira ticket with the following information:
 
-* Gebruik `DAM - Companion App` als [!UICONTROL Component].
+* Use `DAM - Companion App` as the [!UICONTROL Component].
 
-* Gedetailleerde stappen om het probleem weer te geven in [!UICONTROL Description].
+* Detailed steps to reproduce the issue in [!UICONTROL Description].
 
-* Logbestanden op FOUTOPSPORING-niveau die zijn vastgelegd tijdens het reproduceren van het probleem.
+* DEBUG level logs that were captured while reproducing the issue.
 
-* Doelversie AEM.
+* Target Experience Manager version.
 
-* Versie van besturingssysteem.
+* Operating system version.
 
-* [!DNL Adobe Experience Manager] bureaubladtoepassing. Zie de [bureaubladversie](#know-app-version-v2)voor meer informatie over uw app.
+* [!DNL Adobe Experience Manager] desktop app version. To know your app version, see [finding the desktop app version](#know-app-version-v2).
+-->
 
 >[!MORELIKETHIS]
 >
