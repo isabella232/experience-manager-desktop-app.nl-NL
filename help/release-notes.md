@@ -26,7 +26,7 @@ ht-degree: 0%
 | Ondersteunde versies van Experience Managers | Experience Manager als Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
 | Releasedatum | 27 aug. 2020 (Mac en Windows) |
-| URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg); [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe); [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
+| URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg);  [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe);  [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
@@ -53,7 +53,7 @@ De app werkt met de volgende versies van Experience Managers, ongeacht of deze a
 >[!NOTE]
 >
 >Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt aan een upgrade uit te voeren naar een nieuwere en ondersteunde Adobe Experience Manager-versie.
->Experience Manager 6.3.3.1 of hoger werkt na installatie van het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)met de bureaubladtoepassing. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>Experience Manager 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke Adobe Experience Manager-serverversie/aanvullende serveronderdelen (servicepakketten, hotfixes of functiepakketten) vereist. Neem contact op met uw Adobe Experience Manager-beheerder voor hulp.
 
@@ -69,7 +69,7 @@ Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het b
 
 De functie wordt ondersteund in Adobe Creative Cloud 2018- en Adobe Creative Cloud 2019-versies van de bovenstaande toepassing. De app gebruikt een heuristische, best-match benadering om de lokale Desktopwegen van verbonden activa aan URLs op de server van de Experience Manager in kaart te brengen. Het steunt op een paar veronderstellingen:
 
-* Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een algemeen desktoppad (geplaatst vanuit het lokale netwerkaandeel dat met de [!UICONTROL Reveal] optie wordt weergegeven).
+* Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een globaal desktoppad (geplaatst vanuit het gedeelde lokale netwerk dat wordt weergegeven met de optie [!UICONTROL Reveal]).
 
 * Paden worden door de native toepassing in de XMP record van het bestand opgeslagen.
 
@@ -77,21 +77,21 @@ De functie wordt ondersteund in Adobe Creative Cloud 2018- en Adobe Creative Clo
 
 * De paden kunnen worden aangepast aan elementen in Experience Manager, dat wil zeggen dat de geplaatste bestanden ook in Experience Manager zijn onder een overeenkomend pad.
 
-## Nieuwe en verbeterde functies {#whats-new-added}
+## Nieuwe functies en verbeteringen {#whats-new-added}
 
-Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2)voor meer informatie.
+Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie.
 
 **Updates in app v2.0.3**
 
 De bug die in de huidige versie is opgelost, is:
 
-* Oplossing voor het aanmeldingsprobleem waarmee Windows-gebruikers die met de app toegang probeerden te krijgen tot de DAM-opslagplaats op een 6.5.5.0-exemplaar. [!DNL Adobe Experience Manager]
+* Oplossing voor het aanmeldingsprobleem waarmee Windows-gebruikers via de app toegang probeerden te krijgen tot de DAM-opslagplaats op [!DNL Adobe Experience Manager] 6.5.5.0-exemplaar.
 
 **Updates in app v2.0.2**
 
 De opgeloste problemen en updates zijn:
 
-* Verhoog de uploadversnelling in om de uploadprestaties te verbeteren [!UICONTROL Preferences]. Als deze instelling is ingeschakeld, gebruikt de app meer lokale CPU-threads en is de toepassing bronnenintensiever.
+* Verhoog de uploadversnelling in [!UICONTROL Preferences] om de uploadprestaties te verbeteren. Als deze instelling is ingeschakeld, gebruikt de app meer lokale CPU-threads en is de toepassing bronnenintensiever.
 
 * Correctie van het probleem met het uploaden van middelen wanneer bestandsnamen of paden bepaalde GB18030-tekens bevatten. <!-- CQ-4283494 -->
 
@@ -105,15 +105,15 @@ De opgeloste problemen en updates zijn:
 
 De opgeloste problemen en updates zijn:
 
-* Optie toestaan om `%Temp%` directory zo te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
+* Optie toestaan om `%Temp%` directory zodanig te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
 
 * Gebruikers toestaan zich aan te melden bij Experience Manager Author via Okta SAML-verificatie. <!-- CQ-4278134 -->
 
 ## Installatie-instructies {#installation-instructions-v2}
 
-Zie Desktop-app [](install-upgrade.md)van Experience Manager installeren voor informatie over het installeren en configureren van de app.
+Zie [Desktop app van Experience Manager installeren](install-upgrade.md) voor informatie over het installeren en configureren van de app.
 
-Als u een upgrade uitvoert vanaf een eerdere Experience Manager-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden weergegeven bij een [upgrade van de vorige versie](install-upgrade.md#upgrade-from-previous-version).
+Als u een upgrade uitvoert vanaf een eerdere Experience Manager-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden vermeld bij [upgrade van vorige versie](install-upgrade.md#upgrade-from-previous-version).
 
 ## Belangrijke informatie over hoe de app werkt {#how-app-works}
 
@@ -123,7 +123,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
 
    * Als u met middelen op Desktop wilt werken, moet u uitdrukkelijk openen, uitgeven, of Download aan uw Desktop, of individueel, in een omslag, of via multi-selectie.
 
-   * Als u lokale wijzigingen in elementen wilt uploaden naar Experience Manager, moet u deze afzonderlijk selecteren [!UICONTROL Upload Changes]of via meerdere selecties.
+   * Als u lokale wijzigingen in naar Experience Manager geüploade elementen wilt ophalen, moet u [!UICONTROL Upload Changes] selecteren, afzonderlijk of via meerdere selecties.
 
    * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en de Experience Manager.
 
@@ -133,7 +133,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
 
 * Als de app de verwachte resultaten niet weergeeft, klikt u op het pictogram Vernieuwen in de bovenste balk.
 
-* Het lokale netwerkaandeel, dat wordt getoond wanneer u [!UICONTROL Reveal File] actie gebruikt, toont slechts dossiers (en omslagen) die plaatselijk beschikbaar zijn. [!UICONTROL Reveal File] en [!UICONTROL Reveal Folder] downloadt vooraf middelen helpen de juiste activa krijgen die in het lokale netwerkaandeel tonen.
+* Het lokale netwerkaandeel, dat wordt getoond wanneer u [!UICONTROL Reveal File] actie gebruikt, toont slechts dossiers (en omslagen) die plaatselijk beschikbaar zijn. [!UICONTROL Reveal File] en  [!UICONTROL Reveal Folder] vooraf downloadt middelen helpen de juiste activa krijgen die in het lokale netwerkaandeel tonen.
 
 * Het lokale netwerkaandeel van SMB (MAC) /WebDAV (Win) wordt gebruikt wanneer een Adobe Creative Cloud-app de elementbestanden leest die zijn gekoppeld aan of geplaatst in een native bestand van de Creative Cloud-app.
 
@@ -141,11 +141,11 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 ![Stroom van middelen van de server van de Experience Manager naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
 
-## Known issues {#known-issues-v2}
+## Bekende problemen {#known-issues-v2}
 
 **Problemen met de gebruikersinterface:**
 
-* Soms wordt de interface van de bureaubladtoepassing leeg. Klik met de rechtermuisknop en klik [!UICONTROL Refresh] om de toepassing opnieuw te laden. Nadat u deze vernieuwingen hebt aangebracht, begint u bij de basis van de DAM-opslagplaats. Updates of statussen van uw elementen blijven behouden. <!-- CQ-4270267 -->
+* Soms wordt de interface van de bureaubladtoepassing leeg. Klik met de rechtermuisknop en klik op [!UICONTROL Refresh] om de toepassing opnieuw te laden. Nadat u deze vernieuwingen hebt aangebracht, begint u bij de basis van de DAM-opslagplaats. Updates of statussen van uw elementen blijven behouden. <!-- CQ-4270267 -->
 
 * Kan moeilijk door mappen/zoekresultaten navigeren zonder trackpad of muisaanwijzer. De schuifbalk wordt mogelijk niet weergegeven met muisapparaten zonder muiswiel. <!-- CQ-4269947 -->
 
