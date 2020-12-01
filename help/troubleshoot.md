@@ -23,19 +23,19 @@ De Adobe Experience Manager-bureaubladtoepassing maakt verbinding met de DAM-ops
 
 Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de beperkingen uit te zoeken.
 
-## Best practices {#best-practices-to-prevent-troubles}
+## Aanbevolen werkwijzen {#best-practices-to-prevent-troubles}
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
 * **Begrijp hoe de desktop-app werkt**: Voordat u de toepassing gaat gebruiken, moet u even weten hoe de app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface van de Experience Manager en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van elementen, het lokaal opslaan en het uploaden op de achtergrond. Zie [hoe het werkt](release-notes.md#how-app-works).
 
-* **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens bij [Mappen maken in Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders). Sommige Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
+* **Gebruik geen niet-ondersteunde tekens in mapnamen**: Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens op [Mappen maken in Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders). Sommige Adobe Experience Manager-gebruiksgevallen kunnen worden beïnvloed door niet-ondersteunde tekens in de mapnaam.
 
-* **Tips en trucs om conflicten** te voorkomen: Zie [Bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomen om potentiële conflicten te voorkomen wanneer u samenwerkt met meerdere elementen.
+* **Tips en trucs om conflicten** te voorkomen: Zie  [Bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts) voorkomen om potentiële conflicten te voorkomen wanneer u samenwerkt met meerdere elementen.
 
 * **Mapupload gebruiken voor grote, hiërarchische mappen**: Gebruik in plaats van de webinterface Middelen of andere methoden de bureaubladtoepassing Experience Manager om grote mappen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [bulkuploadmiddelen](using.md#bulk-upload-assets).
 
-* **Gebruik de nieuwste versie**: Gebruik de nieuwste versie van de app en controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade uitvoert naar een nieuwere Adobe Experience Manager-versie. Zie [opmerkingen bij](release-notes.md)de release.
+* **Gebruik de nieuwste versie**: Gebruik de nieuwste versie van de app en controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade uitvoert naar een nieuwere Adobe Experience Manager-versie. Zie [releaseopmerkingen](release-notes.md).
 
 * **Dezelfde stationsletter** gebruiken: Gebruik dezelfde stationsletter in een organisatie om toe te wijzen aan de Adobe Experience Manager DAM. Als u elementen wilt zien die door andere gebruikers zijn geplaatst, moeten de paden gelijk zijn. Als u dezelfde stationsletter gebruikt, hebt u een constant pad naar DAM-middelen. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
 
@@ -45,7 +45,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen Experience Manager-server en desktop-app na een vast tijdsinterval verbreekt. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
-## Hoe te om problemen op te lossen {#troubleshooting-prep}
+## {#troubleshooting-prep} problemen oplossen
 
 Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenservice van Adobe als u ervoor kiest om ondersteuning te zoeken.
 
@@ -57,13 +57,13 @@ In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Logs`
 
 Op Mac: `~/Library/Logs/Adobe\ Experience\ Manager\ Desktop`
 
-Als bij het uploaden van een groot aantal bestanden sommige bestanden niet worden geüpload, raadpleegt u het bestand om de mislukte uploads te identificeren. `backend.log`
+Als bij het uploaden van een groot aantal elementen sommige bestanden niet worden geüpload, raadpleegt u `backend.log` bestand om de mislukte uploads te identificeren.
 
 >[!NOTE]
 >
->Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige `Logs` map en deel deze met uw contactpersoon voor de klantenservice.
+>Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor de klantenservice.
 
-### Detailniveau in logbestanden wijzigen {#level-of-details-in-log}
+### Detailniveau wijzigen in logbestanden {#level-of-details-in-log}
 
 U wijzigt als volgt het detailniveau in logbestanden:
 
@@ -73,7 +73,7 @@ U wijzigt als volgt het detailniveau in logbestanden:
 
    1. Open een opdrachtvenster.
 
-   1. Start de [!DNL Adobe Experience Manager] bureaubladtoepassing met de opdracht:
+   1. Start de [!DNL Adobe Experience Manager]-bureaubladtoepassing met de opdracht:
 
    ```shell
    set AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe
@@ -83,7 +83,7 @@ U wijzigt als volgt het detailniveau in logbestanden:
 
    1. Open een terminalvenster.
 
-   1. Start de [!DNL Adobe Experience Manager] bureaubladtoepassing met de opdracht:
+   1. Start de [!DNL Adobe Experience Manager]-bureaubladtoepassing met de opdracht:
 
    ```shell
    AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app
@@ -91,7 +91,7 @@ U wijzigt als volgt het detailniveau in logbestanden:
 
 De geldige logboekniveaus zijn DEBUG, INFO, WARN, of FOUT. De breedste logboeken zijn het hoogst in DEBUG en het laagste in FOUT.
 
-### Foutopsporingsmodus inschakelen {#enable-debug-mode}
+### Foutopsporingsmodus {#enable-debug-mode} inschakelen
 
 Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen.
 
@@ -103,7 +103,7 @@ Zo gebruikt u de toepassing in de foutopsporingsmodus op de Mac:
 
 1. Open een eindvenster of een bevelherinnering.
 
-1. Start de [!DNL Experience Manager] bureaubladtoepassing met de volgende opdracht:
+1. Start de [!DNL Experience Manager]-bureaubladtoepassing met de volgende opdracht:
 
    `AEM_DESKTOP_LOG_LEVEL=DEBUG open /Applications/Adobe\ Experience\ Manager\ Desktop.app`.
 
@@ -111,47 +111,47 @@ De foutopsporingsmodus in Windows inschakelen:
 
 1. Open een opdrachtvenster.
 
-1. Start de [!DNL Experience Manager] bureaubladtoepassing met de volgende opdracht:
+1. Start de [!DNL Experience Manager]-bureaubladtoepassing met de volgende opdracht:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### Cache wissen {#clear-cache-v2}
+### Cache {#clear-cache-v2} wissen
 
 Voer de volgende stappen uit:
 
 1. Start de toepassing en sluit een Experience Manager-instantie aan.
 
-1. Open de voorkeuren van de toepassing door op de ellipsen in de rechterbovenhoek te klikken en te selecteren [!UICONTROL Preferences].
+1. Open de voorkeuren van de toepassing door op de ovalen in de rechterbovenhoek te klikken en [!UICONTROL Preferences] te selecteren.
 
-1. Zoek het item dat het [!UICONTROL Current Cache Size]weergeeft. Klik op het prullenbakpictogram naast dit element.
+1. Zoek het item met de [!UICONTROL Current Cache Size]. Klik op het prullenbakpictogram naast dit element.
 
 Ga door met de onderstaande stappen om de cache handmatig te wissen.
 
 >[!CAUTION]
 >
->Dit is een potentieel destructieve bewerking. Als er lokale bestandswijzigingen zijn waarnaar niet wordt geüpload [!DNL Adobe Experience Manager], gaan deze wijzigingen verloren.
+>Dit is een potentieel destructieve bewerking. Als er lokale dossierveranderingen zijn die niet aan [!DNL Adobe Experience Manager] worden geupload, dan zullen die veranderingen door te werk gaan verloren.
 
 De cache wordt gewist door de cachemap van de toepassing te verwijderen. Deze map staat in de voorkeuren van de toepassing.
 
 1. Start de toepassing.
 
-1. Open de voorkeuren van de toepassing door de ovalen in de rechterbovenhoek te selecteren en te selecteren [!UICONTROL Preferences].
+1. Open de voorkeuren van de toepassing door de ovalen in de rechterbovenhoek te selecteren en [!UICONTROL Preferences] te selecteren.
 
-1. Noteer de [!UICONTROL Cache Directory] waarde.
+1. Noteer de waarde [!UICONTROL Cache Directory].
 
-   In deze folder zijn er subdirectories die na de Gecodeerde [!DNL Adobe Experience Manager] Eindpunten worden genoemd. De namen zijn een gecodeerde versie van de beoogde [!DNL Adobe Experience Manager] URL. Als de toepassing zich bijvoorbeeld richt op `localhost:4502` de toepassing, wordt de mapnaam `localhost_4502`.
+   In deze map zijn er submappen die naar de gecodeerde [!DNL Adobe Experience Manager] eindpunten worden genoemd. De namen zijn een gecodeerde versie van de beoogde [!DNL Adobe Experience Manager] URL. Als de toepassing bijvoorbeeld `localhost:4502` als doel heeft, is de mapnaam `localhost_4502`.
 
-Om het geheime voorgeheugen te ontruimen, schrap de gewenste Gecodeerde folder van het [!DNL Adobe Experience Manager] Eindpunt. Als u ook de volledige map verwijdert die u in de voorkeuren hebt opgegeven, wordt de cache gewist voor alle instanties die door de toepassing zijn gebruikt.
+Als u de cache wilt wissen, verwijdert u de gewenste gecodeerde [!DNL Adobe Experience Manager]-eindpuntmap. Als u ook de volledige map verwijdert die u in de voorkeuren hebt opgegeven, wordt de cache gewist voor alle instanties die door de toepassing zijn gebruikt.
 
-Het wissen van het cachegeheugen van de [!DNL Adobe Experience Manager] bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [Voorkeuren](install-upgrade.md#set-preferences)instellen. De standaardlocatie van de cachemap is:
+Het wissen van de cache van de [!DNL Adobe Experience Manager]-bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [voorkeuren instellen](install-upgrade.md#set-preferences). De standaardlocatie van de cachemap is:
 
-### De versie van de [!DNL Adobe Experience Manager] bureaubladtoepassing kennen {#know-app-version-v2}
+### [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
 
 Het versienummer weergeven:
 
 1. Start de toepassing.
 
-1. Klik op de ellipsen in de rechterbovenhoek, houd de cursor boven [!UICONTROL Help]en klik [!UICONTROL About].
+1. Klik op de ellipsen in de rechterbovenhoek, houd de cursor boven [!UICONTROL Help] en klik vervolgens op [!UICONTROL About].
 
    Het versienummer wordt weergegeven op dit scherm.
 
@@ -167,15 +167,15 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 
 * Machtigingen. Neem contact op met de beheerder van de Experience Manager om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
 
-### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing worden niet [!DNL Adobe Experience Manager] meteen weerspiegeld {#changes-on-da-not-visible-on-aem}
+### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing weerspiegelen niet direct [!DNL Adobe Experience Manager]{#changes-on-da-not-visible-on-aem}
 
-[!DNL Adobe Experience Manager] de bureaubladtoepassing laat het aan de gebruiker over om te beslissen wanneer alle bewerkingen van een bestand zijn voltooid. Afhankelijk van de grootte en de complexiteit van een bestand duurt het veel tijd om de nieuwe versie van een bestand terug te sturen naar [!DNL Adobe Experience Manager]. Het ontwerp van de toepassing vereist dat het aantal keren dat een bestand heen en weer wordt overgebracht, wordt geminimaliseerd, in plaats van te raden wanneer de bestandsbewerkingen zijn voltooid en automatisch worden geüpload. De gebruiker wordt geadviseerd de overdracht van het bestand terug naar te starten [!DNL Adobe Experience Manager] door de wijzigingen van een bestand te uploaden.
+[!DNL Adobe Experience Manager] de bureaubladtoepassing laat het aan de gebruiker over om te beslissen wanneer alle bewerkingen van een bestand zijn voltooid. Afhankelijk van de grootte en complexiteit van een bestand duurt het aanzienlijk om de nieuwe versie van een bestand terug te zetten naar [!DNL Adobe Experience Manager]. Het ontwerp van de toepassing vereist dat het aantal keren dat een bestand heen en weer wordt overgebracht, wordt geminimaliseerd, in plaats van te raden wanneer de bestandsbewerkingen zijn voltooid en automatisch worden geüpload. De gebruiker wordt geadviseerd de overdracht van het bestand terug te zetten naar [!DNL Adobe Experience Manager] door de wijzigingen van een bestand te uploaden.
 
-### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
+### Problemen bij upgrade op macOS {#issues-when-upgrading-on-macos}
 
 Er kunnen zich af en toe problemen voordoen bij het upgraden van de bureaubladtoepassing van de Experience Manager op MacOS. Dit wordt veroorzaakt door een oude systeemmap voor bureaublad-apps van Experience Managers, waardoor nieuwe versies van de bureaubladtoepassing van Experience Managers niet correct kunnen worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
-Sleep de `Adobe Experience Manager Desktop` toepassing van de map MacOS Applications naar de prullenmand voordat u de volgende stappen uitvoert. Open vervolgens de terminal, voer de volgende opdracht uit en geef uw wachtwoord op wanneer u daarom wordt gevraagd.
+Sleep de toepassing `Adobe Experience Manager Desktop` van de map MacOS-toepassingen naar de prullenmand voordat u de volgende stappen uitvoert. Open vervolgens de terminal, voer de volgende opdracht uit en geef uw wachtwoord op wanneer u daarom wordt gevraagd.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -186,13 +186,13 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### Kan bestanden niet uploaden {#upload-fails}
+### Kan bestanden {#upload-fails} niet uploaden
 
-Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met de fout bij het uploaden van bestanden met betrekking tot [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599)is opgelost. Zie [installatie-instructies](install-upgrade.md#install-v2).
+Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met uploadfouten met bestanden die betrekking hebben op [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) wordt verholpen. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
-### [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
+### [!DNL Experience Manager] verbindingsproblemen met bureaubladapps  {#connection-issues}
 
-Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende manieren meer informatie krijgen over wat de [!DNL Experience Manager] bureaubladtoepassing doet.
+Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende manieren meer informatie krijgen over wat de [!DNL Experience Manager]-bureaubladtoepassing doet.
 
 **Controleer het aanvraaglogboek**
 
@@ -200,44 +200,44 @@ Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende mani
 
 1. Open `request.log` in de het logboekfolder van de toepassing om deze verzoeken te zien.
 
-1. Elke lijn in het logboek vertegenwoordigt of een verzoek of een reactie. Aanvragen hebben een `>` teken gevolgd door de gewenste URL. Reacties hebben een `<` teken gevolgd door de antwoordcode en de URL die is aangevraagd. De verzoeken en de Reactie kunnen worden aangepast gebruikend GUID van elke lijn.
+1. Elke lijn in het logboek vertegenwoordigt of een verzoek of een reactie. Verzoeken hebben een `>`-teken gevolgd door de gewenste URL. De reacties zullen een `<` karakter hebben dat door de reactiecode en URL wordt gevolgd die werd gevraagd. De verzoeken en de Reactie kunnen worden aangepast gebruikend GUID van elke lijn.
 
 **Verzoeken controleren die door de ingesloten browser van de toepassing zijn geladen**
 
 Een meerderheid van de verzoeken van de toepassing wordt gevonden in het verzoeklogboek. Als er echter geen nuttige informatie beschikbaar is, kan het nuttig zijn om te kijken naar de aanvragen die door de ingesloten browser van de toepassing worden verzonden.
-Zie de sectie [van](#da-connection-issue-with-saml-aem) SAML voor instructies op hoe te om die verzoeken te bekijken.
+Zie [SAML sectie](#da-connection-issue-with-saml-aem) voor instructies op hoe te om die verzoeken te bekijken.
 
-#### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
+#### SAML-aanmeldingsverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
-Als de [!DNL Experience Manager] bureaubladtoepassing geen verbinding maakt met uw [!DNL Adobe Experience Manager] instantie SSO-enabled (SAML), leest u deze sectie voor het oplossen van problemen. SSO-processen zijn gevarieerd, soms complex, en het ontwerp van de toepassing doet zijn best om deze typen verbindingen aan te passen. Nochtans, vereisen sommige montages extra het oplossen van problemen.
+Als [!DNL Experience Manager] desktop app geen verbinding maakt met uw SSO-enabled (SAML) [!DNL Adobe Experience Manager] instantie, leest u in deze sectie om problemen op te lossen. SSO-processen zijn gevarieerd, soms complex, en het ontwerp van de toepassing doet zijn best om deze typen verbindingen aan te passen. Nochtans, vereisen sommige montages extra het oplossen van problemen.
 
-Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk gevraagde pad of is de uiteindelijke omleiding naar een host die anders is dan wat in de [!DNL Adobe Experience Manager] bureaubladtoepassing is geconfigureerd. Om na te gaan of dit niet het geval is:
+Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk aangevraagde pad, of wordt de uiteindelijke omleiding uitgevoerd naar een andere host dan de host die is geconfigureerd in de [!DNL Adobe Experience Manager]-bureaubladtoepassing. Om na te gaan of dit niet het geval is:
 
-1. Open een webbrowser. Toegang tot `https://[aem_server]:[port]/content/dam.json` URL.
+1. Open een webbrowser. Toegang tot URL `https://[aem_server]:[port]/content/dam.json`.
 
-1. Meld u aan bij de [!DNL Adobe Experience Manager] implementatie.
+1. Meld u aan bij de [!DNL Adobe Experience Manager]-implementatie.
 
 1. Wanneer login volledig is, bekijk het huidige adres van browser in de adresbar. Deze moet exact overeenkomen met de URL die oorspronkelijk is ingevoerd.
 
-1. Controleer ook of alles voordat het bestand `/content/dam.json` overeenkomt met de [!DNL Adobe Experience Manager] doelwaarde die in de instellingen van de [!DNL Adobe Experience Manager] bureaubladtoepassing is geconfigureerd.
+1. Controleer ook of alles voordat `/content/dam.json` overeenkomt met de doelwaarde [!DNL Adobe Experience Manager] die is geconfigureerd in de instellingen van [!DNL Adobe Experience Manager]-bureaubladtoepassing.
 
 **Het SAML-aanmeldingsproces werkt correct volgens de bovenstaande stappen, maar gebruikers kunnen zich nog steeds niet aanmelden**
 
-Het venster binnen de [!DNL Adobe Experience Manager] bureaubladtoepassing waarin het aanmeldingsproces wordt weergegeven, is gewoon een webbrowser die de webgebruikersinterface van de [!DNL Adobe Experience Manager] doelinstantie weergeeft:
+Het venster binnen [!DNL Adobe Experience Manager] Desktop app dat het login proces toont is eenvoudig Webbrowser die het doel [!DNL Adobe Experience Manager] Webgebruikersinterface van de instantie toont:
 
-* De versie van MAC gebruikt een [WebView](https://developer.apple.com/documentation/webkit/webview).
+* De versie van MAC gebruikt [WebView](https://developer.apple.com/documentation/webkit/webview).
 
-* In de Windows-versie wordt op chroom gebaseerde [CefSharp](https://cefsharp.github.io/)gebruikt.
+* In de Windows-versie wordt op chroom gebaseerd [CefSharp](https://cefsharp.github.io/) gebruikt.
 
 Zorg ervoor dat het SAML-proces deze browsers ondersteunt.
 
 Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de browser probeert te laden. Deze informatie bekijken:
 
-1. Volg de aanwijzingen voor het starten van de toepassing in de [foutopsporingsmodus](#enable-debug-mode).
+1. Volg de aanwijzingen voor het starten van de toepassing in [foutopsporingsmodus](#enable-debug-mode).
 
 1. Reproduceer de login poging.
 
-1. Ga naar de [logmap](#check-log-files-v2) van de toepassing
+1. Navigeer naar [logdirectory](#check-log-files-v2) van de toepassing
 
 1. Voor Windows:
 
@@ -247,7 +247,7 @@ Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de b
 
    Voor Mac:
 
-   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, waarbij de **n** wordt vervangen door de nummers in de nieuwste bestandsnaam.
+   1. `com.adobe.aem.desktop-nnnnnnnn-nnnnnn.log`, waarbij de  **** naam wordt vervangen door de nummers in de nieuwste bestandsnaam.
 
    1. Zoek naar berichten die met &quot;geladen kader&quot;beginnen. Deze vermeldingen bevatten ook de URL die de toepassing heeft geladen.
 
@@ -256,9 +256,9 @@ Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind v
 
 #### Probleem met SSL-configuratie {#ssl-config-v2}
 
-De bibliotheken die de Desktop-app van de Experience Manager gebruikt voor HTTP-communicatie gebruiken strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar wordt de bureaubladtoepassing van de Experience Manager niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Een tussenpersoon installeren in Apache](https://access.redhat.com/solutions/43575).
+De bibliotheken die de Desktop-app van de Experience Manager gebruikt voor HTTP-communicatie gebruiken strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar wordt de bureaubladtoepassing van de Experience Manager niet gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Hoe te om een MiddenCertificaat van CA in Apache](https://access.redhat.com/solutions/43575) te installeren.
 
-De bibliotheken die de Desktop van de Experience Manager voor de mededeling van HTTP gebruikt strikte SSL handhaving. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die via een browser slagen, mislukken bij [!DNL Adobe Experience Manager] bureaubladtoepassingen. Dit is een goede zaak, omdat hierdoor de juiste configuratie van SSL wordt aangemoedigd en de beveiliging wordt verhoogd, maar dit kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
+De bibliotheken die de Desktop van de Experience Manager voor de mededeling van HTTP gebruikt strikte SSL handhaving. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die in een browser slagen, mislukken bij de bureaubladtoepassing [!DNL Adobe Experience Manager]. Dit is een goede zaak, omdat hierdoor de juiste configuratie van SSL wordt aangemoedigd en de beveiliging wordt verhoogd, maar dit kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
 
 In dit geval kunt u het beste een hulpprogramma gebruiken om het SSL-certificaat van een server te analyseren en problemen te identificeren zodat deze kunnen worden gecorrigeerd. Er zijn websites die het servercertificaat controleren bij het opgeven van de URL.
 
@@ -289,9 +289,9 @@ Als tijdelijke maatregel, is het mogelijk om strikte SSL handhaving in [!DNL Ado
    ...
    ```
 
-1. Sla het bestand op en start de [!DNL Adobe Experience Manager] bureaubladtoepassing opnieuw.
+1. Sla het bestand op en start de [!DNL Adobe Experience Manager]-bureaubladtoepassing opnieuw.
 
-### App reageert niet {#unresponsive}
+### De toepassing reageert niet {#unresponsive}
 
 In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit scherm weergegeven of wordt een fout onder aan de interface weergegeven zonder opties in de interface. Probeer het volgende in de volgorde:
 
