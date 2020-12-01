@@ -11,33 +11,34 @@ ht-degree: 0%
 ---
 
 
-# Bureaubladapp [!DNL Adobe Experience Manager] gebruiken {#use-aem-desktop-app-v2}
+# [!DNL Adobe Experience Manager] desktop app {#use-aem-desktop-app-v2} gebruiken
 
-Met de [!DNL Adobe Experience Manager] bureaubladtoepassing hebt u eenvoudig toegang tot de Adobe Experience Manager DAM-middelen op uw lokale bureaublad en kunt u deze middelen in alle bureaubladtoepassingen gebruiken. U kunt de middelen in Desktoptoepassingen openen en de activa plaatselijk uitgeven - upload de veranderingen terug naar Experience Manager met versiecontrole, om de updates met andere gebruikers te delen. U kunt ook nieuwe bestanden en maphiërarchieën uploaden naar Experience Manager, mappen maken en elementen of mappen verwijderen uit Experience Manager DAM.
+Met de [!DNL Adobe Experience Manager]-bureaubladtoepassing hebt u eenvoudig toegang tot de Adobe Experience Manager DAM-middelen op uw lokale bureaublad en kunt u deze middelen gebruiken in alle bureaubladtoepassingen. U kunt de middelen in Desktoptoepassingen openen en de activa plaatselijk uitgeven - upload de veranderingen terug naar Experience Manager met versiecontrole, om de updates met andere gebruikers te delen. U kunt ook nieuwe bestanden en maphiërarchieën uploaden naar Experience Manager, mappen maken en elementen of mappen verwijderen uit Experience Manager DAM.
 
 Dankzij deze integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in Experience Manager Assets en toegang krijgen tot de elementen op het lokale bureaublad in de native toepassingen op Windows of Mac OS.
 
-Wanneer u de toepassing opent na het afmelden of voor het eerst, geef de URL van de server van de Experience Manager op in de indeling `https://[aem-server-url]:[port]/`. Selecteer vervolgens de [!UICONTROL Connect] optie. Geef referenties op om de toepassing te verbinden met de server.
+Wanneer u de toepassing opent na het afmelden of voor het eerst, verstrek URL van uw server van de Experience Manager in het formaat `https://[aem-server-url]:[port]/`. Selecteer vervolgens de optie [!UICONTROL Connect]. Geef referenties op om de toepassing te verbinden met de server.
 
 De belangrijkste taken die u uitvoert met de Experience Manager-bureaubladtoepassing zijn:
 
-![Workflows en taken die u kunt uitvoeren met [!DNL Experience Manager] desktop](assets/aem_desktop_app_usecases_v2.png "appWorkflows en taken die u kunt uitvoeren met de Adobe Experience Manager-bureaubladtoepassing")Download [dit](assets/aem_desktop_app_usecases_print.pdf) PDF-bestand dat klaar is voor afdrukken.
+![Workflows en taken die u kunt uitvoeren met  [!DNL Experience Manager] desktop ](assets/aem_desktop_app_usecases_v2.png "appWorkflows en taken die u kunt uitvoeren met de Adobe Experience Manager-bureaubladtoepassing")
+Download dit  [](assets/aem_desktop_app_usecases_print.pdf) afdrukklare PDF-bestand.
 
-## Hoe desktop app werkt {#how-app-works2}
+## Hoe desktop-app werkt {#how-app-works2}
 
-Voordat u de toepassing gaat gebruiken, moet u weten [hoe de app werkt](release-notes.md#how-app-works). Zorg ook dat u bekend bent met de volgende termen:
+Voordat u de toepassing gaat gebruiken, moet u [weten hoe de toepassing werkt](release-notes.md#how-app-works). Zorg ook dat u bekend bent met de volgende termen:
 
-* **[!UICONTROL Desktop Actions]**: Vanuit de webinterface Middelen kunt u vanuit een browser de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw native desktoptoepassing. Deze acties zijn beschikbaar via de webinterface en gebruiken de functionaliteit van de bureaubladtoepassing. Zie [hoe u Desktophandelingen](using.md#desktopactions-v2)kunt inschakelen.
+* **[!UICONTROL Desktop Actions]**: Vanuit de webinterface Middelen kunt u vanuit een browser de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw native desktoptoepassing. Deze acties zijn beschikbaar via de webinterface en gebruiken de functionaliteit van de bureaubladtoepassing. Zie [hoe te om de Acties van de Desktop toe te laten](using.md#desktopactions-v2).
 
 * Bestandsstatus is **[!UICONTROL Cloud Only]**: Dergelijke elementen worden niet op de lokale computer gedownload en zijn alleen beschikbaar op de server van de Experience Manager.
 
 * Bestandsstatus is **[!UICONTROL Available locally]**: De middelen worden gedownload en beschikbaar op de lokale computer zoals is. De elementen worden niet gewijzigd.
 
-* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen worden nog steeds naar de Experience Manager-server geüpload. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie Elementen [](using.md#edit-assets-upload-updated-assets)bewerken.
+* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen worden nog steeds naar de Experience Manager-server geüpload. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie [Elementen bewerken](using.md#edit-assets-upload-updated-assets).
 
-* Bestandsstatus is **[!UICONTROL Editing conflict]**: Als u en andere gebruikers tegelijkertijd een element wijzigen, geeft de app aan dat er een bewerkingsconflict is opgetreden. De app biedt ook opties om uw wijzigingen te behouden of te negeren. Zie [hoe u bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomt.
+* Bestandsstatus is **[!UICONTROL Editing conflict]**: Als u en andere gebruikers tegelijkertijd een element wijzigen, geeft de app aan dat er een bewerkingsconflict is opgetreden. De app biedt ook opties om uw wijzigingen te behouden of te negeren. Zie [hoe u bewerkingsconflicten kunt voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts).
 
-* Bestandsstatus is **[!UICONTROL Modified remotely]**: De app geeft aan of een element dat u hebt gedownload, is gewijzigd op de Experience Manager-server. De app biedt ook de optie om de nieuwste versie te downloaden en uw lokale kopie bij te werken. Zie [hoe u bewerkingsconflicten](using.md#adv-workflow-collaborate-avoid-conflicts)voorkomt.
+* Bestandsstatus is **[!UICONTROL Modified remotely]**: De app geeft aan of een element dat u hebt gedownload, is gewijzigd op de Experience Manager-server. De app biedt ook de optie om de nieuwste versie te downloaden en uw lokale kopie bij te werken. Zie [hoe u bewerkingsconflicten kunt voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts).
 
 * **[!UICONTROL Check-out]**: Als u een bestand bewerkt of van plan bent een bestand te bewerken, schakelt u de status in of uit. Er wordt een vergrendelingspictogram toegevoegd aan het element in de webinterface van de app en Experience Manager. Met het vergrendelingspictogram kunnen andere gebruikers voorkomen dat hetzelfde element tegelijk wordt bewerkt, omdat dit tot een bewerkingsconflict leidt.
 
@@ -45,31 +46,31 @@ Voordat u de toepassing gaat gebruiken, moet u weten [hoe de app werkt](release-
 
 * **[!UICONTROL Open]** handeling: Open gewoon het element om er een voorvertoning van weer te geven in de oorspronkelijke toepassing. Het wordt afgeraden het element met deze handeling te bewerken, omdat het element niet wordt uitgecheckt en andere gebruikers bewerkingen kunnen uitvoeren die tot bewerkingsconflicten leiden.
 
-* **[!UICONTROL Edit]** handeling: Gebruik de handeling om de afbeelding te wijzigen. Als u op [!UICONTROL Edit] Handeling klikt, wordt het element automatisch uitgecheckt en wordt een vergrendelingspictogram toegevoegd aan het element. Klik op Bewerken als u het element niet wilt bewerken en klik vervolgens op [!UICONTROL Toggle check-in]. Als u elementen wilt verwijderen, hernoemen of verplaatsen in de Experience Manager DAM-maphiërarchie, gebruikt u de webinterfacehandelingen van de Experience Manager en niet de bewerkingshandeling.
+* **[!UICONTROL Edit]** handeling: Gebruik de handeling om de afbeelding te wijzigen. Als u op [!UICONTROL Edit] klikt, wordt het element automatisch uitgecheckt en wordt een vergrendelingspictogram toegevoegd aan het element. Klik op Bewerken als u het element niet wilt bewerken en klik vervolgens op [!UICONTROL Toggle check-in]. Als u elementen wilt verwijderen, hernoemen of verplaatsen in de Experience Manager DAM-maphiërarchie, gebruikt u de webinterfacehandelingen van de Experience Manager en niet de bewerkingshandeling.
 
 * **[!UICONTROL Download]** handeling: Download het middel naar uw lokale computer. U kunt de elementen nu downloaden en later bewerken. werk offline en upload de wijzigingen later. Elementen worden gedownload in een cachemap op uw bestandssysteem.
 
-* **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** actie: Terwijl de elementen naar een lokale cachemap worden gedownload, bootst de toepassing een lokale netwerkschijf na en biedt deze een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. U moet actie onthullen om elementen in de Creative Cloud-toepassing te plaatsen. Zie Elementen [plaatsen](using.md#place-assets-in-native-documents).
+* **[!UICONTROL Reveal File]** of  **[!UICONTROL Reveal Folder]** actie: Terwijl de elementen naar een lokale cachemap worden gedownload, bootst de toepassing een lokale netwerkschijf na en biedt deze een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. U moet actie onthullen om elementen in de Creative Cloud-toepassing te plaatsen. Zie [Elementen plaatsen](using.md#place-assets-in-native-documents).
 
 * **[!UICONTROL Open In Web]** handeling: Open het element in de webinterface van Experience Managers om het element weer te geven. U kunt meer werkstromen van de interface van de Experience Manager zoals het bijwerken van meta-gegevens of activaontdekking in werking stellen.
 
-* **[!UICONTROL Delete]** handeling: Verwijder het element uit de Experience Manager DAM-opslagplaats. De actie schrapt de originele kopie van het middel op de server van de Experience Manager. Zie Wijzigingen [](using.md#edit-assets-upload-updated-assets)negeren als u alleen wijzigingen in het lokale element wilt negeren.
+* **[!UICONTROL Delete]** handeling: Verwijder het element uit de Experience Manager DAM-opslagplaats. De actie schrapt de originele kopie van het middel op de server van de Experience Manager. Zie [Wijzigingen negeren](using.md#edit-assets-upload-updated-assets) als u alleen wijzigingen in het lokale element wilt negeren.
 
-* **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de Experience Manager-server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Tijdens het uploaden wordt het element automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie Elementen [](using.md#edit-assets-upload-updated-assets)bewerken.
+* **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de Experience Manager-server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Tijdens het uploaden wordt het element automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie [Elementen bewerken](using.md#edit-assets-upload-updated-assets).
 
-## Desktopacties inschakelen in de webinterface van Experience Manager {#desktopactions-v2}
+## Desktopacties inschakelen in Experience Manager-webinterface {#desktopactions-v2}
 
-Vanuit de gebruikersinterface Middelen in een browser kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden aangeroepen [!UICONTROL Desktop Actions] en zijn niet standaard ingeschakeld. Voer de volgende stappen uit om deze functie in te schakelen.
+Vanuit de gebruikersinterface Middelen in een browser kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden [!UICONTROL Desktop Actions] genoemd en niet door gebrek toegelaten. Voer de volgende stappen uit om deze functie in te schakelen.
 
-1. Klik/tik op het **[!UICONTROL User]** pictogram op de werkbalk in de middelenconsole.
-1. Klik of tik op het pictogram **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoogvenster weer te geven.
-1. Selecteer in het dialoogvenster Gebruikersvoorkeuren **[!UICONTROL Show Desktop Actions For Assets]**. Klik of tik op **[!UICONTROL Accept]**.
+1. Klik/tik op het pictogram **[!UICONTROL User]** op de werkbalk in de middelenconsole.
+1. Klik/tik **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoog te tonen.
+1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster Gebruikersvoorkeuren. Klik of tik op **[!UICONTROL Accept]**.
 
    ![Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
 
-   Inschakelen [!UICONTROL Show Desktop Actions For Assets] van desktophandelingen
+   Schakel [!UICONTROL Show Desktop Actions For Assets] in om bureaubladhandelingen in te schakelen
 
-## Zoeken, zoeken en voorvertonen van elementen {#browse-search-preview-assets}
+## {#browse-search-preview-assets} zoeken, zoeken en voorvertonen
 
 U kunt vanuit de bureaubladtoepassing bladeren naar de middelen in de opslagplaats voor Experience Managers, deze zoeken en er een voorvertoning van weergeven. Probeer het volgende in de app:
 
@@ -79,34 +80,34 @@ U kunt vanuit de bureaubladtoepassing bladeren naar de middelen in de opslagplaa
 
 1. Klik op de bestandsnaam als u meer informatie en een grotere miniatuur van een afzonderlijk element wilt bekijken.
 
-   ![Een grotere voorvertoning van een element en](assets/large_preview_actions_da2.png "handelingen bekijkenEen grotere voorvertoning van een element en handelingen bekijken")
+   ![Een grotere voorvertoning van een element en ](assets/large_preview_actions_da2.png "handelingen bekijkenEen grotere voorvertoning van een element en handelingen bekijken")
 
-1. Klik **[!UICONTROL Open]** of **[!UICONTROL Edit]** om het bestand lokaal te downloaden en bekijk het of bewerk het bestand in de oorspronkelijke toepassing.
-1. Zoek met behulp van trefwoorden naar een verwant element in de gegevensopslagruimte van de Experience Manager. Gebruik `?` en `*` als jokertekens. Deze jokertekens vervangen een enkel teken of meerdere tekens. Filter de resultaten en sorteer deze zo nodig.
+1. Klik **[!UICONTROL Open]** of **[!UICONTROL Edit]** om het dossier plaatselijk te downloaden en enkel het te bekijken of het in de inheemse toepassing, respectievelijk uit te geven.
+1. Zoek met behulp van trefwoorden naar een verwant element in de gegevensopslagruimte van de Experience Manager. Gebruik `?` en `*` als vervangingen. Deze jokertekens vervangen een enkel teken of meerdere tekens. Filter de resultaten en sorteer deze zo nodig.
 
-   ![Voorbeeld van zoeken met](assets/search_wildcard_da2.png "jokerteken voor sterretjeVoorbeeld met jokerteken voor sterretje")
+   ![Voorbeeld van zoeken met ](assets/search_wildcard_da2.png "jokerteken voor sterretjeVoorbeeld met jokerteken voor sterretje")
 
-   ![Een andere voorbeeldzoekopdracht met](assets/search_wildcard2_da2.png "jokerteken voor sterretjesEen andere voorbeeldzoekopdracht met andere plaatsing van jokerteken voor sterretjes")
+   ![Een andere voorbeeldzoekopdracht met ](assets/search_wildcard2_da2.png "jokerteken voor sterretjesEen andere voorbeeldzoekopdracht met andere plaatsing van jokerteken voor sterretjes")
 
 >[!NOTE]
 >
 >In de app worden de elementen weergegeven door de zoekcriteria af te stemmen op meerdere metagegevensvelden en niet alleen op de titel van het element of de bestandsnaam.
 
-## Elementen downloaden {#download-assets}
+## Elementen {#download-assets} downloaden
 
 U kunt de elementen downloaden naar uw lokale bestandssysteem. De app haalt de middelen van de server van de Experience Manager op en slaat het zelfde exemplaar op uw lokaal dossiersysteem op.
 
-Klik op het pictogram ![](assets/do-not-localize/more2_da2.png) Meer opties voor opties en klik op het pictogram ![](assets/do-not-localize/download_cloud_da2.png) Downloaden om te downloaden.
+Klik ![Meer optiepictogram](assets/do-not-localize/more2_da2.png) voor opties en klik ![Downloadpictogram](assets/do-not-localize/download_cloud_da2.png) om te downloaden.
 
-![Downloadoptie voor een](assets/download_option_da2.png "assetDownload-optie voor een element")
+![Downloadoptie voor een ](assets/download_option_da2.png "assetDownload-optie voor een element")
 
 >[!NOTE]
 >
 >Wanneer u een groot bestand of een groot aantal bestanden downloadt of uploadt, schakelt de toepassing de handelingen voor elementen en mappen uit. De acties zijn beschikbaar wanneer het downloaden of uploaden is voltooid.
 
-Het downloaden van meerdere elementen kan leiden tot slechte prestaties als de wachtrij groot is of als u te maken krijgt met een netwerkprobleem. Het is ook onbekend dat u veel bestanden in de wachtrij plaatst om te downloaden wanneer u een map downloadt. Om lange wachttijden te vermijden, beperkt app het aantal elementen dat in één keer wordt gedownload. Zie Voorkeuren [](install-upgrade.md#set-preferences)instellen voor informatie over het configureren ervan. Zelfs onder deze limiet kan de app soms om bevestiging vragen voordat een ogenschijnlijk grote map wordt gedownload.
+Het downloaden van meerdere elementen kan leiden tot slechte prestaties als de wachtrij groot is of als u te maken krijgt met een netwerkprobleem. Het is ook onbekend dat u veel bestanden in de wachtrij plaatst om te downloaden wanneer u een map downloadt. Om lange wachttijden te vermijden, beperkt app het aantal elementen dat in één keer wordt gedownload. Zie [Voorkeuren instellen](install-upgrade.md#set-preferences) voor informatie over het configureren van de voorkeuren. Zelfs onder deze limiet kan de app soms om bevestiging vragen voordat een ogenschijnlijk grote map wordt gedownload.
 
-![App bevestigt download van relatief groot aantal](assets/download_confirmation_da2.png "middelenApp bevestigt download van relatief groot aantal middelen")
+![App bevestigt download van relatief groot aantal ](assets/download_confirmation_da2.png "middelenApp bevestigt download van relatief groot aantal middelen")
 
 Als er mappen zijn geselecteerd en gedownload, downloadt de toepassing alleen elementen die rechtstreeks in de map(pen) in de Experience Manager zijn opgeslagen. Elementen worden niet automatisch uit submappen gedownload.
 
@@ -114,26 +115,26 @@ Als er mappen zijn geselecteerd en gedownload, downloadt de toepassing alleen el
 
 U kunt de externe middelen openen voor weergave in de oorspronkelijke toepassing. De middelen worden gedownload aan een lokale omslag en gelanceerd in de inheemse toepassing verbonden aan het dossierformaat. U kunt de oorspronkelijke toepassing wijzigen en specifieke bestandstypen (extensies) openen in de Mac of Windows.
 
-Klik **[!UICONTROL Open]** in het menu Middelen. Het element wordt lokaal gedownload en in de oorspronkelijke toepassing geopend. Controleer de voortgang van het downloaden en de overdrachtssnelheid van grote middelen op de statusbalk.
+Klik **[!UICONTROL Open]** van het elementenmenu. Het element wordt lokaal gedownload en in de oorspronkelijke toepassing geopend. Controleer de voortgang van het downloaden en de overdrachtssnelheid van grote middelen op de statusbalk.
 
 <!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
 >
->Als de verwachte wijzigingen niet worden doorgevoerd in de app, klikt u op het pictogram ![](assets/do-not-localize/refresh.png) Vernieuwen of klikt u met de rechtermuisknop in de interface van de app en klikt u **[!UICONTROL Refresh]**. De acties zijn niet beschikbaar wanneer grotere downloads of uploads worden uitgevoerd.
+>Als de verwachte wijzigingen niet in de app worden weergegeven, klikt u op het pictogram Vernieuwen ![pictogram Vernieuwen](assets/do-not-localize/refresh.png) of klikt u met de rechtermuisknop in de app-interface en klikt u op **[!UICONTROL Refresh]**. De acties zijn niet beschikbaar wanneer grotere downloads of uploads worden uitgevoerd.
 
-Als u de lokale downloadmap van een element wilt openen, klikt u op het pictogram ![](assets/do-not-localize/more2_da2.png) Meer handelingen en klikt u op de ![actie Pictogram](assets/do-not-localize/reveal_action2_da2.png) onthullen **[!UICONTROL Reveal File]** .
+Als u de lokale downloadmap van een element wilt openen, klikt u op ![Meer handelingspictogram](assets/do-not-localize/more2_da2.png) en klikt u op ![Pictogram tonen](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** handeling.
 
 ## Elementen gebruiken of plaatsen in eigen documenten {#place-assets-in-native-documents}
 
-In sommige gevallen, bijvoorbeeld wanneer het plaatsen van activa in een inheems document, hebt u toegang tot een dossier in de Ontdekkingsreiziger van Vensters of de Vinder van MAC. Als u de locatie van het bestandssysteem van het lokaal gedownloade bestand wilt herstellen, gebruikt u de optie ![Pictogram](assets/do-not-localize/reveal_action2_da2.png) onthullen **[!UICONTROL Reveal File]** .
+In sommige gevallen, bijvoorbeeld wanneer het plaatsen van activa in een inheems document, hebt u toegang tot een dossier in de Ontdekkingsreiziger van Vensters of de Vinder van MAC. Als u de locatie van het bestandssysteem van het lokaal gedownloade bestand wilt herstellen, gebruikt u de optie ![Pictogram onthullen](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**.
 
-![File-actie onthullen voor een](assets/revealfile_action_da2.png "assetReveal-actie voor een element")
+![File-actie onthullen voor een ](assets/revealfile_action_da2.png "assetReveal-actie voor een element")
 
-Klik **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** op een map om Windows Verkenner of Mac Finder te openen met het bestand of de map die op uw lokale computer is geselecteerd. De optie is handig als u de bestanden met Experience Managers bijvoorbeeld wilt plaatsen in de oorspronkelijke toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Zie Afbeeldingen [plaatsen voor informatie over het plaatsen van bestanden in Adobe InDesign](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Klik **[!UICONTROL Reveal File]**, of **[!UICONTROL Reveal Folder]** op een omslag, om de Ontdekkingsreiziger van Vensters of de Vinder van MAC met het dossier of de omslag te openen vooraf geselecteerd op uw lokale machine. De optie is handig als u de bestanden met Experience Managers bijvoorbeeld wilt plaatsen in de oorspronkelijke toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Zie [Afbeeldingen plaatsen](https://helpx.adobe.com/indesign/using/placing-graphics.html) voor informatie over het plaatsen van bestanden in Adobe InDesign.
 
-De **[!UICONTROL Reveal File]** actie opent een lokaal netwerkaandeel, dat slechts de activa toont die plaatselijk - beschikbaar zijn - namelijk het toont activa die, geopend of geopend/uitgegeven gebruikend app werden onthuld. Het lokale netwerkaandeel uploadt geen veranderingen in Experience Manager. Als u de wijzigingen wilt uploaden, gebruikt u expliciet **[!UICONTROL Upload Changes]** of **[!UICONTROL Upload]** actiepunten in de app.
+Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal netwerkaandeel geopend. Hierin worden alleen de middelen weergegeven die lokaal beschikbaar zijn, dat wil zeggen de middelen die met de app zijn onthuld, gedownload of geopend/bewerkt. Het lokale netwerkaandeel uploadt geen veranderingen in Experience Manager. Als u de wijzigingen wilt uploaden, gebruikt u expliciet **[!UICONTROL Upload Changes]**- of **[!UICONTROL Upload]**-handelingen in de app.
 
 >[!NOTE]
 >
@@ -141,26 +142,26 @@ De **[!UICONTROL Reveal File]** actie opent een lokaal netwerkaandeel, dat slech
 
 >[!CAUTION]
 >
->Gebruik geen optie **[!UICONTROL Reveal File]** om elementen te bewerken in native toepassingen. Gebruik in plaats daarvan de **[!UICONTROL Edit]** handelingen. Zie [Geavanceerde workflow voor meer informatie: samen te werken aan dezelfde bestanden en bewerkingsconflicten](#adv-workflow-collaborate-avoid-conflicts)te voorkomen.
+>Gebruik de optie **[!UICONTROL Reveal File]** niet om elementen in native toepassingen te bewerken. Gebruik in plaats daarvan de handelingen **[!UICONTROL Edit]**. Zie [Geavanceerde workflow voor meer informatie: samenwerken aan dezelfde bestanden en bewerkingsconflicten vermijden](#adv-workflow-collaborate-avoid-conflicts).
 
 ## Elementen bewerken en bijgewerkte elementen uploaden naar Experience Manager {#edit-assets-upload-updated-assets}
 
 Open elementen die u wilt bewerken wanneer u wijzigingen wilt aanbrengen en upload de bijgewerkte elementen naar de AExExperience ManagerEM-server. U voorkomt conflicten met bewerkingen door andere gebruikers door met de app een bewerkingssessie te starten. Voordat u begint met bewerken, moet u ervoor zorgen dat er geen vergrendelingspictogram op het element staat, dat wil zeggen dat een andere gebruiker het element niet bewerkt.
 
-Als u een element wilt bewerken, zoekt u het element of bladert u naar de locatie van het element. Klik op ![Meer pictogram](assets/do-not-localize/more2_da2.png) en klik op **[!UICONTROL Edit]**.
+Als u een element wilt bewerken, zoekt u het element of bladert u naar de locatie van het element. Klik ![Meer pictogram](assets/do-not-localize/more2_da2.png) en klik **[!UICONTROL Edit]**.
 
-Gebruik deze optie **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conflicten te voorkomen met bewerkingen van andere gebruikers in beide volgende situaties:
+Gebruik **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conflicten te voorkomen met bewerkingen van andere gebruikers in beide volgende situaties:
 
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt dat anderen dit niet bewerken.
 
-Nadat u de wijzigingen hebt aangebracht, geeft de app de **[!UICONTROL Edited Locally]** status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in de Experience Manager uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** de opties voor een element. Er wordt een versie van het element in Experience Manager gemaakt. Met de webinterface van [!DNL Assets]kunt u de geschiedenis van elementen weergeven in de [tijdlijnweergave](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
+Nadat u de bewerkingen hebt uitgevoerd, geeft de app de status **[!UICONTROL Edited Locally]** weer voor de gewijzigde elementen. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in de Experience Manager uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** uit de opties voor een element. Er wordt een versie van het element in Experience Manager gemaakt. Met behulp van de webinterface van [!DNL Assets] kunt u de elementgeschiedenis zien in de [tijdlijnweergave](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
-![De optie Wijzigingen uploaden in de](assets/upload_changes_single1_da2.png "optie voor het uploaden van wijzigingen in de app")
+![De optie Wijzigingen uploaden in de ](assets/upload_changes_single1_da2.png "optie voor het uploaden van wijzigingen in de app")
 
-![De optie Wijzigingen uploaden wanneer u een grote voorvertoning van een optie](assets/upload_changes_single2_da2.png "voor het uploaden van middelen weergeeft wanneer u een grote voorvertoning van een element weergeeft")
+![De optie Wijzigingen uploaden wanneer u een grote voorvertoning van een optie ](assets/upload_changes_single2_da2.png "voor het uploaden van middelen weergeeft wanneer u een grote voorvertoning van een element weergeeft")
 
-Zie [Geavanceerde workflow voor de beste werkwijzen voor gezamenlijke bewerking: samen te werken aan dezelfde bestanden en bewerkingsconflicten](#adv-workflow-collaborate-avoid-conflicts)te voorkomen.
+Zie [Geavanceerde workflow voor beste werkwijzen over gezamenlijke bewerking: samenwerken aan dezelfde bestanden en bewerkingsconflicten vermijden](#adv-workflow-collaborate-avoid-conflicts).
 
 In de volgende gevallen kunt u uw wijzigingen en bewerkingen in het lokale element negeren. Klik op **[!UICONTROL Discard Changes]**.
 
@@ -172,18 +173,18 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 ## Nieuwe elementen uploaden en toevoegen aan Experience Manager {#upload-and-add-new-assets-to-aem}
 
-Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de opslagplaats van de Experience Manager. Als u nieuwe inhoud wilt toevoegen aan de Experience Manager, klikt u op het pictogram ![](assets/do-not-localize/upload_to_cloud_da2.png) Uploaden naar cloud in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens in mappen [maken in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
+Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de opslagplaats van de Experience Manager. Als u nieuwe inhoud wilt toevoegen aan de Experience Manager, klikt u op ![Uploaden naar wolkenpictogram](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens op [Mappen maken in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
-U kunt mappen of afzonderlijke bestanden uploaden vanuit uw lokale bestandssysteem. De hiërarchie van een map blijft behouden wanneer deze wordt geüpload. Zie [Bulk uploaden](#bulk-upload-assets)voordat u elementen bulksgewijs uploadt.
+U kunt mappen of afzonderlijke bestanden uploaden vanuit uw lokale bestandssysteem. De hiërarchie van een map blijft behouden wanneer deze wordt geüpload. Zie [Uploads bulksgewijs ](#bulk-upload-assets) voordat u elementen in bulk uploadt.
 
-Klik op **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. In de lijst kunt u de bestandsoverdrachten van de huidige sessie weergeven en snel verifiëren.
+Als u de lijst met elementen wilt weergeven die in een bepaalde sessie zijn overgedragen, klikt u op **[!UICONTROL View]** > **[!UICONTROL Assets transfers]**. In de lijst kunt u de bestandsoverdrachten van de huidige sessie weergeven en snel verifiëren.
 
-![Lijst van overgedragen elementen in een bepaalde](assets/assets_transfered_da2.png "sessionList van overgedragen elementen in een bepaalde sessie")
+![Lijst van overgedragen elementen in een bepaalde ](assets/assets_transfered_da2.png "sessionList van overgedragen elementen in een bepaalde sessie")
 
-U kunt de uploadsnelheid (versnelling) bepalen in **[!UICONTROL Preferences]** >- **[!UICONTROL Upload acceleration]** instelling. Meer gelijktijdige uitvoering levert doorgaans snellere uploads op, maar kan ook bronintensief zijn en meer verwerkingskracht van de lokale machine verbruiken. Als u een traag systeem ervaart, uploadt u opnieuw met een lagere waarde voor gelijktijdige uitvoering.
+U kunt de uploadsnelheid (versnelling) bepalen in **[!UICONTROL Preferences]** > **[!UICONTROL Upload acceleration]**-instelling. Meer gelijktijdige uitvoering levert doorgaans snellere uploads op, maar kan ook bronintensief zijn en meer verwerkingskracht van de lokale machine verbruiken. Als u een traag systeem ervaart, uploadt u opnieuw met een lagere waarde voor gelijktijdige uitvoering.
 
 >[!NOTE]
 >
@@ -191,7 +192,7 @@ U kunt de uploadsnelheid (versnelling) bepalen in **[!UICONTROL Preferences]** >
 
 >[!NOTE]
 >
->Als de bestanden niet kunnen worden geüpload en als u verbinding maakt met Experience Manager 6.5.1 of latere implementatie, raadpleegt u deze informatie over [probleemoplossing](troubleshoot.md#upload-fails).
+>Als de bestanden niet kunnen worden geüpload en als u verbinding maakt met Experience Manager 6.5.1 of latere implementatie, raadpleegt u [informatie over probleemoplossing](troubleshoot.md#upload-fails).
 
 ## Werken met meerdere elementen {#work-with-multiple-assets}
 
@@ -205,49 +206,49 @@ Als u werkt met mappen die veel elementen bevatten, schuift u om meer elementen 
 
 Klik op de miniatuur van een paar elementen om de elementen te selecteren. Als u alle elementen wilt selecteren, klikt u op het selectievakje in de bovenste balk van de app. De set handelingen die van toepassing is op alle geselecteerde elementen samen worden weergegeven op een werkbalk onder aan de app.
 
-![De werkbalk onder aan geeft acties weer die relevant zijn voor de geselecteerde](assets/actions_bottom_toolbar1_da2.png "elementen. De werkbalk onder aan het venster toont algemene acties voor de geselecteerde elementen")
+![De werkbalk onder aan geeft acties weer die relevant zijn voor de geselecteerde ](assets/actions_bottom_toolbar1_da2.png "elementen. De werkbalk onder aan het venster toont algemene acties voor de geselecteerde elementen")
 
-![Geen acties op de werkbalk als er geen gemeenschappelijke acties voor de](assets/actions_bottom_toolbar2_da2.png "selectie zijnGeen acties op de werkbalk als er geen gemeenschappelijke acties voor de selectie zijn")
+![Geen acties op de werkbalk als er geen gemeenschappelijke acties voor de ](assets/actions_bottom_toolbar2_da2.png "selectie zijnGeen acties op de werkbalk als er geen gemeenschappelijke acties voor de selectie zijn")
 
-Welke acties beschikbaar zijn op de werkbalk onderaan, is afhankelijk van de status van de geselecteerde bestanden. Als u bijvoorbeeld alleen **[!UICONTROL Edited Locally]** bestanden selecteert, wordt het **[!UICONTROL Upload Changes]** pictogram weergegeven. Als u een combinatie van **[!UICONTROL Edited locally]** en **[!UICONTROL Cloud only]** selecteert, is de **[!UICONTROL Upload Changes]** actie niet beschikbaar.
+Welke acties beschikbaar zijn op de werkbalk onderaan, is afhankelijk van de status van de geselecteerde bestanden. Als u bijvoorbeeld alleen **[!UICONTROL Edited Locally]** bestanden selecteert, wordt **[!UICONTROL Upload Changes]** pictogram weergegeven. Als u een combinatie van **[!UICONTROL Edited locally]** en **[!UICONTROL Cloud only]** selecteert, is de **[!UICONTROL Upload Changes]** actie niet beschikbaar.
 
 ### Alle bewerkte afbeeldingen zoeken {#find-all-edited-images}
 
-De toepassing biedt een weergave met de naam **[!UICONTROL Edited locally]**, waarmee u snel toegang krijgt tot alle bestanden die u lokaal hebt gedownload (via [!UICONTROL Open] of [!UICONTROL Edit] handelingen) en die u vervolgens wijzigt. Met de app kunt u alle lokaal bewerkte elementen selecteren en de wijzigingen met een paar klikken uploaden. In deze weergave worden ook de lokaal bewerkte elementen weergegeven die een bewerkingsconflict hebben.
+De toepassing biedt een weergave met de naam **[!UICONTROL Edited locally]**, waarmee u snel toegang krijgt tot alle bestanden die u lokaal hebt gedownload (via de acties [!UICONTROL Open] of [!UICONTROL Edit]) en vervolgens hebt gewijzigd. Met de app kunt u alle lokaal bewerkte elementen selecteren en de wijzigingen met een paar klikken uploaden. In deze weergave worden ook de lokaal bewerkte elementen weergegeven die een bewerkingsconflict hebben.
 
-![Filter om alle lokaal bewerkte](assets/edited_locally_filter_da2.png "assetsFilter te bekijken om alle lokaal bewerkte middelen te zien, bijvoorbeeld voor het bulkuploaden van bewerkingen")
+![Filter om alle lokaal bewerkte ](assets/edited_locally_filter_da2.png "assetsFilter te bekijken om alle lokaal bewerkte middelen te zien, bijvoorbeeld voor het bulkuploaden van bewerkingen")
 
-### Bulkupload-elementen {#bulk-upload-assets}
+### Elementen voor uploaden in bulk {#bulk-upload-assets}
 
-Gebruikers of organisaties, zoals fotografen of creatieve bureaus, kunnen in scenario&#39;s een groot aantal lokale elementen maken, zoals foto&#39;s, retoucheren of selectie uit een grotere set die buiten de Experience Manager wordt uitgevoerd. Ze kunnen deze grote lokale mappen [!DNL Assets] rechtstreeks vanaf de bureaubladtoepassing uploaden. De maphiërarchieën blijven behouden en alle geneste submappen en opgenomen elementen worden geüpload. De geüploade elementen zijn direct ook beschikbaar voor andere gebruikers van dezelfde server. Elementen worden op de achtergrond geüpload, dus de bewerking is niet gekoppeld aan een webbrowsersessie.
+Gebruikers of organisaties, zoals fotografen of creatieve bureaus, kunnen in scenario&#39;s een groot aantal lokale elementen maken, zoals foto&#39;s, retoucheren of selectie uit een grotere set die buiten de Experience Manager wordt uitgevoerd. Ze kunnen deze grote lokale mappen rechtstreeks vanuit de bureaubladtoepassing uploaden naar [!DNL Assets]. De maphiërarchieën blijven behouden en alle geneste submappen en opgenomen elementen worden geüpload. De geüploade elementen zijn direct ook beschikbaar voor andere gebruikers van dezelfde server. Elementen worden op de achtergrond geüpload, dus de bewerking is niet gekoppeld aan een webbrowsersessie.
 
-![Meerdere lokale mappen vanaf uw bureaublad uploaden naar Experience](assets/upload_local_folders_da2.png "ManagerMet Bulk kunt u meerdere lokale mappen vanaf uw bureaublad uploaden naar Experience Manager")
+![Meerdere lokale mappen vanaf uw bureaublad uploaden naar Experience ](assets/upload_local_folders_da2.png "ManagerMet Bulk kunt u meerdere lokale mappen vanaf uw bureaublad uploaden naar Experience Manager")
 
-Als na het uploaden de verwachte wijzigingen niet in de app worden weergegeven, klikt u op het pictogram ![Vernieuwen](assets/do-not-localize/refresh.png).
+Als na het uploaden de verwachte wijzigingen niet worden doorgevoerd in de app, klikt u op het pictogram Vernieuwen ![Vernieuwen](assets/do-not-localize/refresh.png).
 
 >[!NOTE]
 >
 >Gebruik geen uploadfunctionaliteit om elementen over twee Experience Managers-implementaties te migreren. Zie in plaats daarvan de [migratiegids](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
 
-### Lijst van overgedragen elementen {#list-of-transferred-assets}
+### Lijst van overgedragen activa {#list-of-transferred-assets}
 
-Zie Elementen [uploaden naar Experience Manager](#upload-and-add-new-assets-to-aem)voor een overzicht van de elementen die in een bepaalde sessie zijn overgedragen.
+Zie [Elementen uploaden naar Experience Manager](#upload-and-add-new-assets-to-aem) voor een overzicht van de elementen die in een bepaalde sessie zijn overgedragen.
 
-## Geavanceerde workflow: starten vanuit de [!DNL Assets] webinterface {#adv-workflow-start-from-aem-ui}
+## Geavanceerde workflow: begin van [!DNL Assets] Webinterface {#adv-workflow-start-from-aem-ui}
 
 Start zo nodig uw workflow via de webinterface Middelen. De desktop-app integreert met de Experience Manager die de toepassing op verzoek kan overnemen met behulp van desktophandelingen.
 
-Een bijzonder geval van het beginnen van werkschema van de Webinterface is middelenontdekking. De gebruikersinterface van de Omnissearch bar in Assets biedt een rijke en geavanceerde zoekervaring. U wilt mogelijk eerst een gewenst middel zoeken op het web en vervolgens de workflow in de app starten, met [!UICONTROL Desktop Actions]behulp van. Sommige voorbeeldgevallen zijn het filteren van zoekresultaten met gebruik van facetten, het zoeken naar een specifiek middel waarvoor een licentie is verleend door Adobe Stock of een aanpassing die door uw organisatie is geïmplementeerd waardoor u een betere detectie kunt uitvoeren via de webinterface.
+Een bijzonder geval van het beginnen van werkschema van de Webinterface is middelenontdekking. De gebruikersinterface van de Omnissearch bar in Assets biedt een rijke en geavanceerde zoekervaring. U wilt mogelijk eerst een gewenst middel zoeken op het web en vervolgens de workflow in de app starten met [!UICONTROL Desktop Actions]. Sommige voorbeeldgevallen zijn het filteren van zoekresultaten met gebruik van facetten, het zoeken naar een specifiek middel waarvoor een licentie is verleend door Adobe Stock of een aanpassing die door uw organisatie is geïmplementeerd waardoor u een betere detectie kunt uitvoeren via de webinterface.
 
 De functionaliteit van de bureaubladtoepassing wordt gebruikt wanneer u de volgende handelingen uitvoert in de webinterface Middelen:
 
-* Het [!UICONTROL Desktop Actions] systeem dat toestaat [!UICONTROL Open], [!UICONTROL Edit]en [!UICONTROL Reveal]
+* De [!UICONTROL Desktop Actions] die [!UICONTROL Open], [!UICONTROL Edit], en [!UICONTROL Reveal] toestaat
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] or [!UICONTROL check-in]
 
-De acties in de webinterface die beschikbaar zijn voor een middel dat in de app is uitgecheckt, zijn [!UICONTROL Open], [!UICONTROL Reveal]en [!UICONTROL Check-in].
+De acties in de webinterface die beschikbaar zijn voor een element dat is uitgecheckt in de app zijn bijvoorbeeld [!UICONTROL Open], [!UICONTROL Reveal] en [!UICONTROL Check-in].
 
-![De Acties van de Desktop in de Experience Manager web](assets/assets_web_actions_da2.png "interfaceDesktop Acties in de het Webinterface van de Experience Manager")
+![De Acties van de Desktop in de Experience Manager web ](assets/assets_web_actions_da2.png "interfaceDesktop Acties in de het Webinterface van de Experience Manager")
 
 >[!NOTE]
 >
@@ -260,27 +261,27 @@ U kunt de volgende informatie of workflow niet vinden met de webinterface. Gebru
 * Lokale wijzigingen uploaden naar Experience Manager.
 * Verschillende statussen van de lokaal beschikbare bestanden.
 
-Integendeel, u kunt het element in de webinterface openen vanaf de bureaubladtoepassing met de **[!UICONTROL Open In Web]** handeling.
+Integendeel, u kunt het element in de webinterface openen vanaf de bureaubladtoepassing met de actie **[!UICONTROL Open In Web]**.
 
 ## Geavanceerde workflow: samenwerken aan dezelfde bestanden en bewerkingsconflicten voorkomen {#adv-workflow-collaborate-avoid-conflicts}
 
 In samenwerkingsomgevingen kunnen meerdere gebruikers werken aan dezelfde set elementen die tot versieconflicten kunnen leiden. Volg de volgende aanbevolen procedures om conflicten te voorkomen:
 
-* Bewerk geen elementen door op [!UICONTROL Open]te klikken. Bewerk de lokaal gedownloade elementen niet door deze te openen vanuit de bestandssysteemmap. Andere gebruikers weten niet dat het element wordt bewerkt.
+* Bewerk geen elementen door op [!UICONTROL Open] te klikken. Bewerk de lokaal gedownloade elementen niet door deze te openen vanuit de bestandssysteemmap. Andere gebruikers weten niet dat het element wordt bewerkt.
 * Als u een element wilt bewerken, klikt u altijd op [!UICONTROL Edit]. Het element wordt geopend in de oorspronkelijke toepassing en er wordt een vergrendelingspictogram toegevoegd aan het element, zodat de andere gebruikers weten dat het element wordt bewerkt.
-* Klik [!UICONTROL Toggle Check-in] als u per ongeluk begint met bewerken zonder te klikken [!UICONTROL Edit]. Hiermee voegt u een vergrendelingspictogram toe aan het element. Zelfs als u een element later wilt bewerken, maar u wilt voorkomen dat anderen het bewerken, klikt u [!UICONTROL Toggle Check-in] om het element te vergrendelen.
+* Klik [!UICONTROL Toggle Check-in] als u per ongeluk begint te uitgeven zonder [!UICONTROL Edit] te klikken. Hiermee voegt u een vergrendelingspictogram toe aan het element. Zelfs als u een element later wilt bewerken, maar u wilt voorkomen dat anderen het bewerken, klikt u op [!UICONTROL Toggle Check-in] om het element te vergrendelen.
 * Voordat u een element bewerkt, moet u ervoor zorgen dat andere gebruikers het element niet bewerken. Zoek het slotpictogram op de activa.
 * Na het voltooien van de bewerkingen uploadt u alle wijzigingen en checkt u het element in.
 
-![Status van het bewerken van](assets/edits_conflicts_status_da2.png "conflictenStatus van het bewerken van conflicten")
+![Status van het bewerken van ](assets/edits_conflicts_status_da2.png "conflictenStatus van het bewerken van conflicten")
 
-Als een lokaal gedownload element wordt bijgewerkt op de Experience Manager-server, geeft de app een **[!UICONTROL Modified remotely]** status weer. U kunt uw lokale kopie verwijderen of de lokale kopie vernieuwen door respectievelijk op [!UICONTROL Remove] of [!UICONTROL Update] te klikken. Via koppelingen in het dialoogvenster kunt u beide versies van het element weergeven.
+Als een lokaal gedownload element op de server van de Experience Manager wordt bijgewerkt, toont app een **[!UICONTROL Modified remotely]** status. U kunt uw lokale kopie verwijderen of de lokale kopie vernieuwen door respectievelijk [!UICONTROL Remove] of [!UICONTROL Update] te klikken. Via koppelingen in het dialoogvenster kunt u beide versies van het element weergeven.
 
-![Opties om het conflict op te lossen wanneer het element op afstand wordt](assets/modified_remotely_dialog_da2.png "gewijzigdOpties om het conflict op te lossen wanneer het element op afstand wordt gewijzigd")
+![Opties om het conflict op te lossen wanneer het element op afstand wordt ](assets/modified_remotely_dialog_da2.png "gewijzigdOpties om het conflict op te lossen wanneer het element op afstand wordt gewijzigd")
 
-Als een middel dat u lokaal bewerkt ook zonder uw medeweten op de server wordt bijgewerkt, geeft de app een **[!UICONTROL Editing Conflict]** status weer. U kunt één set wijzigingen behouden. U kunt de updates behouden (klik op **[!UICONTROL Keep Mine]**) en de bewerking van de andere gebruiker verwijderen, of u kunt de updates van de andere gebruiker respecteren en uw (**[!UICONTROL Overwrite Mine]**) verwijderen.
+Als een middel dat u lokaal bewerkt ook zonder uw medeweten op de server wordt bijgewerkt, geeft de app een **[!UICONTROL Editing Conflict]**-status weer. U kunt één set van de wijzigingen behouden - ofwel uw updates behouden (klik op **[!UICONTROL Keep Mine]**) en de bewerking van de andere gebruiker verwijderen, of de updates van de andere gebruiker respecteren en uw wijzigingen verwijderen (**[!UICONTROL Overwrite Mine]**).
 
-![Opties voor het oplossen van een bewerkingsconflictOpties voor het oplossen van een bewerkingsconflict](assets/editing_conflict_dialog_da2.png "")
+![Opties voor het oplossen van een bewerkingsconflictOpties voor het oplossen van een bewerkingsconflict ](assets/editing_conflict_dialog_da2.png "")
 
 ## Geavanceerde workflow: elementen plaatsen en koppelen in InDesign-bestand {#adv-workflow-place-assets-indesign}
 
@@ -292,14 +293,14 @@ De desktop-app van de Experience Manager ondersteunt deze workflow met een paar 
 >
 >De bureaubladtoepassing kan worden toegewezen aan elk station in Windows. Wijzig de standaardstationsletter echter niet voor vloeiende bewerkingen. Als gebruikers van dezelfde organisatie verschillende stationsletters gebruiken, kunnen ze de elementen die door anderen zijn geplaatst, niet zien. De geplaatste elementen worden niet opgehaald wanneer het pad verandert. De geplaatste elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd.
 
-Als u de beperkingen van deze workflow wilt weten, raadpleegt u de [systeemvereisten en ondersteunde versies](release-notes.md#system-requirements-and-prerequisites-v2).
+Zie de [Systeemvereisten en de ondersteunde versies](release-notes.md#system-requirements-and-prerequisites-v2) voor informatie over de beperkingen van deze workflow.
 
 Voer de volgende stappen uit om deze workflow te testen met een afbeeldingselement en InDesign:
 
-1. Houd een INDD-bestand met geplaatste elementen in Experience Manager. Zie [Afbeeldingen](https://helpx.adobe.com/indesign/using/placing-graphics.html)plaatsen voor informatie over het maken van een dergelijk INDD-bestand.
-1. Vanuit de bureaubladtoepassing wordt **[!UICONTROL Edit]** het INDD-bestand met geplaatste elementen in Experience Manager geplaatst.
+1. Houd een INDD-bestand met geplaatste elementen in Experience Manager. Zie [Afbeeldingen plaatsen](https://helpx.adobe.com/indesign/using/placing-graphics.html) voor informatie over het maken van een dergelijk INDD-bestand.
+1. Vanuit de bureaubladtoepassing **[!UICONTROL Edit]** het INDD-bestand met geplaatste elementen in Experience Manager.
 1. De app downloadt zowel het InDesign-bestand als de gekoppelde elementen. Wanneer InDesign het document opent, worden de koppelingen opgelost, worden de elementen gedownload en worden de elementen weergegeven in het InDesign-document.
-1. Als u een nieuwe afbeelding in het InDesign-bestand wilt plaatsen, gebruikt u de **[!UICONTROL Reveal File]** handeling op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van MAC.
+1. Als u een nieuwe afbeelding in het InDesign-bestand wilt plaatsen, gebruikt u de handeling **[!UICONTROL Reveal File]** op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van MAC.
 1. Plaats het onthulde element in het InDesign-document. Hiermee maakt u een koppeling in het document.
 1. Nadat u de bewerkingen in het InDesign-document hebt voltooid, slaat u het document op en uploadt u het naar de Experience Manager met de bureaubladtoepassing.
 
@@ -307,12 +308,12 @@ Voer de volgende stappen uit om deze workflow te testen met een afbeeldingseleme
 
 De app downloadt de middelen van de server van de Experience Manager plaatselijk op uw dossiersysteem in vele scenario&#39;s. De downloads verbruiken bandbreedte en schijfruimte. Als u de scenario&#39;s kent, kunt u de wachttijd tot de downloads zijn voltooid, optimaliseren.
 
-U kunt de middelen downloaden vanuit de app op aanvraag. Zie [Elementen](#download-assets)downloaden.
+U kunt de middelen downloaden vanuit de app op aanvraag. Zie [Elementen downloaden](#download-assets).
 
-Wanneer u de [!UICONTROL Open] handeling gebruikt om middelen te openen in een native desktoptoepassing, wordt het middel lokaal gedownload als dit nog niet lokaal beschikbaar is. Zie [Elementen](#openondesktop-v2)openen.
+Wanneer u de handeling [!UICONTROL Open] gebruikt om middelen te openen in een native desktoptoepassing, wordt het middel lokaal gedownload als dit nog niet lokaal beschikbaar is. Zie [Elementen openen](#openondesktop-v2).
 
-Wanneer u de locatie van een middel of een map vanuit de app weergeeft, wordt het middel of de map eerst lokaal gedownload en vervolgens op uw computer geopend in het gedeelde lokale netwerk. Zie [Elementen](#openondesktop-v2)openen.
+Wanneer u de locatie van een middel of een map vanuit de app weergeeft, wordt het middel of de map eerst lokaal gedownload en vervolgens op uw computer geopend in het gedeelde lokale netwerk. Zie [Elementen openen](#openondesktop-v2).
 
-Wanneer u de [!UICONTROL Edit] actie gebruikt om middelen in een inheemse Desktoptoepassing uit te geven, wordt het middel gedownload plaatselijk als niet reeds beschikbaar plaatselijk. Zie Elementen [bewerken en bijgewerkte elementen uploaden naar Experience Manager](#edit-assets-upload-updated-assets).
+Wanneer u de handeling [!UICONTROL Edit] gebruikt om middelen in een native desktoptoepassing te bewerken, wordt het middel lokaal gedownload als dit nog niet lokaal beschikbaar is. Zie [Elementen bewerken en bijgewerkte elementen uploaden naar Experience Manager](#edit-assets-upload-updated-assets).
 
-Als de app is geïnstalleerd en u mag deze gebruiken, worden de acties voltooid wanneer u deze gebruikt [!UICONTROL Desktop Actions] vanuit de webinterface van de Experience Manager. De app downloadt het middel eerst en voltooit de actie.
+Als de toepassing is geïnstalleerd en toegestaan, worden de handelingen voltooid wanneer u [!UICONTROL Desktop Actions] van de webinterface van de Experience Manager gebruikt. De app downloadt het middel eerst en voltooit de actie.
