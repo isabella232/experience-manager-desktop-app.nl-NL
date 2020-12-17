@@ -10,9 +10,9 @@ internal: n
 snippet: y
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 | Producten | Adobe Experience Manager-bureaubladtoepassing |
 |--- |--- |
-| Toepassingsversie (revisie) | 2.0 (2.0.3.2) |
-| Ondersteunde versies van Experience Managers | Experience Manager als Cloud Service; Experience Manager 6.5; Experience Manager 6.4; Experience Manager 6.3 (met compatibiliteitspakket) |
+| Toepassingsversie (revisie) | 2.1 (2.1.0.0) |
+| Ondersteunde [!DNL Adobe Experience Manager] versies | [!DNL Experience Manager] als  [!DNL Cloud Service]een  [!DNL Experience Manager] 6.5.  [!DNL Experience Manager] 6.4.  [!DNL Experience Manager] 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
 | Releasedatum | 27 aug. 2020 (Mac en Windows) |
-| URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.0.3.2.dmg);  [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.0.3.2.exe);  [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.0.3.2.exe) |
+| URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg);  [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe);  [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
@@ -42,18 +42,18 @@ De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende b
 
 De app werkt met de volgende versies van Experience Managers, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
 
-* [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
+* [[!DNL Experience Manager] als [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) een.
 
-* [Experience Manager 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) of hoger.
+* [[!DNL Experience Manager] 6.5.0](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html) of hoger.
 
-* [Experience Manager 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) of hoger.
+* [[!DNL Experience Manager] 6.4.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) of hoger.
 
-* Experience Manager 6.4.0 - 6.4.3 met [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
+* [!DNL Experience Manager] 6.4.0 - 6.4.3 met  [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support).
 
 >[!NOTE]
 >
->Ondersteuning voor bureaubladapps voor Experience Manager 6.3 is afgekeurd. Adobe raadt aan een upgrade uit te voeren naar een nieuwere en ondersteunde Adobe Experience Manager-versie.
->Experience Manager 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>Ondersteuning voor bureaubladtoepassingen voor [!DNL Experience Manager] 6.3 is afgekeurd. Adobe raadt aan een upgrade naar een nieuwere en ondersteunde [!DNL Adobe Experience Manager]-versie uit te voeren.
+>[!DNL Experience Manager] 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke Adobe Experience Manager-serverversie/aanvullende serveronderdelen (servicepakketten, hotfixes of functiepakketten) vereist. Neem contact op met uw Adobe Experience Manager-beheerder voor hulp.
 
@@ -80,6 +80,10 @@ De functie wordt ondersteund in Adobe Creative Cloud 2018- en Adobe Creative Clo
 ## Nieuwe functies en verbeteringen {#whats-new-added}
 
 Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie.
+
+**Updates in app v2.1.0.0**
+
+* Gebruikers kunnen nu bestanden of mappen op de interface van de toepassing slepen, rechtstreeks vanuit Windows Verkenner of de Finder. Dit werkt naast de uploadoptie die eerder beschikbaar was in de toepassing.
 
 **Updates in app v2.0.3**
 
