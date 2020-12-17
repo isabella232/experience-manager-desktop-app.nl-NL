@@ -3,9 +3,9 @@ title: Adobe Experience Manager-bureaubladtoepassing gebruiken
 description: Leer hoe u de Adobe Experience Manager-bureaubladtoepassing installeert en gebruikt, zodat u direct vanaf uw Win- of Mac-desktop aan Adobe Experience Manager DAM-middelen kunt werken. Kennis van de beste praktijken en het oplossen van problemeninformatie.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
 workflow-type: tm+mt
-source-wordcount: '4022'
+source-wordcount: '4028'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 ## Nieuwe elementen uploaden en toevoegen aan Experience Manager {#upload-and-add-new-assets-to-aem}
 
-Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de opslagplaats van de Experience Manager. Als u nieuwe inhoud wilt toevoegen aan de Experience Manager, klikt u op ![Uploaden naar wolkenpictogram](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. De app begint het element te uploaden en geeft onderaan een voortgangsbalk weer als het uploaden van het element langer duurt. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst met tekens op [Mappen maken in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
+Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de [!DNL Experience Manager]-opslagplaats. Als u nieuwe inhoud wilt toevoegen aan [!DNL Experience Manager], selecteert u ![Uploaden naar cloud-optie](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. U kunt ook de bestanden of mappen naar de toepassingsinterface slepen. De app begint het element te uploaden. Als het uploaden langer duurt, geeft de app onderaan een voortgangsbalk weer. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst van toegestane karakters bij [creeer omslagen in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
