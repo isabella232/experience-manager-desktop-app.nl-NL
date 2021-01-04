@@ -1,35 +1,28 @@
 ---
-title: Adobe Experience Manager-bureaubladtoepassing installeren en configureren
-description: Installeer en configureer de Adobe Experience Manager-bureaubladtoepassing zodat deze kan werken met Adobe Experience Manager Assets-servers en download de middelen naar uw lokale bestandssysteem.
-uuid: 79bc9de9-5708-41f9-ac43-68c1fd2a2129
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f6365302-1690-4719-9b8c-035719422740
-index: y
-internal: n
-snippet: y
+title: Installeer en configureer de  [!DNL Adobe Experience Manager] bureaubladtoepassing
+description: Installeer en configureer  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers en download de middelen op uw lokale bestandssysteem.
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Manager-bureaubladtoepassing {#install-app-v2} installeren
+# [!DNL Adobe Experience Manager] desktop app {#install-app-v2} installeren
 
-Met de Adobe Experience Manager-bureaubladtoepassing zijn de middelen in de Experience Manager eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle native bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden teruggezet naar de Experience Manager wanneer u de bestanden uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
+Met de [!DNL Adobe Experience Manager]-bureaubladtoepassing zijn de middelen in [!DNL Experience Manager] eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle native bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in [!DNL Experience Manager] wanneer u de bestanden uploadt en er een nieuwe versie wordt gemaakt in de opslagplaats.
 
 Een dergelijke integratie maakt verschillende rollen in de organisatie mogelijk om
 
-* Beheer de elementen centraal in Experience Manager Assets.
+* Beheer de elementen centraal in [!DNL Experience Manager Assets].
 
 * Open de middelen in om het even welke inheemse Desktoptoepassingen, met inbegrip van derdetoepassingen en in Adobe Creative Cloud. De gebruikers kunnen zich daarbij gemakkelijk aan de verschillende normen houden, waaronder branding.
 
-Om Experience Manager desktop app te gebruiken,
+Als u [!DNL Experience Manager]-bureaubladtoepassing wilt gebruiken,
 
-* Zorg ervoor dat uw versie van de Experience Manager door de Desktop app van de Experience Manager wordt gesteund. Zie de [systeemvereisten](release-notes.md#system-requirements-and-prerequisites-v2) hieronder.
+* Zorg ervoor dat uw [!DNL Experience Manager]-versie wordt ondersteund door de [!DNL Experience Manager]-bureaubladtoepassing. Zie de [systeemvereisten](release-notes.md#system-requirements-and-prerequisites-v2) hieronder.
 
 * Download en installeer de toepassing. Zie [Desktop app](#install-v2) hieronder installeren.
 
@@ -37,7 +30,7 @@ Om Experience Manager desktop app te gebruiken,
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
-Zie de [Opmerkingen bij de release van de Experience Manager desktop app](release-notes.md) voor meer informatie.
+Zie de [[!DNL Experience Manager] Opmerkingen bij de release van de bureaubladtoepassing](release-notes.md) voor gedetailleerde informatie.
 
 ## Upgrade uitvoeren vanaf een vorige versie {#upgrade-from-previous-version}
 
@@ -49,7 +42,7 @@ Als u een gebruiker bent van v1.x van de bureaubladtoepassing, begrijpt u de ver
 
 Voer de volgende instructies uit om een upgrade uit te voeren van een vorige versie van de app:
 
-1. Voordat u de upgrade uitvoert, synchroniseert u al uw middelen en uploadt u uw wijzigingen naar de Experience Manager. Zo voorkomt u dat bewerkingen verloren gaan wanneer u de app verwijdert.
+1. Voordat u de upgrade uitvoert, synchroniseert u al uw middelen en uploadt u uw wijzigingen naar [!DNL Experience Manager]. Zo voorkomt u dat bewerkingen verloren gaan wanneer u de app verwijdert.
 
 1. Verwijder de vorige versie van de app. Selecteer bij het verwijderen de optie om de cache te wissen.
 
@@ -59,15 +52,15 @@ Voer de volgende instructies uit om een upgrade uit te voeren van een vorige ver
 
 ## {#install-v2} installeren
 
-Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe Experience Manager-bureaubladtoepassing v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
+Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe [!DNL Experience Manager] desktop app v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
 
 1. Download het meest recente installatieprogramma van de [releaseopmerkingen](release-notes.md) pagina.
 
-1. Houd URL en geloofsbrieven van uw plaatsing van de Experience Manager handig.
+1. Houd de URL en de referenties van uw [!DNL Experience Manager]-implementatie handig.
 
 1. Zie [Desktop app upgraden](#upgrade-from-previous-version) als u een upgrade uitvoert vanaf een andere versie van de app.
 
-1. Sla deze stap over als u Experience Manager als Cloud Service, Experience Manager 6.4.4 of later, of Experience Manager 6.5.0 of later gebruikt. Zorg ervoor dat de installatie van uw Experience Manager voldoet aan de compatibiliteitsvereisten die worden vermeld in de [releaseopmerkingen](release-notes.md). Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het met de Manager van het Pakket van de Experience Manager als beheerder van de Experience Manager. Als u een pakket wilt installeren, raadpleegt u [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Sla deze stap over als u [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 of later, of [!DNL Experience Manager] 6.5.0 of later gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in [versienota&#39;s](release-notes.md) worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met [!DNL Experience Manager] Package Manager als een [!DNL Experience Manager]-beheerder. Als u een pakket wilt installeren, raadpleegt u [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 
@@ -93,7 +86,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    *Afbeelding: De toepassing geeft de DAM-inhoud weer na de aanmelding*
 
-1. (Experience Manager 6.5.1 of hoger) Als u bureaubladtoepassingen gebruikt met Experience Manager 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, upgrade S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
    Neem contact op met de klantenservice van Adobe als u een klant van Adobe Managed Services (AMS) bent.
 
