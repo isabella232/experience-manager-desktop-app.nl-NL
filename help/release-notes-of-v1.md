@@ -1,27 +1,20 @@
 ---
 title: Opmerkingen bij de release AEM desktop app versie 1.x
 description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.x.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 828de6db376d90f6de8f9682183b4c13ffe08d94
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3906'
 ht-degree: 0%
 
 ---
 
 
-# Opmerkingen bij de release van desktop app v1.x AEM {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.x  {#aem-desktop-app-release-notes}
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compatibiliteitsgegevens beschikbaar.
 
-| Producten | Adobe Experience Manager (AEM)-bureaubladtoepassing |
+| Producten | [!DNL Adobe Experience Manager] bureaubladtoepassing |
 |--- |--- |
 | Versie | 1.10 (1.10.0.6 op Mac en 1.10.0.3 op Windows) |
 | Type | Minder release |
@@ -75,7 +68,7 @@ Zie [AEM desktop app](install-configure-app-v1.md) installeren en configureren v
 
 ## Verbeteringen in de vorige versies {#enhancements-in-the-previous-versions}
 
-Deze release breidt de vorige versies van de Experience Manager-bureaubladtoepassing uit en vervangt deze. Deze versie biedt de volgende belangrijke verbeteringen:
+Deze release breidt de vorige versies van de [!DNL Experience Manager]-bureaubladtoepassing uit en vervangt deze, die de volgende belangrijke verbeteringen mogelijk maakten:
 
 * **Versie 1.9/1.9.1**: herbruikbare uploads, verbeterd statusvenster, toepassingspictogrammen die de status van toepassing/verbinding aangeven, vooraf opgehaalde gekoppelde middelen voor InDesign-bestanden.
 
@@ -93,7 +86,7 @@ Deze release breidt de vorige versies van de Experience Manager-bureaubladtoepas
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
-Adobe Experience Manager (AEM) desktop app 1.9.1 was een patchrelease waarmee een aantal belangrijke problemen van klanten met betrekking tot het uitchecken van bedrijfsmiddelen en het kopiëren van bestanden van gedeelde netwerken naar een lokale directory werden opgelost.
+[!DNL Adobe Experience Manager] desktop app 1.9.1 was een patchrelease waarmee een aantal belangrijke problemen van klanten met betrekking tot het uitchecken van bedrijfsmiddelen en het kopiëren van bestanden van gedeelde netwerken naar een lokale map werden opgelost.
 
 * Activa die door een gebruiker zijn uitgecheckt, mogen niet voor andere gebruikers beschikbaar zijn (CQ-4246009)
 
@@ -135,7 +128,7 @@ MiddelstatusEen verbeterd venster voor de status van elementen biedt de volgende
 
 * In de voettekst ziet u het totale aantal gedownloade bestanden en de gemiddelde overdrachtsnelheid.
 
-* Als een gebruiker ervoor kiest om veelvoudige dossiers van de UI van de Middelen van de Experience Manager te openen of uit te geven, zullen zij samen worden gegroepeerd. Bijvoorbeeld mijnelement.jpeg en 4 andere bestanden.
+* Als een gebruiker ervoor kiest om veelvoudige dossiers van de [!DNL Experience Manager Assets] interface van het Web te openen of uit te geven, zullen zij samen worden gegroepeerd. Bijvoorbeeld mijnelement.jpeg en 4 andere bestanden.
 
 * Wanneer u InDesign-documenten downloadt, inclusief gekoppelde elementen die zijn opgeslagen in AEM Assets, downloadt de bureaubladtoepassing eerst alle gekoppelde elementen voordat u het document [!UICONTROL Adobe InDesign] opent en geeft deze het downloaden van gekoppelde elementen aan. Bijvoorbeeld 5 van 24.
 
