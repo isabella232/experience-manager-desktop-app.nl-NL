@@ -1,10 +1,10 @@
 ---
-title: Aanbevolen werkwijzen voor desktop app versie 1.x AEM
-description: Belangrijke mogelijkheden en aanbevolen gebruik van Adobe Experience Manager desktop app versie 1.x.
+title: '[!DNL Adobe Experience Manager] aanbevolen procedures voor bureaubladtoepassing versie 1.x'
+description: Belangrijke mogelijkheden en aanbevolen gebruik van [!DNL Adobe Experience Manager] desktop app versie 1.x.
 translation-type: tm+mt
-source-git-commit: 200135fb96bbfcf9f72e857514bb9b71a88ed817
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-De Adobe Experience Manager-bureaubladtoepassing (AEM) koppelt uw DAM-oplossing (Digital Asset Management) aan uw bureaublad, zodat u de bestanden die beschikbaar zijn in de AEM webinterface rechtstreeks op het bureaublad kunt openen. Als u middelen van Desktop bewaart, wordt het geupload aan AEM bij de aangewezen plaats.
+[!DNL Adobe Experience Manager] de bureaubladtoepassing koppelt uw DAM-oplossing (Digital Asset Management) aan uw bureaublad, zodat u de bestanden die beschikbaar zijn in de AEM webinterface rechtstreeks op uw bureaublad kunt openen. Als u middelen van Desktop bewaart, wordt het geupload aan AEM bij de aangewezen plaats.
 
 AEM desktop app voorkomt dat u onjuiste lokale kopieën bijwerkt of een verkeerd middel in AEM bijwerkt. de gebruiksvriendelijke workflow van de bureaubladtoepassing wordt ingeschakeld met de technologie voor netwerkdeling die desktopbesturingssystemen bieden.
 
