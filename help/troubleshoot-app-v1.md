@@ -1,27 +1,20 @@
 ---
-title: Problemen met AEM bureaubladtoepassing versie 1.x oplossen
-description: Los AEM Desktopapp versie 1.x problemen op om de af en toe kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
-uuid: ce98a3e7-5454-41be-aaaa-4252b3e0f8dd
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: f5eb222a-6cdf-4ae3-9cf2-755c873f397c
-index: y
-internal: n
-snippet: y
+title: Problemen met  [!DNL Adobe Experience Manager] desktop app versie 1.x oplossen
+description: Los  [!DNL Adobe Experience Manager] Desktop app versie 1.x problemen op om de af en toe met installatie, verbetering, en configuratie verwante kwesties op te lossen.
 translation-type: tm+mt
-source-git-commit: 1702ef74ad0497b25c2fc349a2950e4e2b19a90b
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3366'
 ht-degree: 0%
 
 ---
 
 
-# Problemen met AEM bureaubladtoepassing v1.x {#troubleshoot-aem-desktop-app} oplossen
+# [!DNL Adobe Experience Manager] desktop app v1.x {#troubleshoot-aem-desktop-app} problemen oplossen
 
 Los AEM Desktop app problemen op om af en toe de kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
 
-De Adobe Experience Manager-bureaubladtoepassing (AEM) bevat hulpprogramma&#39;s waarmee u de AEM Assets-opslagplaats kunt toewijzen als een gedeelde netwerksite op uw bureaublad (SMB-share op Mac OS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. In het geval van een bureaubladtoepassing wordt de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie aangewezen als externe bestandsbron. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
+[!DNL Adobe Experience Manager] desktop-app bevat hulpprogramma&#39;s die u helpen de AEM Assets-opslagplaats toe te wijzen als een gedeelde netwerksite op desktop (SMB-share op Mac OS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. In het geval van een bureaubladtoepassing wordt de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie aangewezen als externe bestandsbron. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
 
 ![bureaubladtoepassingsdiagram](assets/aem-desktopapp-architecture.png)
 
@@ -70,7 +63,7 @@ AEM Desktop is niet geschikt voor intensieve manipulatie van bestandssystemen, w
 
 Vanwege beperkingen in het besturingssysteem geldt voor Windows een maximale bestandsgrootte van 4.294.967.295 bytes (ongeveer 4,29 GB). Dit is te wijten aan een registerinstelling die bepaalt hoe groot een bestand op een netwerkshare kan zijn. De waarde van de registratie het plaatsen is DWORD met een maximumgrootte die het referenced aantal evenaart.
 
-De desktop-app van de Experience Manager heeft geen configureerbare time-outwaarde die de verbinding tussen de server van de Experience Manager en de desktop-app verbreekt na een vast tijdsinterval. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
+[!DNL Experience Manager] desktop-app heeft geen configureerbare time-outwaarde die de verbinding tussen  [!DNL Experience Manager] server- en desktop-app verbreekt na een vast tijdsinterval. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
 ## Caching en communicatie met AEM {#caching-and-communication-with-aem}
 
