@@ -1,36 +1,29 @@
 ---
-title: Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing
-description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor de Adobe Experience Manager-bureaubladtoepassing op.
-uuid: b783c3f8-aa1e-4c05-b687-5894909769f5
-contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS, SG_EXPERIENCEMANAGER/6.4/ASSETS, SG_EXPERIENCEMANAGER/6.3/ASSETS
-discoiquuid: 3052549b-fe75-44fb-a55e-5cc612868f54
-index: y
-internal: n
-snippet: y
+title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp'
+description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 41625c59df00b82ceda8a566b35341bc51c2a30f
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
 
 
-# Opmerkingen bij de release Adobe Experience Manager-bureaubladtoepassing {#release-notes-v2}
+# [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp  {#release-notes-v2}
 
-| Producten | Adobe Experience Manager-bureaubladtoepassing |
+| Producten | [!DNL Adobe Experience Manager] bureaubladtoepassing |
 |--- |--- |
 | Toepassingsversie (revisie) | 2.1 (2.1.0.0) |
 | Ondersteunde [!DNL Adobe Experience Manager] versies | [!DNL Experience Manager] als  [!DNL Cloud Service]een  [!DNL Experience Manager] 6.5.  [!DNL Experience Manager] 6.4.  [!DNL Experience Manager] 6.3 (met compatibiliteitspakket) |
 | Type | Minder release |
-| Releasedatum | 27 aug. 2020 (Mac en Windows) |
+| Releasedatum | 17 dec. 2020 (Mac en Windows) |
 | URL&#39;s downloaden | [macOS 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.0.0.dmg);  [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.0.0.exe);  [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.0.0.exe) |
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites-v2}
 
-De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende besturingssystemen:
+[!DNL Adobe Experience Manager] bureaubladtoepassing is compatibel met de volgende besturingssystemen:
 
 * Mac OS X 10.14 of hoger, met de meest recente opgeloste problemen.
 
@@ -40,7 +33,7 @@ De Adobe Experience Manager-bureaubladtoepassing is compatibel met de volgende b
 >
 >Windows 7 wordt niet meer ondersteund door de leverancier (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
-De app werkt met de volgende versies van Experience Managers, ongeacht of deze als Cloud Service zijn geïmplementeerd, op Adobe Managed Services (AMS) of op locatie:
+De app werkt met de volgende [!DNL Experience Manager]-versies, ongeacht of deze zijn geïmplementeerd als een [!DNL Cloud Service], op Adobe Managed Services (AMS) of op locatie:
 
 * [[!DNL Experience Manager] als [!DNL Cloud Service]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html) een.
 
@@ -53,29 +46,29 @@ De app werkt met de volgende versies van Experience Managers, ongeacht of deze a
 >[!NOTE]
 >
 >Ondersteuning voor bureaubladtoepassingen voor [!DNL Experience Manager] 6.3 is afgekeurd. Adobe raadt aan een upgrade naar een nieuwere en ondersteunde [!DNL Adobe Experience Manager]-versie uit te voeren.
->[!DNL Experience Manager] 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor Experience Manager 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor [!DNL Experience Manager] 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
-Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke Adobe Experience Manager-serverversie/aanvullende serveronderdelen (servicepakketten, hotfixes of functiepakketten) vereist. Neem contact op met uw Adobe Experience Manager-beheerder voor hulp.
+Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke [!DNL Adobe Experience Manager]-serverversie/extra serveronderdelen (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de [!DNL Experience Manager]-beheerder voor hulp.
 
 ### Ondersteuning voor verschillende elementen en bestandstypen {#support-for-file-types}
 
-De toepassing ondersteunt in Adobe Experience Manager opgeslagen elementen die binaire bestanden vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
+De toepassing ondersteunt elementen die zijn opgeslagen in [!DNL Experience Manager] en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling tussen het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, en specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
 
-Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de opslagplaats van de Experience Manager wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
+Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de [!DNL Experience Manager]-opslagruimte wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
 
 * [!DNL Adobe InDesign] bestanden (INDD-indeling)
 * [!DNL Adobe Illustrator] bestanden (AI-indeling)
 * [!DNL Adobe Photoshop] bestanden (PS-indeling)
 
-De functie wordt ondersteund in Adobe Creative Cloud 2018- en Adobe Creative Cloud 2019-versies van de bovenstaande toepassing. De app gebruikt een heuristische, best-match benadering om de lokale Desktopwegen van verbonden activa aan URLs op de server van de Experience Manager in kaart te brengen. Het steunt op een paar veronderstellingen:
+De functie wordt ondersteund in de bovenstaande toepassing met [!DNL Adobe Creative Cloud] 2018- en [!DNL Adobe Creative Cloud] 2019-versies. De app gebruikt een heuristische, best-match benadering om de lokale Desktopwegen van verbonden activa aan URLs op de [!DNL Experience Manager] server in kaart te brengen. Het steunt op een paar veronderstellingen:
 
 * Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een globaal desktoppad (geplaatst vanuit het gedeelde lokale netwerk dat wordt weergegeven met de optie [!UICONTROL Reveal]).
 
 * Paden worden door de native toepassing in de XMP record van het bestand opgeslagen.
 
-* Experience Manager heeft de XMP-record geëxtraheerd met de paden naar de metagegevensrecord van het element.
+* [!DNL Experience Manager] heeft de XMP record geëxtraheerd met de paden naar de metagegevensrecord van het element.
 
-* De paden kunnen worden aangepast aan elementen in Experience Manager, dat wil zeggen dat de geplaatste bestanden ook in Experience Manager zijn onder een overeenkomend pad.
+* De paden kunnen worden aangepast aan elementen in [!DNL Experience Manager], dat wil zeggen dat de geplaatste bestanden zich ook in [!DNL Experience Manager] onder een overeenkomend pad bevinden.
 
 ## Nieuwe functies en verbeteringen {#whats-new-added}
 
@@ -111,27 +104,27 @@ De opgeloste problemen en updates zijn:
 
 * Optie toestaan om `%Temp%` directory zodanig te configureren dat deze overeenkomt met `%APPDATA%` pad. <!-- CQ-4282665 -->
 
-* Gebruikers toestaan zich aan te melden bij Experience Manager Author via Okta SAML-verificatie. <!-- CQ-4278134 -->
+* Gebruikers toestaan zich aan te melden bij [!DNL Experience Manager] Auteur via Okta SAML-verificatie. <!-- CQ-4278134 -->
 
 ## Installatie-instructies {#installation-instructions-v2}
 
-Zie [Desktop app van Experience Manager installeren](install-upgrade.md) voor informatie over het installeren en configureren van de app.
+Zie [Installeer [!DNL Experience Manager] Desktop app](install-upgrade.md) voor informatie over het installeren en configureren van de app.
 
-Als u een upgrade uitvoert vanaf een eerdere Experience Manager-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden vermeld bij [upgrade van vorige versie](install-upgrade.md#upgrade-from-previous-version).
+Als u een upgrade uitvoert van een eerdere [!DNL Experience Manager]-bureaubladtoepassing, moet u de volgende aanbevolen procedures voor overgangen volgen die worden weergegeven bij [upgrade van vorige versie](install-upgrade.md#upgrade-from-previous-version).
 
 ## Belangrijke informatie over hoe de app werkt {#how-app-works}
 
 Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijpen.
 
-* De toepassing biedt volledige controle over bewerkingen waarvoor volledige overdracht van binaire elementen van en naar Experience Manager vereist is (bestanden openen, bewerken, uploaden en uploaden).
+* De toepassing biedt volledige controle over bewerkingen waarvoor de volledige overdracht van binaire elementen van en naar [!DNL Experience Manager] vereist is (bestanden openen, bewerken, uploaden en uploaden).
 
    * Als u met middelen op Desktop wilt werken, moet u uitdrukkelijk openen, uitgeven, of Download aan uw Desktop, of individueel, in een omslag, of via multi-selectie.
 
-   * Als u lokale wijzigingen in naar Experience Manager geüploade elementen wilt ophalen, moet u [!UICONTROL Upload Changes] selecteren, afzonderlijk of via meerdere selecties.
+   * Als u lokale wijzigingen in elementen wilt uploaden naar [!DNL Experience Manager], moet u [!UICONTROL Upload Changes] selecteren, afzonderlijk of via multiselectie.
 
-   * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en de Experience Manager.
+   * De toepassing is geen &#39;synchronisatieclient&#39; die elementen synchroniseert op het bureaublad en [!DNL Experience Manager].
 
-   * De toepassing biedt geen netwerkshare waarmee de gegevensopslagruimte van de Experience Manager wordt toegewezen als een virtuele mapstructuur.
+   * De toepassing biedt geen netwerkshare waarmee de [!DNL Experience Manager]-opslagplaats wordt toegewezen als een virtuele mapstructuur.
 
 * De lijst met elementen die door de toepassing wordt weergegeven, is gebaseerd op de status van de gegevensopslagplaats. Bestanden die lokaal zijn gedownload en waarvan de naam vervolgens is gewijzigd in de lokale bestanden of cachemap, worden niet weergegeven of beheerd door de toepassing.
 
@@ -143,7 +136,7 @@ Het is belangrijk om het volgende over de toepassing en hoe het werkt te begrijp
 
 In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud naar het lokale bestandssysteem en andersom, zoals deze wordt geïnitieerd door gebruikersacties.
 
-![Stroom van middelen van de server van de Experience Manager naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
+![Stroom van middelen van de  [!DNL Experience Manager] server naar native bureaubladapps via bureaubladtoepassing](assets/da20_flow_diagram.png)
 
 ## Bekende problemen {#known-issues-v2}
 
@@ -157,13 +150,13 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 * Nadat het filter is toegepast en verwijderd om alle lokaal bewerkte elementen te zoeken, leidt de app gebruikers niet naar hun zoekresultaten of mapweergave waarmee de gebruikers zijn gestart. De toepassing geeft de hoofdmap van de DAM-opslagplaats weer.
 
-* Wanneer u verbinding maakt met een URL waarop geen Experience Manager-server wordt uitgevoerd, reageert het verbindingsscherm soms niet. Sluit de toepassing af en start deze opnieuw.
+* Als u verbinding maakt met een URL waarop [!DNL Experience Manager] geen server actief is, reageert het verbindingsscherm soms niet. Sluit de toepassing af en start deze opnieuw.
 
 **Problemen met CRUD (maken, lezen, bijwerken en verwijderen):**
 
 * Toepassing probeert bestanden te uploaden, zelfs met ongeldige tekens. Hierdoor kan uploadfout op de server optreden. <!-- CQ-4273652 -->
 
-* Wanneer u wijzigingen in een element met opmerkingen uploadt, worden de opmerkingen met het element in de Experience Manager opgeslagen, maar zijn ze niet zichtbaar als versieopmerkingen. Dit probleem is opgelost in Experience Manager 6.4.5 en Experience Manager 6.5.1. Adobe raadt u ten zeerste aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
+* Wanneer u wijzigingen in een element met opmerkingen uploadt, worden de opmerkingen met het element opgeslagen in [!DNL Experience Manager], maar zijn ze niet zichtbaar als versieopmerkingen. Dit probleem is opgelost in [!DNL Experience Manager] 6.4.5 en [!DNL Experience Manager] 6.5.1. Adobe raadt u aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
 
 * De overdracht van middelen kan niet door de gebruiker worden geannuleerd. Als u een onbedoelde grote overdracht hebt geactiveerd, sluit u de toepassing af en start u de toepassing opnieuw. <!-- CQ-4278940 -->
 
@@ -173,9 +166,9 @@ In het volgende diagram ziet u de stroom van elementen en bestanden van de cloud
 
 >[!MORELIKETHIS]
 >
->* [Experience Manager als Cloud Service documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
->* [Experience Manager als documentatie over Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
->* [Experience Manager desktop app gebruiken](using.md)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
+>* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
+>* [Bureaubladapp  [!DNL Experience Manager] gebruiken](using.md)
 >* [Desktop-app installeren en upgraden](install-upgrade.md)
 >* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
 
