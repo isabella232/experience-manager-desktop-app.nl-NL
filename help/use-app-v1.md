@@ -1,9 +1,8 @@
 ---
 title: Gebruik [!DNL Experience Manager] desktop app versie 1.x.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
-contentOwner: AG
 translation-type: tm+mt
-source-git-commit: 2893fc1f8aad02e1436a1a281a320e6837487220
+source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 0%
