@@ -1,8 +1,8 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18cebce065f9b55259bf96d14cb50cf5bc6c8ec6
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Bekijk de volgende video voor een snel overzicht van hoe u problemen kunt maken 
 
 ### Bijdragen van Adobe werknemers
 
-Als u een medewerker van de Adobe bent en een bijdrage hebt, vragen wij dat u `AdobeDocs` org in de collectieve git gebruikt. U kunt aan deze openbare bewaarplaats op GitHub.com bijdragen maar bijdragen zijn gemakkelijker te verwerken op de collectieve repo. Zorg ervoor dat om het even welke merkgebonden of niet vrijgegeven informatie slechts op de collectieve repo wordt besproken.
+Als u een medewerker van de Adobe bent en een bijdrage hebt, vragen wij dat u `AdobeDocs` org in de collectieve git gebruikt. U kunt aan deze openbare bewaarplaats op GitHub.com bijdragen maar bijdragen zijn gemakkelijker te verwerken op de collectieve repo. Zorg ervoor dat om het even welke merkgebonden of niet vrijgegeven informatie slechts op de collectieve repo wordt besproken. De werknemers van Adobe hoeven niet CLA te ondertekenen.
 
 ## Info over het Adobe en Markdown
 
