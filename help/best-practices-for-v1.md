@@ -2,9 +2,9 @@
 title: '[!DNL Adobe Experience Manager] aanbevolen procedures voor bureaubladtoepassing versie 1.x'
 description: Belangrijke mogelijkheden en aanbevolen gebruik van [!DNL Adobe Experience Manager] desktop app versie 1.x.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1677'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Raadpleeg [AEM Assets Network Considerations](https://experienceleague.adobe.com
 
 >[!NOTE]
 >
->Als u pictogramvoorvertoningen wilt uitschakelen, gaat u in Finder naar Weergave, selecteert u Weergaveopties en schakelt u vervolgens de optie Pictogramvoorvertoning weergeven uit. Dit werkt alleen voor de huidige map. Klik op de knop &quot;Gebruiken als standaard&quot; in hetzelfde venster om van deze map een standaardmap te maken.
+>Als u pictogramvoorvertoningen wilt uitschakelen, gaat u in Finder naar [!UICONTROL View], selecteert u [!UICONTROL View Options] en schakelt u vervolgens de optie [!UICONTROL Show icon preview] uit. Dit werkt alleen voor de huidige map. Klik op de optie [!UICONTROL Use as default] in hetzelfde dialoogvenster om van deze map een standaardmap te maken.
 
 ### Serverprestaties optimaliseren {#optimizing-server-performance}
 
