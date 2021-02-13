@@ -1,10 +1,10 @@
 ---
-title: Problemen met  [!DNL Adobe Experience Manager] desktop app versie 1.x oplossen
-description: Los  [!DNL Adobe Experience Manager] Desktop app versie 1.x problemen op om de af en toe met installatie, verbetering, en configuratie verwante kwesties op te lossen.
+title: Los Desktop app versie 1.10 problemen op.
+description: Los  [!DNL Adobe Experience Manager] Desktop app versie 1.10 problemen op om de af en toe met installatie, verbetering, en configuratie verband houdende kwesties op te lossen.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '3366'
+source-wordcount: '3364'
 ht-degree: 0%
 
 ---
@@ -268,7 +268,7 @@ De server-API vereist extra kopballen, x-Bestemming, x-Diepte, en x-Overschrijf,
 
 ### SAML omleiding uitgave {#saml-redirect-issue}
 
-De gemeenschappelijkste reden voor kwesties met AEM Desktop die met uw SSO-Toegelaten (SAML) AEM instantie verbinden is dat het proces SAML niet naar de oorspronkelijk gevraagde weg opnieuw richt. De verbinding kan ook worden omgeleid naar een host die niet is geconfigureerd in AEM bureaublad. Voer de volgende stappen uit om het aanmeldingsproces te verifiëren:
+De gemeenschappelijkste reden voor kwesties met AEM Desktop die met uw SSO-Toegelaten (SAML) AEM instantie verbinden is dat het proces SAML niet terug naar de oorspronkelijk gevraagde weg opnieuw richt. De verbinding kan ook worden omgeleid naar een host die niet is geconfigureerd in AEM bureaublad. Voer de volgende stappen uit om het aanmeldingsproces te verifiëren:
 
 1. Open een webbrowser.
 1. Geef op de adresbalk de URL `/content/dam.json` op.
