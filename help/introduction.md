@@ -1,10 +1,10 @@
 ---
-title: Inleiding tot [!DNL Adobe Experience Manager] desktop app
+title: Inleiding tot [!DNL Experience Manager] desktop app
 description: Leer hoe u [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] rechtstreeks vanaf hun bureaublad kunt gebruiken.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie 
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] desktop app werd geïntroduceerd in release  [!DNL Adobe Experience Manager] 6.1 en werd voorheen  [!DNL Adobe Experience Manager Assets] Companion App genoemd. Zie de inhoudsopgave in de linkerzijbalk voor hulp bij app versie 1.x. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie 2.
+>De app is geïntroduceerd in [!DNL Adobe Experience Manager] 6.1-release en is eerder [!DNL Adobe Experience Manager Assets] Companion App genoemd. Raadpleeg de inhoudsopgave in de linkerzijbalk voor hulp bij app versie 1.x. Adobe raadt aan een upgrade uit te voeren naar de nieuwste versie.
 
 De documentatie van de bureaubladtoepassing bevat informatie over de volgende rollen en gebruiksgevallen.
 
 | Vereiste informatie | Help-inhoud |
 |--- |--- |
 | Wilt u snel een overzicht van de nieuwe functies en verbeteringen in de nieuwste versie? | [Nieuwe functies in de app](#whats-new-v2) |
-| Wilt u weten wat de voorwaarden en technische specificaties zijn? Wilt u koppelingen downloaden? | [Releaseopmerkingen](release-notes.md) |
+| Wilt u weten wat de voorwaarden en technische specificaties zijn? Wilt u koppelingen downloaden? | [Opmerkingen bij de release](release-notes.md) |
 | Niet nieuw voor bureaubladtoepassing? Wilt u de overgang upgraden en probleemloos toepassen? | [Upgrade van vorige versie](install-upgrade.md#upgrade-from-previous-version) |
 | Ga aan de slag. Wilt u de standaardvoorkeuren aanpassen? | [De app installeren en configureren](install-upgrade.md) |
 | Leer hoe u kunt bladeren, zoeken, bewerken, uploaden, conflicten oplossen, bulkbewerkingen uitvoeren enzovoort. | [App  [!DNL Experience Manager] voor bureaublad](using.md) |
