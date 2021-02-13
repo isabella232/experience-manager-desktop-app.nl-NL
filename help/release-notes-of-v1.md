@@ -1,16 +1,16 @@
 ---
-title: Opmerkingen bij de release AEM desktop app versie 1.x
-description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.x.
+title: Opmerkingen bij de release van desktop app v1.10
+description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.10.
 translation-type: tm+mt
-source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '3904'
+source-wordcount: '3901'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.x  {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.10  {#aem-desktop-app-release-notes}
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compatibiliteitsgegevens beschikbaar.
 
@@ -44,7 +44,7 @@ De versie van AEM bureaubladtoepassing die u op uw lokale computer wilt installe
 
 Zie [gedetailleerde verenigbaarheidsmatrix](#compatibilitymatrix) aan het eind van dit document om de eerste vereisten voor uw opstelling te evalueren.
 
-## Nieuwe functies in AEM desktop app 1.10 {#what-s-new-in-aem-desktop-app}
+## Nieuw in desktop app v1.10 {#what-s-new-in-aem-desktop-app}
 
 AEM desktop app 1.10 richt zich op het verbeteren van de gebruikerservaring bij grote uploads, informatie over de achtergrondbewerkingen en geoptimaliseerde ervaring bij het openen van elementen met gekoppelde bestanden (zoals InDesign).
 
