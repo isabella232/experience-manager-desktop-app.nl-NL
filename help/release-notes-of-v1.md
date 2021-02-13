@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release AEM desktop app versie 1.x
 description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.x.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 95e252504a4fbb3b60a2c6bc9b57a8a0d8ecb51c
 workflow-type: tm+mt
-source-wordcount: '3906'
+source-wordcount: '3904'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ AEM desktop app 1.10 richt zich op het verbeteren van de gebruikerservaring bij 
 
 **Meldingen voor conflicten** bijwerken. Wanneer de toepassing een conflict ontdekt wanneer het proberen om activa bij te werken, zal het een bericht tonen, zodat de gebruiker dat kan herzien zonder de behoefte om het statusvenster te controleren. Wanneer de toepassing wordt gestart, wordt gecontroleerd op alle conflicten, zodat de gebruiker deze kan oplossen.
 
-**Betere afhandeling van verbindingsverliezen**. Bulkuploads worden gepauzeerd als er een verbindingsverlies is, en de gebruiker zal later kunnen hervatten. Er is een knop Opnieuw proberen beschikbaar om een mislukte upload van een afzonderlijk bestand opnieuw te proberen.
+**Betere afhandeling van verbindingsverliezen**. Bulkuploads worden gepauzeerd als er een verbindingsverlies is, en de gebruiker zal later kunnen hervatten. Er is een optie [!UICONTROL Retry] beschikbaar om een mislukte upload van een afzonderlijk bestand opnieuw te proberen.
 
 ## Installatie-instructies {#installation-instructions}
 
@@ -150,7 +150,7 @@ Het toepassingspictogram geeft de status van de achtergrondbewerkingen aan, zoda
 
 **Ophalen vooraf van gekoppelde elementen**
 
-Om de gebruikerservaring te verbeteren bij het werken met InDesign-documenten die gekoppelde elementen bevatten die zijn opgeslagen in AEM, probeert de bureaubladtoepassing deze gekoppelde bestanden vooraf op te halen naar de lokale cache voordat het InDesign-document wordt gedownload en geopend. Op die manier heeft de gebruiker de gekoppelde bestanden lokaal beschikbaar en hoeft hij niet langer te wachten wanneer hij of zij de bestanden opent in InDesign (in het deelvenster Koppelingen).
+Om de gebruikerservaring te verbeteren bij het werken met InDesign-documenten die gekoppelde elementen bevatten die zijn opgeslagen in AEM, probeert de bureaubladtoepassing deze gekoppelde bestanden vooraf op te halen naar de lokale cache voordat het InDesign-document wordt gedownload en geopend. Op die manier heeft de gebruiker de gekoppelde bestanden lokaal beschikbaar en hoeft hij niet langer te wachten wanneer hij of zij deze in InDesign opent (in het deelvenster Koppelingen).
 Het vooraf ophalen werkt alleen als AEM de koppelingen aan de serverzijde herkent. Voor een element met herkende koppelingen wordt een lijst met &quot;verwijzingen&quot; weergegeven in de weergave Eigenschappen van het InDesign-element.
 
 ### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
@@ -417,7 +417,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 * Windows:
    * Bestanden met alternatieve gegevensstromen (ADS) worden alleen volledig ondersteund op NTFS. Als dergelijke bestanden worden gekopieerd naar het WebDAV-aandeel dat door de bureaubladtoepassing wordt geleverd, wordt de gebruiker gewaarschuwd dat het bestand eigenschappen heeft die niet naar de nieuwe locatie kunnen worden gekopieerd. Dit is meestal prima omdat de eigenschappen alleen relevant zijn voor een bepaalde toepassing op het bureaublad van de gebruiker en niets te maken hebben met de feitelijke bestandsinhoud (CQ-103770) (Win)
    * desktop app in Windows moet worden geïnstalleerd door de gebruiker die de app gaat gebruiken (CQ-4216389) (win)
-   * De app kan vastlopen wanneer op de knop Opnieuw proberen op een mislukte upload wordt geklikt onder bepaalde omstandigheden nadat de batchupload is hervat nadat de verbinding is verbroken (CQ-4251884) (Win)
+   * De toepassing kan vastlopen wanneer de optie [!UICONTROL Retry] wordt geselecteerd op een mislukte upload onder bepaalde omstandigheden nadat de batchupload is hervat wanneer de verbinding wordt verbroken (CQ-4251884) (Win)
 
 ## Nuttige bronnen {#helpful-resources}
 
