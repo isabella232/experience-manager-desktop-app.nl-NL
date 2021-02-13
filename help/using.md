@@ -1,9 +1,9 @@
 ---
-title: Use [!DNL Adobe Experience Manager] desktop app
+title: Use [!DNL Experience Manager] desktop app
 description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM-middelen rechtstreeks van uw Win- of Mac-bureaublad en gebruik in andere toepassingen.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -155,7 +155,7 @@ Gebruik **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conf
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt dat anderen dit niet bewerken.
 
-Nadat u de bewerkingen hebt uitgevoerd, geeft de app de status **[!UICONTROL Edited Locally]** weer voor de gewijzigde elementen. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** uit de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager]. Met behulp van de webinterface van [!DNL Assets] kunt u de elementgeschiedenis zien in de [tijdlijnweergave](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
+Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de status **[!UICONTROL Edited Locally]** weer voor de gewijzigde elementen. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** uit de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager]. Met behulp van de webinterface van [!DNL Assets] kunt u de elementgeschiedenis zien in de [tijdlijnweergave](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/activity-stream.html).
 
 ![De optie Wijzigingen uploaden in de ](assets/upload_changes_single1_da2.png "optie voor het uploaden van wijzigingen in de app")
 
