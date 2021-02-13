@@ -1,16 +1,16 @@
 ---
-title: Gebruik [!DNL Experience Manager] desktop app versie 1.x.
-description: Leer hoe u Adobe Experience Manager desktop app versie 1.x gebruikt en uw werk optimaliseert met middelen op het bureaublad.
+title: Gebruik [!DNL Experience Manager] desktop app versie 1.10.
+description: Leer hoe u Adobe Experience Manager desktop app versie 1.10 gebruikt en uw werk optimaliseert met middelen op het bureaublad.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Experience Manager] desktop app v1.x {#use-aem-desktop-app-v1x} gebruiken
+# [!DNL Experience Manager] desktop app v1.10 {#use-aem-desktop-app-v1x} gebruiken
 
 Met de app zijn de elementen in [!DNL Experience Manager] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Middelen kunnen eenvoudig worden weergegeven in Mac Finder of Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in [!DNL Experience Manager] met een nieuwe versie die in de opslagplaats is gemaakt.
 
@@ -27,7 +27,7 @@ Raadpleeg de [beste werkwijzen voor het gebruik van app](best-practices-for-v1.m
 
 >[!NOTE]
 >
->[!DNL Experience Manager] desktop app werd geïntroduceerd in release  [!DNL Experience Manager] 6.1 en opgeroepen  [!DNL Experience Manager Assets Companion App].
+>De desktop-app is geïntroduceerd in [!DNL Experience Manager] 6.1-release en heet [!DNL Experience Manager Assets Companion App].
 
 ## [!DNL Experience Manager] aanraakpunten voor bureaubladtoepassingen in de creatieve workflow  {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
@@ -37,7 +37,7 @@ Raadpleeg de [beste werkwijzen voor het gebruik van app](best-practices-for-v1.m
 
 [!DNL Experience Manager] desktop app touch wijst de creatieve workflow aan
 
-## De toepassing installeren en aansluiten op [!DNL Experience Manager]-server{#installandconnect}
+## De toepassing installeren en aansluiten op {#installandconnect}-server[!DNL Experience Manager]
 
 Voordat u kunt beginnen met het maken of bewerken van creatieve middelen, sluit u de bureaubladtoepassing aan op de [!DNL Assets]-server om elementen in de opslagplaats te downloaden en te uploaden. Voer de volgende taken uit:
 
@@ -242,13 +242,13 @@ Met de [!DNL Experience Manager]-bureaubladtoepassing kunt u een volledige map m
 
    >[!NOTE]
    >
-   >U kunt het uploaden handmatig pauzeren of annuleren door op het juiste pictogram te klikken of erop te tikken.
+   >U kunt het uploaden handmatig pauzeren of annuleren door op het betreffende pictogram te klikken of erop te tikken.
 
 1. Nadat de map is geüpload, sluit u het dialoogvenster en gaat u naar de interface Middelen. De geüploade map wordt weergegeven in de webinterface.
 
 Adobe raadt u niet aan een groter aantal bestanden of geneste mappen vanuit het lokale bestandssysteem naar het gedeelde netwerkgebied te kopiëren en te plakken of te slepen. De toepassing kan het uploadproces niet beheren vanwege technische beperkingen en de prestaties zijn slecht.
 
-U kunt ook bestanden/mappen selecteren die u naar [!DNL Experience Manager] wilt uploaden in Finder of Explorer, deze naar het systeemklembord kopiëren, naar de doelmap navigeren in het gebied voor delen van het netwerk en in het contextmenu [!DNL Experience Manager] Desktop app selecteren **Elementen plakken**. Op deze manier worden de geplakte elementen door de [!DNL Experience Manager]-bureaubladtoepassing geüpload, vergelijkbaar met de optie **Map uploaden** die beschikbaar is in de [!DNL Experience Manager]-webinterface.
+U kunt ook bestanden/mappen selecteren die u naar [!DNL Experience Manager] wilt uploaden in Finder of Explorer, deze naar het systeemklembord kopiëren, naar de doelmap navigeren in het gedeelde netwerkgebied en in het contextmenu [!DNL Experience Manager] Desktop app selecteren **Middelen plakken**. Op deze manier worden de geplakte elementen door de [!DNL Experience Manager]-bureaubladtoepassing geüpload, vergelijkbaar met de optie **Map uploaden** die beschikbaar is in de [!DNL Experience Manager]-webinterface.
 
 >[!MORELIKETHIS]
 >
