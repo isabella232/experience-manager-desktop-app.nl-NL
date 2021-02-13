@@ -1,16 +1,16 @@
 ---
-title: ' [!DNL Experience Manager] desktop app versie 1.x installeren en configureren'
-description: Installeer en configureer  [!DNL Experience Manager] desktop app version 1.x to work with [!DNL Assets] servers en wijs de middelen toe om als aandrijving op uw Desktop te monteren.
+title: Desktop-app v1.10 installeren en configureren
+description: Installeer en configureer  [!DNL Experience Manager] desktop app version 1.10 to work with [!DNL Assets] servers en wijs de middelen toe om als aandrijving op uw Desktop te monteren.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL Experience Manager] desktop app v1.x {#install-and-configure-aem-desktop-app} installeren en configureren
+# [!DNL Experience Manager] desktop app v1.10 {#install-and-configure-aem-desktop-app} installeren en configureren
 
 Met de [!DNL Experience Manager]-bureaubladtoepassing zijn de middelen in [!DNL Experience Manager] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Middelen kunnen eenvoudig worden weergegeven in Mac Finder of Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in [!DNL Experience Manager] wanneer u uploadt en er wordt een nieuwe versie gemaakt in de opslagplaats.
 
@@ -28,7 +28,7 @@ Als u [!DNL Experience Manager]-bureaubladtoepassing wilt gebruiken,
 
 Zie de [[!DNL Experience Manager] Opmerkingen bij de release van de bureaubladtoepassing](release-notes-of-v1.md) voor gedetailleerde informatie.
 
-## De toepassing installeren en aansluiten op [!DNL Experience Manager]-server{#install-and-connect-aem-desktop-app-to-aem-server}
+## De toepassing installeren en aansluiten op {#install-and-connect-aem-desktop-app-to-aem-server}-server[!DNL Experience Manager]
 
 Zie [Installeren en verbinden [!DNL Experience Manager] desktop app to [!DNL Experience Manager] server](use-app-v1.md#installandconnect) voor meer informatie.
 
