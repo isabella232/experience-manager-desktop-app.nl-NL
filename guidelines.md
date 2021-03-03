@@ -1,9 +1,9 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '721'
-ht-degree: 5%
+source-wordcount: '719'
+ht-degree: 4%
 
 ---
 # Richtlijnen voor het bijdragen aan de documentatie van [!DNL Adobe Experience Manager]
@@ -38,7 +38,7 @@ De uitzonderingen op deze regel zijn op de versienota&#39;s van toepassing waar 
 
 Eventuele ideeën die u nodig hebt om de [!DNL Experience Manager]-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en pull-aanvragen zijn echter alleen bedoeld voor *bijdragen*. Ze zijn niet bedoeld om te worden gebruikt om uw vragen over het gebruik van [!DNL Experience Manager], het implementeren van uw [!DNL Experience Manager]-project of het oplossen van technische problemen te beantwoorden.
 
-Vragen over het gebruik van [!DNL Experience Manager] of technische fouten die u mogelijk hebt gemaakt, moeten via het normale supportproces worden gerapporteerd via het [Experience Cloud Enterprise Support Portal](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) of worden besproken in de [Experience Manager community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Vragen over het gebruik van [!DNL Experience Manager] of technische fouten die u mogelijk hebt gemaakt, moeten via het normale ondersteuningsproces worden gerapporteerd via het [[!DNL Experience Cloud] ondersteuningsportal](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) of worden besproken in de [Experience Manager community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 ***[!DNL Experience Manager]Documentatiebijdragen zijn geen vervanging voor Adobe Customer*** Caret en dergelijke bijdragen die antwoorden op supportgerelateerde vragen zoeken, worden afgewezen.
 
@@ -46,7 +46,7 @@ Vragen over het gebruik van [!DNL Experience Manager] of technische fouten die u
 
 Als u een probleem maakt om verbeteringen in de documentatie voor te stellen, moet u koppelingen naar de betrokken pagina&#39;s opnemen. Als u een probleemmelding maakt met de koppeling **Deze pagina bewerken** op een documentatiepagina, wordt de probleemmelding automatisch gemaakt met een koppeling naar de pagina.
 
-Dit is niet van toepassing op trekkingsverzoeken aangezien trekkingsverzoeken door hun aard verwijzen naar de betrokken pagina(&#39;s).
+Dit is niet van toepassing op terugtrekkingsverzoeken aangezien trekkingsverzoeken door hun aard verwijzen naar de betrokken pagina&#39;s.
 
 ## Documentatierichtlijnen
 
