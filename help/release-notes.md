@@ -3,9 +3,9 @@ title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: b5292d9386432bd7c6ba5d7117dbc9fd9f014941
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Windows 7 wordt niet meer ondersteund door de leverancier (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wordt niet meer ondersteund. Zie [het artikel over EOL van Vensters 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 De app werkt met de volgende [!DNL Experience Manager]-versies, ongeacht of deze zijn geïmplementeerd als een [!DNL Cloud Service], op Adobe Managed Services (AMS) of op locatie:
 
@@ -47,7 +47,7 @@ De app werkt met de volgende [!DNL Experience Manager]-versies, ongeacht of deze
 >[!NOTE]
 >
 >Ondersteuning voor bureaubladtoepassingen voor [!DNL Experience Manager] 6.3 is afgekeurd. Adobe raadt aan een upgrade naar een nieuwere en ondersteunde [!DNL Adobe Experience Manager]-versie uit te voeren.
->[!DNL Experience Manager] 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor [!DNL Experience Manager] 6.3 omdat er geen [servicepacks zijn gepland](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+>[!DNL Experience Manager] 6.3.3.1 of hoger werkt met een bureaubladtoepassing nadat het [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) is geïnstalleerd. Een dergelijk pakket is niet beschikbaar voor [!DNL Experience Manager] 6.3 omdat er geen [servicepacks zijn gepland](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap.html).
 
 Voor de versie van de app die u op uw lokale computer wilt installeren, is een specifieke [!DNL Adobe Experience Manager]-serverversie/extra serveronderdelen (servicepacks, hotfixes of functiepakketten) vereist. Neem contact op met de [!DNL Experience Manager]-beheerder voor hulp.
 
