@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release van desktop app v1.10
 description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.10.
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
 workflow-type: tm+mt
-source-wordcount: '3901'
+source-wordcount: '3897'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 
 >[!NOTE]
 >
->Windows 7 wordt niet meer ondersteund door de leverancier (https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
+>Windows 7 wordt niet meer ondersteund. Zie [het artikel over EOL van Vensters 7](https://support.microsoft.com/en-us/help/4057281/windows-7-support-ended-on-january-14-2020).
 
 Adobe raadt u ten zeerste aan de nieuwste versie van AEM bureaubladtoepassing te gebruiken om de nieuwste functionaliteit, de meest recente opgeloste problemen en de beste prestaties te bieden.
 
@@ -217,7 +217,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
 ### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentatie: Nieuwe [Aanbevolen werkwijzen voor v1.x app](https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-desktop-app-best-practices.html)-documentatie.
+* Documentatie: Nieuwe [Aanbevolen werkwijzen voor v1.x app](/help/best-practices-for-v1.md)-documentatie.
 
 * Verbeterd aanmeldingsproces voor AEM:
 
@@ -421,7 +421,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 
 ## Nuttige bronnen {#helpful-resources}
 
-* [Documentatie AEM](https://helpx.adobe.com/nl/support/experience-manager/6-4.html)
+* [Documentatie AEM](https://experienceleague.adobe.com/docs/)
 * [AEM desktop app v1.x gebruiken](use-app-v1.md)
 * [Aanbevolen werkwijzen voor desktop app v1.x AEM](best-practices-for-v1.md)
 
