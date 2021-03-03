@@ -1,20 +1,20 @@
 ---
 cloud: experience-cloud
 solution-title: Meer informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/nl/support/experience-manager/6-5.html
+solution-hub-url: https://experienceleague.adobe.com/docs/
 solution-icon: assets/experience-cloud-logo-24.png
 getting-started-title: Aan de slag
-getting-started-url: https://helpx.adobe.com/experience-manager/tutorials.html
-tutorials-title: Zelfstudies
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-5-videos.html
+getting-started-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
+tutorials-title: Tutorials
+tutorials-url: https://experienceleague.adobe.com/docs/experience-manager-tutorials.html
 mini-toc-levels: 1
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-desktop-app.nl-NL
 index: y
 translation-type: tm+mt
-source-git-commit: e9a59807d48ea2d8619d3b03255c4291fca85138
+source-git-commit: 0fc393ac74d114de53f0484f6f5121d56365c1e0
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 8%
+source-wordcount: '150'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 
 In bestand TOC.md
 
-| metadata | wat het doet |
+| metagegevens | wat het doet |
 |--- |--- |
 | user-guide-title | Wordt gebruikt in de artikelkop als koppeling. |
 | gebruikershandleiding-url | Hiermee opent u de overzichtspagina van de hub Learn and Support. |
