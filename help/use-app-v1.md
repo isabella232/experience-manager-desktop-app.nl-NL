@@ -2,9 +2,9 @@
 title: Gebruik [!DNL Experience Manager] desktop app versie 1.10.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.10 gebruikt en uw werk optimaliseert met middelen op het bureaublad.
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Als u de [!DNL Experience Manager]-bureaubladtoepassing wilt gebruiken, moet u e
 
 Afhankelijk van uw netwerk- en systeemvoorkeuren kan een gedetailleerde configuratie nodig zijn. Zie [Installeer en configureer [!DNL Experience Manager] desktop app](install-configure-app-v1.md) voor meer informatie.
 
-1. Ga naar de [[!DNL Experience Manager] downloadpagina voor de bureaubladtoepassing](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html) en download het juiste binaire bestand voor uw besturingssysteem.
+1. Ga naar de downloadpagina [[!DNL Experience Manager] Desktop app v1.10](/help/release-notes-of-v1.md) en download de juiste binaire code voor uw besturingssysteem.
 1. Start het gedownloade installatiebestand en volg de aanwijzingen op het scherm om de app te installeren.
 
    >[!NOTE]
@@ -123,6 +123,9 @@ Voor Adobe InDesign-bestanden (INDD) selecteert u **[!UICONTROL Open]** in het c
 >[!NOTE]
 >
 >In Windows voorkomt de [standaardinstelling voor Windows 7](https://support.microsoft.com/en-us/kb/2668751) dat [!DNL Experience Manager]-bureaubladtoepassing elementen verwerkt die groter zijn dan 50 MB.
+
+<!-- TBD: The above note is for Windows 7 which is not supported by the app anymore. Remove it later.
+-->
 
 >[!NOTE]
 >
