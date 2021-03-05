@@ -3,7 +3,7 @@ title: Use [!DNL Experience Manager] desktop app
 description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [!DNL Adobe Experience Manager] DAM-middelen rechtstreeks van uw Win- of Mac-bureaublad en gebruik in andere toepassingen.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 18ed934f9acc774f7bc4ef7555aa3f369ca4cf47
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Wanneer u de [!DNL Experience Manager]-bureaubladtoepassing gebruikt om bestande
 >
 >De bureaubladtoepassing kan worden toegewezen aan elk station in Windows. Wijzig de standaardstationsletter echter niet voor vloeiende bewerkingen. Als gebruikers van dezelfde organisatie verschillende stationsletters gebruiken, kunnen ze de elementen die door anderen zijn geplaatst, niet zien. De geplaatste elementen worden niet opgehaald wanneer het pad verandert. De geplaatste elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd.
 
-Zie de [Systeemvereisten en de ondersteunde versies](release-notes.md#system-requirements-and-prerequisites-v2) voor informatie over de beperkingen van deze workflow.
+Zie de [systeemvereisten en de ondersteunde versies](release-notes.md) voor informatie over de beperkingen van deze workflow.
 
 Voer de volgende stappen uit om deze workflow te testen met een afbeeldingselement en InDesign:
 
