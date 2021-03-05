@@ -2,9 +2,9 @@
 title: Desktop-app installeren en configureren
 description: Installeer en configureer  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers en download de middelen op uw lokale bestandssysteem.
 translation-type: tm+mt
-source-git-commit: cc4ce762ad1d7f4c5a54ab6bac9d1a872e3d18c9
+source-git-commit: caf6faf17157a0e9e3bffd40b4bdd0802a71dad7
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Een dergelijke integratie maakt verschillende rollen in de organisatie mogelijk 
 
 Als u [!DNL Experience Manager]-bureaubladtoepassing wilt gebruiken,
 
-* Zorg ervoor dat uw [!DNL Experience Manager]-versie wordt ondersteund door de [!DNL Experience Manager]-bureaubladtoepassing. Zie de [systeemvereisten](release-notes.md#system-requirements-and-prerequisites-v2) hieronder.
+* Zorg ervoor dat uw [!DNL Experience Manager]-versie wordt ondersteund door de [!DNL Experience Manager]-bureaubladtoepassing. Zie de [systeemvereisten](release-notes.md).
 
 * Download en installeer de toepassing. Zie [Desktop app](#install-v2) hieronder installeren.
 
@@ -108,11 +108,15 @@ Als u de voorkeuren wilt wijzigen, klikt u op ![Meer optiepictogram](assets/do-n
 
 * **[!UICONTROL Automatically download linked assets]**: De elementen die in de ondersteunde native Creative Cloud-apps worden geplaatst, worden automatisch opgehaald wanneer u het oorspronkelijke bestand downloadt.
 
-* **[!UICONTROL Maximum number of downloads]**: Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren en als u de waarde verlaagt, kunt u de benodigde elementen of mappen mogelijk niet in één keer downloaden.
+* **[!UICONTROL Maximum number of downloads]**:  ![waarschuwingspictogramWijzigen met ](assets/do-not-localize/caution-icon.png) voorzichtigheid. Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren en als u de waarde verlaagt, kunt u de benodigde elementen of mappen mogelijk niet in één keer downloaden.
 
-* **[!UICONTROL Upload Acceleration]**: Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met 10 gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Voor een hogere limiet voor gelijktijdige aanschaf is een hoger verbruik van bronnen van de processor van de lokale computer vereist.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**:  ![waarschuwingspictogramWijzigen met ](assets/do-not-localize/caution-icon.png) voorzichtigheid. Met deze instelling kan de toepassing het gedrag van de v1.10-app emuleren tijdens het uploaden van mappen. In v1.10, respecteren de knoopnamen die in de bewaarplaats worden gecreeerd ruimten en het omhulsel van de omslagnamen die door de gebruiker worden verstrekt. In versie 2.1 van de app worden de extra spaties in de mapnamen echter geconverteerd naar streepjes. Als u bijvoorbeeld `New Folder` of `new   folder` uploadt, wordt hetzelfde knooppunt in de repository gemaakt als de optie niet is geselecteerd en het standaardgedrag in v2.1 behouden blijft. Als deze optie is geselecteerd, worden in de opslagplaats voor de bovenstaande twee mappen verschillende knooppunten gemaakt die overeenkomen met de werking van de v1.10-app.
 
-Als u de niet-beschikbare voorkeuren wilt bijwerken, meldt u zich af bij de [!DNL Experience Manager]-server. Nadat u de voorkeuren hebt bijgewerkt, klikt u op ![Voorkeuren opslaan](assets/do-not-localize/save_preferences_da2.png) om de wijzigingen op te slaan.
+   Het standaardgedrag van v2.1 blijft gelijk, dat wil zeggen, vervangt meerdere spaties in mapnamen door streepjes in de naam van de opslagplaats en zet deze om in namen van kleine letters.
+
+* **[!UICONTROL Upload Acceleration]**:  ![waarschuwingspictogramWijzigen met ](assets/do-not-localize/caution-icon.png) voorzichtigheid. Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met 10 gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Een hogere gelijktijdige limiet is meer hulpbronnenintensief.
+
+Als u de niet-beschikbare voorkeuren wilt bijwerken, meldt u zich af bij de [!DNL Experience Manager]-server en werkt u de voorkeuren vervolgens bij. Nadat u de voorkeuren hebt bijgewerkt, klikt u op ![Voorkeuren opslaan](assets/do-not-localize/save_preferences_da2.png).
 
 ![Voorkeuren en instellingen voor de bureaubladtoepassing](assets/preferences_da2.png)
 
