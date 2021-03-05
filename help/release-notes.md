@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
+source-git-commit: 06ce2dc1c47bc1ba71b4fd1d053131d9dbdb08ba
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.1.0) vindt u hieronder. De releasedatum is 5 maart 2021. Het is een kleine release met een verbetering.
 
-De ondersteunde [!DNL Experience Manager] versies zijn:
+De **ondersteunde [!DNL Experience Manager] versies** zijn:
 
 * [!DNL Experience Manager] als een  [!DNL Cloud Service]. Zie [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 * [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie [opmerkingen bij de release van het servicepack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
@@ -24,12 +24,12 @@ De ondersteunde [!DNL Experience Manager] versies zijn:
 * [!DNL Experience Manager] 6.3 (met compatibiliteitspakket)
 * [!DNL Experience Manager] 6.3.3.1 of hoger als het  [compatibiliteitspakket is ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd. Desktop-app wordt niet ondersteund voor [!DNL Experience Manager] 6.3.3.0 of eerdere versies.
 
-[!DNL Adobe Experience Manager] bureaubladtoepassing is beschikbaar voor de volgende besturingssystemen:
+[!DNL Adobe Experience Manager] bureaubladtoepassing is beschikbaar voor de volgende  **besturingssystemen**:
 
 * macOS X 10.14 of hoger, met de nieuwste opgeloste problemen.
 * Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
-De download-URL&#39;s voor het ondersteunde besturingssysteem zijn:
+De **download URL&#39;s** voor ondersteund besturingssysteem zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als  [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
