@@ -3,7 +3,7 @@ title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
 translation-type: tm+mt
-source-git-commit: 4288c77036ba992c37ceafc158e0503244a1e600
+source-git-commit: 784ffb2468d856589fbf29b10b965b3c3d919a2f
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp  {#release-notes-v2}
-
-<!-- TBD: Update 6 links and 1 date below. -->
 
 De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.1.0) vindt u hieronder. De releasedatum is 5 maart 2021. Het is een kleine release met een verbetering.
 
