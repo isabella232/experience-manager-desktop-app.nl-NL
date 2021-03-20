@@ -3,7 +3,7 @@ title: Desktop-app installeren en configureren
 description: Installeer en configureer  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers en download de middelen op uw lokale bestandssysteem.
 feature: Experience Manager Desktop-app, releasegegevens
 translation-type: tm+mt
-source-git-commit: f9d982d3039d04abf53e10b78e0e7a89e673ca04
+source-git-commit: 3804d684a3a7e78eda7692969f312ef023965ffd
 workflow-type: tm+mt
 source-wordcount: '1405'
 ht-degree: 0%
