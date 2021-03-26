@@ -2,9 +2,9 @@
 title: Aanbevolen werkwijzen voor en probleemoplossing [!DNL Adobe Experience Manager] desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 translation-type: tm+mt
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2110'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Zie [SAML sectie](#da-connection-issue-with-saml-aem) voor instructies op hoe te
 
 #### SAML-aanmeldingsverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
-Als [!DNL Experience Manager] desktop app geen verbinding maakt met uw SSO-enabled (SAML) [!DNL Adobe Experience Manager] instantie, leest u in deze sectie om problemen op te lossen. SSO-processen zijn gevarieerd, soms complex, en het ontwerp van de toepassing doet zijn best om deze typen verbindingen aan te passen. Nochtans, vereisen sommige montages extra het oplossen van problemen.
+[!DNL Experience Manager] bureaubladtoepassing maakt mogelijk geen verbinding met uw SAML- [!DNL Adobe Experience Manager] implementatie (SSO-enabled). Het ontwerp van de toepassing probeert de variaties en de complexiteit van SSO-verbindingen en -processen aan te passen. Voor een setup is mogelijk aanvullende probleemoplossing vereist.
 
 Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk aangevraagde pad, of wordt de uiteindelijke omleiding uitgevoerd naar een andere host dan de host die is geconfigureerd in de [!DNL Adobe Experience Manager]-bureaubladtoepassing. Om na te gaan of dit niet het geval is:
 
