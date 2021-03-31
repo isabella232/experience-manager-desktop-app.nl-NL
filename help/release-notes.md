@@ -4,9 +4,9 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Experience Manager Desktop-app, releasegegevens
 translation-type: tm+mt
-source-git-commit: e8a299c7357faf2c19c11a56f2868f6679c15ac1
+source-git-commit: 861f2e8994ae7eb9b35c78036479fe47dc793cf3
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie
 
 **Bijwerken in app v2.1.2.0**
 
-* Er wordt een nieuwe optie aan [!UICONTROL Clear Cookies] toegevoegd aan het hoofdmenu van de toepassing. Het helpt bij potentiële aanmeldingsproblemen, bijvoorbeeld wanneer u een verbinding van een server naar een andere wijzigt.
+* Er wordt een nieuwe optie aan [!UICONTROL Clear Cookies] toegevoegd aan het hoofdmenu van de toepassing. Het helpt bij potentiële aanmeldingsproblemen, bijvoorbeeld wanneer u een verbinding van een server naar een andere wijzigt. Zie [cookies wissen voordat u verbinding maakt](/help/troubleshoot.md#cannot-login-cookies-issue).
 
 **Bijwerken in app v2.1.1.0**
 
