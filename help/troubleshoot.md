@@ -2,9 +2,9 @@
 title: Aanbevolen werkwijzen voor en probleemoplossing [!DNL Adobe Experience Manager] desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 translation-type: tm+mt
-source-git-commit: 9d90bdcab79604e03d1ad3f30ed2aca2eb03e1c5
+source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2175'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,16 @@ De foutopsporingsmodus in Windows inschakelen:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
+### [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
+
+Het versienummer weergeven:
+
+1. Start de toepassing.
+
+1. Klik op de ellipsen in de rechterbovenhoek, houd de cursor boven [!UICONTROL Help] en klik vervolgens op [!UICONTROL About].
+
+   Het versienummer wordt weergegeven op dit scherm.
+
 ### Cache {#clear-cache-v2} wissen
 
 Voer de volgende stappen uit:
@@ -138,17 +148,7 @@ Als u de cache wilt wissen, verwijdert u de gewenste gecodeerde [!DNL Adobe Expe
 
 Het wissen van de cache van de [!DNL Adobe Experience Manager]-bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [voorkeuren instellen](install-upgrade.md#set-preferences). De standaardlocatie van de cachemap is:
 
-### [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
-
-Het versienummer weergeven:
-
-1. Start de toepassing.
-
-1. Klik op de ellipsen in de rechterbovenhoek, houd de cursor boven [!UICONTROL Help] en klik vervolgens op [!UICONTROL About].
-
-   Het versienummer wordt weergegeven op dit scherm.
-
-### Kan geplaatste elementen niet zien {#placed-assets-missing}
+## Kan geplaatste elementen niet zien {#placed-assets-missing}
 
 Controleer het volgende als u niet kunt zien welke elementen u of andere creatieve professionals in de ondersteuningsbestanden hebben geplaatst (bijvoorbeeld INDD-bestanden):
 
@@ -179,11 +179,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-### Kan bestanden {#upload-fails} niet uploaden
+## Kan bestanden {#upload-fails} niet uploaden
 
 Als u bureaubladtoepassingen gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met uploadfouten met bestanden die betrekking hebben op [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) wordt verholpen. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
-### [!DNL Experience Manager] verbindingsproblemen met bureaubladapps  {#connection-issues}
+## [!DNL Experience Manager] verbindingsproblemen met bureaubladapps  {#connection-issues}
 
 Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende manieren meer informatie krijgen over wat de [!DNL Experience Manager]-bureaubladtoepassing doet.
 
@@ -200,7 +200,7 @@ Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende mani
 Een meerderheid van de verzoeken van de toepassing wordt gevonden in het verzoeklogboek. Als er echter geen nuttige informatie beschikbaar is, kan het nuttig zijn om te kijken naar de aanvragen die door de ingesloten browser van de toepassing worden verzonden.
 Zie [SAML sectie](#da-connection-issue-with-saml-aem) voor instructies op hoe te om die verzoeken te bekijken.
 
-#### SAML-aanmeldingsverificatie werkt niet {#da-connection-issue-with-saml-aem}
+### SAML-aanmeldingsverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] bureaubladtoepassing maakt mogelijk geen verbinding met uw SAML- [!DNL Adobe Experience Manager] implementatie (SSO-enabled). Het ontwerp van de toepassing probeert de variaties en de complexiteit van SSO-verbindingen en -processen aan te passen. Voor een setup is mogelijk aanvullende probleemoplossing vereist.
 
@@ -247,7 +247,7 @@ Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de b
 
 Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind van SAML problemen oplossen om te bepalen wat verkeerd is.
 
-#### Probleem met SSL-configuratie {#ssl-config-v2}
+### Probleem met SSL-configuratie {#ssl-config-v2}
 
 De bibliotheken die [!DNL Experience Manager] desktop app gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-handhaving. Een verbinding kan soms succesvol zijn met een browser, maar werkt niet met de [!DNL Experience Manager]-bureaubladtoepassing. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [Hoe te om een MiddenCertificaat van CA in Apache](https://access.redhat.com/solutions/43575) te installeren.
 
@@ -284,7 +284,13 @@ Als tijdelijke maatregel, is het mogelijk om strikte SSL handhaving in [!DNL Ado
 
 1. Sla het bestand op en start de [!DNL Adobe Experience Manager]-bureaubladtoepassing opnieuw.
 
-### De toepassing reageert niet {#unresponsive}
+### Aanmeldingsproblemen bij overschakelen naar een andere server {#cannot-login-cookies-issue}
+
+Wanneer u een [!DNL Experience Manager]-server hebt gebruikt en probeert de verbinding met een andere server te wijzigen, kunnen er aanmeldingsproblemen optreden. Dit is te wijten aan oude cookies die de nieuwe verificatie belemmeren. Een optie in het hoofdmenu aan [!UICONTROL Clear Cookies] helpt. Afmelden van de huidige sessie in de app en [!UICONTROL Clear Cookies] selecteren voordat u verdergaat met het maken van een verbinding.
+
+![Cookies wissen bij schakelen tussen servers](assets/main_menu_logout_da2.png)
+
+## De toepassing reageert niet {#unresponsive}
 
 In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit scherm weergegeven of wordt een fout onder aan de interface weergegeven zonder opties in de interface. Probeer het volgende in de volgorde:
 
