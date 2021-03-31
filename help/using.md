@@ -4,9 +4,9 @@ description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [
 mini-toc-levels: 1
 feature: Experience Manager Desktop App, beheer van bedrijfsmiddelen
 translation-type: tm+mt
-source-git-commit: ac80eba42d872f68553a65f6b4820a3b223c7da2
+source-git-commit: d345a0f0ac6826cf623f6e8bbbcc132481ea557c
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3907'
 ht-degree: 0%
 
 ---
@@ -61,15 +61,17 @@ Voordat u de toepassing gaat gebruiken, moet u [weten hoe de toepassing werkt](r
 
 ## Desktopacties inschakelen in [!DNL Experience Manager] webinterface {#desktopactions-v2}
 
-Vanuit de gebruikersinterface Middelen in een browser kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden [!UICONTROL Desktop Actions] genoemd en niet door gebrek toegelaten. Voer de volgende stappen uit om deze functie in te schakelen.
+Vanuit de [!DNL Assets]-gebruikersinterface in een browser kunt u de middelenlocaties verkennen of de middelen uitchecken en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden [!UICONTROL Desktop Actions] genoemd en niet door gebrek toegelaten. Voer de volgende stappen uit om deze functie in te schakelen.
 
-1. Klik/tik op het pictogram **[!UICONTROL User]** op de werkbalk in de middelenconsole.
-1. Klik/tik **[!UICONTROL My Preferences]** om het **[!UICONTROL Preferences]** dialoog te tonen.
-1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster Gebruikersvoorkeuren. Klik of tik op **[!UICONTROL Accept]**.
+1. Klik in de [!DNL Assets]-console op het pictogram **[!UICONTROL User]** op de werkbalk.
+1. Klik op **[!UICONTROL My Preferences]** om het dialoogvenster **[!UICONTROL Preferences]** weer te geven.
 
-   ![Schakel Bureaubladhandelingen weergeven voor elementen in om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
+1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster Gebruikersvoorkeuren. Klik op **[!UICONTROL Accept]**.
 
-   Schakel [!UICONTROL Show Desktop Actions For Assets] in om bureaubladhandelingen in te schakelen
+
+   ![Selecteer Bureaubladhandelingen weergeven voor elementen om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
+
+   *Afbeelding: Selecteer deze optie  [!UICONTROL Show Desktop Actions For Assets] om bureaubladhandelingen in te schakelen.*
 
 ## {#browse-search-preview-assets} zoeken, zoeken en voorvertonen
 
