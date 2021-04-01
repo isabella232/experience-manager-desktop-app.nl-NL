@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: Handleiding voor bureaubladtoepassing voor Experience Managers
@@ -9,10 +9,10 @@ feature-set: Experience Manager Assets
 feature: Experience Manager Desktop-app
 role: Bedrijfs Praktijk, Beheerder
 translation-type: tm+mt
-source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+source-git-commit: fd29c31e8a353ce6f827f58c58c5ecc36f3c71af
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 
