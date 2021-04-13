@@ -1,15 +1,15 @@
 ---
 title: Gebruik [!DNL Experience Manager] desktop app versie 1.10.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.10 gebruikt en uw werk optimaliseert met middelen op het bureaublad.
-feature: Experience Manager Desktop App, beheer van bedrijfsmiddelen
+feature: Bureaubladtoepassing, beheer van bedrijfsmiddelen
+exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
 translation-type: tm+mt
-source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+source-git-commit: 4616934e8923693106401da008e2510310d0742a
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2377'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Experience Manager] desktop app v1.10 {#use-aem-desktop-app-v1x} gebruiken
 
