@@ -1,14 +1,14 @@
 ---
 title: Aanbevolen werkwijzen voor en probleemoplossing [!DNL Adobe Experience Manager] desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
+exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
 translation-type: tm+mt
-source-git-commit: a766855c0670e9f291b8020ee6ab7addc50689a4
+source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Experience Manager]-bureaubladtoepassing {#troubleshoot-v2} oplossen
 
@@ -298,6 +298,13 @@ In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit sche
 * Sluit de toepassing af en open deze opnieuw.
 
 In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
+
+## Verlopen elementen verbergen {#hide-expired-assets}
+
+Wanneer u elementen bladert vanuit de gebruikersinterface [!DNL Experience Manager], worden de verlopen elementen niet weergegeven. Beheerders kunnen de volgende configuratie uitvoeren om te voorkomen dat verlopen middelen worden weergegeven, gezocht en opgehaald wanneer ze middelen zoeken vanuit de bureaubladtoepassing en de Asset Link. De configuratie werkt voor alle gebruikers, ongeacht beheerderrechten.
+
+* [Configuratie in Experience Manager 6.5 om verlopen elementen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) te verbergen.
+* [Configuratie in Experience Manager als Cloud Service om verlopen elementen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api) te verbergen.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
