@@ -2,7 +2,7 @@
 title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp'
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
-feature: Bureaubladtoepassing, releasegegevens
+feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 translation-type: tm+mt
 source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867

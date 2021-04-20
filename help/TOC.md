@@ -6,7 +6,7 @@ user-guide-title: Handleiding voor bureaubladtoepassing voor Experience Managers
 breadcrumb-title: App-hulplijn voor bureaublad
 user-guide-description: Leer hoe u de bureaubladtoepassing van de Experience Manager gebruikt om opslagruimten en bureaubladtoepassingen te verbinden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows.
 feature-set: Experience Manager Assets,Experience Manager
-feature: Desktop-app
+feature: Desktop App
 role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 4616934e8923693106401da008e2510310d0742a
