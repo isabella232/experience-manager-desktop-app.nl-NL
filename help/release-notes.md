@@ -2,12 +2,11 @@
 title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp'
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor  [!DNL Adobe Experience Manager] desktop-app.
 mini-toc-levels: 1
-feature: Desktop App,Release Information
+feature: Bureaubladtoepassing, releasegegevens
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-translation-type: tm+mt
-source-git-commit: ac533db59b2a5c64243b762f4b77b3148c4f1867
+source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -79,7 +78,7 @@ Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie
 
 **Bijwerken in app v2.1.0.0**
 
-* Gebruikers kunnen nu bestanden of mappen op de interface van de toepassing slepen, rechtstreeks vanuit Windows Verkenner of de Finder. Dit werkt naast de uploadoptie die eerder beschikbaar was in de toepassing. <!-- CQ-4309527 -->
+* Gebruikers kunnen nu bestanden of mappen op de interface van de toepassing slepen, rechtstreeks vanuit Windows Verkenner of de Finder. Dit werkt naast de uploadoptie die beschikbaar is in de toepassing. Zie [Elementen uploaden](/help/using.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
 **Bijwerken in app v2.0.3**
 
@@ -171,7 +170,7 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 >
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html)
 >* [[!DNL Experience Manager] as a [!DNL Cloud Service] [!DNL Assets] documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html)
->* [Bureaubladapp  [!DNL Experience Manager] gebruiken](using.md)
->* [Desktop-app installeren en upgraden](install-upgrade.md)
->* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
+>* [Hoe te om [!DNL Experience Manager] Desktop app te gebruiken](using.md)
+* [Desktop-app installeren en upgraden](install-upgrade.md)
+* [Tips voor aanbevolen procedures en probleemoplossing](troubleshoot.md)
 
