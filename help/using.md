@@ -4,9 +4,9 @@ description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, beheer van bedrijfsmiddelen
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '3923'
+source-wordcount: '3999'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal netwerkaandeel ge
 
 >[!NOTE]
 >
->Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden via een lokaal netwerkshare aangeboden, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
+>Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden aangeboden via een gedeeld lokaal netwerk, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
 
 >[!CAUTION]
 >
@@ -175,9 +175,19 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 ## Nieuwe elementen uploaden en toevoegen aan [!DNL Experience Manager] {#upload-and-add-new-assets-to-aem}
 
-Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de [!DNL Experience Manager]-opslagplaats. Als u nieuwe inhoud wilt toevoegen aan [!DNL Experience Manager], selecteert u ![Uploaden naar cloud-optie](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. U kunt ook elementen uploaden door de bestanden of mappen naar de toepassingsinterface te slepen. Als u in Windows elementen naar een map in de app sleept, worden de elementen naar de map geüpload.
+Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de [!DNL Experience Manager]-opslagplaats. Als u nieuwe inhoud wilt toevoegen aan [!DNL Experience Manager], selecteert u ![Uploaden naar cloud-optie](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. U kunt ook elementen uploaden door de bestanden of mappen naar de toepassingsinterface te slepen. Als u in Windows elementen naar een map in de app sleept, worden de elementen naar de map geüpload. Als het langer duurt om te uploaden, geeft de app een voortgangsbalk weer.
 
-Als het uploaden langer duurt, geeft de app onderaan een voortgangsbalk weer. Gebruik geen spaties en ongeldige tekens bij het maken of uploaden van mappen. Zie een lijst van toegestane karakters bij [creeer omslagen in [!DNL Assets]](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#creating-folders).
+Gebruik bij de naamgeving van bestanden en mappen niet de volgende tekens (lijst met door spaties gescheiden tekens):
+
+* in bestandsnamen `\\`.
+
+   De tekens `# % { } ? & . / : [ | ] *` worden vervangen door een streepje in knooppuntnamen die worden gemaakt in [!DNL Adobe Experience Manager]. maar witruimte en omhulsel blijven behouden .
+
+* in mapnamen `\\ \t &`.
+
+   Whitespaces en de karakters `% ; # , + ? ^ { } " . / : [ ] | *` in omslagnamen worden vervangen door streepje in omslagwegen in knooppuntnamen die in [!DNL Adobe Experience Manager] worden gecreeerd. De hoofdletters worden ook omgezet in kleine letters in mappaden.
+
+Als [!UICONTROL Use legacy conventions when creating nodes for assets and folders] echter is ingeschakeld in [!UICONTROL Preferences], emuleert de toepassing het gedrag van de v1.10-app bij het uploaden van mappen. In v1.10, respecteren de knoopnamen die in de bewaarplaats worden gecreeerd ruimten en het omhulsel van de omslagnamen die door de gebruiker worden verstrekt. Zie [app Preferences](/help/install-upgrade.md#set-preferences) voor meer informatie.
 
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
