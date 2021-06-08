@@ -4,16 +4,16 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, releasegegevens
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: bc938588d0d54a6f3b8b85e0d4097104f9df46c9
+source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp  {#release-notes-v2}
 
-De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.2.0) vindt u hieronder. De releasedatum is 26 maart 2021. Het is een kleine release met een verbetering.
+De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.3.1) vindt u hieronder. De releasedatum is 8 juni 2021.
 
 De **ondersteunde [!DNL Experience Manager] versies** zijn:
 
@@ -33,9 +33,9 @@ De **download URL&#39;s** voor ondersteund besturingssysteem zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als  [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
-| macOS 64-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.2.0.dmg) |
-| Windows 64-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.2.0.exe) |
-| Windows 32-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.2.0.exe) |
+| macOS 64-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.3.1.dmg) |
+| Windows 64-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.3.1.exe) |
+| Windows 32-bits | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.3.1.exe) |
 
 >[!NOTE]
 >
@@ -68,6 +68,16 @@ De functie wordt ondersteund in de bovenstaande toepassing met [!DNL Adobe Creat
 
 Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie.
 
+**Updates in app v2.1.3.1**
+
+* Er wordt een optie toegevoegd waarmee (indien geselecteerd) de app mappen en bestanden kan uploaden zodat de namen van de knooppunten die in [!DNL Adobe Experience Manager] zijn gemaakt, gelijk zijn aan de namen van lokale bestanden en mappen.
+
+   Dit gedrag is vergelijkbaar met het standaardgedrag in versie 1 van de bureaubladtoepassing. Als de optie in de huidige versie niet is ingeschakeld, worden witruimten en de tekens `% ; # , + ? ^ { } "` in mapnamen vervangen door een streepje in mappaden. De hoofdletters worden ook omgezet in kleine letters in mappaden. In bestandsnamen worden de tekens `# % { } ? &` echter vervangen door een streepje. maar witruimte en omhulsel blijven behouden . Zie [app Preferences](/help/install-upgrade.md#set-preferences) en [Upload en voeg nieuwe assets](/help/using.md#upload-and-add-new-assets-to-aem) toe voor meer informatie.
+
+De bug die in de huidige versie is opgelost, is:
+
+* De uploadsnelheden en downloadsnelheden van bedrijfsmiddelen zijn verbeterd, zelfs bij grote bedrijfsmiddelen. Probleem verholpen waarbij het uploaden van elementen met [!DNL desktop app] steeds meer mislukte toen grote bestanden werden geüpload.
+
 **Bijwerken in app v2.1.2.0**
 
 * Er wordt een nieuwe optie aan [!UICONTROL Clear Cookies] toegevoegd aan het hoofdmenu van de toepassing. Het helpt bij potentiële aanmeldingsproblemen, bijvoorbeeld wanneer u een verbinding van een server naar een andere wijzigt. Zie [cookies wissen voordat u verbinding maakt](/help/troubleshoot.md#cannot-login-cookies-issue).
@@ -82,7 +92,7 @@ Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie
 
 **Bijwerken in app v2.0.3**
 
-De bug die in de huidige versie is opgelost, is:
+Het probleem dat in deze versie is opgelost, is:
 
 * Oplossing voor het aanmeldingsprobleem voor app-gebruikers in Windows die op [!DNL Adobe Experience Manager] 6.5.5.0 toegang proberen te krijgen tot de DAM-opslagplaats.
 
@@ -155,8 +165,6 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 * Als u verbinding maakt met een URL waarop [!DNL Experience Manager] geen server actief is, reageert het verbindingsscherm soms niet. Sluit de toepassing af en start deze opnieuw.
 
 **Problemen met CRUD (maken, lezen, bijwerken en verwijderen):**
-
-* Toepassing probeert bestanden te uploaden, zelfs met ongeldige tekens. Hierdoor kan uploadfout op de server optreden. <!-- CQ-4273652 -->
 
 * Wanneer u wijzigingen in een element met opmerkingen uploadt, worden de opmerkingen met het element opgeslagen in [!DNL Experience Manager], maar zijn ze niet zichtbaar als versieopmerkingen. Dit probleem is opgelost in [!DNL Experience Manager] 6.4.5 en [!DNL Experience Manager] 6.5.1. Adobe raadt u aan de nieuwste servicepakketten te installeren. <!-- CQ-4268990 -->
 
