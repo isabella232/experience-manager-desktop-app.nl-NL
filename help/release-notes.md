@@ -4,7 +4,7 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, releasegegevens
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: d642a33c8e8c2f771a6f996a76167b7f6e42c1ce
 workflow-type: tm+mt
 source-wordcount: '1649'
 ht-degree: 0%
@@ -70,10 +70,6 @@ Zie [Nieuwe functies in v2.0](introduction.md#whats-new-v2) voor meer informatie
 
 **Updates in app v2.1.3.1**
 
-* Er wordt een optie toegevoegd waarmee (indien geselecteerd) de app mappen en bestanden kan uploaden zodat de namen van de knooppunten die in [!DNL Adobe Experience Manager] zijn gemaakt, gelijk zijn aan de namen van lokale bestanden en mappen.
-
-   Dit gedrag is vergelijkbaar met het standaardgedrag in versie 1 van de bureaubladtoepassing. Als de optie in de huidige versie niet is ingeschakeld, worden witruimten en de tekens `% ; # , + ? ^ { } "` in mapnamen vervangen door een streepje in mappaden. De hoofdletters worden ook omgezet in kleine letters in mappaden. In bestandsnamen worden de tekens `# % { } ? &` echter vervangen door een streepje. maar witruimte en omhulsel blijven behouden . Zie [app Preferences](/help/install-upgrade.md#set-preferences) en [Upload en voeg nieuwe assets](/help/using.md#upload-and-add-new-assets-to-aem) toe voor meer informatie.
-
 De bug die in de huidige versie is opgelost, is:
 
 * De uploadsnelheden en downloadsnelheden van bedrijfsmiddelen zijn verbeterd, zelfs bij grote bedrijfsmiddelen. Probleem verholpen waarbij het uploaden van elementen met [!DNL desktop app] steeds meer mislukte toen grote bestanden werden geüpload.
@@ -81,6 +77,10 @@ De bug die in de huidige versie is opgelost, is:
 **Bijwerken in app v2.1.2.0**
 
 * Er wordt een nieuwe optie aan [!UICONTROL Clear Cookies] toegevoegd aan het hoofdmenu van de toepassing. Het helpt bij potentiële aanmeldingsproblemen, bijvoorbeeld wanneer u een verbinding van een server naar een andere wijzigt. Zie [cookies wissen voordat u verbinding maakt](/help/troubleshoot.md#cannot-login-cookies-issue).
+
+* Er wordt een optie toegevoegd waarmee (indien geselecteerd) de app mappen en bestanden kan uploaden zodat de namen van de knooppunten die in [!DNL Adobe Experience Manager] zijn gemaakt, gelijk zijn aan de namen van lokale bestanden en mappen.
+
+   Dit gedrag is vergelijkbaar met het standaardgedrag in versie 1 van de bureaubladtoepassing. Als de optie in de huidige versie niet is ingeschakeld, worden witruimten en de tekens `% ; # , + ? ^ { } "` in mapnamen vervangen door een streepje in mappaden. De hoofdletters worden ook omgezet in kleine letters in mappaden. In bestandsnamen worden de tekens `# % { } ? &` echter vervangen door een streepje. maar witruimte en omhulsel blijven behouden . Zie [app Preferences](/help/install-upgrade.md#set-preferences) en [Upload en voeg nieuwe assets](/help/using.md#upload-and-add-new-assets-to-aem) toe voor meer informatie.
 
 **Bijwerken in app v2.1.1.0**
 
