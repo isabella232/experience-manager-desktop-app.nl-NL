@@ -4,9 +4,9 @@ description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, beheer van bedrijfsmiddelen
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 5c8d8b4ee62185529985b652585f8067947b5599
+source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
 workflow-type: tm+mt
-source-wordcount: '3999'
+source-wordcount: '4054'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal netwerkaandeel ge
 
 >[!NOTE]
 >
->Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden aangeboden via een gedeeld lokaal netwerk, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
+>Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden via een lokaal netwerkshare aangeboden, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
 
 >[!CAUTION]
 >
@@ -177,18 +177,6 @@ Schakel indien nodig het uitchecken in. Het bijgewerkte element wordt verwijderd
 
 Gebruikers kunnen nieuwe elementen toevoegen aan de DAM-opslagplaats. U kunt bijvoorbeeld fotograaf of contractant zijn die een groot aantal foto&#39;s van een fotoshoot wil toevoegen aan de [!DNL Experience Manager]-opslagplaats. Als u nieuwe inhoud wilt toevoegen aan [!DNL Experience Manager], selecteert u ![Uploaden naar cloud-optie](assets/do-not-localize/upload_to_cloud_da2.png) in de bovenste balk van de app. Blader naar de elementbestanden in het lokale bestandssysteem en klik op **[!UICONTROL Select]**. U kunt ook elementen uploaden door de bestanden of mappen naar de toepassingsinterface te slepen. Als u in Windows elementen naar een map in de app sleept, worden de elementen naar de map geüpload. Als het langer duurt om te uploaden, geeft de app een voortgangsbalk weer.
 
-Gebruik bij de naamgeving van bestanden en mappen niet de volgende tekens (lijst met door spaties gescheiden tekens):
-
-* in bestandsnamen `\\`.
-
-   De tekens `# % { } ? & . / : [ | ] *` worden vervangen door een streepje in knooppuntnamen die worden gemaakt in [!DNL Adobe Experience Manager]. maar witruimte en omhulsel blijven behouden .
-
-* in mapnamen `\\ \t &`.
-
-   Whitespaces en de karakters `% ; # , + ? ^ { } " . / : [ ] | *` in omslagnamen worden vervangen door streepje in omslagwegen in knooppuntnamen die in [!DNL Adobe Experience Manager] worden gecreeerd. De hoofdletters worden ook omgezet in kleine letters in mappaden.
-
-Als [!UICONTROL Use legacy conventions when creating nodes for assets and folders] echter is ingeschakeld in [!UICONTROL Preferences], emuleert de toepassing het gedrag van de v1.10-app bij het uploaden van mappen. In v1.10, respecteren de knoopnamen die in de bewaarplaats worden gecreeerd ruimten en het omhulsel van de omslagnamen die door de gebruiker worden verstrekt. Zie [app Preferences](/help/install-upgrade.md#set-preferences) voor meer informatie.
-
 <!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
@@ -204,9 +192,76 @@ U kunt de uploadsnelheid (versnelling) bepalen in **[!UICONTROL Preferences]** >
 >
 >De overdrachtlijst is niet blijvend en is niet beschikbaar als u de app afsluit en opnieuw opent.
 
+### Speciale tekens in elementnamen beheren {#special-characters-in-filename}
+
+In de verouderde app behielden de namen van knooppunten die in de repository zijn gemaakt de ruimten en behuizing van de mapnamen die door de gebruiker zijn verschaft. Schakel [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in [!UICONTROL Preferences] in als de huidige toepassing de regels voor nodenamen van v1.10-app moet emuleren. Zie [toepassingsvoorkeuren](/help/install-upgrade.md#set-preferences). Deze oudere voorkeur is standaard uitgeschakeld.
+
 >[!NOTE]
 >
->Als de bestanden niet kunnen worden geüpload en als u verbinding maakt met [!DNL Experience Manager] 6.5.1 of latere implementatie, raadpleegt u [informatie over probleemoplossing](troubleshoot.md#upload-fails).
+>De app wijzigt alleen de knooppuntnamen in de repository met behulp van de volgende naamconventies. De app behoudt de `Title` van het element zoals deze is.
+
+<!-- TBD: Do NOT use this table.
+
+| Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
+|---|---|---|---|---|
+| In file name extension | `.` | Enabled or disabled | Retained as is | NA |
+| File or folder name | `. / : [ ] | *` | Enabled or disabled | Replaced with a `-` (hyphen) | `myimage.jpg` remains as is and `my.image.jpg` changes to `my-image.jpg`. |
+| Folder name | `% ; # , + ? ^ { } "` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | `% # ? { } &` | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Whitespaces | Enabled or disabled | Retained as is | NA |
+| Folder name | Whitespaces | Disabled | Replaced with a `-` (hyphen) | tbd |
+| File name | Uppercase characters | Disabled | Retained as is | tbd |
+| Folder name | Uppercase characters | Disabled | Replaced with a `-` (hyphen) | tbd |
+-->
+
+| Tekens ‡ | Oudere voorkeur in app | Wanneer voorkomen in bestandsnamen | Indien voorkomend in mapnamen | Voorbeeld |
+|---|---|---|---|---|
+| `. / : [ ] | *` | Ingeschakeld of Uitgeschakeld | Vervangen door `-` (afbreekstreepje). Een `.` (punt) in de bestandsnaamextensie blijft ongewijzigd. | Vervangen door `-` (afbreekstreepje). | `myimage.jpg` blijft ongewijzigd en  `my.image.jpg` verandert in  `my-image.jpg`. |
+| `% ; # , + ? ^ { } "` en witruimte | ![deselecteren ](assets/do-not-localize/deselect-icon.png) iconDisabled | Werkruimten blijven behouden | Vervangen door `-` (afbreekstreepje). | `My Folder.` wijzigingen in  `my-folder-`. |
+| `# % { } ? & .` | ![deselecteren ](assets/do-not-localize/deselect-icon.png) iconDisabled | Vervangen door `-` (afbreekstreepje). | NA. | `#My New File.` wijzigingen in  `-My New File-`. |
+| Hoofdletters | ![deselecteren ](assets/do-not-localize/deselect-icon.png) iconDisabled | Trappen blijft ongewijzigd. | Veranderd in kleine letters. | `My New Folder` wijzigingen in  `my-new-folder`. |
+| Hoofdletters | ![selectie gecontroleerd ](assets/do-not-localize/selection-checked-icon.png) iconEnabled | Trappen blijft ongewijzigd. | Trappen blijft ongewijzigd. | NA. |
+
+‡ De lijst met tekens is een lijst met door spaties gescheiden tekens.
+
+<!-- TBD: Check if the following is to be included in the footnote.
+
+Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
+-->
+
+
+<!-- TBD: Securing the below presentation of the same content in a comment.
+
+**File names**
+
+| Characters | Replaced by |
+|---|---|
+| &#35; &#37; &#123; &#63; &#125; &#38; &#46; &#47; &#58; &#91; &#124; &#93; &#42; | hyphen (-) |
+| whitespaces | whitespaces are retained |
+| capital case | casing is retained |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; in file names.
+
+**Folder names**
+
+| Characters | Replaced by |
+|---|---|
+| Characters | Replaced by |
+| &#37; &#59; &#35; &#44; &#43; &#63; &#94; &#123; &#123; &#34; &#46; &#47; &#59; &#91; &#93; &#124; &#42; | hyphen (-) |
+| whitespaces | hyphen (-) |
+| capital case | lower case |
+
+>[!CAUTION]
+>
+>Avoid using &#92;&#92; &#92;&#116; &#38; in folder names.
+
+>[!NOTE]
+>
+>If you enable [!UICONTROL Use legacy conventions when creating nodes for assets and folders] in app [!UICONTROL Preferences], then the app emulates v1.10 app behavior when uploading folders. In v1.10, the node names created in the repository respect spaces and casing of the folder names provided by the user. For more information, see [app Preferences](/help/install-upgrade.md#set-preferences).
+
+-->
 
 ## Werken met meerdere elementen {#work-with-multiple-assets}
 
