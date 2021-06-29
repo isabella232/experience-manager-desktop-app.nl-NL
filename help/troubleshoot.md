@@ -2,21 +2,20 @@
 title: Aanbevolen werkwijzen voor en probleemoplossing [!DNL Adobe Experience Manager] desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-translation-type: tm+mt
-source-git-commit: b893ad24d360ed382cab50771413219ea7bda09e
+source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2260'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager]-bureaubladtoepassing {#troubleshoot-v2} oplossen
+# Problemen met [!DNL Adobe Experience Manager]-bureaubladtoepassing oplossen {#troubleshoot-v2}
 
 [!DNL Adobe Experience Manager] bureaubladtoepassing maakt verbinding met de DAM-opslagplaats (Digital Asset Management) van een  [!DNL Experience Manager] implementatie. De app haalt opslaggegevens en zoekresultaten op uw computer op, downloadt en uploadt bestanden en mappen en bevat mogelijkheden om conflicten met de gebruikersinterface van Middelen te beheren.
 
 Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de beperkingen uit te zoeken.
 
-## Aanbevolen werkwijzen {#best-practices-to-prevent-troubles}
+## Aanbevolen procedures {#best-practices-to-prevent-troubles}
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
@@ -38,7 +37,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen  [!DNL Experience Manager] server- en desktop-app na een vast tijdsinterval verbreekt. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
-## {#troubleshooting-prep} problemen oplossen
+## Hoe te om problemen op te lossen {#troubleshooting-prep}
 
 Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenservice van Adobe als u ervoor kiest om ondersteuning te zoeken.
 
@@ -56,7 +55,7 @@ Als bij het uploaden van een groot aantal elementen sommige bestanden niet worde
 >
 >Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor de klantenservice.
 
-### Detailniveau wijzigen in logbestanden {#level-of-details-in-log}
+### Detailniveau in logbestanden wijzigen {#level-of-details-in-log}
 
 U wijzigt als volgt het detailniveau in logbestanden:
 
@@ -84,7 +83,7 @@ U wijzigt als volgt het detailniveau in logbestanden:
 
 De geldige logboekniveaus zijn DEBUG, INFO, WARN, of FOUT. De breedste logboeken zijn het hoogst in DEBUG en het laagste in FOUT.
 
-### Foutopsporingsmodus {#enable-debug-mode} inschakelen
+### Foutopsporingsmodus inschakelen {#enable-debug-mode}
 
 Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer informatie in de logboeken opnemen.
 
@@ -108,7 +107,7 @@ De foutopsporingsmodus in Windows inschakelen:
 
 `AEM_DESKTOP_LOG_LEVEL=DEBUG&"C:\Program Files\Adobe\Adobe Experience Manager Desktop.exe`.
 
-### [!DNL Adobe Experience Manager] desktop app version {#know-app-version-v2}
+### Weet de [!DNL Adobe Experience Manager] versie van de bureaubladtoepassing {#know-app-version-v2}
 
 Het versienummer weergeven:
 
@@ -118,7 +117,7 @@ Het versienummer weergeven:
 
    Het versienummer wordt weergegeven op dit scherm.
 
-### Cache {#clear-cache-v2} wissen
+### Cache wissen {#clear-cache-v2}
 
 Voer de volgende stappen uit:
 
@@ -160,11 +159,11 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 
 * Machtigingen. Neem contact op met uw [!DNL Experience Manager]-beheerder om te controleren of u machtigingen hebt om de geplaatste elementen op te halen.
 
-### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing weerspiegelen niet direct [!DNL Adobe Experience Manager]{#changes-on-da-not-visible-on-aem}
+### Bewerkingen aan bestanden in de gebruikersinterface van de bureaubladtoepassing weerspiegelen niet direct in [!DNL Adobe Experience Manager] {#changes-on-da-not-visible-on-aem}
 
 [!DNL Adobe Experience Manager] de bureaubladtoepassing laat het aan de gebruiker over om te beslissen wanneer alle bewerkingen van een bestand zijn voltooid. Afhankelijk van de grootte en complexiteit van een bestand duurt het aanzienlijk om de nieuwe versie van een bestand terug te zetten naar [!DNL Adobe Experience Manager]. Het ontwerp van de toepassing vereist dat het aantal keren dat een bestand heen en weer wordt overgebracht, wordt geminimaliseerd, in plaats van te raden wanneer de bestandsbewerkingen zijn voltooid en automatisch worden geüpload. De gebruiker wordt geadviseerd de overdracht van het bestand terug te zetten naar [!DNL Adobe Experience Manager] door de wijzigingen van een bestand te uploaden.
 
-### Problemen bij upgrade op macOS {#issues-when-upgrading-on-macos}
+### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
 
 Soms kunnen er problemen optreden wanneer u de [!DNL Experience Manager]-bureaubladtoepassing op macOS upgradet. Dit wordt veroorzaakt door een oudere systeemmap voor de [!DNL Experience Manager]-bureaubladtoepassing, waardoor nieuwe versies van de [!DNL Experience Manager]-bureaubladtoepassing niet correct worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
@@ -179,11 +178,11 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop" | xargs rm -rf
 sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-plugin" | xargs rm -rf
 ```
 
-## Kan bestanden {#upload-fails} niet uploaden
+## Kan bestanden niet uploaden {#upload-fails}
 
 Als u bureaubladtoepassingen gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het probleem met uploadfouten met bestanden die betrekking hebben op [OAK-8599](https://issues.apache.org/jira/browse/OAK-8599) wordt verholpen. Zie [installatie-instructies](install-upgrade.md#install-v2).
 
-## [!DNL Experience Manager] verbindingsproblemen met bureaubladapps  {#connection-issues}
+## [!DNL Experience Manager] verbindingsproblemen met bureaubladapps {#connection-issues}
 
 Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende manieren meer informatie krijgen over wat de [!DNL Experience Manager]-bureaubladtoepassing doet.
 
@@ -200,7 +199,7 @@ Als u algemene connectiviteitsproblemen ondervindt, kunt u op verschillende mani
 Een meerderheid van de verzoeken van de toepassing wordt gevonden in het verzoeklogboek. Als er echter geen nuttige informatie beschikbaar is, kan het nuttig zijn om te kijken naar de aanvragen die door de ingesloten browser van de toepassing worden verzonden.
 Zie [SAML sectie](#da-connection-issue-with-saml-aem) voor instructies op hoe te om die verzoeken te bekijken.
 
-### SAML-aanmeldingsverificatie werkt niet {#da-connection-issue-with-saml-aem}
+### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
 [!DNL Experience Manager] bureaubladtoepassing maakt mogelijk geen verbinding met uw SAML- [!DNL Adobe Experience Manager] implementatie (SSO-enabled). Het ontwerp van de toepassing probeert de variaties en de complexiteit van SSO-verbindingen en -processen aan te passen. Voor een setup is mogelijk aanvullende probleemoplossing vereist.
 
@@ -290,7 +289,7 @@ Wanneer u een [!DNL Experience Manager]-server hebt gebruikt en probeert de verb
 
 ![Cookies wissen bij schakelen tussen servers](assets/main_menu_logout_da2.png)
 
-## De toepassing reageert niet {#unresponsive}
+## App reageert niet {#unresponsive}
 
 In zeldzame gevallen reageert de toepassing niet meer, wordt alleen een wit scherm weergegeven of wordt een fout onder aan de interface weergegeven zonder opties in de interface. Probeer het volgende in de volgorde:
 
@@ -327,5 +326,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [Bekende problemen](release-notes.md#known-issues-v2)
->* [Bewerkingsconflicten voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts)
+* [Bewerkingsconflicten voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts)
 
