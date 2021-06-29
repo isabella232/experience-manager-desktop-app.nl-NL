@@ -1,17 +1,16 @@
 ---
 title: Gebruik [!DNL Experience Manager] desktop app versie 1.10.
 description: Leer hoe u Adobe Experience Manager desktop app versie 1.10 gebruikt en uw werk optimaliseert met middelen op het bureaublad.
-feature: Desktop App,Asset Management
+feature: Bureaubladtoepassing, beheer van bedrijfsmiddelen
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-translation-type: tm+mt
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '2377'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
 
-# [!DNL Experience Manager] desktop app v1.10 {#use-aem-desktop-app-v1x} gebruiken
+# [!DNL Experience Manager] desktop app v1.10 gebruiken {#use-aem-desktop-app-v1x}
 
 Met de app zijn de elementen in [!DNL Experience Manager] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. Middelen kunnen eenvoudig worden weergegeven in Mac Finder of Windows Verkenner, worden geopend in bureaubladtoepassingen en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in [!DNL Experience Manager] met een nieuwe versie die in de opslagplaats is gemaakt.
 
@@ -19,7 +18,7 @@ Een dergelijke integratie maakt het mogelijk dat verschillende functies in de or
 
 De belangrijkste taken die u uitvoert met de [!DNL Experience Manager] desktop app v1 zijn:
 
-1. [Verbinding maken met  [!DNL Experience Manager] een server](#installandconnect)
+1. [Verbinden met een  [!DNL Experience Manager] server](#installandconnect)
 1. [Elementen rechtstreeks openen op bureaublad](#openondesktop)
 1. [Elementen van het bureaublad bewerken en uitchecken](#workonassets)
 1. [Elementen en mappen bulksgewijs uploaden](#bulkupload)
@@ -30,7 +29,7 @@ Raadpleeg de [beste werkwijzen voor het gebruik van app](best-practices-for-v1.m
 >
 >De desktop-app is geïntroduceerd in [!DNL Experience Manager] 6.1-release en heet [!DNL Experience Manager Assets Companion App].
 
-## [!DNL Experience Manager] aanraakpunten voor bureaubladtoepassingen in de creatieve workflow  {#aem-desktop-app-touch-points-in-the-creative-workflow}
+## [!DNL Experience Manager] aanraakpunten voor bureaubladtoepassingen in de creatieve workflow {#aem-desktop-app-touch-points-in-the-creative-workflow}
 
 [!DNL Experience Manager] samen met  [!DNL Assets], integreert de bureaubladtoepassing in uw creatieve workflow en biedt de volgende aanraakpunten.
 
@@ -38,7 +37,7 @@ Raadpleeg de [beste werkwijzen voor het gebruik van app](best-practices-for-v1.m
 
 [!DNL Experience Manager] desktop app touch wijst de creatieve workflow aan
 
-## De toepassing installeren en aansluiten op {#installandconnect}-server[!DNL Experience Manager]
+## De toepassing installeren en aansluiten op de [!DNL Experience Manager]-server {#installandconnect}
 
 Voordat u kunt beginnen met het maken of bewerken van creatieve middelen, sluit u de bureaubladtoepassing aan op de [!DNL Assets]-server om elementen in de opslagplaats te downloaden en te uploaden. Voer de volgende taken uit:
 
@@ -53,7 +52,7 @@ Voordat u kunt beginnen met het maken of bewerken van creatieve middelen, sluit 
 >
 >Voor een deel van of alle installatie en configuratiestappen, kunt u hulp van uw [!DNL Experience Manager] beheerder of systeembeheerder nodig hebben.
 
-### De toepassing {#installapp} installeren
+### De toepassing installeren {#installapp}
 
 Als u de [!DNL Experience Manager]-bureaubladtoepassing wilt gebruiken, moet u ervoor zorgen dat de serverversie van [!DNL Experience Manager] door de toepassing wordt ondersteund. Download het juiste (binaire) installatiebestand voor uw besturingssysteem (Mac of Windows) en installeer de toepassing.
 
@@ -66,7 +65,7 @@ Afhankelijk van uw netwerk- en systeemvoorkeuren kan een gedetailleerde configur
    >
    >Er kan slechts één exemplaar van de [!DNL Experience Manager]-bureaubladtoepassing worden geïnstalleerd en tegelijk actief zijn.
 
-### De opties en voorkeuren van de app {#inapppref}
+### Begrijp de opties en voorkeuren in de app {#inapppref}
 
 De toepassing stelt instellingen in staat om verbinding te maken met en de verbinding te verbreken met [!DNL Experience Manager]-servers, de status van uploads weer te geven, de lokale cache te beheren, enzovoort. De standaardinstellingen werken voor een standaardgebruiker van de toepassing. U kunt de instellingen aanpassen om meer uit de toepassing te halen en de integratie met de [!DNL Experience Manager]-server te beëindigen. De verschillende instellingen worden hieronder in detail beschreven.
 
@@ -94,7 +93,7 @@ De toepassing ondersteunt proxyconfiguratie op Mac en Windows. De configuratie w
 
    ![Geef  [!DNL Experience Manager] serverreferenties op in het aanmeldingsscherm van de  [!DNL Experience Manager] bureaubladtoepassing](assets/login_screen_v1.png)
 
-### Desktopacties inschakelen in [!DNL Experience Manager] webinterface {#desktopactions}
+### Desktopacties inschakelen in de webinterface [!DNL Experience Manager] {#desktopactions}
 
 Vanuit de gebruikersinterface Middelen kunt u de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden desktophandelingen genoemd en worden niet standaard ingeschakeld. Voer de volgende stappen uit om deze in te schakelen.
 
@@ -103,11 +102,11 @@ Vanuit de gebruikersinterface Middelen kunt u de middelenlocaties of uitchecken 
 
    ![[!DNL Experience Manager] interface met gebruikersvoorkeuren](assets/aem_ui_user_preferences.png)
 
-1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster Gebruikersvoorkeuren. Klik op **[!UICONTROL Accept]**.
+1. Selecteer [!UICONTROL User Preferences] in het dialoogvenster **[!UICONTROL Show Desktop Actions For Assets]** en klik vervolgens op **[!UICONTROL Accept]**.
 
    ![Schakel deze optie  [!UICONTROL Show Desktop Actions For Assets] in om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
 
-   *Afbeelding: Schakel Bureaubladhandelingen weergeven voor elementen in om de bureaubladacties in te schakelen.*
+   *Afbeelding: Schakel deze optie in  [!UICONTROL Show Desktop Actions For Assets] om bureaubladacties in te schakelen.*
 
 ## Elementen openen en openen op uw bureaublad {#openondesktop}
 
@@ -132,7 +131,7 @@ Voor Adobe InDesign-bestanden (INDD) selecteert u **[!UICONTROL Open]** in het c
 >
 >Adobe raadt u aan om naar de Opties van de Mening van de Vinder op MAC te gaan en de opties **Show puntinfo**, **Show puntvoorproef**, en **Show voorproefkolom** voor opgezette [!DNL Assets] omslag te deactiveren. Het verbetert de prestaties.
 
-### Aanvullende opties in [!DNL Experience Manager]-interface {#additional-options-in-aem-assets}
+### Aanvullende opties in de interface [!DNL Experience Manager] {#additional-options-in-aem-assets}
 
 Nadat u de [!DNL Assets]-opslagplaats aan uw lokale station hebt toegewezen, kunt u extra pictogrammen inschakelen en de functie Map uploaden weergeven voor de toegewezen elementen en mappen.
 
@@ -150,7 +149,7 @@ Nadat u de [!DNL Assets]-opslagplaats aan uw lokale station hebt toegewezen, kun
 
 Als u het specifieke element wilt zoeken in uw lokale bestandssysteem, klikt u op **Tonen** snelle actie ![Pictogram onthullen](assets/do-not-localize/aemassets_reveal_icon.png). U kunt ook **Tonen** kiezen in het menu **Bureaubladhandelingen** op de werkbalk.
 
-## De elementstatussen {#understand-the-asset-statuses} begrijpen
+## De status van elementen begrijpen {#understand-the-asset-statuses}
 
 | ![Standaardpictogram Windows-app](assets/do-not-localize/win_default.png) | De toepassing is verbonden met de server en alle elementen zijn gesynchroniseerd. |
 --- |--- |
@@ -158,9 +157,9 @@ Als u het specifieke element wilt zoeken in uw lokale bestandssysteem, klikt u o
 | ![Windows-pictogram voor bestandssync](assets/do-not-localize/win_sync.png) | Elementen worden gesynchroniseerd. Bestanden worden geüpload of gedownload. U kunt de exacte status zien en de overdrachten pauzeren vanuit het venster Asset Status. |
 | ![Windows-pictogram Opnieuw verbinden](assets/do-not-localize/win_refresh.png) | App probeert opnieuw verbinding te maken. Mogelijk zorgen de netwerkproblemen ervoor dat de verbinding wordt verbroken. |
 
-## Uw elementen {#workonassets}
+## Werken met uw elementen {#workonassets}
 
-### Elementen uitchecken via de [!DNL Experience Manager]-webinterface {#check-out-assets-from-the-aem-web-interface}
+### Elementen uitchecken via de webinterface [!DNL Experience Manager] {#check-out-assets-from-the-aem-web-interface}
 
 [!DNL Assets] Hiermee kunt u elementen uitchecken voor bewerking en ze weer inchecken nadat u alle wijzigingen hebt aangebracht. Nadat u een element hebt uitgecheckt, kunt u het element alleen bewerken, annoteren, publiceren, verplaatsen of verwijderen. Als u een element uitcheckt, vergrendelt u het element en voorkomt u dat andere gebruikers deze bewerkingen uitvoeren. Om activa te kunnen uitchecken/inchecken, hebt u schrijftoegang op hen nodig.
 
@@ -205,7 +204,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
 1. Als u het element wilt inchecken zodat het beschikbaar is voor andere gebruikers, klikt of tikt u op het incheckpictogram in het dialoogvenster Elementinfo.
 
-### Elementen uitchecken in Windows {#check-out-assets-on-windows}
+### Elementen in Windows uitchecken {#check-out-assets-on-windows}
 
 Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruikers de bestanden waaraan u werkt, kunnen wijzigen.
 
@@ -224,7 +223,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
 1. Als u het element wilt inchecken zodat het beschikbaar is voor andere gebruikers, klikt of tikt u op het incheckpictogram in het dialoogvenster **Elementinfo**.
 
-### Middelen inchecken met Finder of Explorer en webinterface {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface} gebruiken
+### Middelen inchecken met Finder of Explorer en webinterface gebruiken {#check-in-an-asset-using-finder-or-explorer-and-using-web-interface}
 
 Wanneer u klaar bent met het bewerken van de elementen, slaat u de elementen op in uw bureaubladtoepassing. Selecteer **Meer informatie over elementen** in het contextmenu en klik op Inchecken.
 
@@ -256,5 +255,5 @@ U kunt ook bestanden/mappen selecteren die u naar [!DNL Experience Manager] wilt
 
 >[!MORELIKETHIS]
 >
->* [Bureaubladtoepassing  [!DNL Experience Manager] problemen oplossen](troubleshoot-app-v1.md)
+>* [Problemen met  [!DNL Experience Manager] bureaubladtoepassing oplossen](troubleshoot-app-v1.md)
 
