@@ -4,14 +4,14 @@ description: Gebruik [!DNL Adobe Experience Manager] desktop app, to work with [
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, beheer van bedrijfsmiddelen
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 7c413be995ef087fab75114d65e87f6936c8e021
+source-git-commit: dcd29d0bbb32004d970d334c256e659f4a4c39e1
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4053'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] desktop app {#use-aem-desktop-app-v2} gebruiken
+# [!DNL Adobe Experience Manager]-bureaubladtoepassing gebruiken {#use-aem-desktop-app-v2}
 
 Gebruik de [!DNL Adobe Experience Manager]-bureaubladtoepassing om eenvoudig toegang te krijgen tot de digitale middelen in de DAM-opslagruimte [!DNL Adobe Experience Manager] op uw lokale bureaublad en deze middelen te gebruiken in alle bureaubladtoepassingen. U kunt de middelen in Desktoptoepassingen openen en de activa plaatselijk uitgeven - upload de veranderingen terug naar [!DNL Experience Manager] met versiecontrole, om de updates met andere gebruikers te delen. U kunt ook nieuwe bestanden en maphiërarchieën uploaden naar [!DNL Experience Manager], mappen maken en elementen of mappen verwijderen uit [!DNL Experience Manager] DAM.
 
@@ -24,7 +24,7 @@ De belangrijkste taken die u uitvoert met de [!DNL Experience Manager]-bureaubla
 ![Workflows en taken die u kunt uitvoeren met  [!DNL Experience Manager] desktop ](assets/aem_desktop_app_usecases_v2.png "appWorkflows en taken die u kunt uitvoeren  [!DNL Adobe Experience Manager] met desktop ")
 appDownload dit afdrukklare PDF-bestand  [](assets/aem_desktop_app_usecases_print.pdf) .
 
-## Hoe desktop-app werkt {#how-app-works2}
+## Hoe desktop app werkt {#how-app-works2}
 
 Voordat u de toepassing gaat gebruiken, moet u [weten hoe de toepassing werkt](release-notes.md#how-app-works). Zorg ook dat u bekend bent met de volgende termen:
 
@@ -58,21 +58,21 @@ Voordat u de toepassing gaat gebruiken, moet u [weten hoe de toepassing werkt](r
 
 * **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de  [!DNL Experience Manager] server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Tijdens het uploaden wordt het element automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie [Elementen bewerken](using.md#edit-assets-upload-updated-assets).
 
-## Desktopacties inschakelen in [!DNL Experience Manager] webinterface {#desktopactions-v2}
+## Desktopacties inschakelen in de webinterface [!DNL Experience Manager] {#desktopactions-v2}
 
 Vanuit de [!DNL Assets]-gebruikersinterface in een browser kunt u de middelenlocaties verkennen of de middelen uitchecken en het middel openen voor bewerking in uw desktoptoepassing. Deze opties worden [!UICONTROL Desktop Actions] genoemd en niet door gebrek toegelaten. Voer de volgende stappen uit om deze functie in te schakelen.
 
 1. Klik in de [!DNL Assets]-console op het pictogram **[!UICONTROL User]** op de werkbalk.
 1. Klik op **[!UICONTROL My Preferences]** om het dialoogvenster **[!UICONTROL Preferences]** weer te geven.
 
-1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster Gebruikersvoorkeuren. Klik op **[!UICONTROL Accept]**.
+1. Selecteer [!UICONTROL User Preferences] in het dialoogvenster **[!UICONTROL Show Desktop Actions For Assets]** en klik vervolgens op **[!UICONTROL Accept]**.
 
 
    ![Selecteer Bureaubladhandelingen weergeven voor elementen om bureaubladhandelingen in te schakelen](assets/enable_desktop_actions.png)
 
    *Afbeelding: Selecteer deze optie  [!UICONTROL Show Desktop Actions For Assets] om bureaubladhandelingen in te schakelen.*
 
-## {#browse-search-preview-assets} zoeken, zoeken en voorvertonen
+## Zoeken, zoeken en voorvertonen van elementen {#browse-search-preview-assets}
 
 U kunt vanuit de bureaubladtoepassing bladeren naar de middelen die beschikbaar zijn in de [!DNL Experience Manager]-opslagplaats, deze zoeken en er een voorvertoning van weergeven. Probeer het volgende in de app:
 
@@ -95,7 +95,7 @@ U kunt vanuit de bureaubladtoepassing bladeren naar de middelen die beschikbaar 
 >
 >In de app worden de elementen weergegeven door de zoekcriteria af te stemmen op meerdere metagegevensvelden en niet alleen op de titel van het element of de bestandsnaam.
 
-## Elementen {#download-assets} downloaden
+## Elementen downloaden {#download-assets}
 
 U kunt de elementen downloaden naar uw lokale bestandssysteem. De app haalt de middelen op van de [!DNL Experience Manager]-server en slaat dezelfde kopie op uw lokale bestandssysteem op.
 
@@ -140,7 +140,7 @@ Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal netwerkaandeel ge
 
 >[!NOTE]
 >
->Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden via een lokaal netwerkshare aangeboden, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
+>Voor achterwaartse compatibiliteit met [!DNL Experience Manager] desktop app v1.x, worden de vrijgegeven bestanden aangeboden via een gedeeld lokaal netwerk, waarbij alleen lokaal beschikbare bestanden beschikbaar worden gemaakt. De bureaubladpaden van de onthulde bestanden zijn gelijk aan de paden die door app v1.x worden gemaakt.
 
 >[!CAUTION]
 >
@@ -287,7 +287,7 @@ De toepassing biedt een weergave met de naam **[!UICONTROL Edited locally]**, wa
 
 ![Filter om alle lokaal bewerkte ](assets/edited_locally_filter_da2.png "assetsFilter te bekijken om alle lokaal bewerkte middelen te zien, bijvoorbeeld voor het bulkuploaden van bewerkingen")
 
-### Elementen voor uploaden in bulk {#bulk-upload-assets}
+### Bulkupload-elementen {#bulk-upload-assets}
 
 Gebruikers of organisaties, zoals fotografen of creatieve bureaus, kunnen in scenario&#39;s een groot aantal lokale elementen maken, zoals foto&#39;s, retoucheren of selectie uit een grotere set die buiten [!DNL Experience Manager] wordt uitgevoerd. Ze kunnen deze grote lokale mappen rechtstreeks vanuit de bureaubladtoepassing uploaden naar [!DNL Assets]. De maphiërarchieën blijven behouden en alle geneste submappen en opgenomen elementen worden geüpload. De geüploade elementen zijn direct ook beschikbaar voor andere gebruikers van dezelfde server. Elementen worden op de achtergrond geüpload, dus de bewerking is niet gekoppeld aan een webbrowsersessie.
 
@@ -299,11 +299,11 @@ Als na het uploaden de verwachte wijzigingen niet worden doorgevoerd in de app, 
 >
 >Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] implementaties te migreren. Zie in plaats daarvan de [migratiegids](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/assets-migration-guide.html).
 
-### Lijst van overgedragen activa {#list-of-transferred-assets}
+### Lijst van overgedragen elementen {#list-of-transferred-assets}
 
 Zie [Elementen uploaden naar [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem) voor een overzicht van de elementen die in een bepaalde sessie zijn overgedragen.
 
-## Geavanceerde workflow: begin van [!DNL Assets] Webinterface {#adv-workflow-start-from-aem-ui}
+## Geavanceerde workflow: begin van de [!DNL Assets] Webinterface {#adv-workflow-start-from-aem-ui}
 
 Start zo nodig uw workflow via de webinterface Middelen. De bureaubladtoepassing integreert met de [!DNL Experience Manager] om op verzoek over te nemen met behulp van desktophandelingen.
 
