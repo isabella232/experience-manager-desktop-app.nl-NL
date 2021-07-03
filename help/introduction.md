@@ -1,17 +1,16 @@
 ---
 title: Inleiding tot [!DNL Experience Manager] desktop app
 description: Leer hoe u [!DNL Adobe Experience Manager] desktop app to optimize the asset management workflows for creative users when using [!DNL Adobe Experience Manager Assets] rechtstreeks vanaf hun bureaublad kunt gebruiken.
-role: Business Practitioner, Administrator, Leader
-translation-type: tm+mt
-source-git-commit: a0a7081b705957ef6d1a72bc3c54603b1cff5897
+role: User, Admin, Leader
+exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
+source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
-
-# [!DNL Adobe Experience Manager] Overzicht van desktop-app  {#overview-v2}
+# [!DNL Adobe Experience Manager] Overzicht van desktop-app {#overview-v2}
 
 Adobe biedt verbonden workflows over zijn oplossingen aan om productiviteit op het volgende niveau voor uw branche gebruikers en creatieve beroeps toe te staan. De [!DNL Adobe Experience Manager]-bureaubladtoepassing maakt verbinding met opslagruimten en bureaubladtoepassingen, waaronder Adobe en toepassingen van derden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Deze besparing van tijd en vermindering van inspanning verbetert efficiency van gebruikers, die met activa van [!DNL Adobe Experience Manager] in hun Desktopwerkschema&#39;s werken.
 
