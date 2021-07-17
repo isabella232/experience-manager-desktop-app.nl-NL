@@ -1,16 +1,15 @@
 ---
 title: Opmerkingen bij de release van desktop app v1.10
 description: Geef details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen op voor AEM bureaubladtoepassing versie 1.10.
-translation-type: tm+mt
-source-git-commit: 4870615ed40226964d077d6666b83b85b73da180
+exl-id: 886864e0-016a-4a17-b3ba-4b18a514214a
+source-git-commit: 32aff5d66f2cb67ab4bb440d7ace747a5cf1dd26
 workflow-type: tm+mt
-source-wordcount: '3897'
+source-wordcount: '3898'
 ht-degree: 0%
 
 ---
 
-
-# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.10  {#aem-desktop-app-release-notes}
+# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.10 {#aem-desktop-app-release-notes}
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compatibiliteitsgegevens beschikbaar.
 
@@ -153,7 +152,7 @@ Het toepassingspictogram geeft de status van de achtergrondbewerkingen aan, zoda
 Om de gebruikerservaring te verbeteren bij het werken met InDesign-documenten die gekoppelde elementen bevatten die zijn opgeslagen in AEM, probeert de bureaubladtoepassing deze gekoppelde bestanden vooraf op te halen naar de lokale cache voordat het InDesign-document wordt gedownload en geopend. Op die manier heeft de gebruiker de gekoppelde bestanden lokaal beschikbaar en hoeft hij niet langer te wachten wanneer hij of zij deze in InDesign opent (in het deelvenster Koppelingen).
 Het vooraf ophalen werkt alleen als AEM de koppelingen aan de serverzijde herkent. Voor een element met herkende koppelingen wordt een lijst met &quot;verwijzingen&quot; weergegeven in de weergave Eigenschappen van het InDesign-element.
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.8.x {#enhancements-available-since-aem-desktop-app-18x}
 
 AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij het openen van meerdere bestanden tegelijk van AEM gebruikersinterface naar de release 1.8 (CQ-4237747, CQ-4238780). Verbeteringen in AEM desktop app 1.8 zijn:
 
@@ -183,7 +182,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
    * (Win) Het bestand kan nu worden gesynchroniseerd nadat u een eerdere versie hebt hersteld vanuit de gebruikersinterface van AEM Assets (CQ-4216411).
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.7 {#Enhancements-Available-Since-AEM-Desktop-App-17}
 
 * Stabiliteit:
 
@@ -215,7 +214,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 >
 >Problemen die zijn aangetroffen in AEM desktop app 1.7 bètabelasting (die niet aanwezig waren in de release 1.6, worden niet vermeld in de opmerkingen bij de release).
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
 * Documentatie: Nieuwe [Aanbevolen werkwijzen voor v1.x app](/help/best-practices-for-v1.md)-documentatie.
 
@@ -259,7 +258,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
    * Sleep bestanden die een fout veroorzaken bij het uploaden naar AEM (CQ-4217006).
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
 **Versie 1.5.1.5 voor Mac OS X:** De release 1.5.1.5 biedt de volgende voordelen:
 
@@ -320,7 +319,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 
    * Betere verwerking van AEM Assets URL in Voorkeuren (CQ-97388).
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.4 {#Enhancements-Available-Since-AEM-Desktop-App-14}
 
 * Het eenvoudig uploaden van hiërarchische mappen via de nieuwe handeling Map maken > Uploaden in Touch UI.
    * Handeling start een bewerking voor het uploaden van mappen die wordt uitgevoerd door de bureaubladtoepassing
@@ -332,7 +331,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 * Verbeterde compatibiliteit met de nieuwste versies van het besturingssysteem
 * Door de klant gemelde correcties
 
-### Verbeteringen die beschikbaar zijn sinds AEM desktop app 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
+### Verbeteringen beschikbaar sinds AEM desktop app 1.3 {#Enhancements-Available-Since-AEM-Desktop-App-13}
 
 * Meer efficiëntie. De gebruikers besteden minder tijd wachtend op netwerkverrichtingen om te voltooien.
 * Verbeterde integratie met de Finder, die meer stabiliteit en toegang tot functies, zoals miniaturen, biedt.
@@ -346,7 +345,7 @@ Beide gevallen worden verwacht en zijn bijwerkingen van de &quot;vertraagde sync
 
 ## Lijst met wijzigingen {#list-of-changes}
 
-### Punt koppelen op Mac {#mount-point-on-mac}
+### Koppelpunt op Mac {#mount-point-on-mac}
 
 Sinds Mac OS 10.12 (Sierra) heeft Apple de machtigingen voor de map /Volumes die wordt gebruikt voor het koppelen van netwerkstations en apparaten gewijzigd in meer beperkingen. Voor het maken van een nieuw koppelingspunt zijn administratieve rechten vereist. Dit probleem is opgelost in Mac OS 10.12.5.
 
@@ -368,7 +367,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 >
 >In Mac OS X leidt de wijziging van het lokale netwerkschijfprotocol van WebDAV in SMB1 tot een ander lokaal pad naar hetzelfde middel in de opslagplaats. Dit kan van invloed zijn op koppelingen naar bestanden die via de opdracht Plaatsen in Adobe Creative Cloud-toepassingen zijn geplaatst. Zie de [Gebruik AEM Desktop app](use-app-v1.md) voor meer informatie.
 
-### Bestandsverwerking (sinds 1.3) {#file-handling-since}
+### Bestandsbeheer (sinds 1.3) {#file-handling-since}
 
 * Mappen worden automatisch bijgewerkt na een vooraf gedefinieerde vertraging (momenteel 30 seconden).
 * Bestanden die door andere gebruikers zijn uitgecheckt, zijn gemarkeerd als alleen-lezen.
@@ -397,7 +396,7 @@ Aangezien de map /Volumes geen beheerrechten meer vereist, is deze wijziging in 
 ## Bekende problemen {#known-issues}
 
 * Algemeen:
-   * Server-URL&#39;s moeten naar de server verwijzen zonder een pad (bijvoorbeeld `http://server`, `https://server`, `http://server:port` of `https://server:port`). Contextpaden en andere submappen dan /content/dam worden niet ondersteund (CQ-89343, CQ-87272)
+   * Server-URL&#39;s zijn vereist om naar de server te wijzen zonder een pad (bijvoorbeeld `http://server`, `https://server`, `http://server:port` of `https://server:port`). Contextpaden en andere submappen dan /content/dam worden niet ondersteund (CQ-89343, CQ-87272)
 * Bestandsnamen/lokalisatie:
    * Bestands- en mapnamen met gereserveerde tekens worden niet correct verwerkt. Gebruik bestands- en mapnamen die voldoen aan de AEM (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
    * Sommige toepassingen, zoals Adobe Illustrator, maken mogelijk bestanden met namen die niet worden ondersteund in AEM. Bijvoorbeeld, toevoegend `Converted` na het omzetten van een dossier, dat het verhindert worden geupload (CQ-4216985)
