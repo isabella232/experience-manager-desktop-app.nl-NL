@@ -4,9 +4,9 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Bureaubladtoepassing, releasegegevens
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: d83f04fb4757bb8025489da7866d36a51ddfe374
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ De **ondersteunde [!DNL Experience Manager] versies** zijn:
 * [!DNL Experience Manager] 6.4.4 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie [opmerkingen bij de release van het servicepack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html).
 * [!DNL Experience Manager] 6.4.0 - 6.4.3 als het  [compatibiliteitspakket is ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd, op Adobe Managed Services (AMS) of op locatie.
 * [!DNL Experience Manager] 6.3 (met compatibiliteitspakket)
-* [!DNL Experience Manager] 6.3.3.1 of hoger als het  [compatibiliteitspakket is ](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd. Desktop-app wordt niet ondersteund voor [!DNL Experience Manager] 6.3.3.0 of eerdere versies.
+* [!DNL Experience Manager] 6.3.3.1 of hoger als het  [compatibiliteitspakket is ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd. Desktop-app wordt niet ondersteund voor [!DNL Experience Manager] 6.3.3.0 of eerdere versies.
 
 [!DNL Adobe Experience Manager] bureaubladtoepassing is beschikbaar voor de volgende  **besturingssystemen**:
 
