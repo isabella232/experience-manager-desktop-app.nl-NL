@@ -1,17 +1,16 @@
 ---
 title: Desktop-app installeren en configureren
 description: Installeer en configureer  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers en download de middelen op uw lokale bestandssysteem.
-feature: Desktop App,Release Information
+feature: Bureaubladtoepassing, releasegegevens
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-translation-type: tm+mt
-source-git-commit: 4616934e8923693106401da008e2510310d0742a
+source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] desktop app {#install-app-v2} installeren
+# Desktop-app [!DNL Adobe Experience Manager] installeren {#install-app-v2}
 
 Met de [!DNL Adobe Experience Manager]-bureaubladtoepassing zijn de middelen in [!DNL Experience Manager] eenvoudig beschikbaar op uw lokale bureaublad en kunnen deze worden gebruikt in alle native bureaubladtoepassingen. Elementen kunnen worden voorvertoond, geopend in systeemeigen desktoptoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd. De wijzigingen worden weer opgeslagen in [!DNL Experience Manager] wanneer u de bestanden uploadt en er een nieuwe versie wordt gemaakt in de opslagplaats.
 
@@ -51,7 +50,7 @@ Voer de volgende instructies uit om een upgrade uit te voeren van een vorige ver
 
 1. [Download en ](release-notes.md)   [](#install-v2) installeer de nieuwste app. Volg de onderstaande instructies.
 
-## {#install-v2} installeren
+## Installeren {#install-v2}
 
 Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijder bestaande Adobe [!DNL Experience Manager] desktop app v1.x voordat u de nieuwste app installeert. Zie hierboven voor meer informatie.
 
@@ -61,7 +60,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Zie [Desktop app upgraden](#upgrade-from-previous-version) als u een upgrade uitvoert vanaf een andere versie van de app.
 
-1. Sla deze stap over als u [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 of later, of [!DNL Experience Manager] 6.5.0 of later gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in [versienota&#39;s](release-notes.md) worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met [!DNL Experience Manager] Package Manager als een [!DNL Experience Manager]-beheerder. Als u een pakket wilt installeren, raadpleegt u [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Sla deze stap over als u [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 of later, of [!DNL Experience Manager] 6.5.0 of later gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in [versienota&#39;s](release-notes.md) worden vermeld. Download indien nodig het toepasselijke [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer dit met [!DNL Experience Manager] Package Manager als een [!DNL Experience Manager]-beheerder. Als u een pakket wilt installeren, raadpleegt u [Werken met pakketten](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
 
 1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
 
@@ -131,7 +130,7 @@ Als u de instellingen van de proxyserver voor Windows configureert of wijzigt (I
 
 Als voor uw proxy verificatie is vereist, kan het IT-team de [!DNL Experience Manager Assets]-URL in de instellingen van de proxyserver toestaan dat het toepassingsverkeer wordt doorgegeven.
 
-## De toepassing {#uninstall-the-app} verwijderen
+## De toepassing verwijderen {#uninstall-the-app}
 
 Voer de volgende stappen uit om de installatie van de toepassing in Windows ongedaan te maken:
 
