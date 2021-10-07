@@ -1,11 +1,11 @@
 ---
 title: Desktop-app installeren en configureren
 description: Installeer en configureer  [!DNL Adobe Experience Manager] desktop app to work with [!DNL Adobe Experience Manager Assets] servers en download de middelen op uw lokale bestandssysteem.
-feature: Bureaubladtoepassing, releasegegevens
+feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: ea7227110aac38115829c93e7339dcdfbd9394a6
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voer de volgende instructies uit om een upgrade uit te voeren van een vorige ver
 
 1. Start de computer opnieuw op.
 
-1. [Download en ](release-notes.md)   [](#install-v2) installeer de nieuwste app. Volg de onderstaande instructies.
+1. [](release-notes.md) Download en  [](#install-v2) installeer de nieuwste app. Volg de onderstaande instructies.
 
 ## Installeren {#install-v2}
 
@@ -88,7 +88,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, upgrade S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
 
-   Neem contact op met de klantenservice van Adobe als u een klant van Adobe Managed Services (AMS) bent.
+   Neem contact op met de Klantenondersteuning van Adobe als u een klant van Adobe Managed Services (AMS) bent.
 
 ## Voorkeuren instellen {#set-preferences}
 
@@ -144,13 +144,13 @@ Voer de volgende stappen uit om de installatie van de toepassing in Windows onge
 
 1. Volg de aanwijzingen op het scherm. Start de computer opnieuw op als deze klaar is.
 
-Voer de volgende stappen uit om de installatie van de toepassing op de Mac te verwijderen:
+Voer de volgende stappen uit om de installatie van de toepassing op Mac te verwijderen:
 
 1. Upload al uw wijzigingen naar [!DNL Experience Manager] om te voorkomen dat u bewerkingen kwijtraakt. Zie [Elementen bewerken en bijgewerkte elementen uploaden naar [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets). Log uit en [!UICONTROL Exit] de app.
 
 1. Verwijder `Adobe Experience Manager Desktop.app` uit `/Applications`.
 
-Als u de interne cache van toepassingen op de Mac wilt opschonen en de toepassing wilt verwijderen, kunt u de volgende opdracht ook in de terminal uitvoeren:
+Als u de interne cache van toepassingen op Mac wilt opschonen en de toepassing wilt verwijderen, kunt u de volgende opdracht ook in de terminal uitvoeren:
 
 ```shell
 /Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh

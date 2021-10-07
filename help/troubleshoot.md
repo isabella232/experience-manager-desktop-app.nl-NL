@@ -2,7 +2,7 @@
 title: Aanbevolen werkwijzen voor en probleemoplossing [!DNL Adobe Experience Manager] desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: db5aaf7127b94879cb24842fb41b55c099d6221d
+source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
 workflow-type: tm+mt
 source-wordcount: '2260'
 ht-degree: 0%
@@ -33,13 +33,13 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Denk aan het netwerk**: Netwerkprestaties zijn essentieel voor de prestaties van de  [!DNL Experience Manager] bureaubladtoepassing. Als u te maken krijgt met een trage reactie op bestandsoverdrachten of bulkbewerkingen, schakelt u de functies of toepassingen uit die veel netwerkverkeer kunnen veroorzaken.
 
-* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van in-sync clients zoals Microsoft OneDrive of Adobe Creative Cloud-desktopsynchronisatie).
+* **Niet-ondersteunde gebruiksgevallen voor bureaubladtoepassing**: Gebruik de app voor de migratie van middelen niet (hiervoor zijn planning en andere hulpmiddelen nodig); voor zware DAM-bewerkingen (zoals het verplaatsen van grote mappen, grote uploads, het zoeken van bestanden met behulp van geavanceerde metagegevenszoekopdrachten); en als synchronisatieclient (ontwerpprincipes en gebruikspatronen verschillen van synchronisatieclients zoals Microsoft OneDrive of Adobe Creative Cloud desktop sync).
 
 * **Time-out**: Desktop-app heeft momenteel geen configureerbare time-outwaarde die de verbinding tussen  [!DNL Experience Manager] server- en desktop-app na een vast tijdsinterval verbreekt. Wanneer u grote middelen uploadt en de verbinding na een tijdje wordt verbroken, probeert de toepassing het element een paar keer te uploaden door de time-out van het uploaden te verhogen. Er is geen aanbevolen manier om de standaardtime-outinstellingen te wijzigen.
 
 ## Hoe te om problemen op te lossen {#troubleshooting-prep}
 
-Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenservice van Adobe als u ervoor kiest om ondersteuning te zoeken.
+Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de Adobe Klantenondersteuning als u ervoor kiest om ondersteuning te zoeken.
 
 ### Locatie van logbestanden {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Als bij het uploaden van een groot aantal elementen sommige bestanden niet worde
 
 >[!NOTE]
 >
->Wanneer u met de klantenservice van Adobe werkt aan een supportverzoek of -ticket, kunt u worden gevraagd de logbestanden te delen om het zorgteam van de klant te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor de klantenservice.
+>Wanneer u met de klantenondersteuning van Adobe werkt aan een ondersteuningsverzoek of -ticket, kunt u worden gevraagd om de logbestanden te delen om het team van Klantenondersteuning te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor klantenondersteuning.
 
 ### Detailniveau in logbestanden wijzigen {#level-of-details-in-log}
 
@@ -91,7 +91,7 @@ Als u problemen wilt oplossen, kunt u de foutopsporingsmodus inschakelen en meer
 >
 >Geldige logboekniveaus zijn DEBUG, INFO, WARN, of FOUT. De breedste logboeken zijn het hoogst in DEBUG en het laagste in FOUT.
 
-Zo gebruikt u de toepassing in de foutopsporingsmodus op de Mac:
+Zo gebruikt u de toepassing in de foutopsporingsmodus op Mac:
 
 1. Open een eindvenster of een bevelherinnering.
 
@@ -163,11 +163,11 @@ Controleer het volgende als u niet kunt zien welke elementen u of andere creatie
 
 [!DNL Adobe Experience Manager] de bureaubladtoepassing laat het aan de gebruiker over om te beslissen wanneer alle bewerkingen van een bestand zijn voltooid. Afhankelijk van de grootte en complexiteit van een bestand duurt het aanzienlijk om de nieuwe versie van een bestand terug te zetten naar [!DNL Adobe Experience Manager]. Het ontwerp van de toepassing vereist dat het aantal keren dat een bestand heen en weer wordt overgebracht, wordt geminimaliseerd, in plaats van te raden wanneer de bestandsbewerkingen zijn voltooid en automatisch worden geüpload. De gebruiker wordt geadviseerd de overdracht van het bestand terug te zetten naar [!DNL Adobe Experience Manager] door de wijzigingen van een bestand te uploaden.
 
-### Problemen bij upgraden op MacOS {#issues-when-upgrading-on-macos}
+### Problemen bij upgraden op macOS {#issues-when-upgrading-on-macos}
 
 Soms kunnen er problemen optreden wanneer u de [!DNL Experience Manager]-bureaubladtoepassing op macOS upgradet. Dit wordt veroorzaakt door een oudere systeemmap voor de [!DNL Experience Manager]-bureaubladtoepassing, waardoor nieuwe versies van de [!DNL Experience Manager]-bureaubladtoepassing niet correct worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
-Sleep de toepassing `Adobe Experience Manager Desktop` van de map MacOS-toepassingen naar de prullenmand voordat u de volgende stappen uitvoert. Open vervolgens de terminal, voer de volgende opdracht uit en geef uw wachtwoord op wanneer u daarom wordt gevraagd.
+Voordat u de volgende stappen uitvoert, sleept u de `Adobe Experience Manager Desktop`-toepassing van de map macOS Applications naar de prullenmand. Open vervolgens de terminal, voer de volgende opdracht uit en geef uw wachtwoord op wanneer u daarom wordt gevraagd.
 
 ```shell
 sudo rm -rf ~/Library/Application\ Support/com.adobe.aem.desktop
@@ -217,7 +217,7 @@ Soms wordt het SAML-proces niet omgeleid naar het oorspronkelijk aangevraagde pa
 
 Het venster binnen [!DNL Adobe Experience Manager] Desktop app dat het login proces toont is eenvoudig Webbrowser die het doel [!DNL Adobe Experience Manager] Webgebruikersinterface van de instantie toont:
 
-* De versie van MAC gebruikt [WebView](https://developer.apple.com/documentation/webkit/webview).
+* De versie van Mac gebruikt [WebView](https://developer.apple.com/documentation/webkit/webview).
 
 * In de Windows-versie wordt op chroom gebaseerd [CefSharp](https://cefsharp.github.io/) gebruikt.
 
@@ -303,7 +303,7 @@ In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 Wanneer u elementen bladert vanuit de gebruikersinterface [!DNL Experience Manager], worden de verlopen elementen niet weergegeven. Beheerders kunnen de volgende configuratie uitvoeren om te voorkomen dat verlopen middelen worden weergegeven, gezocht en opgehaald wanneer ze middelen zoeken vanuit de bureaubladtoepassing en de Asset Link. De configuratie werkt voor alle gebruikers, ongeacht beheerderrechten.
 
 * [Configuratie in Experience Manager 6.5 om verlopen elementen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/manage-assets.html#hide-expired-assets-via-acp-api) te verbergen.
-* [Configuratie in Experience Manager als Cloud Service om verlopen elementen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api) te verbergen.
+* [Configuratie in Experience Manager as a Cloud Service om verlopen elementen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html#hide-expired-assets-via-acp-api) te verbergen.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -326,5 +326,5 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [Bekende problemen](release-notes.md#known-issues-v2)
-* [Bewerkingsconflicten voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [Bewerkingsconflicten voorkomen](using.md#adv-workflow-collaborate-avoid-conflicts)
 
