@@ -4,16 +4,16 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 9b7cb9c7114c1518f9b6c2e4c9ed9771f4a1716d
+source-git-commit: 88d74bb9bff7ec5d454600d383f27dcd5dbbe775
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1711'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp {#release-notes-v2}
 
-De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.3.4) vindt u hieronder. De releasedatum is 4 november 2021.
+De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.4.0) vindt u hieronder. De releasedatum is 16 december 2021.
 
 De **ondersteund [!DNL Experience Manager] versies** zijn:
 
@@ -64,6 +64,10 @@ De functie wordt ondersteund met [!DNL Adobe Creative Cloud] 2018 en [!DNL Adobe
 ## Nieuwe functies, verbeteringen en foutoplossingen {#what-is-new}
 
 Voor meer informatie raadpleegt u [Nieuwe functies in v2.0](introduction.md#whats-new-v2).
+
+**Updates in app v2.1.4.0**
+
+De nieuwe versie van de toepassing biedt een oplossing voor problemen.
 
 **Updates in app v2.1.3.4**
 
