@@ -4,16 +4,16 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 95ee365fd4bf9a749b681a75da412f9d83fbb508
+source-git-commit: 34803cd261c88f6fbe8aa283c057518217a1785e
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '2027'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp {#release-notes-v2}
 
-De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.4.0) vindt u hieronder. De releasedatum is 16 december 2021.
+De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.5.0) vindt u hieronder. De releasedatum is 14 juni 2022.
 
 De **ondersteund [!DNL Experience Manager] versies** zijn:
 
@@ -33,6 +33,9 @@ De **download-URL&#39;s** voor ondersteund besturingssysteem zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
+| macOS (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
+| Windows 64-bits (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
+| Windows 32-bits (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) |
 | macOS (v2.1.4.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.4.0.dmg) |
 | Windows 64-bits (v2.1.4.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.4.0.exe) |
 | Windows 32-bits (v2.1.4.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.4.0.exe) |
@@ -67,6 +70,12 @@ De functie wordt ondersteund met [!DNL Adobe Creative Cloud] 2018 en [!DNL Adobe
 ## Nieuwe functies, verbeteringen en foutoplossingen {#what-is-new}
 
 Voor meer informatie raadpleegt u [Nieuwe functies in v2.0](introduction.md#whats-new-v2).
+
+**Updates in app v2.1.5.0**
+
+* De bureaubladtoepassing reageert niet meer wanneer u bestanden uploadt in een map die Chinese tekens bevat (ASSETS-9237).
+
+* desktop app vervangt punten door streepjes in bestandsnamen (ASSETS-10955).
 
 **Updates in app v2.1.4.0**
 
