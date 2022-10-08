@@ -3,9 +3,9 @@ title: Desktop-app installeren en configureren
 description: Installeren en configureren [!DNL Adobe Experience Manager] desktop-app om mee te werken [!DNL Adobe Experience Manager Assets] en downloadt u de middelen op uw lokale bestandssysteem.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 7b884d89c34a6e45f49d4cacb0f5d537dc769742
+source-git-commit: 5b5970cec02d4a605bd7d826d1daa71fe228b0d9
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,8 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaand
    ![Verbindingsscherm van bureaubladtoepassing met invoerserveradres](assets/connect_da2.png)
 
    *Afbeelding: Verbindingsscherm met invoerserveradres.*
+
+   Selecteren **[!UICONTROL Remember Connection]** om te voorkomen dat u de verbindingsgegevens steeds opgeeft wanneer u zich aanmeldt bij de bureaubladtoepassing.
 
    >[!CAUTION]
    >

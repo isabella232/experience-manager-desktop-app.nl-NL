@@ -1,19 +1,25 @@
 ---
-title: '"[!DNL Adobe Experience Manager] Opmerkingen bij de release van desktop app"'
+title: "[!DNL Adobe Experience Manager] Opmerkingen bij de release van desktop app"
 description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en downloadkoppelingen voor [!DNL Adobe Experience Manager] bureaubladtoepassing.
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 34803cd261c88f6fbe8aa283c057518217a1785e
+source-git-commit: 1167ca53c603b94b298f702d6cbb3231e318e4cd
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2201'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp {#release-notes-v2}
 
-De releasegegevens voor de nieuwste bureaubladtoepassing versie 2.1 (2.1.5.0) vindt u hieronder. De releasedatum is 14 juni 2022.
+Hieronder vindt u de releasegegevens voor de nieuwste bureaubladversie 2.2.0. De releasedatum is 7 oktober 2022.
+
+De nieuwste versie van de bureaubladtoepassing bevat de volgende verbeteringen:
+
+* Ondersteuning voor Apple Silicon (M1).
+
+* Mogelijkheid om de verbindingstekenreeks te onthouden terwijl u zich aanmeldt bij de bureaubladtoepassing.
 
 De **ondersteund [!DNL Experience Manager] versies** zijn:
 
@@ -33,6 +39,9 @@ De **download-URL&#39;s** voor ondersteund besturingssysteem zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
+| macOS (v2.2.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.0.dmg) |
+| macOS Apple Silicon (M1) (v2.2.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.0.dmg) |
+| Windows 64-bits (v2.2.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.0.exe) |
 | macOS (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-2.1.5.0.dmg) |
 | Windows 64-bits (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-2.1.5.0.exe) |
 | Windows 32-bits (v2.1.5.0) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-2.1.5.0.exe) |
@@ -61,7 +70,7 @@ De functie wordt ondersteund met [!DNL Adobe Creative Cloud] 2018 en [!DNL Adobe
 
 * Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een algemeen desktoppad (geplaatst vanuit het lokale netwerkaandeel dat wordt weergegeven met [!UICONTROL Reveal] ).
 
-* Paden worden door de native toepassing in de XMP record van het bestand opgeslagen.
+* Paden worden door de native app in de XMP record van het bestand opgeslagen.
 
 * [!DNL Experience Manager] heeft de XMP record geëxtraheerd met de paden naar de metagegevensrecord van het element.
 
@@ -187,7 +196,7 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 
 * Nadat het filter is toegepast en verwijderd om alle lokaal bewerkte elementen te zoeken, leidt de app gebruikers niet naar hun zoekresultaten of mapweergave waarmee de gebruikers zijn gestart. De toepassing geeft de hoofdmap van de DAM-opslagplaats weer.
 
-* Wanneer u verbinding maakt met een URL die [!DNL Experience Manager] server wordt uitgevoerd, reageert het verbindingsscherm niet. Sluit de toepassing af en start deze opnieuw.
+* Soms, wanneer u met een URL verbindt die niet heeft [!DNL Experience Manager] server wordt uitgevoerd, reageert het verbindingsscherm niet. Sluit de toepassing af en start deze opnieuw.
 
 **Problemen met CRUD (maken, lezen, bijwerken en verwijderen):**
 
