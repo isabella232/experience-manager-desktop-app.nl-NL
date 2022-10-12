@@ -4,9 +4,9 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 1167ca53c603b94b298f702d6cbb3231e318e4cd
+source-git-commit: 2f49c1e952202e627e60fa9ad7998a4927aa817c
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ De **ondersteund [!DNL Experience Manager] versies** zijn:
 
 [!DNL Adobe Experience Manager] desktop-app is beschikbaar voor de volgende **besturingssystemen**:
 
-* macOS X 10.14 of hoger, met de meest recente opgeloste problemen. [Mac-computers met Apple silicium](https://support.apple.com/en-us/HT211814) worden nog niet ondersteund.
+* macOS X 10.14 of hoger, met de meest recente opgeloste problemen.
 * Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
 De **download-URL&#39;s** voor ondersteund besturingssysteem zijn:
