@@ -2,16 +2,16 @@
 cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
-user-guide-title: Handleiding voor bureaubladtoepassing voor Experience Managers
-breadcrumb-title: App-hulplijn voor bureaublad
-user-guide-description: Leer hoe u de bureaubladtoepassing van de Experience Manager gebruikt om opslagruimten en bureaubladtoepassingen te verbinden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows.
+user-guide-title: Handleiding voor de bureaubladapp van Experience Manager
+breadcrumb-title: Handleiding voor bureaubladapp
+user-guide-description: Leer hoe u de bureaubladapp van de Experience Manager gebruikt om opslagruimten en bureaubladtoepassingen te verbinden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows.
 feature-set: Experience Manager Assets,Experience Manager
-feature: Desktop-app
+feature: Desktop App
 role: User, Admin
 source-git-commit: b661fedb6e33599921d39c0597c7d9f8e576798b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 55%
 
 ---
 
