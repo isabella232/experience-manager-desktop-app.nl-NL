@@ -4,24 +4,20 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 6dfbfc6d0a1f1947ef03ebde73a5601b790a5d18
+source-git-commit: caedeb988f1a2f4666a1ec73db390452914caf4d
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2530'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release bureaubladapp {#release-notes-v2}
 
-Hieronder vindt u de releasegegevens voor de nieuwste bureaubladtoepassing versie 2.2.1. De releasedatum is 10 februari 2023.
+Hieronder vindt u de releasegegevens voor de nieuwste bureaubladtoepassing versie 2.2.2. De releasedatum is 9 maart 2023.
 
 De meest recente versie van de bureaubladtoepassing bevat de volgende opgeloste problemen:
 
-* desktop app geeft foutbericht over sessietime-out weer wanneer u op **[!UICONTROL Sign In]**.
-
-* Problemen tijdens het openen van de bureaubladtoepassing v2.2.0 op macOS.
-
-* bureaubladtoepassing geeft een foutbericht weer wanneer u elementen sorteert door op **[!UICONTROL Edited Locally]**.
+* [Alleen Windows] verschijnt een leeg scherm nadat u de releaseversies 2.2.0 en 2.2.1 hebt geïnstalleerd.
 
 De **ondersteund [!DNL Experience Manager] versies** zijn:
 
@@ -41,6 +37,9 @@ De **download-URL&#39;s** voor ondersteund besturingssysteem zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als [!DNL Cloud Service] | [!DNL Experience Manager] 6,x |
 |---|---|---|
+| macOS (v2.2.2) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.2.dmg) |
+| macOS Apple Silicon (M1) (v2.2.2) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.2.dmg) |
+| Windows 64-bits (v2.2.2) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.2.exe) |
 | macOS (v2.2.1) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.2.1.dmg) |
 | macOS Apple Silicon (M1) (v2.2.1) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.2.1.dmg) |
 | Windows 64-bits (v2.2.1) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) | [Koppeling downloaden](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.2.1.exe) |
@@ -84,6 +83,14 @@ De functie wordt ondersteund met [!DNL Adobe Creative Cloud] 2018 en [!DNL Adobe
 ## Nieuwe functies, verbeteringen en foutoplossingen {#what-is-new}
 
 Voor meer informatie raadpleegt u [Nieuwe functies in v2.0](introduction.md#whats-new-v2).
+
+**Updates in app v2.2.1**
+
+* desktop app geeft foutbericht over sessietime-out weer wanneer u op **[!UICONTROL Sign In]**.
+
+* Problemen tijdens het openen van de bureaubladtoepassing v2.2.0 op macOS.
+
+* bureaubladtoepassing geeft een foutbericht weer wanneer u elementen sorteert door op **[!UICONTROL Edited Locally]**.
 
 **Updates in app v2.2.0**
 
