@@ -4,9 +4,9 @@ description: Geen details, verbeteringen, nieuwe functies, compatibiliteit en do
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: caedeb988f1a2f4666a1ec73db390452914caf4d
+source-git-commit: 7d6de46583b0a9dd19d920f8c47a825e060b97fc
 workflow-type: tm+mt
-source-wordcount: '2530'
+source-wordcount: '2437'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ De **ondersteund [!DNL Experience Manager] versies** zijn:
 
 * [!DNL Experience Manager] als [!DNL Cloud Service]. Zie [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html).
 * [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie [Opmerkingen bij de release van servicepack](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html).
-* [!DNL Experience Manager] 6.4.4 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie [Opmerkingen bij de release van servicepack](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html).
-* [!DNL Experience Manager] 6.4.0 - 6.4.3 met de [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd, op Adobe Managed Services (AMS) of op locatie.
-* [!DNL Experience Manager] 6.3 (met compatibiliteitspakket)
-* [!DNL Experience Manager] 6.3.3.1 of hoger met de [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) geïnstalleerd. Desktop-app wordt niet ondersteund voor [!DNL Experience Manager] 6.3.3.0 of eerdere versies.
 
 [!DNL Adobe Experience Manager] desktop-app is beschikbaar voor de volgende **besturingssystemen**:
 
