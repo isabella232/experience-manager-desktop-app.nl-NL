@@ -313,7 +313,7 @@ De functionaliteit van de bureaubladtoepassing wordt gebruikt wanneer u de volge
 
 * De [!UICONTROL Desktop Actions] dat [!UICONTROL Open], [!UICONTROL Edit], en [!UICONTROL Reveal]
 * [!UICONTROL Upload folder]
-* [!UICONTROL Check-out] or [!UICONTROL check-in]
+* [!UICONTROL Check-out] of [!UICONTROL check-in]
 
 De acties in de webinterface die beschikbaar zijn voor een middel dat in de app is uitgecheckt, zijn bijvoorbeeld [!UICONTROL Open], [!UICONTROL Reveal], en [!UICONTROL Check-in].
 
