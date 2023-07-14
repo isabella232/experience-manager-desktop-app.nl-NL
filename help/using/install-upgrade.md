@@ -3,9 +3,9 @@ title: Desktop-app installeren en configureren
 description: Installeren en configureren [!DNL Adobe Experience Manager] desktop-app om mee te werken [!DNL Adobe Experience Manager Assets] en downloadt u de middelen op uw lokale bestandssysteem.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,10 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaand
    >[!CAUTION]
    >
    >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de [!DNL Experience Manager] server. Anders kan de toepassing geen verbinding maken met de [!DNL Experience Manager] server.
+
+1. Klikken **[!UICONTROL I want to connect a different way]** en klik op **[!UICONTROL Adobe login]** om u aan te melden bij de Experience Manager Assets-server met behulp van Adobe Identity Management Service (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klikken **[!UICONTROL Direct login]** om u aan te melden bij de [!DNL Experience Manager] met de referenties.
+
+   ![Aanmelden Adobe](assets/adobe-login.png)
 
 1. Als de verbinding is gelukt, kunt u de lijst met mappen en middelen weergeven die beschikbaar zijn in de hoofdmap van het dialoogvenster [!DNL Experience Manager] DAM. U kunt vanuit de app door de mappen bladeren.
 
