@@ -3,9 +3,9 @@ title: Desktop-app installeren en configureren
 description: Installeren en configureren [!DNL Adobe Experience Manager] desktop-app om mee te werken [!DNL Adobe Experience Manager Assets] en downloadt u de middelen op uw lokale bestandssysteem.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 0f366e07b9d220cf04286b24e4bb45ce0b385e5c
+source-git-commit: e51547496b03ac42d13e7bee5e2e3d20e520d0ad
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaand
    >
    >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de [!DNL Experience Manager] server. Anders kan de toepassing geen verbinding maken met de [!DNL Experience Manager] server.
 
-1. Klikken **[!UICONTROL I want to connect a different way]** en klik op **[!UICONTROL Adobe login]** om u aan te melden bij de Experience Manager Assets-server met behulp van Adobe Identity Management Service (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klikken **[!UICONTROL Direct login]** om u aan te melden bij de [!DNL Experience Manager] met de referenties.
+1. [Optioneel] Klikken **[!UICONTROL I want to connect a different way]** en klik op **[!UICONTROL Adobe login]** om u aan te melden bij de Experience Manager Assets-server met behulp van Adobe Identity Management Service (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klikken **[!UICONTROL Direct login]** om het standaardlogin aan uit te voeren [!DNL Experience Manager] server met gebruikersgegevens.
 
    ![Aanmelden Adobe](assets/adobe-login.png)
 
