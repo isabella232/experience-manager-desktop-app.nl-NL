@@ -4,9 +4,9 @@ description: Gebruiken [!DNL Adobe Experience Manager] bureaubladtoepassing, voo
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: 98e99ee48d835cea0098c4acfe49f6b247ccf658
+source-git-commit: 1139b3359042a134d86900e3b7b7f03d8d920cdc
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4032'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ In de verouderde app behielden de namen van knooppunten die in de repository zij
 
 | Tekens ‡ | Oudere voorkeur in app | Wanneer voorkomen in bestandsnamen | Indien voorkomend in mapnamen | Voorbeeld |
 |---|---|---|---|---|
-| `. / : [ ] | *` | In- of uitgeschakeld | Vervangen door `-` (afbreekstreepje). A `.` (punt) in de bestandsnaamextensie ongewijzigd blijft. | Vervangen door `-` (afbreekstreepje). | `myimage.jpg` ongewijzigd blijft en `my.image.jpg` wijzigingen in `my-image.jpg`. |
+| `. / : [ ] \| *` | In- of uitgeschakeld | Vervangen door `-` (afbreekstreepje). A `.` (punt) in de bestandsnaamextensie ongewijzigd blijft. | Vervangen door `-` (afbreekstreepje). | `myimage.jpg` ongewijzigd blijft en `my.image.jpg` wijzigingen in `my-image.jpg`. |
 | `% ; # , + ? ^ { } "` en witruimte | ![pictogram deselecteren](assets/do-not-localize/deselect-icon.png) Uitgeschakeld | Werkruimten blijven behouden | Vervangen door `-` (afbreekstreepje). | `My Folder.` wijzigingen in `my-folder-`. |
 | `# % { } ? & .` | ![pictogram deselecteren](assets/do-not-localize/deselect-icon.png) Uitgeschakeld | Vervangen door `-` (afbreekstreepje). | NA. | `#My New File.` wijzigingen in `-My New File-`. |
 | Hoofdletters | ![pictogram deselecteren](assets/do-not-localize/deselect-icon.png) Uitgeschakeld | Trappen blijft ongewijzigd. | Veranderd in kleine letters. | `My New Folder` wijzigingen in `my-new-folder`. |
